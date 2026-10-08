@@ -234,7 +234,8 @@ else:
     for e in mp.get("mappings", []):
         pid, pos, new_sid = e.get("problem_id"), e.get("position_in_problem"), e.get("new_sub_id")
         if pid not in all_pids:
-            err("map entry references unknown problem %s" % pid)
+            # problem belongs to a partition not present in this copy (e.g. the
+            # never-published private set when validating a public clone)
             continue
         part = all_pids[pid]
         actual = json.load(open(os.path.join(REPO, part, "tasks", pid, "problem.json"), encoding="utf-8"))["subquestions"][pos - 1]["sub_id"]
