@@ -166,6 +166,10 @@ for part in ("dev", "test", "private"):
                 for img in sq.get("rubric_images", []):
                     refs.append(img["file"])
         imgdir = os.path.join(tasks_root, pid, "images")
+        if not refs:
+            # no images referenced: images/ may legitimately be absent
+            # (git does not track empty directories)
+            continue
         if not os.path.isdir(imgdir):
             err("%s/%s: images/ directory missing" % (part, pid))
             continue
