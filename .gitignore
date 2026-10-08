@@ -10,3 +10,7 @@ __pycache__/
 
 # never published: Private Set (held out for anti-cheating final checks)
 private/
+
+# local tooling, not part of the public dataset presentation
+harness/
+metadata/

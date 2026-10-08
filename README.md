@@ -66,9 +66,6 @@ partitions and matches the full set.
 `private/` is not part of this repository. The evaluation side keeps it
 separately; `test/` submissions are scored against the held-out rubrics there.
 
-`metadata/split.json` records the dev/test assignment (the private list is
-never published).
-
 ## Layout
 
 ```
@@ -84,12 +81,6 @@ test/
   tasks/<problem_id>/
     problem.json             problem prompt; rubric fields absent
     images/*.png
-metadata/
-  sub-id-renumbering-map.json
-  split.json                 public partition assignment (dev/test)
-harness/
-  prompts/judge_rubric.md    judge prompt specification
-  scripts/                   evaluation pipeline (Pi SDK based)
 ```
 
 ## Data format
@@ -157,32 +148,6 @@ awarded divided by the problem's total marks. Every subquestion is graded by an
 LLM judge against the private rubric (partial credit per scoring point), with
 structure/SMILES equivalence handled by chemical meaning. The judge prompt is
 specified in `harness/prompts/judge_rubric.md`.
-
-## Running the evaluation
-
-The harness uses the [Pi coding agent SDK](https://www.npmjs.com/package/@earendil-works/pi-coding-agent):
-
-```bash
-cd harness/scripts
-npm install @earendil-works/pi-coding-agent   # or set PI_SDK_ENTRY to its dist/index.js
-
-# run all three protocols for one problem
-node run_problem.mjs ../../dev/tasks/Exam-01-T10/problem.json ./runs/Exam-01-T10
-
-# batch run all problems of a partition, then grade
-node run_all.mjs ../../dev/tasks ./runs 3
-node grade_all.mjs ../../dev/tasks ./runs 3
-node summarize.mjs ../../dev/tasks ./runs ./runs/results.md
-```
-
-Provider/model are configured via environment variables (`PI_PROVIDER`,
-`PI_MODEL_ID`, `PI_JUDGE_MODEL_ID`, `PI_THINKING_LEVEL`, `PI_INPUT_MODE`).
-
-Validate the dataset at any time:
-
-```bash
-python harness/scripts/validate_dataset.py
-```
 
 ## Leaderboard
 
