@@ -1,0 +1,29 @@
+{
+  "problem_id": "Exam-01-T2",
+  "header": "Determination of Ionic Constituents\nDuring the preparation of K_3[Al(C_2O_4)_3]·3H_2O crystals, some Cr^3+ ions were introduced to replace Al^3+. The following titration experiments were designed to determine the Al and Cr contents of the crystal sample. Titration experiment I: dissolve a 0.5062 g crystal sample in water and transfer it to a 100 mL conical flask. Add a buffer to adjust the pH, then add a solution containing 2.024×10^-3 mol of EDTA. Heat at a gentle boil for 10 min, cool, and add indicator A. Titrate to the endpoint with 0.09142 mol/L standard Zn^2+ solution; 10.40 mL of the standard Zn^2+ solution is consumed. Titration experiment II: dissolve a separate 2.5015 g crystal sample in water and transfer it to a 100 mL conical flask. Acidify with sulfuric acid, add excess (NH_4)_2S_2O_8 and a catalytic amount of Ag^+, then heat at boiling for 10 min. Cool, add indicator B, and titrate with 0.1515 mol/L standard Fe^2+ solution; 17.94 mL of the standard Fe^2+ solution is consumed. Note: assume that the two samples have the same composition and that impurities do not participate in the titration reactions. Report calculated results to 3 significant figures.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-01-T2-1",
+      "tags": [
+        "2.1",
+        "4.5",
+        "4.2"
+      ],
+      "text_open": "Write the ionic equations for the principal reactions involved after acidification with sulfuric acid in titration experiment II.",
+      "text_images": [],
+      "full_mark": 8
+    },
+    {
+      "sub_id": "Exam-01-T2-2",
+      "tags": [
+        "4.5",
+        "4.7",
+        "2.1"
+      ],
+      "text_open": "Calculate the mass fractions of Al and Cr in the sample.",
+      "text_images": [],
+      "full_mark": 6
+    }
+  ]
+}

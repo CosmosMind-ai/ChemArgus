@@ -1,0 +1,59 @@
+{
+  "problem_id": "Exam-15-T1",
+  "header": "Problem 1 The Immortal Mirror. In 1863, two chemists at the Freiberg Mining Academy in Germany unexpectedly observed a previously unknown spectral line while studying locally mined sphalerite. They assigned it to an undiscovered element M and successfully isolated elemental M from the mineral. At the subsequent Paris Exposition, elemental M was publicly displayed as \"the rarest metal,\" causing a sensation. At that time, M was used to make highly reflective mirrors; today it is more commonly an important semiconductor raw material used in conductive films.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-15-T1-1",
+      "tags": [
+        "2.1"
+      ],
+      "text_open": "1.1 Burning M in air gives a pale-yellow amorphous solid A. Heating A under hydrogen at 400~500°C reduces it to a black crystalline solid B (Reaction 1); dissolving B in dilute hydrochloric acid releases a colorless gas C. Above approximately 700°C, B decomposes to A and elemental M (Reaction 2). At high temperature, A reacts with ammonia to form a yellow semiconductor material D and releases a gas (Reaction 3).\n1.1.2 Write the chemical equations for Reactions 1~3.",
+      "text_images": [],
+      "full_mark": 3,
+      "rubric": [
+        "Reaction 1: $In_2O_3$ + 2$H_2$ = $In_2O$ + 2$H_2O$ (1 point)",
+        "Reaction 2: 3$In_2O$ = $In_2O_3$ + 4In (1 point)",
+        "Reaction 3: $In_2O_3$ + 2$NH_3$ = 2InN + 3$H_2O$ (1 point)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-15-T1-2",
+      "tags": [
+        "1.4"
+      ],
+      "text_open": "1.2 Chloride E of M is a white flaky solid that is extremely hygroscopic and dissolves in water with substantial heat release. In ether solution, E reacts with LiH to form complex F. F decomposes above 0°C and can be used as an in situ reducing agent in organic synthesis. E forms complex E·3THF with the electron-donor ligand THF. Single-crystal X-ray diffraction shows that the M center in this complex is six-coordinate with octahedral geometry. E has a layered crystal structure consisting of close-packed chloride ions with layers of octahedrally coordinated M centers. By contrast, chloride G of the congener whose period differs by only 1 commonly crystallizes as dimer H. 1.2.1 Write the chemical formulas of E~G, write the SMILES of H, and describe its three-dimensional structure in words.",
+      "text_images": [],
+      "full_mark": 5,
+      "rubric": [
+        "E: $InCl_3$ (1 point)",
+        "F: $LiInH_4$ (1 point)",
+        "G: $GaCl_3$ (1 point)",
+        "H: a chloride-bridged $Ga_2Cl_6$ dimer (2 points)"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-15-T1-2-1-rubric.png",
+          "description": "Structure of H: a chloride-bridged $Ga_2Cl_6$ dimer. Two Ga centers are bridged by two Cl atoms, and each Ga also bears two terminal Cl atoms directed respectively out of and into the drawing plane. Each Ga is tetrahedral. Corresponding SMILES: 'Cl[Ga]1(Cl)Cl[Ga](Cl)(Cl)Cl1'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-15-T1-3",
+      "tags": [
+        "1.5",
+        "1.6"
+      ],
+      "text_open": "1.3 In $E\\cdot3THF$, the $M$–Cl bond length is approximately 242 pm and the $M$–O bond length is approximately 225 pm. The ionic radius of $M$ is 80 pm, the ionic radius of $Cl^-$ is 181 pm, and the van der Waals radius of O in THF is approximately 152 pm.\n1.3.2 Use the bond-length data to compare the bonding character of the M-Cl and M-O bonds, including their relative ionic/covalent character, and explain.",
+      "text_images": [],
+      "full_mark": 3,
+      "rubric": [
+        "The In-Cl bond has relatively greater covalent character than the In-O bond. (1 point)",
+        "The In-Cl bond length, 242 pm, is less than the sum of the ionic radii, 80 + 181 = 261 pm. The 19 pm difference is approximately 7.28%, indicating some covalent contribution to the In-Cl bond. The In-O bond length, 225 pm, is less than the sum of the relevant radii, 80 + 152 = 232 pm. The 7 pm difference is approximately 3.01%, also indicating some covalent contribution. Comparison of these differences shows that In-Cl is shortened to a greater relative extent and therefore has greater covalent character. (2 points)",
+        "If the element is identified incorrectly but the explanation is reasonable, credit is still awarded."
+      ],
+      "rubric_images": []
+    }
+  ]
+}

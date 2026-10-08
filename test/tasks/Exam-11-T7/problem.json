@@ -1,0 +1,71 @@
+{
+  "problem_id": "Exam-11-T7",
+  "header": "Problem 7: Investigation and Isolation of Complexes of Group $\\mathrm{IVA}$ Elements. Transition-metal $\\pi$ complexes are key intermediates in many transition-metal-catalyzed reactions and have been widely used as catalysts and synthetic reagents. Recently, the first main-group-metal $\\pi$ complex was successfully isolated.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-11-T7-1",
+      "tags": [
+        "1.4",
+        "1.5"
+      ],
+      "text_open": "7-1 Alkene complexes of main-group elements are difficult to synthesize. Bonding between a metal and an unsaturated hydrocarbon can be described by the Dewar-Chatt-Duncanson model, as shown below. Following the example, draw a diagram illustrating the orbital interactions in an alkene $\\pi$ complex of a heavier main-group element.",
+      "text_images": [
+        {
+          "file": "Exam-11-T7-1-1-prompt.png",
+          "description": "Left section: a red letter M appears at the top. Directly below M is a molecular structure containing a $\\mathrm{C=C}$ double bond, enclosed by a parallelogram to indicate that it lies in a plane. A vertical dashed line connects M to the center of the $\\mathrm{C=C}$ bond. Each carbon atom of the double bond is bonded to two R groups, whose three-dimensional orientations are indicated by solid and hashed wedges. Below is the label “M = Transition-metals.” The middle section shows two sets of orbitals, one above the other. Below is a $\\mathrm{C-C}$ framework with attached R groups. Each carbon bears an “8”-shaped orbital, and the two orbitals have the same phase, with both lower lobes unshaded. Above is a four-lobed metal orbital whose two horizontal lobes are shaded and whose two vertical lobes are unshaded. Its lower vertical lobe faces the carbon orbitals below. Two upward arrows run from the shaded upper lobes on the carbon atoms to the horizontal lobes of the metal orbital. The label below reads “$\\sigma$-donation.” 3. The right section likewise shows two sets of orbitals, one above the other. The orbitals on the two carbon atoms of the lower $\\mathrm{C-C}$ framework have opposite phases: the left orbital is unshaded below and shaded above, while the right orbital is shaded below and unshaded above. The metal orbital above has four lobes with diagonally distributed phases: the upper-right and lower-left lobes are shaded, while the upper-left and lower-right lobes are unshaded. Two downward arrows point from the two lower lobes of the metal orbital to the corresponding upper lobes of the carbon orbitals. The label below reads “$\\pi$-backdonation.”"
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-11-T7-2",
+      "tags": [
+        "1.4",
+        "1.5"
+      ],
+      "text_open": "7-2 Zero-valent lead complex 1 undergoes a combination reaction with $\\mathrm{P_4}$ in toluene at room temperature to form lead bis(phosphene) $\\pi$ complex 2, in which $\\mathrm{Pb}$ is coordinated by two phosphenes containing $\\mathrm{P=P}$ bonds. Write the SMILES representation of 2; [R] may be used. The only atoms coordinated to $\\mathrm{Pb}$ are $\\mathrm{P}$ atoms.",
+      "text_images": [
+        {
+          "file": "Exam-11-T7-2-1-prompt.png",
+          "description": "Reactant SMILES: '[R]C1[Ge](C2=C(C=CC=C2C3=C(C=C(C=C3C(C)C)C(C)C)C(C)C)C4=C(C=C(C=C4C(C)C)C(C)C)C(C)C)[Pb][Ge](C5=C(C6=C(C=C(C=C6C(C)C)C(C)C)C(C)C)C=CC=C5C7=C(C=C(C=C7C(C)C)C(C)C)C(C)C)C1[R]'. The number “1” is shown beside it. A right-pointing arrow appears to its right, with 1.0 equiv $\\mathrm{P_4}$ above the arrow and toluene, RT, 1 h below it. The arrow points to the number 2. C[R]-C[R] denotes a C2B12 unit."
+        }
+      ],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-11-T7-3",
+      "tags": [
+        "1.4"
+      ],
+      "text_open": "7-4 A synthetic route to a complex containing a ligand of a Group $\\mathrm{IVA}$ element is as follows. At ambient temperature, $\\mathrm{AuCl}$ reacts with triethylphosphine in a 1:1 ratio to give complex A. At room temperature, ligand X (shown below) and $\\mathrm{KC_8}$ are added to a tetrahydrofuran solution of A, affording the desired highly symmetric precursor B, which contains three $\\mathrm{Au}$ atoms and has a planar framework. Addition of an equimolar amount of A to B gives molecule C, which contains one $\\mathrm{Au-Au}$ bond. Measurements indicate that C is aromatic. Note: this molecule has an extended conjugated system whose electrons originate from the $\\mathrm{d}$ electrons of $\\mathrm{Au}$. The structure of X is 'C[Si](C)(C1([Si](C)(C)C)CCC([Si](C)(C)C)([Si](C)(C)C)[Sn]1)C'. 7-4-1 Write the SMILES representations of B and C.",
+      "text_images": [
+        {
+          "file": "Exam-11-T7-3-1-prompt.png",
+          "description": "SMILES representation of X: 'C[Si](C)(C1([Si](C)(C)C)CCC([Si](C)(C)C)([Si](C)(C)C)[Sn]1)C'"
+        }
+      ],
+      "full_mark": 6
+    },
+    {
+      "sub_id": "Exam-11-T7-4",
+      "tags": [
+        "1.4",
+        "1.5"
+      ],
+      "text_open": "7-4-2 In fact, C itself is not aromatic, but polarization can generate an ionic structure whose anion is aromatic. Write the SMILES representations of the anion and cation in this structure, and state the number of $\\pi$ electrons in the extended conjugated system of the anion.",
+      "text_images": [],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-11-T7-5",
+      "tags": [
+        "1.5",
+        "1.6"
+      ],
+      "text_open": "7-4-3 Researchers found that when the coordinating atom in X is $\\mathrm{Sn}$, C shows relatively weak aromaticity; replacing the coordinating atom in X with $\\mathrm{Ge}$ markedly enhances the aromaticity. Explain this observation.",
+      "text_images": [],
+      "full_mark": 2
+    }
+  ]
+}

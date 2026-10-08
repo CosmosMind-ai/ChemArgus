@@ -1,0 +1,45 @@
+{
+  "problem_id": "Exam-20-T1",
+  "header": "The Ingenious Green Shoot\nThe heavy element M was first discovered by the British chemist William Crookes (1832-1919) while he was analyzing selenium-containing flue dust sent from a German sulfuric-acid factory. On observing through a spectroscope a bright emerald-green spectral line never seen before, he concluded that he had discovered a new element. Elemental M is silvery white and extremely soft, leaves a dark-gray streak on paper, and rapidly tarnishes when a freshly cut surface is exposed to air. M has two common oxidation states: the lower oxidation state is stable in aqueous solution, whereas compounds in the higher oxidation state readily decompose on heating and are strong oxidants.\nWhen heated in air to approximately 300 °C, M burns to form black hygroscopic solid A. A dissolves in water to give a clear colorless solution containing the strong base B, whose aqueous basicity is close to that of KOH. Passing excess $CO_2$ through a solution of B precipitates colorless crystals C. Mixing C with nitric acid and potassium chromate solution gives yellow precipitate D (reaction 1). Adding hydrogen peroxide to a solution of B produces dark-brown powder E (reaction 2). Heating E with a KI solution acidified with hydrochloric acid gives yellow precipitate F and purple-black solid G (reaction 3). The mass fraction of M in F is 61.69 %.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-20-T1-1",
+      "tags": [
+        "2.1"
+      ],
+      "text_open": "1.1.1 Identify element M and write the chemical formulas of A-G.",
+      "text_images": [],
+      "full_mark": 8
+    },
+    {
+      "sub_id": "Exam-20-T1-2",
+      "tags": [
+        "2.1",
+        "4.2"
+      ],
+      "text_open": "1.2 The chlorides of M have unusual properties. Its lower-valent chloride H is a white solid but gradually turns purple in sunlight. Its higher-valent chloride J can be prepared from H by the combined action of concentrated hydrochloric acid and chlorine. Dissolving J in concentrated hydrochloric acid gives the tetrahedral complex anion K.\n1.2.1 Write the equation for the gradual photochemical conversion of H to the purple material, and explain the composition and origin of the color of the purple product.",
+      "text_images": [],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-20-T1-3",
+      "tags": [
+        "1.7"
+      ],
+      "text_open": "1.2.4 Experimentally, H is much more stable than J. Explain the key atomic-structure effect responsible for this behavior and why it is especially pronounced for M within its group.",
+      "text_images": [],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-20-T1-4",
+      "tags": [
+        "2.1",
+        "3.4"
+      ],
+      "text_open": "1.3 The following experiment is performed to determine the cumulative stability constant $\\beta_4$ of complex anion K formed when J dissolves in hydrochloric acid.\nStep 1: Accurately weigh a quantity of J, dissolve it in 0.500 mol·L$^{-1}$ HCl, and dilute to 50.0 mL. Place a portion of the solution in a 1.00 cm quartz cuvette and measure an absorbance of $A_1 = 0.680$ at 230 nm. At this wavelength, the molar absorptivity of K is $\\varepsilon = 8.50 \\times 10^3\\ \\mathrm{L\\cdot mol^{-1}\\cdot cm^{-1}}$. M ions and $Cl^-$ do not absorb at this wavelength, and at this HCl concentration almost all M is present as K.\nStep 2: Transfer 10.00 mL of the solution above, add 10.00 mL of 0.100 mol·L$^{-1}$ $AgNO_3$ solution, stir thoroughly to complete precipitation, and filter. Measure the absorbance of the filtrate under the same conditions, obtaining $A_2 = 0.306$. After addition of $AgNO_3$, the amount of excess $Ag^+$ is negligible. Ignore dissolution of $AgCl$ and activity-coefficient effects.\n1.3.1 Calculate the equilibrium concentration of free $Cl^-$ in the filtrate after reaction with the $AgNO_3$ solution.",
+      "text_images": [],
+      "full_mark": 5
+    }
+  ]
+}

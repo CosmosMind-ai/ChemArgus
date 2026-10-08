@@ -1,0 +1,52 @@
+{
+  "problem_id": "Exam-12-T4",
+  "header": "Problem 4 Titrimetric Analysis of Etching Acids\nWet chemical etching is a major process in the semiconductor-chip industry. It uses acidic substances to corrode a substrate surface and thereby achieve etching. A mixture of hydrofluoric acid, fluorosilicic acid, and nitric acid is a common etchant. A rapid and accurate laboratory method for determining the contents of these three acids in an etchant is described below.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-12-T4-1",
+      "tags": [
+        "4.2"
+      ],
+      "text_open": "Procedure background: Accurately weigh 3.028 g of the sample. Place 1.502 g of it in a plastic beaker to prepare test solution A, and use the remaining sample to prepare test solution B by the same procedure. During preparation, add 10 mL of saturated $KNO_3$ solution and anhydrous ethanol, mix, dilute with anhydrous ethanol, and let stand for approximately 20 min until the precipitate has completely settled into a separate layer. Label this as test solution A. Prepare test solution B from the remaining sample by the same procedure.\n4.1.2 State the purpose of adding saturated KNO_3 solution.",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "Adding KNO_3 precipitates SiF_6^{2-}, preventing interference from hydrolysis of SiF_6^{2-} (2 points)."
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-12-T4-2",
+      "tags": [
+        "2.1",
+        "4.2"
+      ],
+      "text_open": "4.2 Titrimetric analysis. Add 30 mL of water and 3 drops of phenolphthalein indicator to test solution A. Titrate with 0.5018 $\\mathrm{mol \\cdot L^{-1}}$ standard NaOH solution until the solution becomes faint pink; 24.39 mL of the standard NaOH solution is consumed. Add 30 mL of water and 2 drops of methyl-orange indicator to test solution B. Adjust the pH with NaOH solution until the solution just turns bright yellow. Using a fluoride-ion combination electrode as the measuring electrode, titrate with 0.08273 $\\mathrm{mol \\cdot L^{-1}}$ standard La(NO_3)_3 solution; precipitate forms continuously during the titration. At the endpoint, 25.11 mL of La(NO_3)_3 solution is consumed. Weigh 0.5003 g of the original sample into a beaker containing 15 mL of 0.5 $\\mathrm{mol \\cdot L^{-1}}$ NaOH solution, add water to 60 mL, and verify with pH paper that the pH is greater than 13. Heat slowly to boiling, maintain a gentle boil for 5 min, and cool to room temperature. Add 2 drops of methyl-red indicator, adjust with nitric acid until red, and then adjust with NaOH solution until the solution just turns bright yellow. Using a fluoride-ion combination electrode as the indicator electrode, titrate with 0.08273 $\\mathrm{mol \\cdot L^{-1}}$ standard La(NO_3)_3 solution. At the endpoint, 15.28 mL is consumed. 4.2.1 Write all reaction equations occurring in Sections 4.1 and 4.2; write repeated reactions only once.",
+      "text_images": [],
+      "full_mark": 4,
+      "rubric": [
+        "$2KNO_3 + H_2SiF_6 = 2HNO_3 + K_2SiF_6$ (1 point)  $NaOH + HNO_3 = NaNO_3 + H_2O$ (0.5 point)  $NaOH + HF = NaF + H_2O$ (0.5 point)  $La(NO_3)_3 + 3NaF = 3NaNO_3 + LaF_3$ (1 point)  $H_2SiF_6 + 8NaOH = Na_2SiO_3 + 6NaF + 5H_2O$ (1 point)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-12-T4-3",
+      "tags": [
+        "4.7",
+        "4.5"
+      ],
+      "text_open": "4.2.2 Calculate the mass fractions of HF, H_2SiF_6, and HNO_3 in the sample. Note: the fluoride-ion electrode indicates the endpoint by the abrupt change in fluoride-ion concentration.",
+      "text_images": [],
+      "full_mark": 6,
+      "rubric": [
+        "Let the mass fractions of HF, $H_2SiF_6$, and $HNO_3$ be $w_1$, $w_2$, and $w_3$, respectively.",
+        "$0.5018\\ \\mathrm{mol\\cdot L^{-1}}\\times24.39\\ \\mathrm{mL}=1.502\\ \\mathrm{g}\\times\\left(\\frac{w_1}{20.008}+\\frac{2w_2}{144.106}+\\frac{w_3}{63.018}\\right)$",
+        "$3\\times0.08273\\ \\mathrm{mol\\cdot L^{-1}}\\times25.11\\ \\mathrm{mL}=(3.028-1.502)\\ \\mathrm{g}\\times\\frac{w_1}{20.008}$",
+        "$3\\times0.08273\\ \\mathrm{mol\\cdot L^{-1}}\\times15.28\\ \\mathrm{mL}=0.5003\\ \\mathrm{g}\\times\\left(\\frac{w_1}{20.008}+\\frac{6w_2}{144.106}\\right)$",
+        "The system of equations is worth 3 points, 1 point for each equation. Solving the 3 equations simultaneously gives $w_1=8.171\\%, w_2=8.397\\%, w_3=18.27\\%$. The answers are worth 3 points, 1 point each. Significant figures are required. Intermediate results must contain at least 4 significant figures; deduct 1 point for any significant-figure error, only once in total."
+      ],
+      "rubric_images": []
+    }
+  ]
+}

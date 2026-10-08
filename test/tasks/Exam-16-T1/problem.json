@@ -1,0 +1,40 @@
+{
+  "problem_id": "Exam-16-T1",
+  "header": "Problem 1: What Is That Smell?\nIn 1803, the British chemist Tennant dissolved crude platinum in dilute aqua regia and found a small amount of black, insoluble powder remaining at the bottom of the vessel. Although early researchers regarded it merely as residual graphite, he suspected that it might contain unknown substances awaiting discovery. Through systematic alternating acid and base treatments, Tennant successfully separated the black residue into two new metallic elements, one of which is metal M. M was named for its distinctive odor and also has an extremely high density and numerous oxidation states.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-16-T1-1",
+      "tags": [
+        "1.4",
+        "1.7",
+        "2.4"
+      ],
+      "text_open": "1.1 M forms several oxides, the best known of which is A. A can be prepared by heating powdered M in a stream of oxygen (Reaction 1). It is a pale-yellow crystal whose melting point is only slightly above body temperature and whose boiling point is only about 400 K. It is appreciably volatile even at room temperature and converts alkenes stereoselectively into cis vicinal diols through a concerted cycloaddition that forms the five-membered cyclic intermediate B. When heated with concentrated hydrochloric acid, A is reduced to complex C of M while gas D is released (Reaction 2). The anion of C has a regular octahedral geometry. M also forms complex ion E with 2,2′-bipyridine (bpy, C_{10}H_{8}N_{2}, molar mass 156.18 g·mol^{-1}). This complex has D_{3} symmetry and exists as Λ/Δ enantiomers; the oxidation state of its central ion is the same as that in C. The mass fraction of M in the anion of C is 47.21%. 1.1.1 Deduce and give the chemical formulas of B-E (give a generic structure for B).",
+      "text_images": [],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-16-T1-2",
+      "tags": [
+        "2.3",
+        "2.7",
+        "1.2"
+      ],
+      "text_open": "1.3 The dihydroxylation of an alkene by A follows second-order kinetics and proceeds through a concerted [3+2] cycloaddition to form a five-membered cyclic intermediate. 1.3.1 Give the coordination geometry and oxidation state of M in the intermediate. Explain why the product has the cis rather than the trans configuration.",
+      "text_images": [],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-16-T1-3",
+      "tags": [
+        "4.3",
+        "3.4",
+        "1.4"
+      ],
+      "text_open": "1.4 Complex E exhibits a strong MLCT absorption band in the visible region and is deep red when dissolved in acetonitrile. To determine the coordination ratio of M to bpy in E, a student designed a Job plot (method of continuous variations). The total concentration of M and bpy was kept constant at 1.00 × 10^{-4} mol·L^{-1}, their mole ratio was varied, and the absorbance of each solution in acetonitrile was measured at the characteristic wavelength \\lambda_{max} = 480 nm. At this wavelength, neither free M ions nor bpy absorb, although complexes of M with bpy may absorb. A 1.00 cm cuvette was used. $$\\begin{array}{c|ccccccccc}\\text{Sample}&1&2&3&4&5&6&7&8&9\\\\ \\hline \\mathbf{M}\\text{ mole fraction }x(\\mathbf{M})&0.10&0.20&0.30&0.40&0.50&0.60&0.70&0.80&0.90\\\\ \\text{Absorbance }A&0.128&0.248&0.352&0.440&0.488&0.440&0.352&0.248&0.128\\end{array}$$ 1.4.1 Determine the coordination ratio n = [bpy] / [M] in complex ion E under these experimental conditions, show the reasoning, and explain why this coordination ratio is observed in the experiment.",
+      "text_images": [],
+      "full_mark": 3
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "problem_id": "Exam-17-T6",
+  "header": "Problem 6 Synthesis of Triphenylmethanol Using a Grignard Reagent\nGrignard reagents are common nucleophiles in organic synthesis. They must be used under anhydrous conditions free of oxygen and $CO_2$, and reactions are usually performed under nitrogen. In a teaching laboratory, however, the synthesis can be carried out with a simpler procedure. In this problem, bromobenzene is used to prepare phenylmagnesium bromide, which is then reacted with methyl benzoate to produce triphenylmethanol.",
+  "header_images": [
+    {
+      "file": "Exam-17-T6-header-1.png",
+      "description": "Experimental apparatus: a three-neck flask is centered, with its left neck closed by a ground-glass stopper. The middle neck holds a funnel-shaped dropping device with a sidearm and stopcock, labeled \"Apparatus 1\". The angled right neck is connected to a spherical condenser sloping upward to the right. Liquid is present in the lower part of the three-neck flask. The labels in the image are Apparatus 1, spherical condenser, three-neck flask, and to drying tube at the top of the condenser."
+    }
+  ],
+  "subquestions": [
+    {
+      "sub_id": "Exam-17-T6-1",
+      "tags": [
+        "2.8"
+      ],
+      "text_open": "6.2 Synthesis of triphenylmethanol: cool the flask in a cold-water bath while slowly adding a solution of methyl benzoate in anhydrous diethyl ether with stirring. After addition is complete, heat the mixture under reflux for 1 h, cool the flask again in a cold-water bath, and add saturated ammonium chloride solution dropwise to decompose the addition product. Separate the layers and perform steam distillation to obtain the crude product.\n6.2.1 State the purpose of the saturated ammonium chloride workup, and explain why water or hydrochloric acid is not used directly for the workup.",
+      "text_images": [],
+      "full_mark": 3
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "problem_id": "Exam-04-T6",
+  "header": "Problem 6 Preparation of TPP. TPP is 5,10,15,20-tetraphenylporphyrin (M = 614.7 g·mol-1) and can be prepared rapidly in quantity by the following method: 'O=CC1=CC=CC=C1' + 'C1=CNC=C1' --('CCC(=O)O', reflux, 30 min)--> 'C1(/C=CC(/C(C2=CC=CC=C2)=C(N/3)/C=CC3=C(C(C=C/4)=NC4=C5\\C6=CC=CC=C6)/C7=CC=CC=C7)=N1)=C(C8=CC=CC=C8)\\C9=CC=C5N9'.",
+  "header_images": [
+    {
+      "file": "Exam-04-T6-header-1.png",
+      "description": "The image shows the synthesis of a porphyrin. PhCHO and pyrrole appear as reactants on the left, separated by a plus sign. Propionic acid is drawn above a right-pointing reaction arrow, and \"reflux, 30 min\" is written below it. The product on the right is 'C1(/C=CC(/C(C2=CC=CC=C2)=C(N/3)/C=CC3=C(C(C=C/4)=NC4=C5\\C6=CC=CC=C6)/C7=CC=CC=C7)=N1)=C(C8=CC=CC=C8)\\C9=CC=C5N9'."
+    }
+  ],
+  "subquestions": [
+    {
+      "sub_id": "Exam-04-T6-1",
+      "tags": [
+        "4.1"
+      ],
+      "text_open": "6-1 Pretreatment of reagents: the benzaldehyde and pyrrole used in the reaction must be dried and purified. 6-1-1 Select the drying agents suitable for pyrrole. (a) P_4O_10    (b) anhydrous Na_2SO_4    (c) concentrated H_2SO_4    (d) CaH_2",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "(b), (d). (1 point each, 2 points total; any incorrect selection receives no credit.)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-04-T6-2",
+      "tags": [
+        "4.1"
+      ],
+      "text_open": "6-1-2 Select the solid drying agent that must be removed by filtration before distillation. (a) CaO (b) anhydrous Na_2SO_4 (c) Na metal (d) CaH_2",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "(b) (2 points)"
+      ],
+      "rubric_images": []
+    }
+  ]
+}

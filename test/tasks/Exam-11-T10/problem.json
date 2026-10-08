@@ -1,0 +1,133 @@
+{
+  "problem_id": "Exam-11-T10",
+  "header": "Chiral Boron Chemistry. Organoboron compounds occupy an important niche in asymmetric synthesis and have become versatile stereospecific building blocks. In general, the boron atom is an electron-deficient center; therefore, the most important intermediates in these reactions are boronate anions (ate complexes).",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-11-T10-1",
+      "tags": [
+        "1.5",
+        "2.2"
+      ],
+      "text_open": "10.1 Homologation is a common application of organoboron reagents in organic synthesis. A representative example is the Matteson homologation, whose general reaction pattern is shown below.\n10.1.1 An ate-complex intermediate is formed in the reaction. Write the SMILES representations of the 2 key boron-containing intermediates in the transformation, including stereochemistry.",
+      "text_images": [
+        {
+          "file": "Exam-11-T10-1-1-prompt.png",
+          "description": "The image shows a one-step Matteson homologation. The reactant is 'C[C@H]1[C@H](C)OB(C)O1', and the conditions are 1) CH_2Cl_2, LDA; 2) ZnCl_2; 3) RMgBr. The product is 'C[C@H]1[C@H](C)OB([C@@H](C)[R])O1'."
+        }
+      ],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-11-T10-2",
+      "tags": [
+        "2.2",
+        "2.7"
+      ],
+      "text_open": "10.1.2 Studies show that the addition of ZnCl_2 is the key step controlling the stereospecificity of the product. ZnCl_2 acts as a chelating agent and forms a 5-membered chelate ring, and the principal factor affecting the stability of the migration transition state is 1,3-strain between bulky groups. On this basis, write the SMILES representation of the key intermediate leading to the major product, including stereochemistry.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-11-T10-3",
+      "tags": [
+        "2.7"
+      ],
+      "text_open": "10.1.3 If CH_2Cl_2 in the first step is replaced with CH_3CHCl_2, the stereoselectivity of the product will: (      ).\n(a) increase  (b) decrease  (c) remain essentially unchanged",
+      "text_images": [],
+      "full_mark": 1
+    },
+    {
+      "sub_id": "Exam-11-T10-4",
+      "tags": [
+        "1.2",
+        "2.4",
+        "2.7"
+      ],
+      "text_open": "10.1.4 Based on the information above, write the SMILES representation of the product of the following reaction; the product contains neither silicon nor sulfur. Explain the stereoselectivity of the final step.",
+      "text_images": [
+        {
+          "file": "Exam-11-T10-4-1-prompt.png",
+          "description": "The image shows a three-step reaction. The reactant is 'CC1(C)C(C)(C)OB(CC2=CC=CC=C2)O1'. The first-step conditions are 'ClC([Li])[Si](C)(C)C', THF, -78°C then r.t., ZnCl_2. The second-step conditions are '[Li]C(S[Ar])O[R]', THF, -78°C, ZnCl_2. The third-step condition is H_2SO_4. The final product is unknown and indicated by a question mark."
+        }
+      ],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-11-T10-5",
+      "tags": [
+        "1.5",
+        "1.6"
+      ],
+      "text_open": "10.2 A major advantage of organoboron reagents is the exceptional configurational stability of their chiral carbon atoms, which enables metal-free stereospecific coupling reactions.\n10.2.1 The reactivity of a boron reagent can be tuned by adding different nucleophiles. Among the ate complexes below, the bold C-B bond is most reactive in (      ) and least reactive in (      ).",
+      "text_images": [
+        {
+          "file": "Exam-11-T10-5-1-prompt.png",
+          "description": "The image shows four structures labeled (a), (b), (c), and (d) from left to right. (a) is 'CC1(C)O[B-](C)(OC)OC1(C)C'; (b) is 'CC1(C)O[B-](C)(N(C)C)OC1(C)C'; (c) is 'CC1(C)O[B-](C)(C)OC1(C)C'; and (d) is 'C[B-]1([C@@H]2CCC[C@H]1CCC2)C'. In every structure, a B-CH_3 bond is oriented axially with respect to the five-membered ring and is shown in bold."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-11-T10-6",
+      "tags": [
+        "1.2",
+        "2.4"
+      ],
+      "text_open": "10.2.2 Write the SMILES representations of products A and B of the following reactions, including stereochemistry.",
+      "text_images": [
+        {
+          "file": "Exam-11-T10-6-1-prompt.png",
+          "description": "The image shows two one-step reactions. The reactant in the first is '[H][C@@](C1=CC=CC=C1)(C)B2OC(C)(C)C(C)(C)O2', and the conditions are MeONH_2, nBuLi, then Boc_2O; the unknown product is labeled A. The reactant in the second is 'CC(C(C)(C)O1)(C)OB1[C@](C2=CC=CC=C2)(C)CC', and the conditions are CH_2Cl_2, nBuLi, ZnCl_2, then NaOH/H_2O_2; the unknown product is labeled B."
+        }
+      ],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-11-T10-7",
+      "tags": [
+        "2.3",
+        "2.7"
+      ],
+      "text_open": "10.2.3 An organoboron reagent treated with an aryllithium reagent can trap an electrophile. Experiments show, however, that different electrophiles give different stereochemical outcomes: the ate complex reacts with I_2 with good stereoselectivity, whereas reaction with DIAD results in extensive racemization. The researchers propose that the two reactions proceed by different mechanisms. Explain these observations mechanistically. Note: carbocations are planar, carbon-centered radicals undergo rapid configurational inversion, and carbanions have a high barrier to configurational inversion.",
+      "text_images": [
+        {
+          "file": "Exam-11-T10-7-1-prompt.png",
+          "description": "The image shows a multistep reaction in which the substrate is the same but the conditions differ. The substrate is 'C[C@H](B1OC(C)C(C)(C)O1)CCC2=CC=CC=C2'. The first-step conditions are 4-MeOC_6H_4Li, THF, -78°C, and the first-step product is 'C[C@H]([B-]1(C2=CC=C(OC)C=C2)OC(C)(C)C(C)(C)O1)CCC3=CC=CC=C3.[Li+]'. This product follows two pathways. The upper-right pathway uses I_2 and gives 'C[C@@H](I)CCC1=CC=CC=C1' with 97% enantioselectivity. The lower-right pathway uses DIAD, whose SMILES representation is 'O=C(/N=N/C(OC(C)C)=O)OC(C)C', and gives 'C[C@@H](N(NC(OC(C)C)=O)C(OC(C)C)=O)CCC1=CC=CC=C1' with 13% enantioselectivity."
+        }
+      ],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-11-T10-8",
+      "tags": [
+        "1.2",
+        "2.2",
+        "2.4"
+      ],
+      "text_open": "10.3 Coupling reactions of organoboron reagents can also be conducted in tandem with other reactions, enabling a broader range of synthetic applications.\n10.3.1 The following reaction couples a boron reagent with a thiazole ring. Write the SMILES representations of the product and 3 key boron-containing intermediates, including stereochemistry.",
+      "text_images": [
+        {
+          "file": "Exam-11-T10-8-1-prompt.png",
+          "description": "The image shows a two-step reaction. The substrate is 'O=S1C=C(C)C2=CC=CC=C21'. The reaction conditions are 1) LDA, -78°C; 2) '[Bpin][C@@H](C)C1=CC=CC=C1', followed by Tf_2O, -78°C in the second step. The product is unknown and indicated by a question mark."
+        }
+      ],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-11-T10-9",
+      "tags": [
+        "2.2",
+        "2.4"
+      ],
+      "text_open": "10.3.2 Examine the following reaction and write the SMILES representations of the product and the anionic ate-complex intermediate. Note: the purpose of adding acid is to promote the migration.",
+      "text_images": [
+        {
+          "file": "Exam-11-T10-9-1-prompt.png",
+          "description": "The image shows a multistep reaction. The substrate is 'C=[C]=COC'. The conditions over the first arrow are 1) nBuLi; 2) '[Bpin][C@@H](C)C1=CC=CC=C1'; 3) AcOH. The conditions over the second arrow are NaOH/H_2O_2, THF/H_2O. The product is unknown and indicated by a question mark."
+        }
+      ],
+      "full_mark": 4
+    }
+  ]
+}

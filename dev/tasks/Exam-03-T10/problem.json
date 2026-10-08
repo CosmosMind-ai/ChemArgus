@@ -1,0 +1,149 @@
+{
+  "problem_id": "Exam-03-T10",
+  "header": "Problem 10 Synthesis of Indigoid Compounds (25 points)",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-03-T10-1",
+      "tags": [
+        "2.4",
+        "2.2"
+      ],
+      "text_open": "10-1 In 1909, H. Friedländer noted that an excellent purple pigment mentioned in the Bible—the pigment that the Romans called Tyrian purple after the Phoenician port of Tyre in present-day Lebanon—was in fact 6,6'-dibromoindigo, F. This precious early dye was extracted from small purple sea snails, the murex; as many as 12000 snails were required to prepare 1.5 g of dye. After nearly a century of continuing research into its synthesis, Pinkney and Chammers proposed a new method, which Iming and coworkers improved into an efficient route. 10-1-1 Give the SMILES of intermediate E.",
+      "text_images": [
+        {
+          "file": "Exam-03-T10-1-1-prompt.png",
+          "description": "10-1 Synthetic route. This multistep scheme begins at the upper left with 'CC1=CC=C(N)C=C1', which reacts under HNO_3 and H_2SO_4 to give intermediate B. B reacts under 1) NaNO_2, HBr and 2) CuBr to give C. C then reacts under CrO_3 and (CH_3CO)_2O to give D. In the second row, D reacts under H_2SO_4 and H_2O to give E. Finally, E reacts under NaOH and H_2O, (CH_3)_2CO to give the product F at the lower right, with SMILES 'O=C1NC2=C(C=C(Br)C=C2)C1=C3NC4=C(C=C(Br)C=C4)C3=O'."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "The SMILES of intermediate E is 'BrC(C=C1[N+]([O-])=O)=CC=C1C=O'. (2 points)"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-03-T10-1-1-rubric.png",
+          "description": "The grading figure gives intermediate E with SMILES 'BrC(C=C1[N+]([O-])=O)=CC=C1C=O'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-03-T10-2",
+      "tags": [
+        "2.7",
+        "1.6"
+      ],
+      "text_open": "10-1-2 Explain the regioselectivity of the conversion of A into B. (No more than 50 words.)",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "The amino group is protonated and becomes an electron-withdrawing meta-directing group. (1 point) The methyl group is an ortho/para-directing group. (1 point)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-03-T10-3",
+      "tags": [
+        "2.1",
+        "2.2"
+      ],
+      "text_open": "10-2 In the route above, conversion of E into F is clearly the key step. In fact, as early as 1882, Baeyer used this reaction to synthesize indigo in one step from o-nitrobenzaldehyde. 10-2-1 Write the chemical equation for this reaction, representing o-nitrobenzaldehyde and indigo by their SMILES.",
+      "text_images": [
+        {
+          "file": "Exam-03-T10-3-1-prompt.png",
+          "description": "One-step synthesis. At the far left is 'O=CC1=CC=CC=C1[N+]([O-])=O', labeled G below. Under NaOH and H_2O, (CH_3)_2CO, it gives the product at the far right, 'O=C1NC(C=CC=C2)=C2/C1=C3NC4=C(C=CC=C4)C/3=O', labeled H below."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "2NaOH + 2(CH_{3})_{2}CO + 2'O=CC1=CC=CC=C1[N+]([O-])=O' → 2CH_{3}COONa + 4H_{2}O + 'O=C1NC(C=CC=C2)=C2/C1=C3NC4=C(C=CC=C4)C/3=O'. (2 points) An incorrectly balanced equation earns only 1 point. An ionic equation earns only 1 point. No credit is awarded if the acid-base conditions are incorrect."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-03-T10-3-1-rubric.png",
+          "description": "The o-nitrobenzaldehyde in the equation has SMILES 'O=CC1=CC=CC=C1[N+]([O-])=O'."
+        },
+        {
+          "file": "Exam-03-T10-3-2-rubric.png",
+          "description": "The indigo in the equation has SMILES 'O=C1NC(C=CC=C2)=C2/C1=C3NC4=C(C=CC=C4)C/3=O'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-03-T10-4",
+      "tags": [
+        "2.2",
+        "2.3"
+      ],
+      "text_open": "10-2-2 The final step of the reaction is shown below. Considering the byproducts formed in the equation in 10-2-1, give the SMILES of the four key intermediates in the conversion of G into M. For intermediates related by proton gain, loss, or transfer, only one need be given.",
+      "text_images": [
+        {
+          "file": "Exam-03-T10-4-1-prompt.png",
+          "description": "10-2-2 Question figure. A reaction proceeds from left to right. At the far left is 'O=C1C=NC2=C1C=CC=C2', labeled M below, followed by a plus sign and the middle molecule 'OC1=C(NC2=C1C=CC=C2)O', labeled N below. A one-way right-pointing reaction arrow leads to the product at the far right, 'O=C5NC(C=CC=C6)=C6/C5=C7NC8=C(C=CC=C8)C/7=O', labeled H below, indicating that M and N react to form H."
+        }
+      ],
+      "full_mark": 6,
+      "rubric": [
+        "6 points total, 1.5 points for each of the four key intermediates. Their SMILES are 'CC(CC(O)C1=CC=CC=C1[N+]([O-])=O)=O', 'CC(C1C(O)C2=C(C=CC=C2)[N+]1(O)[O-])=O', 'CC(C1C(C2=C(C=CC=C2)N1O)=O)=O', and 'O=C1CN(C2=C1C=CC=C2)O'. The fourth intermediate may instead be drawn in its carbonyl form, with SMILES 'ON1C2=C(C=CC=C2)C(O)C1C(O)([O-])C'. For each intermediate, another form obtainable by proton transfer, gain, or loss also receives credit."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-03-T10-4-1-rubric.png",
+          "description": "Five chemical structures are shown side by side from left to right. The first four are red and the fifth, at the far right, is blue. A blue \"or\" separates the fourth and fifth structures. The red structures have SMILES 'CC(CC(O)C1=CC=CC=C1[N+]([O-])=O)=O', 'CC(C1C(O)C2=C(C=CC=C2)[N+]1(O)[O-])=O', 'CC(C1C(C2=C(C=CC=C2)N1O)=O)=O', and 'O=C1CN(C2=C1C=CC=C2)O'. The blue structure has SMILES 'ON1C2=C(C=CC=C2)C(O)C1C(O)([O-])C'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-03-T10-5",
+      "tags": [
+        "2.2",
+        "2.5"
+      ],
+      "text_open": "10-3 Nitrogen plays a key role in the reaction above, but analogous substrates and methods are unsuitable for obtaining the sulfur-substituted product. After the nineteen-eighties, Scottish chemists synthesized thioindigo, K, using the reaction below. The reaction still proceeds through an intermediate containing a fused six- and five-membered ring system. It is known that contraction of the six-membered ring into the five-membered ring does not occur by ring opening followed by ring closure. Answer the following questions. 10-3-1 In what form does the oxygen atom of the sulfoxide depart?",
+      "text_images": [
+        {
+          "file": "Exam-03-T10-5-1-prompt.png",
+          "description": "Structure/reaction description for synthesis of thioindigo K. Sulfoxide J gives thioindigo K under NaOAc/HOAc. The SMILES of J is 'BrC(C1=O)=C([S+](C2=C1C=CC=C2)[O-])Br'; thioindigo K may be represented as 'O=C1C2=C(S/C1=C3SC4=C(C\\3=O)C=CC=C4)C=CC=C2'."
+        }
+      ],
+      "full_mark": 1,
+      "rubric": [
+        "AcO^{-}. (1 point; AcOH is also acceptable.)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-03-T10-6",
+      "tags": [
+        "2.3",
+        "2.7"
+      ],
+      "text_open": "10-3-2 During ring contraction, which atom is lost? (   ) (a) the carbon atom nearer the carbonyl group    (b) the carbon atom nearer the sulfoxide group",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "(b) (2 points)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-03-T10-7",
+      "tags": [
+        "2.2",
+        "2.3"
+      ],
+      "text_open": "10-3-4 Give the SMILES of the six key intermediates in the reaction. For intermediates related by proton gain, loss, or transfer, only one need be given. A substitution proceeding by addition-elimination or by an S_{N1} process counts as only one step.",
+      "text_images": [],
+      "full_mark": 9,
+      "rubric": [
+        "9 points total; each of the six key intermediates in the grading figure is worth 1.5 points. Their SMILES are 'O=C1C(Br)=C(OC(C)=O)[S+]([O-])C2=C1C=CC=C2', 'O=C1C(Br)=C([O-])[S+](OC(C)=O)C2=C1C=CC=C2', 'O=C1C2=C(C=CC=C2)[S+]3C(C13Br)=O', 'O=C1C2=C(C=CC=C2)SC1(Br)C(OC(C)=O)=O', 'OC1=C(SC2=C1C=CC=C2)Br', and 'O=C1C(C2(Br)SC3=C(C=CC=C3)C2=O)SC4=C1C=CC=C4'. For each intermediate, another form obtainable by proton transfer, gain, or loss also receives credit. The fifth intermediate may also be drawn in its carbonyl form."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-03-T10-7-1-rubric.png",
+          "description": "The six key intermediates in the synthesis of thioindigo K have SMILES 'O=C1C(Br)=C(OC(C)=O)[S+]([O-])C2=C1C=CC=C2', 'O=C1C(Br)=C([O-])[S+](OC(C)=O)C2=C1C=CC=C2', 'O=C1C2=C(C=CC=C2)[S+]3C(C13Br)=O', 'O=C1C2=C(C=CC=C2)SC1(Br)C(OC(C)=O)=O', 'OC1=C(SC2=C1C=CC=C2)Br', and 'O=C1C(C2(Br)SC3=C(C=CC=C3)C2=O)SC4=C1C=CC=C4'."
+        }
+      ]
+    }
+  ]
+}

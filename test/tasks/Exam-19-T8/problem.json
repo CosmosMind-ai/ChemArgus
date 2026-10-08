@@ -1,0 +1,119 @@
+{
+  "problem_id": "Exam-19-T8",
+  "header": "Question 8 Remarkable Phosphorus Heterocycles\nIntroductory heterocyclic chemistry most often focuses on N, O, and S heteroatoms. Phosphorus, however, has a large valence-shell space and a rich range of coordination numbers and oxidation states. It can form low-coordinate λ species as well as hypercoordinate $\\lambda^5$ species, where λ denotes the number of bonds to P. Phosphorus heterocycles exhibit remarkable structures and properties and are uniquely valuable in studies of low-valent metal ligands and tunable fluorophores. (Stereochemistry need not be considered in this problem.)",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-19-T8-1",
+      "tags": [
+        "1.6",
+        "4.1"
+      ],
+      "text_open": "8.1.2 Which of the following measures are commonly used to evaluate the aromaticity of a compound?\n(a) C–X–C bond angle (b) Degree of bond-length equalization (c) Nucleus-independent chemical shift calculation (d) Standard molar enthalpy of formation",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-19-T8-2",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "8.1.4 P–C bonds are highly reactive. Write the SMILES string for product A from the following 1:1 addition reaction using the specified SMILES.",
+      "text_images": [
+        {
+          "file": "Exam-19-T8-2-1-prompt.png",
+          "description": "'C1(C2=CC=CC=C2)=CC(C3=CC=CC=C3)=CC(C4=NC=CC=C4)=P1'.'FC(C#CC(F)(F)F)(F)F'>100°C>[A]. The structure of product A is not drawn; it is labeled only as A."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-19-T8-3",
+      "tags": [
+        "2.2",
+        "2.4"
+      ],
+      "text_open": "8.1.5 The following reaction ultimately gives product B in which the phosphabenzene ring has been disrupted. Write the SMILES strings for Int and B. B has no mirror plane.",
+      "text_images": [
+        {
+          "file": "Exam-19-T8-3-1-prompt.png",
+          "description": "The figure shows a two-step reaction: 'CC(C=C1)=CC=C1C2=CC(C3=CC=CC=C3)=PC(C4=CC=CC=C4)=C2'>PhLi, THF, -78°C to r.t.>[Int]; [Int]>H2O, -LiOH>[B]. The structures of Int and B are not drawn; they are labeled only as Int and B."
+        }
+      ],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-19-T8-4",
+      "tags": [
+        "2.2",
+        "2.4"
+      ],
+      "text_open": "8.2.1 Several routes are available for synthesizing $\\lambda^3$-phosphabenzenes and their derivatives. Early chemists began with phosphole and used relatively harsh conditions. Write the SMILES strings for intermediates C and D in the following synthesis.",
+      "text_images": [
+        {
+          "file": "Exam-19-T8-4-1-prompt.png",
+          "description": "The figure shows a three-step reaction: 'C1(C2=CC=CC=C2)=CC=C(C3=CC=CC=C3)P1C4=CC=CC=C4'>230°C, [1,5]-σ>[C]; [C].'[R]C#C[R]'>>[D]; [D]>230°C, -CPh2>'[R]C1=PC(C2=CC=CC=C2)=CC=C1[R]'. The structures of intermediates C and D are not drawn; they are labeled only as C and D."
+        }
+      ],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-19-T8-5",
+      "tags": [
+        "2.2",
+        "2.4"
+      ],
+      "text_open": "8.2.2 Milder synthetic routes were later developed, beginning with preparation of $\\lambda^5$ phosphorus intermediate a.\n8.2.2.1 Given that F is an ionic compound, write the SMILES strings for intermediates E and F and identify, in order, the types of reactions occurring from F to a.",
+      "text_images": [
+        {
+          "file": "Exam-19-T8-5-1-prompt.png",
+          "description": "The figure shows four steps: 'ClP(/C=C/OCC)N(C)C'>1) 'C=CC[Mg]Cl', THF, -35°C; 2) MeOH, r.t.>[E]; [E]>1) H2O2·CO(NH2)2; 2) MeOTf, DCM, -70°C>[F]; [F]>tBuOK, -70°C>[a]; [a]>[H]>'C1=CP=CC=C1'. The structures of E and F are not drawn and are labeled only as E and F; a has structure 'COP1(OC)=CC=CC=C1'."
+        }
+      ],
+      "full_mark": 6
+    },
+    {
+      "sub_id": "Exam-19-T8-6",
+      "tags": [
+        "2.2",
+        "2.4"
+      ],
+      "text_open": "8.3 Phosphenium ions are often regarded as cationic heavy-element analogs of carbenes, but extending classical carbocation rearrangements such as the Wagner–Meerwein rearrangement directly to phosphorus chemistry remains challenging. Researchers proposed that a carbocation generated adjacent to P in a phosphirane might rearrange to a phosphenium ion, opening a new ring-forming pathway. In this problem, $W(CO)_5$ coordinated to P does not participate directly in the transformations.\n8.3.1 The following reaction gives different major products at different temperatures. Write the SMILES strings for G and H, knowing that neither product contains a C=P double bond.",
+      "text_images": [
+        {
+          "file": "Exam-19-T8-6-1-prompt.png",
+          "description": "The figure shows two parallel reactions of the same reactant: 'O=C(C1=CC=CC=C1)[P+]2([W-])CC2.[C-]#[O+].[C-]#[O+].[C-]#[O+].[C-]#[O+].[C-]#[O+]'>AlCl3, toluene, 100°C, 1h>[G]; the same reactant>AlCl3, toluene, 0°C, 1h>[H]. The structures of G and H are not drawn; they are labeled G and H with molecular formulas C14H8ClO5PW and C21H16ClO5PW."
+        }
+      ],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-19-T8-7",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "8.3.3 Write the SMILES string for the major product of the following reaction, whose mechanism resembles that forming G.",
+      "text_images": [
+        {
+          "file": "Exam-19-T8-7-1-prompt.png",
+          "description": "The figure shows the one-step reaction 'O=C(C1=CC=C(OC)C=C1)[P+]2([W-])C(C)C2.[C-]#[O+].[C-]#[O+].[C-]#[O+].[C-]#[O+].[C-]#[O+]'>AlCl3, toluene, r.t.>product. The product structure is not drawn and no letter label is assigned."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-19-T8-8",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "8.3.4 To verify the existence of a phosphenium-ion intermediate, the researchers carried out the following reaction. Write the SMILES string for the major product, knowing that it contains four rings.",
+      "text_images": [
+        {
+          "file": "Exam-19-T8-8-1-prompt.png",
+          "description": "The figure shows the one-step reaction 'O=C(C1=C(OC)C=CC=C1)[P+]2([W-])CC2.[C-]#[O+].[C-]#[O+].[C-]#[O+].[C-]#[O+].[C-]#[O+]'>AlCl3, toluene, 60°C, 1h>product. The product structure is not drawn; molecular formula C21H15O6PW is shown."
+        }
+      ],
+      "full_mark": 3
+    }
+  ]
+}

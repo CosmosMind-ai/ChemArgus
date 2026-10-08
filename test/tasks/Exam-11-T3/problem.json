@@ -1,0 +1,66 @@
+{
+  "problem_id": "Exam-11-T3",
+  "header": "A photoresist is a polymeric material sensitive to light of specific wavelengths. Upon irradiation, it undergoes specific chemical reactions that substantially change its solubility in a developer, thereby forming the desired pattern on the surface of a semiconductor material. As a key patterning material in integrated-circuit fabrication, advances in photoresist chemistry directly determine the limits of process miniaturization and the industry's capacity for technological self-reliance.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-11-T3-1",
+      "tags": [
+        "2.1",
+        "2.5"
+      ],
+      "text_open": "3.1 The novolak-diazonaphthoquinone (Novolak-DNQ) system is the most widely used photoresist for the g-line (436 nm) and i-line (365 nm). One component is a high-molecular-weight linear phenolic resin, and the other is diazonaphthoquinone, whose structure is shown below.\n3.1.1 The phenolic resin prepared under acidic conditions is a low-molecular-weight linear prepolymer. The curing agent hexamethylenetetramine may be added to an aqueous solution of the prepolymer to cure and cross-link it upon heating. Identify which substrate must be used in excess when preparing the acid-catalyzed phenolic resin, write the decomposition equation of the curing agent upon heating, and on this basis state the role of the curing agent.",
+      "text_images": [
+        {
+          "file": "Exam-11-T3-1-1-prompt.png",
+          "description": "'O=C1C2=CC=CC=C2C(S(=O)(O[Ar])=O)=CC1=[N+]=[N-]'"
+        }
+      ],
+      "full_mark": 5
+    },
+    {
+      "sub_id": "Exam-11-T3-2",
+      "tags": [
+        "1.6"
+      ],
+      "text_open": "3.1.2 State the principal intermolecular forces between the two components of the Novolak-DNQ system.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-11-T3-3",
+      "tags": [
+        "2.3",
+        "2.4"
+      ],
+      "text_open": "3.1.3 In the Novolak-DNQ system, the photosensitive component undergoes rearrangement upon irradiation to form unstable structure A, which then forms B in the alkaline developer N(CH_3)_4^+OH^-, changing the solubility of the photoresist. Write the SMILES representations of A and B.",
+      "text_images": [],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-11-T3-4",
+      "tags": [
+        "2.4",
+        "2.5"
+      ],
+      "text_open": "3.2 PVCi is a high-resolution photoresist. One method for synthesizing PVCi is shown below.\n3.2.1 The first step is a conventional free-radical polymerization of a double bond, and all subsequent steps are functional-group substitutions. Write the SMILES representations of X, Y, Z, and PVCi. The terminal-group structures need not be specified; use [*] to denote the connection sites at the two ends of the polymer backbone.",
+      "text_images": [
+        {
+          "file": "Exam-11-T3-4-1-prompt.png",
+          "description": "X (C_4H_6O_2) reacts under AIBN/CH_3OH conditions to give Y; Y reacts under CH_3OH/NaOH conditions to give Z; Z reacts with 'O=C(Cl)/C=C/C1=CC=CC=C1' to give PVCi."
+        }
+      ],
+      "full_mark": 6
+    },
+    {
+      "sub_id": "Exam-11-T3-5",
+      "tags": [
+        "2.3",
+        "2.5"
+      ],
+      "text_open": "3.2.2 Write the SMILES representation of the structure formed by the interchain reaction of PVCi upon irradiation at 360 nm. The terminal-group structures and degrees of polymerization need not be specified; use [*] and [**] to denote connection sites in the polymer chains.",
+      "text_images": [],
+      "full_mark": 2
+    }
+  ]
+}

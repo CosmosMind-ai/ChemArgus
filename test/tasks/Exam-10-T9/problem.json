@@ -1,0 +1,68 @@
+{
+  "problem_id": "Exam-10-T9",
+  "header": "",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-10-T9-1",
+      "tags": [
+        "2.3",
+        "2.4",
+        "2.7"
+      ],
+      "text_open": "9-1-1 In radical reactions of allylic compounds using NBS or HBr, substitution and addition compete, and different reagents show different selectivities. Write the major products of the following two reactions.",
+      "text_images": [
+        {
+          "file": "Exam-10-T9-1-1-prompt.png",
+          "description": "Two organic reaction schemes. In the first, 'CC1(C)C=CCCC1' reacts with NBS under irradiation. In the second, 'CC(C1CCCCC1)=C' reacts with HBr and $\\mathrm{(BzO)_2}$."
+        }
+      ],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-10-T9-2",
+      "tags": [
+        "2.2",
+        "2.3"
+      ],
+      "text_open": "9-2-1 Radical reactions can also achieve efficient intramolecular N-C bond coupling. Write the key intermediates in the following reaction.",
+      "text_images": [
+        {
+          "file": "Exam-10-T9-2-1-prompt.png",
+          "description": "Organic reaction scheme in which 'C1(CN2CCCCC2)NCCCC1' reacts with NCS under irradiation to give 'N12CCCCC1CN3C2CCCC3'."
+        }
+      ],
+      "full_mark": 5
+    },
+    {
+      "sub_id": "Exam-10-T9-3",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "9-3-2 Write the structure of the major product of the following reaction. Disregard stereochemistry.",
+      "text_images": [
+        {
+          "file": "Exam-10-T9-3-1-prompt.png",
+          "description": "Organic reaction scheme in which 'IC1C(OC/C=C/C)OCCC1' reacts with triethylborane and oxygen in water and hypophosphorous acid."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-10-T9-4",
+      "tags": [
+        "2.2",
+        "2.3",
+        "2.4"
+      ],
+      "text_open": "9-3-4 The following reaction undergoes efficient triethylborane-catalyzed cyclization to give two isomers, A1 and A2, of which A2 is the major product. Write the SMILES string of A2 and those of the key intermediates leading to A2.",
+      "text_images": [
+        {
+          "file": "Exam-10-T9-4-1-prompt.png",
+          "description": "Organic reaction scheme in which 'CC1(C)C(O1)/C=C/CCCC#C' reacts with triethylborane and triphenyltin hydride in benzene to give A1, 'OC(C)(C)/C=C/C(CCC/1)C1=C[Sn](C2=CC=CC=C2)(C3=CC=CC=C3)C4=CC=CC=C4', and A2."
+        }
+      ],
+      "full_mark": 10
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "problem_id": "Exam-12-T1",
+  "header": "Problem 1 Metallic Vitamins. Rare-earth elements are core strategic resources in modern materials and chemical industries and are known as \"industrial vitamins.\" Their unique electron configurations give them distinctive physicochemical properties, making them essential materials for emerging industries such as modern semiconductors and new energy. A rare-earth element M has density $7.563 \\ \\mathrm{g \\cdot cm^{-3}}$ and forms an alloy with Co in a fixed ratio for manufacturing strong magnets. It has the following chemical properties. (1) When elemental M is left in air, its metallic luster rapidly disappears and a composite thin layer whose principal component is oxide A forms on its surface. M reacts with hydrochloric acid to form blood-red chloride B. After M has dissolved completely, the blood-red color rapidly fades, producing pale-yellow chloride C and colorless gas D. (2) If M is placed in a tetrahydrofuran solution of an organic compound E containing $90.05\\%$ iodine, reaction at room temperature gives unstable green iodide F and releases gas G. Addition of a small amount of water turns the solution yellow. Gas G is a common plant-ripening hormone.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-12-T1-1",
+      "tags": [
+        "1.4",
+        "2.4"
+      ],
+      "text_open": "1-4-1 Complexes of M also have interesting structures. Addition of 0.5 equivalents of $\\mathrm{P_2Ph_4}$ to $\\mathrm{MCp*_2(THF)_2}$ gives a chain polymer X. After polymer X is separated, the pentane mother liquor is left for several weeks, yielding a yellow-brown complex Y. Y contains two M atoms and a 14-membered macrocycle. The mass fraction of M is $22.19\\%$ in both X and Y. Write the SMILES structure of the repeat unit of X, using [R] for the site connected to the next repeat unit (for example, polypropylene may be written as C([R])C(C)[R]), and the SMILES structure of Y ($\\mathrm{Cp*}$ = pentamethylcyclopentadienyl anion).",
+      "text_images": [],
+      "full_mark": 4,
+      "rubric": [
+        "(2 points each for the structures of X and Y)",
+        "Structure or SMILES corresponding to the scoring figure: X: the polymer repeat-unit SMILES is '[R][Sm]([Cp*])([Cp*])OCCCC[P](C1=CC=CC=C1)(C2=CC=CC=C2)[R]', where R denotes the connection site between polymer monomers. The SMILES of Y is '[*Cp][Sm]1([*Cp])OCCCC[P](C2=CC=CC=C2)(C3=CC=CC=C3)[Sm]([Cp*])([Cp*])OCCCC[P]1(C4=CC=CC=C4)C5=CC=CC=C5'."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-12-T1-1-1-rubric.png",
+          "description": "X: the polymer repeat-unit SMILES is '[R][Sm]([Cp*])([Cp*])OCCCC[P](C1=CC=CC=C1)(C2=CC=CC=C2)[R]', where R denotes the connection site between polymer monomers. The SMILES of Y is '[*Cp][Sm]1([*Cp])OCCCC[P](C2=CC=CC=C2)(C3=CC=CC=C3)[Sm]([Cp*])([Cp*])OCCCC[P]1(C4=CC=CC=C4)C5=CC=CC=C5'."
+        }
+      ]
+    }
+  ]
+}

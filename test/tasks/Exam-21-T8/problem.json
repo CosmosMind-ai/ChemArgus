@@ -1,0 +1,93 @@
+{
+  "problem_id": "Exam-21-T8",
+  "header": "Lithiation Reactions\nFrom the late 30s of the 20th century to the early 50s, Gilmann and Wittig successively discovered lithium–halogen exchange in aryl halides and directed ortho-lithiation of aromatic compounds by substituent heteroatoms. These reactions have become important methods for forming carbon–lithium bonds and constructing complex molecular structures.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-21-T8-1",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "8.1 Write the SMILES strings for the major products A and B in the reactions below.",
+      "text_images": [
+        {
+          "file": "Exam-21-T8-1-1-prompt.png",
+          "description": "Two parallel reactions share the same substrate: 'ClC1=CC(Br)=CC=C1O[Si](C(C)C)(C(C)C)C(C)C'>1) LDA 1.5eq, THF, -78°C; 2) MeI>[A]; 'ClC1=CC(Br)=CC=C1O[Si](C(C)C)(C(C)C)C(C)C'>1) nBuLi 1.1eq, THF, -78°C; 2) MeI>[B]. The structures of products A and B are not drawn; they are shown only as A and B."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-21-T8-2",
+      "tags": [
+        "1.4"
+      ],
+      "text_open": "8.2 Ortho-lithiation can be viewed as being controlled by two limiting mechanisms: a coordination mechanism and an acid–base mechanism. In most cases, both mechanisms influence the reaction to different extents. A schematic of the coordination mechanism is shown below.\n8.2.1 TMEDA (tetramethylethylenediamine) and butyllithium can form a dinuclear complex with the formula $Li_2Bu_2(TMEDA)_2$, in which both Li atoms are 4-coordinate. Write its SMILES string.",
+      "text_images": [
+        {
+          "file": "Exam-21-T8-2-1-prompt.png",
+          "description": "Schematic of the coordination mechanism: substrate '[H]C1=C(C=CC=C1)CN([R])[R]' forms intermediate '[H]C1=C(C=CC=C1)C[N]([R])([R])[Li]CCCC' through a reversible arrow labeled nBuLi, and the intermediate gives product '[R][N]1([R])CC2=C(C=CC=C2)[Li]1' through a single arrow. A curved arrow runs from the nBu-Li bond to the ortho H atom of the benzene ring. In the product, Li and N are joined by a dashed coordination bond to form a five-membered chelate ring. R2 is the original placeholder in the figure for the two R substituents on N; Li coordination in the intermediate and product is shown by dashed lines."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-21-T8-3",
+      "tags": [
+        "2.3",
+        "2.7"
+      ],
+      "text_open": "The following lithiation gives different products with different additives. No workup has been performed, and each product contains only 1 lithium atom.\n8.2.2 Write the SMILES strings for the major products C and D, and identify the limiting mechanism that may be regarded as controlling each reaction.",
+      "text_images": [
+        {
+          "file": "Exam-21-T8-3-1-prompt.png",
+          "description": "Two parallel reactions share the same substrate: 'COC1=CC=C(CN(C)C)C=C1'>nBuLi>[C]; 'COC1=CC=C(CN(C)C)C=C1'>nBuLi, TMEDA>[D]. The structures of products C and D are not drawn; they are shown only as C and D."
+        }
+      ],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-21-T8-4",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "8.3 Lithiation reactions are also prone to side reactions, making control of the reaction conditions especially important.\n8.3.1 The following reaction did not give the expected major product. Instead, E, which has the same molecular formula as the expected product, was obtained in 70% yield. Write the SMILES string for E.",
+      "text_images": [
+        {
+          "file": "Exam-21-T8-4-1-prompt.png",
+          "description": "The substrate on the left is 'CC1=C(OC(N(CC)CC)=O)C=CC=C1'. A reaction arrow labeled sec-BuLi, TMEDA, THF above and -78°C-r.t. below points to product E. A box on the right labeled 'Expected product' gives the SMILES representation 'CC1=C(OC(N(CC)CC)=O)C([Li])=CC=C1'. The structure of E is not drawn and is shown only as E."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-21-T8-5",
+      "tags": [
+        "2.4",
+        "2.2"
+      ],
+      "text_open": "8.3.3 The following reaction causes fragmentation of the substrate. Write the SMILES strings for all products.",
+      "text_images": [
+        {
+          "file": "Exam-21-T8-5-1-prompt.png",
+          "description": "The substrate on the left is 'C1(C2=CC=CC=C2)=NOC=C1C3=CC=CC=C3'. A reaction arrow labeled RLi points to '? + ?'; the product structures are not drawn."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-21-T8-6",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "8.4 Under base-induced conditions, a halogen substituent in a halogenated aromatic compound may migrate to a new substitution site. Such reactions are vividly known as halogen-dance reactions. 8.4.2 Some studies suggest that increasing solvent polarity accelerates the halogen-dance reaction. Write the SMILES string for the major product of the reaction below, knowing that it contains only two halogen atoms.",
+      "text_images": [
+        {
+          "file": "Exam-21-T8-6-1-prompt.png",
+          "description": "The substrate on the left is 'IC1=C(Br)C(F)=CC=C1'. A reaction arrow labeled 1. BuLi, toluene, -100°C above and 2. THF, -75°C; 3. CO2, then HCl below points to the right; the product structure is not drawn."
+        }
+      ],
+      "full_mark": 2
+    }
+  ]
+}

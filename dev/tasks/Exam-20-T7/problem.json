@@ -1,0 +1,174 @@
+{
+  "problem_id": "Exam-20-T7",
+  "header": "Nitric Oxide Synthase and Its Artificial Models\nNitric oxide, NO, is an important signaling molecule involved in regulating many physiological processes in mammalian cardiovascular, immune, and nervous systems. In the human body, NO is synthesized under the catalysis of the heme enzyme nitric oxide synthase (NOS). Researchers are also working to reproduce this biological synthetic pathway using artificial models outside the body.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-20-T7-1",
+      "tags": [
+        "2.1",
+        "1.6"
+      ],
+      "text_open": "7.1 Arginine is a natural amino acid involved in multiple metabolic pathways in the human body, including synthesis of the signaling molecule nitric oxide and the urea cycle. The structure of arginine in the cellular environment is shown below.\n7.1.1 In the final step of the urea cycle, arginine is a reactant in a reaction that releases urea and forms amino acid A. No redox process occurs. Write the reaction equation, representing organic compounds by SMILES strings.",
+      "text_images": [
+        {
+          "file": "Exam-20-T7-1-1-prompt.png",
+          "description": "Arginine has the SMILES '[NH3+][C@@H](CCCNC(N)=[NH2+])C([O-])=O'. Stereochemistry at the α-carbon is shown by a solid wedge bond, and the overall structure is zwitterionic."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "'[NH3+][C@@H](CCCNC(N)=[NH2+])C([O-])=O' + H2O > '[NH3+][C@@H](CCC[NH3+])C([O-])=O' + 'NC(N)=O'. 2 points total; if the amino group of ornithine in the product is not protonated, award only 1 point."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-20-T7-1-1-rubric.png",
+          "description": "Reference equation for 7.1.1: '[NH3+][C@@H](CCCNC(N)=[NH2+])C([O-])=O' + H2O > '[NH3+][C@@H](CCC[NH3+])C([O-])=O' + 'NC(N)=O'. The coefficient of every species is 1, and the α-carbon is shown with a solid wedge bond."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-20-T7-2",
+      "tags": [
+        "2.2",
+        "2.1"
+      ],
+      "text_open": "For the reaction equations below, electrically neutral citrulline in the cellular environment may be represented by the SMILES string '[NH3+][C@@H](CCCNC(N)=O)C([O-])=O'.\n7.1.3 In the biological pathway for nitric oxide synthesis, arginine is the starting amino acid and reacts with 1 equivalent of NADPH and 1 equivalent of $O_2$ to form intermediate B and water (reaction 1). B then reacts further with $O_2$ and NADPH to form citrulline and nitric oxide, NO (reaction 2). The oxidized form of NADPH in organisms is $NADP^+$. Based on this information, infer and write the SMILES string of B and write the equation for reaction 2. The detailed structures of NADPH/$NADP^+$ need not be represented by SMILES.",
+      "text_images": [],
+      "full_mark": 3,
+      "rubric": [
+        "Intermediate: '[NH3+][C@@H](CCCN/C(N)=N\\O)C([O-])=O' or '[NH3+][C@@H](CCCNC(NO)=[NH2+])C([O-])=O' (1 point).",
+        "2'[NH3+][C@@H](CCCN/C(N)=N\\O)C([O-])=O' + 2O2 + NADPH + H+ > 2'[NH3+][C@@H](CCCNC(N)=O)C([O-])=O' + 2NO + 2H2O + NADP+ or 2'[NH3+][C@@H](CCCNC(NO)=[NH2+])C([O-])=O' + 2O2 + NADPH > 2'[NH3+][C@@H](CCCNC(N)=O)C([O-])=O' + 2NO + 2H2O + NADP+ + H+ (2 points total). Balancing with $OH^-$/$H_2O$ is also acceptable."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-20-T7-2-1-rubric.png",
+          "description": "Intermediate B in the first representation has the SMILES '[NH3+][C@@H](CCCN/C(N)=N\\O)C([O-])=O'."
+        },
+        {
+          "file": "Exam-20-T7-2-2-rubric.png",
+          "description": "Intermediate B in the second representation has the SMILES '[NH3+][C@@H](CCCNC(NO)=[NH2+])C([O-])=O'."
+        },
+        {
+          "file": "Exam-20-T7-2-3-rubric.png",
+          "description": "Reference equation for reaction 2, first version: 2'[NH3+][C@@H](CCCN/C(N)=N\\O)C([O-])=O' + 2O2 + NADPH + H+ > 2'[NH3+][C@@H](CCCNC(N)=O)C([O-])=O' + 2NO + 2H2O + NADP+."
+        },
+        {
+          "file": "Exam-20-T7-2-4-rubric.png",
+          "description": "Reference equation for reaction 2, second version: 2'[NH3+][C@@H](CCCNC(NO)=[NH2+])C([O-])=O' + 2O2 + NADPH > 2'[NH3+][C@@H](CCCNC(N)=O)C([O-])=O' + 2NO + 2H2O + NADP+ + H+."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-20-T7-3",
+      "tags": [
+        "2.4",
+        "1.4"
+      ],
+      "text_open": "7.2 The enzymatic mechanism above shows that guanidino groups and their derivatives play important roles in biological NO synthesis. Accordingly, oxidation of guanidine-related ligands by various oxidants to generate NO in vitro has been studied extensively as a strategy for artificial NOS models. Osmium-centered complexes can undergo pH-dependent aerobic oxidation at ambient temperature and pressure to release nitric oxide. The precursor complex is shown below.\n**7.2.1** Interestingly, the precursor complex reacts with a large excess of $CN^-$ (20 eq.) to form a new cyanamide complex **X**. During the process, the tridentate Schiff-base ligand isomerizes into a bidentate ligand containing a five-membered ring, accompanied by hydride transfer; finally, the Os center undergoes a one-electron oxidation. The resulting complex ion **X** has a meridional (mer) structure and an overall charge of two negative units. Draw the structure of complex ion **X** and state the oxidation state of the central Os.",
+      "text_images": [
+        {
+          "file": "Exam-20-T7-3-1-prompt.png",
+          "description": "The precursor complex has the SMILES 'Cl[Os]12([N](C3=CC=CC=C3O1)=CC4=C(O2)C=CC=C4)([OH2])#N'. The central Os is six-coordinate and bears chloride, water, and an N,O-containing ligand."
+        }
+      ],
+      "full_mark": 4,
+      "rubric": [
+        "Complex ion X has the SMILES '[H]N(C#N)[Os]1(C#N)(C#N)(C#N)OC2=CC=CC=C2C3=[N]1C4=CC=CC=C4O3' and is an overall 2- anion. The structure of X is worth 3 points: 1 point for the correct bidentate ligand, 1 point for the correct cyanamide ligand, and 1 point for the correct meridional arrangement of cyanide ligands. Deduct 1 point if the charge is not shown, and deduct 1 point if an unnecessary (±) label is added.",
+        "Oxidation state of Os: +3 or III (1 point)"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-20-T7-3-1-rubric.png",
+          "description": "Complex ion X has the SMILES '[H]N(C#N)[Os]1(C#N)(C#N)(C#N)OC2=CC=CC=C2C3=[N]1C4=CC=CC=C4O3' and is an overall 2- anion, with the total charge shown outside the brackets."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-20-T7-4",
+      "tags": [
+        "2.4",
+        "2.2"
+      ],
+      "text_open": "7.2.2 Complex ion X rapidly undergoes addition with $NH_2OH\\cdot HCl$ to form monoanionic complex C. Infrared spectroscopy indicates that C contains a C=N double bond outside an aromatic ring. C reacts with $O_2$ by different pathways at different pH values.\nAt pH = 6.8, C reacts with 0.5 equivalent of $O_2$ to form complex ion D, which undergoes linkage isomerization of the ligand to form E. Further oxidation of E by $O_2$ gives small molecule M and diamagnetic complex ion F containing a nitrosyl ligand. Single-crystal diffraction gives an N-O bond length of 1.393 Å in C and 1.158 Å in D.\nAt pH = 12, reaction of C with $O_2$ gives complex ion G. G is structurally similar to D and carries the same charge, but its relative molecular mass is 1 less than that of D. G can rapidly lose a proton to form X and release NO, or react with $OH^-$ to form dianionic complex ion H and likewise release NO.\nIn this problem, abbreviate ligand groups that do not participate in subsequent reactions. For example, the precursor complex in 7.2.1 may be written as [Os]≡N. Based on this information, infer and write the SMILES strings of C-H and M.",
+      "text_images": [],
+      "full_mark": 11,
+      "rubric": [
+        "C: '[#76]/[N]([H])=C(NO)\\N', an overall 1- anion (2 points).",
+        "D: '[#76]/[N]([H])=C(N=O)\\N', an overall 1- anion (2 points).",
+        "E: '[#76][N](/C(N)=N/[H])=O', an overall 1- anion (1 point).",
+        "F: '[#76]N=O', an overall 1- anion (1 point).",
+        "G: '[#76]/N=C(N=O)\\N', an overall 1- anion (2 points).",
+        "H: '[#76]N([H])C(N)=O', an overall 2- anion (2 points).",
+        "M: 'NC#N' (1 point).",
+        "As required in the prompt, ligand groups that do not participate in subsequent reactions are abbreviated in these answers. Expanding [Os] to the full structure is also acceptable."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-20-T7-4-1-rubric.png",
+          "description": "C has the SMILES '[#76]/[N]([H])=C(NO)\\N' and is an overall 1- anion, with the total charge shown outside the brackets."
+        },
+        {
+          "file": "Exam-20-T7-4-2-rubric.png",
+          "description": "D has the SMILES '[#76]/[N]([H])=C(N=O)\\N' and is an overall 1- anion, with the total charge shown outside the brackets."
+        },
+        {
+          "file": "Exam-20-T7-4-3-rubric.png",
+          "description": "E has the SMILES '[#76][N](/C(N)=N/[H])=O' and is an overall 1- anion, with the total charge shown outside the brackets."
+        },
+        {
+          "file": "Exam-20-T7-4-4-rubric.png",
+          "description": "F has the SMILES '[#76]N=O' and is an overall 1- anion, with the total charge shown outside the brackets."
+        },
+        {
+          "file": "Exam-20-T7-4-5-rubric.png",
+          "description": "G has the SMILES '[#76]/N=C(N=O)\\N' and is an overall 1- anion, with the total charge shown outside the brackets."
+        },
+        {
+          "file": "Exam-20-T7-4-6-rubric.png",
+          "description": "H has the SMILES '[#76]N([H])C(N)=O' and is an overall 2- anion, with the total charge shown outside the brackets."
+        },
+        {
+          "file": "Exam-20-T7-4-7-rubric.png",
+          "description": "M has the SMILES 'NC#N'."
+        },
+        {
+          "file": "Exam-20-T7-4-8-rubric.png",
+          "description": "Reference structure with the [Os] abbreviation expanded, represented by the SMILES 'C[Os]1(C#N)(C#N)(C#N)OC2=CC=CC=C2C3=[N]1C4=CC=CC=C4O3'. The central Os is bonded to a methyl group, three cyanide ligands (C≡N), and an O,N-bidentate ligand, the deprotonated form of 2-hydroxyphenylbenzoxazole."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-20-T7-5",
+      "tags": [
+        "1.4"
+      ],
+      "text_open": "7.2.3 Among complexes C-H, identify those in which the oxidation state of the central Os differs from that in X. Give their labels.",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "F, G",
+        "2 points total. Deduct 1 point for each extra or omitted choice, down to a minimum of zero."
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-20-T7-6",
+      "tags": [
+        "2.1"
+      ],
+      "text_open": "7.2.4 Write the equation for formation of H from C with release of NO at pH = 12. Ligand groups not participating in the reaction may be abbreviated.",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "4'[#76]/[N]([H])=C(NO)\\N' + 3O2 + 4OH- > 4'[#76]N([H])C(N)=O' + 4NO + 6H2O (2 points for the reaction equation)."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-20-T7-6-1-rubric.png",
+          "description": "Reference equation for 7.2.4: 4'[#76]/[N]([H])=C(NO)\\N' + 3O2 + 4OH- > 4'[#76]N([H])C(N)=O' + 4NO + 6H2O. C is a 1- anion and H is a 2- anion."
+        }
+      ]
+    }
+  ]
+}

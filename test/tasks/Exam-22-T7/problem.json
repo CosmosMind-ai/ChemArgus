@@ -1,0 +1,109 @@
+{
+  "problem_id": "Exam-22-T7",
+  "header": "Problem 7 Skeletal Rearrangements of Maltol Derivatives\nThe three-dimensional construction of molecular frameworks is crucial in biochemistry and pharmaceutical research. Complex frameworks generally require changing catalysts or reagents, or even carrying out several separate reaction steps. In the reactions below, researchers investigated cascade skeletal rearrangements of maltol derivatives in depth. Simple modification of the substrate affords products with entirely different frameworks, ranging from planar to three-dimensional structures.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-22-T7-1",
+      "tags": [
+        "2.2",
+        "2.4"
+      ],
+      "text_open": "7.1 On heating, maltol ether A undergoes rearrangement to give the key intermediate X. Trapping X with a nucleophile affords product B. When no nucleophile is added, the dimerization product C of X is also detected.\n7.1.1 Formation of the key intermediate X is known to involve only pericyclic reactions and simple tautomerization. Write the SMILES strings for 3 key intermediates in the formation of B. Stereochemistry is not required.",
+      "text_images": [
+        {
+          "file": "Exam-22-T7-1-1-prompt.png",
+          "description": "The figure shows a one-step reaction: 'O=C1C(OCC#C[H])=C(C)OC=C1'>BnSH, DCE, 150℃, 13 h>'OC1=C(O)C(C)=CC(CSCC2=CC=CC=C2)=C1C=O'. The structure on the left is labeled A, and that on the right is labeled B."
+        },
+        {
+          "file": "Exam-22-T7-1-2-prompt.png",
+          "description": "The figure shows a one-step reaction: 'O=C1C(OCC#C[H])=C(C)OC=C1'>PhCl, 150℃, 13 h>'CC1=C2C(CCC3=C2C(C)=C(O)C(O)=C3C=O)=C(C=O)C(O)=C1O'. The structure on the left is labeled A, and the product on the right is labeled C."
+        }
+      ],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-22-T7-2",
+      "tags": [
+        "2.2",
+        "2.4"
+      ],
+      "text_open": "7.1.2 Write the SMILES string for one key intermediate in the formation of C from X. Stereochemistry is not required.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-22-T7-3",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "7.2 Replacing the nucleophile with styrene gives a reaction similar to that above and affords product D, which contains a five-membered ring. Write the SMILES string for D. Stereochemistry is not required.",
+      "text_images": [
+        {
+          "file": "Exam-22-T7-3-1-prompt.png",
+          "description": "The figure shows a one-step reaction: 'O=C1C(OCC#C[H])=C(C)OC=C1'>'C=CC1=CC=CC=C1' (styrene), 150℃, 13 h>[D]. The structure on the left is labeled A. On the right, only the molecular formula C17H16O3 of product D is given; its structure is not shown."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-22-T7-4",
+      "tags": [
+        "1.2",
+        "2.3"
+      ],
+      "text_open": "7.3 Introducing an allyl group into the maltol substrate above gives substrate E. Under similar conditions, E affords product F and the product G with a new framework. (PMB denotes the p-methoxybenzyl group.)\n7.3.1 The formation of G is known to proceed through an intermediate similar to X. Analyze the three-dimensional conformation of the favored transition state for the step that forms G, and use S/R notation to assign the configuration of the carbon atom in G whose stereochemistry is not labeled.",
+      "text_images": [
+        {
+          "file": "Exam-22-T7-4-1-prompt.png",
+          "description": "The figure shows a one-step reaction: 'O=C1C(OCC#CCC(C)=C)=C(C)OC=C1'>DCE, PMBOH, 150℃, 13 h>'OC1=C(O)C(C)=C(CC(C)=C)C(COCC2=CC=C(OC)C=C2)=C1C=O'+'O=C1C2(O)[C@@](C(CC(C2)=C)=C=C)(C)OC=C1'. The structure on the left is labeled E, and the two products on the right are labeled F and G, respectively."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-22-T7-5",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "7.3.2 If substrate E in the reaction above is replaced by E’ shown below, determine whether the yield of G’, which has the same framework as G, will increase or decrease. Briefly explain your answer.",
+      "text_images": [
+        {
+          "file": "Exam-22-T7-5-1-prompt.png",
+          "description": "The SMILES representation of E’ is 'O=C1C(OCC#CCC(C)=C)=C(C(C)C)OC=C1'. The structure is labeled E’."
+        }
+      ],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-22-T7-6",
+      "tags": [
+        "2.3",
+        "2.4"
+      ],
+      "text_open": "7.4 Introducing a new group into the substrate allows further cascade cyclization based on the fundamental reaction mode above.\n7.4.1 The following reaction undergoes a Nazarov-type cyclization to form the aromatic product I, which contains multiple fused rings. Write the SMILES string for I and explain why no external Lewis acid catalyst is required.",
+      "text_images": [
+        {
+          "file": "Exam-22-T7-6-1-prompt.png",
+          "description": "The figure shows a one-step reaction: 'O=C1C(OCC#CC2=CSC=C2)=C(C)OC=C1'>DCE, 150℃, 13 h>[I]. The structure on the left is labeled S. On the right, only the molecular formula C13H10O3S of product I is given; its structure is not shown."
+        }
+      ],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-22-T7-7",
+      "tags": [
+        "2.2",
+        "2.3"
+      ],
+      "text_open": "7.4.2 When the substrate shown below is reacted under similar conditions, no product analogous to that in 7.4.1 is observed. Instead, two products, L and O, with complex three-dimensional frameworks are obtained.\nIntermediate J forms by the same process as X. J then undergoes two consecutive concerted reactions, both through six-membered cyclic transition states, to give product L. Alternatively, J can first form M, which undergoes an electrocyclic reaction to give the charge-separated intermediate N. Group migration in N then affords the bridged product O. Based on this information, write the SMILES strings for K, N, and O in the scheme.",
+      "text_images": [
+        {
+          "file": "Exam-22-T7-7-1-prompt.png",
+          "description": "The figure shows a multistep reaction sequence: 'O=C1C(OCC#CC2=C(C=C)C=CC=C2)=C(C)OC=C1'>PhCl, 150℃, 13 h>[J]; [J]>[K]; [K]>'O=C1[C@]([C@@]2(C)OC=C1)(O)CC3=C2C4=CC=CC=C4C=C3' (L); [J]>'C=C1CC(O/C2=C/C=O)C(C=CC=C3)=C3/C1=C(C)/C2=O' (M); [M]>[N]; [N]>[O]. J, K, N, and O are shown only as letter labels, whereas the structures of L and M are drawn. The [C@]/[C@@] descriptors in the SMILES representation of L correspond to the stereochemical orientations shown by wedged bonds in the figure."
+        }
+      ],
+      "full_mark": 6
+    }
+  ]
+}

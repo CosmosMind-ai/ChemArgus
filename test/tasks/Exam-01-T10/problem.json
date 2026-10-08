@@ -1,0 +1,63 @@
+{
+  "problem_id": "Exam-01-T10",
+  "header": "Light",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-01-T10-1",
+      "tags": [
+        "2.2",
+        "2.4"
+      ],
+      "text_open": "10-1 Light can excite certain chemical bonds. Write the SMILES structures of [C] and D. Stereochemistry is not required.",
+      "text_images": [
+        {
+          "file": "Exam-01-T10-1-1-prompt.png",
+          "description": "In the figure, 'O=C(C1=CC=CC=C1C)C2=CC=CC=C2' forms [A] under hv; [A] is converted to [B]; [B] is converted to [C]; and [C] reacts with 'O=C(/C=C/C(OCC)=O)OCC' to form D. A, B, and C are enclosed in square brackets to indicate highly reactive intermediates."
+        }
+      ],
+      "full_mark": 8
+    },
+    {
+      "sub_id": "Exam-01-T10-2",
+      "tags": [
+        "2.2",
+        "2.3",
+        "2.4"
+      ],
+      "text_open": "10-3 The figure above is a simplified diagram of a photoredox catalytic mechanism. Such reactions use a photocatalyst capable of both single-electron oxidation and reduction under visible-light irradiation to initiate radical reactions and, after a series of complex steps, quench the radical process. 10-3-1 Based on the information above, write the SMILES structures of the 3 key intermediates in the reaction shown and of the other product in addition to the product depicted. PMP denotes p-methoxyphenyl.",
+      "text_images": [
+        {
+          "file": "Exam-01-T10-2-1-prompt.png",
+          "description": "Schematic of a photocatalyst quenching cycle. “P-Cat” is at the bottom center and “P-Cat*” at the top, with an upward vertical arrow between them labeled “hν.” Blue circular arrows connect “P-Cat*,” “P-Cat^+•,” “P-Cat^-•,” and “P-Cat”: the left blue arrow points downward from P-Cat* to P-Cat^+•, and the lower-left blue arrow points down and right from P-Cat^+• to P-Cat; the right blue arrow points downward from P-Cat* to P-Cat^-•, and the lower-right blue arrow points down and left from P-Cat^-• to P-Cat. “Oxidative Quenching” is labeled at the upper left, near “A” and “A^-•,” with a curved red arrow from A to A^-•. At the lower left are “D” and “D^+•,” with a curved red arrow from D to D^+•. “Reductive Quenching” is labeled at the upper right, near “D” and “D^+•,” with a curved red arrow from D to D^+•. At the lower right are “A” and “A^-•,” with a curved red arrow from A to A^-•."
+        },
+        {
+          "file": "Exam-01-T10-2-2-prompt.png",
+          "description": "'CC1=CC=C(S(N=CC2=CC=CC=C2)(=O)=O)C=C1' and 'C[Si](COC1=CC=C(OC)C=C1)(C)C' react under 10 W blue LEDs, P-Cat (0.5 mol %), MeOH (Solv.), rt to form 'COC(C=C1)=CC=C1OCC(NS(C2=CC=C(C)C=C2)(=O)=O)C3=CC=CC=C3'."
+        }
+      ],
+      "full_mark": 6
+    },
+    {
+      "sub_id": "Exam-01-T10-3",
+      "tags": [
+        "2.2",
+        "2.4",
+        "2.5"
+      ],
+      "text_open": "10-3-2 Under these conditions, the product can react further to remove the PMP protecting group and reveal an alcoholic hydroxy group. Write the SMILES structures of the 2 key intermediates in this reaction.",
+      "text_images": [],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-01-T10-4",
+      "tags": [
+        "2.2",
+        "2.3"
+      ],
+      "text_open": "10-3-3 The photosensitizer P-Cat can capture O_2 from air. Write all species that may be formed.",
+      "text_images": [],
+      "full_mark": 6
+    }
+  ]
+}

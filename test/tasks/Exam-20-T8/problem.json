@@ -1,0 +1,54 @@
+{
+  "problem_id": "Exam-20-T8",
+  "header": "Fundamentals of Organic Chemistry\nThe rates and selectivities of organic reactions depend not only on electronic structure but also strongly on molecular conformation and spatial arrangement in the transition state.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-20-T8-1",
+      "tags": [
+        "1.6"
+      ],
+      "text_open": "8.1 First consider peroxyacid epoxidation of alkenes from the perspective of frontier molecular orbitals. Examine the general reaction below.\n8.1.2 Under identical reaction conditions, substrate structure affects the rate of epoxidation. Arrange the following compounds in decreasing order of reaction rate.",
+      "text_images": [
+        {
+          "file": "Exam-20-T8-1-1-prompt.png",
+          "description": "General reaction for peroxyacid epoxidation of an alkene: '[R]/C([R])=C([R])/[R]'.'[R]C(OO)=O'>>'[R]C1([R])C([R])([R])O1'. No reaction conditions are labeled on the arrow; R is the placeholder used in the original diagram."
+        },
+        {
+          "file": "Exam-20-T8-1-2-prompt.png",
+          "description": "The SMILES for A is 'C1CC=CCC1'; the SMILES for B is 'OC1C=CCCC1'; the SMILES for C is 'O=C(OC1C=CCCC1)C'; and the SMILES for D is 'OC1CC=CCC1'."
+        }
+      ],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-20-T8-2",
+      "tags": [
+        "1.2"
+      ],
+      "text_open": "8.2 When the oxygen-transfer reagent is changed, the spatial course of the reaction still strongly affects the epoxidation outcome. Consider the alkene epoxidation involving the dioxirane below.\n8.2.1 For a more structurally complex substrate, its preferred conformation further affects the reaction. Write the SMILES string of the preferred conformation of the actual reactive species derived from the molecule shown under these reaction conditions.",
+      "text_images": [
+        {
+          "file": "Exam-20-T8-2-1-prompt.png",
+          "description": "The molecule is represented by the SMILES 'O=C1[C@H]2[C@H](OC(C)(C)O2)CO[C@@]13OC(C)(C)OC3'. It contains a C=O group and two O—C(CH₃)₂—O ketal fragments; stereochemistry is indicated by solid and dashed wedge bonds."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-20-T8-3",
+      "tags": [
+        "2.4",
+        "1.2"
+      ],
+      "text_open": "8.3 The epoxidation above illustrates how molecular conformation and spatial arrangement in the transition state affect selectivity. Similar stereochemical control can also be used to form carbon-carbon bonds. The enolate alkylation below gives its product with very high stereoselectivity.\n8.3.1 Write the SMILES string of the major alkylation product, explicitly specifying its stereochemistry.",
+      "text_images": [
+        {
+          "file": "Exam-20-T8-3-1-prompt.png",
+          "description": "The substrate is represented by the SMILES 'O=C1OC[C@@H](C(C)C)N1C(CC)=O', with stereochemistry indicated by a solid wedge bond. The arrow is labeled 'LDA, THF, -78°C' above and 'then PhCH2Br' below; no product structure is drawn to the right."
+        }
+      ],
+      "full_mark": 2
+    }
+  ]
+}

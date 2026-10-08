@@ -1,0 +1,53 @@
+{
+  "problem_id": "Exam-09-T6",
+  "header": "Mg-Air Batteries\nWith their high specific energy density, stable operating voltage, simple device construction, and excellent safety, magnesium-air batteries have become candidates for emergency backup power in hospitals, emergency power for disaster relief, portable field energy-storage devices, and automotive power supplies.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-09-T6-1",
+      "tags": [
+        "2.8",
+        "3.4",
+        "3.6"
+      ],
+      "text_open": "6-2-2 An ideal anode film both suppresses hydrogen evolution at the anode and does not impede interfacial electrochemical reactions. A film that is both \"dense and porous\" has therefore become a research objective. The K_{sp} values of hydroxides of selected elements are shown below. From Cu, La, and Sr, select the metallic element that can be added to the Mg-alloy electrode, and explain your choice. Given K_{sp}[Mg(OH)_2] = 5.61 × 10^{-12}, K_{sp}[Cu(OH)_2] = 2.2 × 10^{-20}, K_{sp}[La(OH)_3] = 2.0 × 10^{-19}, and K_{sp}[Sr(OH)_2] = 3.2 × 10^{-4}.",
+      "text_images": [
+        {
+          "file": "Exam-09-T6-1-1-prompt.png",
+          "description": "This is a plot with logarithmic coordinates. Vertical axis: $\\boldsymbol{[M^{n+}]}$ (unit: mol/L), on a logarithmic scale ranging from $10^{-13}$ to $10^{1}$. Horizontal axis: $\\boldsymbol{pH}$, ranging from 0 to 14. Solubility-equilibrium curves for various metal hydroxides and metal oxides are plotted and labeled with different line styles, including solid and dashed lines. The substances include the following. Hydroxides: $Sn(OH)_2$, $Fe(OH)_2$, $Fe(OH)_3$, $Ga(OH)_3$, $Sn(OH)_4$, $Pb(OH)_4$, $Ce(OH)_4$, $Sc(OH)_3$, $In(OH)_3$, $Al(OH)_3$, $Dy(OH)_3$, $Y(OH)_3$, $Sm(OH)_3$, $Eu(OH)_3$, $Ce(OH)_3$, $Nd(OH)_3$, $Gd(OH)_3$, $La(OH)_3$, $Ni(OH)_2$, $Mn(OH)_2$, $Mg(OH)_2$, $Cd(OH)_2$, $Co(OH)_2$, $Zn(OH)_2$, $Pb(OH)_2$, and $Ca(OH)_2$. Oxides: $Fe_2O_3$, $FeO$, $MnO_2$, $Ga_2O_3$, $PbO_2$, $SnO_2$, $ZrO_2$, $In_2O_3$, $Al_2O_3$, $Sc_2O_3$, $Nd_2O_3$, $MgO$, $Dy_2O_3$, $SnO$, $ZnO$, $Sm_2O_3$, $Gd_2O_3$, $Y_2O_3$, $NiO$, $NiO_2$, $PbO$, $CoO_2$, and $MnO$. Overall trend of the curves: as pH increases, the corresponding metal-ion concentration $\\boldsymbol{[M^{n+}]}$ decreases."
+        }
+      ],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-09-T6-2",
+      "tags": [
+        "2.8",
+        "3.6"
+      ],
+      "text_open": "6-2-3 In practical use, additional Ca is incorporated into the Mg alloy. Explain why. (K_{sp}[Ca(OH)_2] = 5.5 × 10^{-6})",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-09-T6-3",
+      "tags": [
+        "2.8",
+        "3.6"
+      ],
+      "text_open": "6-3 Investigation of second-phase effects\n\nAlloying is an effective means of modifying materials and can significantly improve the discharge performance of magnesium alloys. The type, morphology, and distribution of the second phase, i.e., another phase distributed discontinuously within the matrix phase, directly affect material performance. When a new metal is added to the base electrode material during alloy-electrode manufacture, a second phase forms. Microgalvanic couples between the second phase and matrix phase undergo galvanic corrosion. Galvanic corrosion occurs when two different metals are in contact while simultaneously exposed to an electrolyte, forming a spontaneous cell in which the more active metal acts as the anode and corrodes. The rate of galvanic corrosion depends on the contact area between the two metals.\n\n6-3-1 The anode efficiency is calculated as $P = \\frac{W_f}{\\Delta W}$, where $\\Delta W$ is the actual mass loss and $W_f$ is the theoretical mass loss, calculated from $W_f = \\frac{I \\times t}{F \\times \\sum\\limits_{i=1}^{n} \\frac{X_i \\times N_i}{M_i}}$. Here, $F$ is the Faraday constant, $X_i$ is the mass fraction of each element in the magnesium anode, $N_i$ is the corresponding number of electrons transferred by each element in the electrochemical process, and $M_i$ is the atomic mass of each element.\n\nAlloy materials A and B have the following compositions:\n\n| Alloy material | La | Ce | Ca | Al | Zn | Mg |\n| --- | --- | --- | --- | --- | --- | --- |\n| A | / | / | / | 6% | 3% | 91% |\n| B | 0.15% | 0.45% | 0.3% | 6% | 3% | 90.1% |\n\nFor $\\Delta W$, $\\Delta W_A = 36.27\\,\\text{mg}$ and $\\Delta W_B = 30.01\\,\\text{mg}$. Calculate the anode efficiencies of A and B at a current density of $0.5\\,\\text{mA/cm}^2$, duration of $6\\,\\text{h}$, and area of $14\\,\\text{cm}^2$.",
+      "text_images": [],
+      "full_mark": 6
+    },
+    {
+      "sub_id": "Exam-09-T6-4",
+      "tags": [
+        "2.8",
+        "3.6"
+      ],
+      "text_open": "6-3-2 Subsequent research proposed that the difference in efficiency between alloy materials A and B originates from a change in the second phase. After addition of the new metals, the second phase changes from the particulate and planar morphologies in A to the rod-like and relatively continuous β-Mg_{17}Al_{12}/τ-Mg_{32}(Al, Zn)_{49} and Al_{2}(La, Ce) structures in B. Explain the difference in efficiency on this basis.",
+      "text_images": [],
+      "full_mark": 2
+    }
+  ]
+}

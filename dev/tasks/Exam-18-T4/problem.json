@@ -1,0 +1,62 @@
+{
+  "problem_id": "Exam-18-T4",
+  "header": "Problem 4 Complexometric Titration\nEthylenediaminetetraacetic acid (EDTA) is an effective chelating ligand widely used in chemical analysis. Approximately 20 g of a standard reagent is roughly weighed, 250mL of water is added, and the mixture is heated to dissolve the solid, cooled, and mixed thoroughly. The measured pH of the solution is 4.2. The stepwise ionization constants of EDTA are shown below.\n\n|  | $K_{a1}$ | $K_{a2}$ | $K_{a3}$ | $K_{a4}$ | $K_{a5}$ | $K_{a6}$ |\n| --- | --- | --- | --- | --- | --- | --- |\n|  | $10^{-0.9}$ | $10^{-1.6}$ | $10^{-2.0}$ | $10^{-2.67}$ | $10^{-6.16}$ | $10^{-10.26}$ |",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-18-T4-1",
+      "tags": [
+        "4.5",
+        "3.4"
+      ],
+      "text_open": "The standard solution is then standardized. Weigh 0.2500 g of working-reference ZnO that has been ignited to constant mass in a furnace at 800 ℃. Moisten it with a small amount of water, dissolve it in 2 mL of 20% hydrochloric acid solution, and add 100 mL of water. Adjust the solution to pH 8 with hexamethylenetetramine (HMTA) solution, add 10 mL of $(CH_2)_6N_4$-$(CH_2)_6N_4$·HCl buffer to adjust the pH to 10, and then add 5 drops of Eriochrome Black T indicator solution. Titrate with the prepared EDTA sodium-salt solution until the color changes from purple to pure blue. Conduct a blank determination in parallel. After blank correction, the volume of EDTA consumed is $V = 15.35\\ \\mathrm{mL}$.\n4.2.2 The buffering ability of a buffer solution is commonly measured by its buffer capacity, denoted β. It is defined as the amount db in mol of strong base required to raise the pH of 1L of buffer solution by dpH units, with the mathematical expression\n$\\beta = \\frac{db}{dpH} = -2.30[H^+] \\times \\frac{db}{d[H^+]}$\nGiven $pK_b((CH_2)_6N_4) = 4.9$, calculate the buffer capacity of a pH = 10 $(CH_2)_6N_4$-$(CH_2)_6N_4$·HCl buffer in which the analytical concentration of $(CH_2)_6N_4$ is 0.1000 mol/L. Hint: express $b$ as a function of $[H^+]$ and differentiate with respect to $[H^+]$ to obtain $\\frac{db}{d[H^+]}$. B may be used to represent $(CH_2)_6N_4$ in the calculation.",
+      "text_images": [],
+      "full_mark": 4,
+      "rubric": [
+        "In this problem, the HMTA-HMTA·HCl buffer may be treated as the sum of a $c$ mol/L HMTA·HCl solution and a $b$ mol/L monobasic strong-base solution. In the HMTA-HMTA·HCl buffer, addition of strong base causes $HB^+ + OH^- \\rightleftharpoons B + H_2O$. The proton-balance equation is\n$b = [OH^-] + [B] - [H^+]$.\nUsing the distribution fraction gives\n$b = -[H^+] + \\frac{K_w}{[H^+]} + \\frac{cK_a}{[H^+] + K_a}$. (1 point; either of the two equations above is sufficient.)\nDifferentiating with respect to $[H^+]$ gives\n$\\frac{db}{d[H^+]} = -1 - \\frac{K_w}{[H^+]^2} - \\frac{cK_a}{([H^+] + K_a)^2}$. (2 points)\nSubstitution into the original equation gives\n$\\beta = -2.30[H^+] \\times \\frac{db}{d[H^+]} = 2.30[H^+]\\{1 + \\frac{K_w}{[H^+]^2} + \\frac{cK_a}{([H^+] + K_a)^2}\\} = 0.02307$. (1 point)\nFull credit is also given for using $b \\approx [B] - [B]_0 = [HB^+]_0 - [HB^+]$ to obtain $\\frac{db}{d[H^+]} = \\frac{d([B] - [B]_0)}{d[H^+]} = -\\frac{cK_a}{([H^+] + K_a)^2}$.\nA correct result of $\\beta = 0.0228$ obtained using the Henderson-Hasselbalch equation is also awarded full credit."
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-18-T4-2",
+      "tags": [
+        "4.5",
+        "3.4"
+      ],
+      "text_open": "4.2.3 Neglecting volume changes during standardization, the change in solution pH over the entire process must not exceed 0.2 pH unit to ensure an accurate endpoint. Determine the minimum value of $[(CH_2)_6N_4]$.",
+      "text_images": [],
+      "full_mark": 4,
+      "rubric": [
+        "During standardization, $H_2Y^{2-} + Zn^{2+} = ZnY^{2-} + 2H^+$.\nThus, the amount of $H^+$ added to the solution during standardization is $n(H^+) = 2n(ZnO) = 0.006144\\ \\mathrm{mol}$. (1 point)\nFrom the definition of buffer capacity, the condition in the question becomes $\\beta \\geq -\\frac{da}{dpH} = \\frac{0.006144}{0.2} = 0.03072$. (1 point)\nBecause $[H^+]$ is very small under these conditions, $\\beta = 2.30[H^+]\\{1 + \\frac{K_w}{[H^+]^2} + \\frac{cK_a}{([H^+] + K_a)^2}\\} \\approx \\frac{2.30cK_a[H^+]}{([H^+] + K_a)^2}$. (1 point)\nSubstitution and solution of the equation give $c \\geq 0.09632\\ \\mathrm{mol/L}$. (1 point)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-18-T4-3",
+      "tags": [
+        "4.1"
+      ],
+      "text_open": "4.3 During standardization, why is the $(CH_2)_6N_4$-$(CH_2)_6N_4$·HCl buffer not added directly to adjust the solution to pH=10?",
+      "text_images": [],
+      "full_mark": 1,
+      "rubric": [
+        "The pH must be adjusted gradually to prevent formation of a ZnO precipitate that would interfere with standardization. (1 point)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-18-T4-4",
+      "tags": [
+        "4.5",
+        "1.4"
+      ],
+      "text_open": "4.4 The EDTA standard solution standardized in this problem can be used to determine the concentrations of Cu2+ and Mg2+ in a solution by either of the following methods. Method 1: Masking Cu2+ ions. Adjust the solution to pH 5.5 with an HMTA buffer and add excess thiosulfate to mask Cu2+. In this reaction, thiosulfate acts as both a reducing agent and a ligand. Method 2: Selective determination of $Cu^{2+}$. Adjust the solution to pH 5 with an HMTA buffer. Using 5-Br-PADAT as the indicator, selectively determine $Cu^{2+}$ with an EDTP standard solution whose principal component is disodium ethylenediaminetetrapropionate. 4.4.2 Based on the data below, explain why EDTP shows high selectivity for $Cu^{2+}$.\n\n|  | $Cu^{2+}$ | $Zn^{2+}$ | $Cd^{2+}$ | $Mg^{2+}$ |\n| --- | --- | --- | --- | --- |\n| Ionic radius/pm | 73 | 74 | 95 | 72 |\n| $\\lg K_{M-EDTP}$ | 15.4 | 7.8 | 6.0 | 1.8 |\n| $\\lg K_{M-EDTA}$ | 18.8 | 16.50 | 16.46 | 8.7 |",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "$Cu^{2+}$ exhibits the Jahn-Teller effect in an octahedral field and adopts a distorted octahedral geometry. (1 point) EDTP is a chelating ligand that forms a relatively strained macrocycle on coordination to a metal ion, making the complexes less stable. (1 point) The distorted octahedral geometry relieves some of this strain, making Cu-EDTP more stable."
+      ],
+      "rubric_images": []
+    }
+  ]
+}

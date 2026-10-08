@@ -1,0 +1,142 @@
+{
+  "problem_id": "Exam-03-T2",
+  "header": "Problem 2 Metallabenzenes and Aromaticity. Note: throughout this problem, n-coordinate means that the coordination number of the atom is n.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-03-T2-1",
+      "tags": [
+        "1.4",
+        "2.2",
+        "2.4"
+      ],
+      "text_open": "2-1 The first metallabenzene, A, was prepared from Os(CO)(CS)(PPh_3)_3 and acetylene. Draw the missing structures in the following transformation scheme and give their SMILES. In A-D^+, Os is 6-coordinate, and A contains a three-membered ring.",
+      "text_images": [
+        {
+          "file": "Exam-03-T2-1-1-prompt.png",
+          "description": "Transformation scheme for A-D^+. At the upper left, Os(CO)(CS)(PPh_3)_3 is converted into boldfaced A by a right-pointing arrow labeled \"2C_2H_2\" above and \"- PPh_3\" below. From A, the scheme branches horizontally and vertically. Along the horizontal branch, A is converted into boldfaced B by a right-pointing arrow labeled \"CO\". A downward arrow from B, labeled \"MeI, NaClO_4\" on the right, leads to D^+ClO_4^- at the lower right, with D boldfaced. Along the vertical branch, A and boldfaced C below it are connected by two opposing half-arrows: the downward half-arrow to C is labeled \"HCl\" on the right, and the upward half-arrow to A is labeled \"-HCl\" on the left."
+        }
+      ],
+      "full_mark": 8,
+      "rubric": [
+        "2 points for each structure, 8 points total. A: 'O=C[Os]12([P](C3=CC=CC=C3)(C4=CC=CC=C4)C5=CC=CC=C5)([P](C6=CC=CC=C6)(C7=CC=CC=C7)C8=CC=CC=C8)=CC=CC=C1S2'; B: 'S=C1C=CC=C[Os]1([P]2(C3=CC=CC=C34CC=CC=C24)C5=CC=CC=C5)(C=O)(C=O)[P](C6=CC=CC=C6)(C7=CC=CC=C7)C8=CC=CC=C8'; C: 'Cl[Os]1([P](C2=CC=CC=C2)(C3=CC=CC=C3)C4=CC=CC=C4)([P](C5=CC=CC=C5)(C6=CC=CC=C6)C7=CC=CC=C7)(C=O)=CC=CC=C1S'; D^+: 'CSC1=CC=CC=[Os]1([P](C2=CC=CC=C2)(C3=CC=CC=C3)C4=CC=CC=C4)([P+](C5=CC=CC=C5)(C6=CC=CC=C6)C7=CC=CC=C7)(C=O)C=O'.",
+        "Deduct 0.5 point if the charge on D^+ is omitted."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-03-T2-1-1-rubric.png",
+          "description": "2-1 Grading structures. Four red chemical structures are arranged horizontally. From left to right: A, O=C[Os]12([P](C3=CC=CC=C3)(C4=CC=CC=C4)C5=CC=CC=C5)([P](C6=CC=CC=C6)(C7=CC=CC=C7)C8=CC=CC=C8)=CC=CC=C1S2; B, S=C1C=CC=C[Os]1([P]2(C3=CC=CC=C34CC=CC=C24)C5=CC=CC=C5)(C=O)(C=O)[P](C6=CC=CC=C6)(C7=CC=CC=C7)C8=CC=CC=C8; C, Cl[Os]1([P](C2=CC=CC=C2)(C3=CC=CC=C3)C4=CC=CC=C4)([P](C5=CC=CC=C5)(C6=CC=CC=C6)C7=CC=CC=C7)(C=O)=CC=CC=C1S; and, at the far right, the bracketed structure D^+, CSC1=CC=CC=[Os]1([P](C2=CC=CC=C2)(C3=CC=CC=C3)C4=CC=CC=C4)([P+](C5=CC=CC=C5)(C6=CC=CC=C6)C7=CC=CC=C7)(C=O)C=O."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-03-T2-2",
+      "tags": [
+        "1.4",
+        "2.2",
+        "2.4"
+      ],
+      "text_open": "2-2 Mixing OsCl_2(PPh_3)_3 with a large excess of HC≡CTMS in wet benzene gives a yellow precipitate E and a brown solution. E was identified as a carbyne complex. Three substances were isolated from the solution: F (22% yield), G (4.5% yield), and the osma-benzyne H (30% yield). The authors proposed the key intermediate I, an osmium vinylcarbene complex.\n2-2-1 Draw E and I and give their SMILES. I contains no silicon.",
+      "text_images": [
+        {
+          "file": "Exam-03-T2-2-1-prompt.png",
+          "description": "Reaction and structure scheme for E, F, G, H, and I. On the left, OsCl_2(PPh_3)_3 is converted into boldfaced I by a right-pointing arrow labeled \"H—≡—TMS\" above and \"H_2O\" below. I is then converted into boldfaced E on the right by another right-pointing arrow labeled \"HCl\" above."
+        }
+      ],
+      "full_mark": 4,
+      "rubric": [
+        "2 points each for E and I, 4 points total. I: Cl[Os](Cl)([P](C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3)([P](C4=CC=CC=C4)(C5=CC=CC=C5)C6=CC=CC=C6)=C=C; E: CC#[Os](Cl)(Cl)(Cl)([P](C7=CC=CC=C7)(C8=CC=CC=C8)C9=CC=CC=C9)[P](C%10=CC=CC=C%10)(C%11=CC=CC=C%11)C%12=CC=CC=C%12."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-03-T2-2-1-rubric.png",
+          "description": "2-2-1 Grading structures. Two red chemical structures are arranged horizontally. From left to right: I, Cl[Os](Cl)([P](C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3)([P](C4=CC=CC=C4)(C5=CC=CC=C5)C6=CC=CC=C6)=C=C; and E, CC#[Os](Cl)(Cl)(Cl)([P](C7=CC=CC=C7)(C8=CC=CC=C8)C9=CC=CC=C9)[P](C%10=CC=CC=C%10)(C%11=CC=CC=C%11)C%12=CC=CC=C%12."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-03-T2-3",
+      "tags": [
+        "2.2",
+        "2.3",
+        "2.4"
+      ],
+      "text_open": "2-2-2 H has molecular formula C_48H_52Si_2P_2Cl_2Os. Draw the reaction intermediates in the conversion of I into H and give their SMILES, together with the SMILES of H.",
+      "text_images": [],
+      "full_mark": 6,
+      "rubric": [
+        "Each red intermediate is worth 2 points. Their SMILES are 'Cl[Os](Cl)(C7=C)(C=C7[Si](C)(C)C)([P](C8=CC=CC=C8)(C9=CC=CC=C9)C%10=CC=CC=C%10)[P](C%11=CC=CC=C%11)(C%12=CC=CC=C%12)C%13=CC=CC=C%13' and 'Cl[Os]1(Cl)([P](C2=CC=CC=C2)(C3=CC=CC=C3)C4=CC=CC=C4)([P](C5=CC=CC=C5)(C6=CC=CC=C6)C7=CC=CC=C7)C=C([Si](C)(C)C)C(=C)C([Si](C)(C)C)=C1'. The structure of H is worth 2 points: 'Cl[Os]1(Cl)([P](C2=CC=CC=C2)(C3=CC=CC=C3)C4=CC=CC=C4)([P](C5=CC=CC=C5)(C6=CC=CC=C6)C7=CC=CC=C7)#CC([Si](C)(C)C)=C(C([Si](C)(C)C)=C1)C'.",
+        "If the red intermediates are omitted but the blue structures are given, award 1 point. The two blue intermediates have SMILES 'Cl[Os](Cl)([P](C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3)([P](C4=CC=CC=C4)(C5=CC=CC=C5)C6=CC=CC=C6)=CC([Si](C)(C)C)=C=C' and 'Cl[Os]7(Cl)([P](C8=CC=CC=C8)(C9=CC=CC=C9)C%10=CC=CC=C%10)([P](C%11=CC=CC=C%11)(C%12=CC=CC=C%12)C%13=CC=CC=C%13)C=C([Si](C)(C)C)[C+](C)C([Si](C)(C)C)=C7'."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-03-T2-3-1-rubric.png",
+          "description": "2-2-2 Grading scheme 1. This multistep reaction scheme shows the intermediates and H in red. At the far left is the black starting material I, 'Cl[Os](Cl)([P](C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3)([P](C4=CC=CC=C4)(C5=CC=CC=C5)C6=CC=CC=C6)=C=C'. A right-pointing arrow labeled with '[H]C#C[Si](C)(C)C' leads to the first red five-membered-ring intermediate, 'Cl[Os](Cl)(C7=C)(C=C7[Si](C)(C)C)([P](C8=CC=CC=C8)(C9=CC=CC=C9)C%10=CC=CC=C%10)[P](C%11=CC=CC=C%11)(C%12=CC=CC=C%12)C%13=CC=CC=C%13'. An unlabeled right-pointing arrow then leads to the second red six-membered-ring intermediate, 'Cl[Os]1(Cl)([P](C2=CC=CC=C2)(C3=CC=CC=C3)C4=CC=CC=C4)([P](C5=CC=CC=C5)(C6=CC=CC=C6)C7=CC=CC=C7)C=C([Si](C)(C)C)C(=C)C([Si](C)(C)C)=C1'. Finally, a right-pointing arrow labeled H^+ gives the red final product H, 'Cl[Os]1(Cl)([P](C2=CC=CC=C2)(C3=CC=CC=C3)C4=CC=CC=C4)([P](C5=CC=CC=C5)(C6=CC=CC=C6)C7=CC=CC=C7)#CC([Si](C)(C)C)=C(C([Si](C)(C)C)=C1)C'."
+        },
+        {
+          "file": "Exam-03-T2-3-2-rubric.png",
+          "description": "2-2-2 Grading scheme 2. The two blue intermediates have SMILES 'Cl[Os](Cl)([P](C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3)([P](C4=CC=CC=C4)(C5=CC=CC=C5)C6=CC=CC=C6)=CC([Si](C)(C)C)=C=C' and 'Cl[Os]7(Cl)([P](C8=CC=CC=C8)(C9=CC=CC=C9)C%10=CC=CC=C%10)([P](C%11=CC=CC=C%11)(C%12=CC=CC=C%12)C%13=CC=CC=C%13)C=C([Si](C)(C)C)[C+](C)C([Si](C)(C)C)=C7'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-03-T2-4",
+      "tags": [
+        "1.6",
+        "3.9"
+      ],
+      "text_open": "2-3 In 2020, researchers reported an example of a nonplanar aromatic transition-metal heterocycle. The HOMO of the butadiene ligand combines with the d orbitals of the two Fe atoms to form a molecular orbital, producing stabilization and aromatic character.\n2-3-1 State the total number of d electrons contributed by the two Fe atoms to the aromatic orbital.",
+      "text_images": [
+        {
+          "file": "Exam-03-T2-4-1-prompt.png",
+          "description": "Structure of a nonplanar aromatic transition-metal heterocycle (SMILES: 'CC1=C([Fe]23[N](C)(C)CC[N]3(C)C)([Si](C)(C)C)[Fe](Br)(Br)C2([Si](C)(C)C)=C1C'). The center is a complex network comprising a planar four-carbon butadiene skeleton and two Fe atoms positioned above and below the plane. Both solid and dashed connections are shown. In the conventional solid-line bonding, the upper Fe is bonded to both N atoms of a TMEDA ligand above it; short strokes on the N atoms denote methyl groups. The lower Fe is bonded to two Br atoms, directed downward and to the right. The dashed lines depict multicenter coordination: two dashed lines extend downward from the upper Fe to the two TMS-substituted carbon atoms, and two dashed lines extend upward from the lower Fe to the same two TMS-substituted carbon atoms."
+        }
+      ],
+      "full_mark": 1,
+      "rubric": [
+        "Each Fe contributes 1 electron, for a total of 2 electrons. (1 point)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-03-T2-5",
+      "tags": [
+        "1.6",
+        "1.7",
+        "3.9"
+      ],
+      "text_open": "2-3-3 Explain why the ground-state spin multiplicity of this tetrahedral Fe(II) complex is 0. (No more than 100 words.)",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "The Fe(II) centers interact electronically through the butadiene dianion ligand by antiferromagnetic coupling, so their unpaired-electron spins are opposite. (2 points)",
+        "An answer of \"broken symmetry\" also receives full credit. (2 points)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-03-T2-6",
+      "tags": [
+        "1.6",
+        "3.9"
+      ],
+      "text_open": "2-4 For rare-earth metals, however, synthesizing analogous nonplanar aromatic heterocycles is difficult because of the d^0 electron configuration and the energy mismatch of the d orbitals. In 2024, researchers further reduced the butadiene ligand and prepared the first nonplanar aromatic rare-earth heterocycle. (The left figure shows the 1,3-butadiene dianion; the right figure shows the 2-butene tetraanion obtained after reduction.) Explain how the reduced ligand overcomes each of the two difficulties above. (No more than 60 words for each point.)",
+      "text_images": [
+        {
+          "file": "Exam-03-T2-6-1-prompt.png",
+          "description": "Rare-earth heterocycle structure scheme. A right-pointing arrow labeled \"Two-electron reduction\" connects two molecular structures. The reactant on the left is enclosed in black brackets bearing a ^{2-} charge and is labeled \"1,3-butadiene dianion\" below. Inside is an s-cis 1,3-butadiene-core derivative whose core may be represented as '[*]C=C([*])C([*])=C[*]'. The carbon skeleton is highlighted by thick gray lines. The top and bottom carbon-carbon bonds are double bonds, each drawn as a thick gray line parallel to a thin gray line, whereas the central vertical carbon-carbon bond is a single thick gray line. A dashed line extends outward from each of the four carbon vertices to denote an unspecified substituent. The product on the right is similarly enclosed in brackets bearing a ^{4-} charge and labeled \"2-butene tetraanion\" below. Its spatial arrangement is the same, but the skeleton is highlighted in thick blue. The central vertical carbon-carbon bond is now double, and the top and bottom bonds are single, corresponding to the core SMILES '[*]CC([*])=C([*])C[*]'. Each of its four vertices likewise bears an outward dashed substituent marker."
+        },
+        {
+          "file": "Exam-03-T2-6-2-prompt.png",
+          "description": "Nonplanar aromatic rare-earth heterocycle. A complex bimetallic structure is fully enclosed by a thick purple circle; directly below it, bold red text reads \"RE = Sc, Sm, Lu, Gd\". Inside the circle on the right are two metal centers, one above the other, each shown in bold red brackets as \"[RE]\". On the left, thick blue lines depict the ligand skeleton corresponding to the 2-butene tetraanion in the preceding figure (SMILES '[*]CC([*])=C([*])C[*]', where the asterisks denote unspecified substituents). The ligand contains a vertical carbon-carbon double bond on the left, shown by a thick blue line and a thin black line. Each carbon of this double bond is joined by a thick blue single bond extending rightward to a terminal carbon node. All four carbon nodes carry outward dashed substituent markers. Each of the upper and lower terminal carbon nodes is connected by two separate thick blue lines to both the upper and lower [RE] centers."
+        }
+      ],
+      "full_mark": 4,
+      "rubric": [
+        "The reduced ligand has two additional electrons and supplies 6 electrons to the molecular orbital, compensating for the inability of RE to contribute d electrons. (2 points)",
+        "After reduction, the higher-energy Ψ_3 orbital interacts with the d orbitals and is better energy-matched to the higher-energy d orbitals of RE. (2 points)"
+      ],
+      "rubric_images": []
+    }
+  ]
+}

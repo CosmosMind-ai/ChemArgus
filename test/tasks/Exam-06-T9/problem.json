@@ -1,0 +1,139 @@
+{
+  "problem_id": "Exam-06-T9",
+  "header": "Problem 9 Aziridines (30 points, 12%). Aziridine is an important electrophilic scaffold with diverse reactivity and broad applications in biomedicine and other fields.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-06-T9-1",
+      "tags": [
+        "2.4",
+        "2.2"
+      ],
+      "text_open": "9.1 Nitrones react with alkynes to afford aziridine structures in high yields. However, when the nitrogen atom of the nitrone bears a tert-butyl group, aziridine intermediate B is converted into stable product C containing a five-membered ring. 9.1.1 Examine the reaction sequence and write the SMILES structures of A, B, and C. Stereochemistry is not required.",
+      "text_images": [
+        {
+          "file": "Exam-06-T9-1-1-prompt.png",
+          "description": "The molecule 'CC(C)(C)[N+]([O-])=C' reacts with the molecule 'COC(=O)C#CC(=O)OC' at 0 °C to form A. A then reacts at 80 °C to form intermediate B, which is ultimately converted to C."
+        }
+      ],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-06-T9-2",
+      "tags": [
+        "2.3",
+        "2.2"
+      ],
+      "text_open": "9.1.2 Identify the type of rearrangement involved in the conversion of A to B.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-06-T9-3",
+      "tags": [
+        "2.3",
+        "2.2"
+      ],
+      "text_open": "9.1.3 The following reaction undergoes a process similar to that described above to form an aziridine intermediate. The aziridine moiety then fragments to form a new 1,3-dipole, followed by loss of an oxalate ester group to give the product. Based on this information, write the SMILES structures of the 4 key intermediates in the following reaction. Stereochemistry is not required.",
+      "text_images": [
+        {
+          "file": "Exam-06-T9-3-1-prompt.png",
+          "description": "The molecule 'CC1(C)N=C(C2=CC=CC=C2)C=[N+]1[O-]' reacts with the molecule 'COC(=O)C#CC(=O)OC' in CH_2Cl_2 at rt for 24 h to form the molecule 'CC(C)(N=C1C2=CC=CC=C2)N3C1=C(C(C(OC)=O)=C3C(OC)=O)C(OC)=O'."
+        }
+      ],
+      "full_mark": 6
+    },
+    {
+      "sub_id": "Exam-06-T9-4",
+      "tags": [
+        "2.4",
+        "2.7",
+        "1.2"
+      ],
+      "text_open": "9.2 One method for synthesizing aziridines uses a Reformatsky reagent. The following reaction affords aziridine product D in relatively high conversion, together with a small amount of byproduct E, whose absolute configuration is not labeled. 9.2.1 Write the SMILES structure of aziridine product D, including stereochemistry.",
+      "text_images": [
+        {
+          "file": "Exam-06-T9-4-1-prompt.png",
+          "description": "'[H][C@@]1(N=C1C2=CC=CC=C2)C' reacts with 'BrC(C(OCC)=O)(C)C' in the presence of Zn in Et_2O/PhH (1:1) at 60°C for 2-5 h to form D and E. The SMILES of E is 'O=C(N3)C(C4(N(C4([H])C)C(C5=CC=CC=C5)=C3C)C6=CC=CC=C6)(C)C'. In the structure of E, the methyl-substituted carbon atom of the aziridine ring is labeled a."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-06-T9-5",
+      "tags": [
+        "2.2",
+        "1.2"
+      ],
+      "text_open": "9.2.2 The formation of E is known to proceed through an aziridine structure. Write the SMILES structures of the key intermediates in the conversion of the substrates to E, including stereochemistry.",
+      "text_images": [],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-06-T9-6",
+      "tags": [
+        "1.2"
+      ],
+      "text_open": "9.2.3 Use S/R notation to specify the absolute configuration of carbon atom a in product E.",
+      "text_images": [],
+      "full_mark": 1
+    },
+    {
+      "sub_id": "Exam-06-T9-7",
+      "tags": [
+        "2.2",
+        "1.5",
+        "2.3"
+      ],
+      "text_open": "9.3 Studies show that aziridine scaffolds can also be synthesized without adding an external dipole. Under photochemical conditions, an α-azidocinnamate forms a small-ring intermediate F whose structure resembles that of the nitrogen-containing substrate in the reaction in Problem 9.2. F can subsequently form dimeric and trimeric products. 9.3.1 During the oligomerization of F, photochemical ring opening first generates dipole G. Using the structure of the dimeric product, analyze G and write the SMILES structures of its reasonable resonance forms that satisfy an 8-electron configuration.",
+      "text_images": [
+        {
+          "file": "Exam-06-T9-7-1-prompt.png",
+          "description": "The substance whose structure in the figure has the SMILES '[N-]=[N+]=N/C(C(OC)=O)=C\\C1=CC=CC=C1' reacts under hν in acetone for 1 h at 30°C to form a product with the SMILES 'O=C(C2=N[C@H](N3[C@]2([C@H]3C4=CC=CC=C4)C(OC)=O)C5=CC=CC=C5)OC' and a trimer."
+        }
+      ],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-06-T9-8",
+      "tags": [
+        "2.4",
+        "2.2"
+      ],
+      "text_open": "9.3.2 The trimer is formed when the photoexcited dimer undergoes addition with monomer F. On this basis, write the SMILES structure of the trimeric product. Stereochemistry is not required.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-06-T9-9",
+      "tags": [
+        "2.4",
+        "2.3",
+        "2.7"
+      ],
+      "text_open": "9.3.3 The following azide is known to give different major products under thermal and photochemical conditions, although the two products have similar ring systems. Based on the information above, write the SMILES structures of the major products under thermal and photochemical conditions, respectively.",
+      "text_images": [
+        {
+          "file": "Exam-06-T9-9-1-prompt.png",
+          "description": "Structure of the azide substrate. The corresponding SMILES is 'O=C(/C(N=[N+]=[N-])=C/C1=CC=CC=N1)OCC'."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-06-T9-10",
+      "tags": [
+        "2.3",
+        "2.4"
+      ],
+      "text_open": "9.3.4 The following reaction synthesizes an aziridine scaffold through an ionic mechanism. Its design resembles that of the reaction above in that a dipolar intermediate is generated in situ, and the product contains a bridged ring system. On this basis, write the SMILES structures of the dipolar intermediate and the final product. Stereochemistry is not required.",
+      "text_images": [
+        {
+          "file": "Exam-06-T9-10-1-prompt.png",
+          "description": "The substance whose structure in the figure has the SMILES 'S=C(SC(C(O)=O)C1=CC=CC=C1)C2=CC=CC=C2' is treated sequentially under 1) Ac_2O/Et_3N and 2) 'CC3N=C3C4=CC=CC=C4'; the product is indicated by a question mark."
+        }
+      ],
+      "full_mark": 4
+    }
+  ]
+}

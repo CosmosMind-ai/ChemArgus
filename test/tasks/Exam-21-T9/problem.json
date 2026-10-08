@@ -1,0 +1,108 @@
+{
+  "problem_id": "Exam-21-T9",
+  "header": "Problem 9 Reactions of Sulfur Ylides\nSulfur ylides are important intermediates in organic synthesis with distinctive reactivity. Through the Corey–Chaykovsky reaction, they enable transformations such as cyclopropanation, epoxidation, and aziridination. Recent advances in organocatalytic sulfur-ylide reactions have opened new routes to the enantioselective synthesis of complex molecules.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-21-T9-1",
+      "tags": [
+        "2.2"
+      ],
+      "text_open": "9.1 A sulfur ylide and an α,β-unsaturated ketone undergo the asymmetric cyclopropanation shown below under catalysis by a chiral amine organocatalyst.\n9.1.1 The chiral amine catalyst first undergoes condensation with one substrate. Write the SMILES string for key condensation intermediate A.",
+      "text_images": [
+        {
+          "file": "Exam-21-T9-1-1-prompt.png",
+          "description": "Single-step reaction: 'O=C(/C=S(C)/C)C1=CC=CC=C1'.'O=C(C)/C=C/C1=CC=CC=C1' gives 'O=C([C@@H]1[C@@H](C2=CC=CC=C2)[C@@H]1C(C)=O)C3=CC=CC=C3' under amine-cat (20 mol%), PhCO2H (20 mol%), CHCl3, MS, 30°C, 72h. The two substrates are separated by a plus sign. The sulfur-ylide SMILES is shown in a neutral form without formal charges. The cyclopropane product contains 3 stereocenters, with @/@@ retained in the SMILES; PhC(O)- is shown by a solid wedge and Ph by a dashed wedge. Below the reaction, the chiral amine catalyst amine-cat is shown as 'N[C@@H](C1=CC=CC=C1)[C@H](C2=CC=CC=C2)NC3CCCCC3', with C-NH_2 on a solid wedge and C-NH on a dashed wedge."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-21-T9-2",
+      "tags": [
+        "2.2",
+        "2.4"
+      ],
+      "text_open": "9.2 In addition to conventional cyclopropanation, some sulfur ylides conjugated with double bonds can generate distinctive fused-ring products.\n9.2.1 Write the SMILES strings for the three key intermediates in the following reaction, ignoring stereochemistry.",
+      "text_images": [
+        {
+          "file": "Exam-21-T9-2-1-prompt.png",
+          "description": "Single-step reaction: 'O=C1N(C2=CC=CC=C2)C3=CC=CC=C3C1(OC(OC(C)(C)C)=O)C(C(OCC)=O)=C'.'C[S+](C)C/C=C/C(OCC)=O.[Br-]'>NaOH, CH_3CN>'O=C1N(C2=CC=CC=C2)C3=CC=CC=C3[C@@]14[C@](C5)(C(OCC)=O)[C@@]4([H])C=C5C(OCC)=O'.'O=C1N(C2=CC=CC=C2)C3=CC=CC=C3[C@@]14[C@@](C5)(C(OCC)=O)[C@]4([H])C=C5C(OCC)=O'. The two products are separated by a plus sign and are stereoisomers; @/@@ stereochemical markers are retained in the SMILES."
+        }
+      ],
+      "full_mark": 6
+    },
+    {
+      "sub_id": "Exam-21-T9-3",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "9.2.2 Using the information from the preceding question, write the SMILES string for the product of the following reaction.",
+      "text_images": [
+        {
+          "file": "Exam-21-T9-3-1-prompt.png",
+          "description": "Single-step reaction: 'O=S1(C2=CC=CC=C2C(/C=C/C3=CC=CC=C3)=N1)=O'.'C[S+](C)C/C=C/C(OC)=O.[Br-]'>CsCO3 (3 eq), CH3CN, rt>[product not shown; only ? appears]. Reactant 2 is labeled (2.5 eq)."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-21-T9-4",
+      "tags": [
+        "2.3",
+        "2.4"
+      ],
+      "text_open": "9.2.3 A similar substrate gives a product different from those in the preceding two reactions. Explain why.",
+      "text_images": [
+        {
+          "file": "Exam-21-T9-4-1-prompt.png",
+          "description": "Single-step reaction: 'O=C(C1=CC(Br)=CC=C1S/2)C2=C\\C3=CC=CC=C3'.'C[S+](C)C/C=C/C(OC)=O.[Br-]'>NaH, CHCl_3, 1min>'O=C(OC)C1=CCOC2=C(SC3=CC=C(Br)C=C32)C1C4=CC=CC=C4'."
+        }
+      ],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-21-T9-5",
+      "tags": [
+        "2.2",
+        "2.4"
+      ],
+      "text_open": "9.3.1 Researchers have also developed a DABCO-catalyzed (3+3) cyclization between a 2-(acetoxymethyl)buta-2,3-dienoate and a sulfur ylide, providing a convenient route to 4H-pyrans bearing a vinyl sulfide group. Write the SMILES strings for the four key intermediates in the following reaction, using $NR_3$ in place of DABCO.",
+      "text_images": [
+        {
+          "file": "Exam-21-T9-5-1-prompt.png",
+          "description": "Single-step reaction: 'C=C=C(C(OCC1=CC=CC=C1)=O)COC(C)=O'.'O=C(C[S+](C)C)C1=CC=CC=C1.[Br-]'>20 mol% DABCO, 1.2 eq K2CO3, acetone>'CC1=C(C(OCC2=CC=CC=C2)=O)CC(SC)=C(C3=CC=CC=C3)O1'."
+        }
+      ],
+      "full_mark": 8
+    },
+    {
+      "sub_id": "Exam-21-T9-6",
+      "tags": [
+        "2.3"
+      ],
+      "text_open": "9.3.2 Replacing the carbonyl-stabilized sulfur ylide with an ester-stabilized ylide gives a different product. Explain why.",
+      "text_images": [
+        {
+          "file": "Exam-21-T9-6-1-prompt.png",
+          "description": "Single-step reaction: 'C=C=C(C(OCC1=CC=CC=C1)=O)COC(C)=O'.'O=C(C[S+](C)C)OCC.[Br-]' gives 'C#CC1(C(OCC2=CC=CC=C2)=O)CC1C(OCC)=O' under 20 mol% DABCO, 1.2 eq K_2CO_3, acetone."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-21-T9-7",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "9.3.3 If the allene substrate is replaced by a less reactive alkene, cyclization cannot be completed. Write the SMILES string for the product of the following reaction.",
+      "text_images": [
+        {
+          "file": "Exam-21-T9-7-1-prompt.png",
+          "description": "Single-step reaction: 'C=C(C(OCC)=O)COC(C)=O'.'O=C(C[S+](C)C)C1=CC=CC=C1.[Br-]'>20 mol% DABCO, 1.2 eq K_2CO_3, acetone>[product not shown; only ? appears]."
+        }
+      ],
+      "full_mark": 2
+    }
+  ]
+}

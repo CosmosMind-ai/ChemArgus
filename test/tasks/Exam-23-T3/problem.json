@@ -1,0 +1,45 @@
+{
+  "problem_id": "Exam-23-T3",
+  "header": "Question 3 Reversible-Deactivation Anionic Polymerization (8 points, 4%)\nConventional anionic polymerization of methacrylates, such as ethyl methacrylate shown below, requires highly hazardous organolithium initiators. Because the chain end is extremely reactive, the reaction must be conducted at very low temperature, such as -78 ℃, under rigorously anhydrous and oxygen-free conditions; otherwise severe side reactions terminate the chains.",
+  "header_images": [
+    {
+      "file": "Exam-23-T3-header-1.png",
+      "description": "The SMILES representation of ethyl methacrylate (EMA) is 'O=C(OCC)C(C)=C'."
+    }
+  ],
+  "subquestions": [
+    {
+      "sub_id": "Exam-23-T3-1",
+      "tags": [
+        "2.2"
+      ],
+      "text_open": "3.1 Chemists recently developed a $CO_2$-mediated reversible-deactivation anionic polymerization (CMAP). The method operates at 90 ℃, uses a stable and safe solid potassium salt as initiator, and produces polymers with a very narrow molecular-weight distribution, or very low dispersity $Đ$, under a $CO_2$ atmosphere. The key conditions are shown below.\n3.1.1 Anionic polymerization initiator A first decarboxylates to form an enolate that initiates polymerization. Write the SMILES string for A.",
+      "text_images": [
+        {
+          "file": "Exam-23-T3-1-1-prompt.png",
+          "description": "'O=C(C(C)=C)OCC'>1.0 equiv. A; 18-crown-6 (1.2 equiv.); TEMPO (0.1 equiv.); 1 atm $CO_2$; DMF, 90°C, 6 h>'O=C(C(CC(C(OCC)=O)(C)C(O[K])=O)(C)C)OCC'. The product is poly(ethyl methacrylate), poly-EMA. Its repeating unit is enclosed in brackets with subscript n at the lower right. The listed product SMILES schematically represents an EtO-C(=O)-C(CH3)2- initiating end connected through -CH2- to a dormant-end unit -C(CH3)(CO2Et)(CO2K)."
+        }
+      ],
+      "full_mark": 1
+    },
+    {
+      "sub_id": "Exam-23-T3-2",
+      "tags": [
+        "2.8"
+      ],
+      "text_open": "3.1.2 State the principal chemical role of 18-crown-6 (shown as 18-crown-6 in the reaction scheme) in the system.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-23-T3-3",
+      "tags": [
+        "2.4",
+        "2.3"
+      ],
+      "text_open": "3.2 Control of side reactions is also an important topic in anionic polymerization.\n3.2.1 In conventional high-temperature anionic polymerization without $CO_2$ protection, the active chain end of a polymethacrylate readily attacks an upstream carbonyl group in the polymer backbone. This intramolecular backbiting completely terminates the chain. Write the SMILES string for the final cyclic end group formed after backbiting termination of active poly(ethyl methacrylate), poly-EMA; only one chain end need be shown.",
+      "text_images": [],
+      "full_mark": 2
+    }
+  ]
+}

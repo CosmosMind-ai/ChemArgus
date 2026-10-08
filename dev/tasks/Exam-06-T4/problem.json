@@ -1,0 +1,62 @@
+{
+  "problem_id": "Exam-06-T4",
+  "header": "Problem 4 Determination of Tin by Potassium Iodate Titration. Tin is commonly determined by potassium iodate titration. The procedure includes sample decomposition, masking and separation, reductive fusion with zinc powder, reduction with aluminum powder, and titration of tin(II) ions with potassium iodate.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-06-T4-1",
+      "tags": [
+        "2.1"
+      ],
+      "text_open": "4.2 Sample pretreatment. Place 0.2026 g of the sample in a 250 mL beaker, add 2 g of potassium chlorate and 20 mL of concentrated hydrochloric acid, and digest at low temperature for 20 min. Add 60 mL of hydrochloric acid (1+1), 1 g of hydrazinium sulfate, and 0.3 g of potassium bromide, then heat and evaporate for 50 min. Remove from the heat and allow to cool slightly. Cover with a watch glass and add hydrogen peroxide dropwise until brownish-red bromine appears. Add 10 mL of EDTA solution (100 g/L) and 5 mL of beryllium sulfate solution (40 g/L), and neutralize with aqueous ammonia to pH = 9-10. Add a small amount of paper pulp and filter. Wash the precipitate with an aqueous ammonia-ammonium nitrate wash solution. Transfer the precipitate together with the filter paper to a crucible, dry, ash, and cool. 4.2.1 Write the ionic equation for the reduction of arsenic acid by hydrazine in hydrochloric acid medium, by which arsenic is removed through volatilization.",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "Ionic equation: 2H_3AsO_4 + N_2H_6^{2+} + 6Cl^{-} + 4H^{+} = 2AsCl_3↑ + N_2↑ + 8H_2O (2 points)",
+        "An equation written using N_2H_5^{+} is also acceptable: 2H_3AsO_4 + N_2H_5^{+} + 6Cl^{-} + 5H^{+} = 2AsCl_3 + N_2 + 8H_2O."
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-06-T4-2",
+      "tags": [
+        "4.1",
+        "4.7"
+      ],
+      "text_open": "Reductive-fusion conditions: Add a zinc powder-borax-boric acid mixed flux to the crucible and cover it with additional mixed flux and NaCl. Place it in a furnace at 750 ℃, raise the temperature to 820 ℃, fuse for 30 min, then remove and cool.\n4.3.3 Explain how an excessively long fusion time or excessively high temperature affects the determination.",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "① Zinc and tin may be lost by volatilization or oxidized by air.",
+        "② Reduction may be incomplete, giving a result that is too low.",
+        "③ The crucible may be corroded, introducing impurities.",
+        "Full credit for 3 correct points, 1 point for 2 correct points, and no credit for only 1 correct point."
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-06-T4-3",
+      "tags": [
+        "2.1",
+        "4.5"
+      ],
+      "text_open": "4.4.2 Write the ionic equations for the titration process.",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "IO_3^{-} + 5I^{-} + 6H^{+} = 3I_2 + 3H_2O (1 point)",
+        "or 8I^{-} + IO_3^{-} + 6H^{+} = 3I_3^{-} + 3H_2O",
+        "or HIO_3 + 5I^{-} + 5H^{+} = 3I_2 + 3H_2O",
+        "I_2 + Sn^{2+} = Sn^{4+} + 2I^{-} (1 point)",
+        "or Sn^{2+} +I_3^{-} = Sn^{4+} + 3I^{-}",
+        "or SnCl_4^{2-} + I_2 + 2Cl^{-} = SnCl_6^{2-} + 2I^{-}",
+        "or SnCl_4^{2-} + I_3^{-} + 2Cl^{-} = SnCl_6^{2-} + 3I^{-}",
+        "A combined equation is also acceptable:",
+        "3Sn^{2+} + IO_3^{-} + 6H^{+} = 3Sn^{4+} + I^{-} + 3H_2O (2 points)",
+        "or 3SnCl_4^{2-} + IO_3^{-} + 6H^{+} +6Cl^{-} = 3SnCl_6^{2-} + I^{-} + 3H_2O",
+        "or HIO_3 + 3Sn^{2+} + 5H^{+} = I^{-} + 3Sn^{4+} + 3H_2O"
+      ],
+      "rubric_images": []
+    }
+  ]
+}

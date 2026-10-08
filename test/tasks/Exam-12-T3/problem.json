@@ -1,0 +1,58 @@
+{
+  "problem_id": "Exam-12-T3",
+  "header": "Problem 3 Pinene in Polymers\nPinene is extracted from pine oil and is an important class of natural products with broad applications in synthetic polymers.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-12-T3-1",
+      "tags": [
+        "2.4",
+        "2.6"
+      ],
+      "text_open": "3.1 Cationic polymerization of \\beta-pinene can produce a high-molecular-weight polymer used in optoelectronic materials. A \\beta-pinene-based polymer synthesis is shown below. 3.1.1 Polymers A and B are known not to contain bridged rings. Write the SMILES structures of polymers A and B, explicitly including the end groups. For each polymer, provide three structures: (a) the repeat unit, using '[X]' and '[Y]' at connections to other repeat units or end groups; (b) the '[X]' end group, using * at the connection to the polymer backbone; and (c) the '[Y]' end group, using * at the connection to the polymer backbone.",
+      "text_images": [
+        {
+          "file": "Exam-12-T3-1-1-prompt.png",
+          "description": "Reaction scheme for 3.1: molecule 'CC1(C)[C@@H]2C(CC[C@H]1C2)=C', labeled \"\\beta-Pinene\" below, reacts with molecule 'CC(Cl)(C)C1=CC=CC=C1' under `EtAlCl_2` to form **A**. **A** then reacts further under `H_2, Pd/Al_2O_3` to give **B**."
+        }
+      ],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-12-T3-2",
+      "tags": [
+        "2.3",
+        "2.6"
+      ],
+      "text_open": "3.1.2 If a polymer chain bearing pinene, or a derivative thereof, at both ends is desired, state how the preceding reaction should be modified.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-12-T3-3",
+      "tags": [
+        "2.3",
+        "2.6",
+        "2.7"
+      ],
+      "text_open": "3.2 \\alpha-Pinene (structure shown below) is a biologically renewable feedstock. \\alpha-Pinene itself is difficult to polymerize into a polymer by radical polymerization, but the unsaturated ketone obtained by selective oxidation of \\alpha-pinene (structure shown below) can undergo conventional radical polymerization to give a high-molecular-weight polymer. 3.2.1 From the perspective of monomer structure, explain the difference in radical-polymerization reactivity between \\alpha-pinene and the unsaturated ketone.",
+      "text_images": [
+        {
+          "file": "Exam-12-T3-3-1-prompt.png",
+          "description": "The image shows two chemical structures. On the left is 'CC1(C)[C@@H]2C(C)=CC[C@H]1C2', labeled \"\\alpha-Pinene\" below. On the right is 'CC([C@H](C3)C4)(C)[C@@H]3C(C4=O)=C', labeled \"pinocarvone\" below."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-12-T3-4",
+      "tags": [
+        "2.4",
+        "2.6"
+      ],
+      "text_open": "3.2.2 Structural characterization shows that the backbone of the polymer obtained from the unsaturated ketone contains two different repeat-unit structures. Write the SMILES structures of both repeat units, using an asterisk (*) for the connection sites between repeat units.",
+      "text_images": [],
+      "full_mark": 4
+    }
+  ]
+}

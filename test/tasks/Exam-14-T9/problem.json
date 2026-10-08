@@ -1,0 +1,96 @@
+{
+  "problem_id": "Exam-14-T9",
+  "header": "Synthesis of Weinreb Amides\nSince their discovery, N-methoxy-N-methylamides have been widely known as Weinreb amides (WAs). WAs exhibit reactivity distinct from that of ordinary amides: they can serve both as excellent acylating reagents and as aldehyde equivalents and are important building blocks in numerous organic syntheses.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-14-T9-1",
+      "tags": [
+        "2.2",
+        "2.4",
+        "2.5"
+      ],
+      "text_open": "9.1 The most common method for preparing Weinreb amides is condensation of a carboxylic acid with N,O-dimethylhydroxylamine. Because amide condensation is thermodynamically unfavorable, an additional coupling reagent is usually required. The carboxylic acid below is to be condensed with N,O-dimethylhydroxylamine to prepare an N-protected amino-acid WA. 9.1.1 DCC is selected as the coupling reagent. Write the SMILES strings of one key intermediate and the coproduct (the product other than the Weinreb amide).",
+      "text_images": [
+        {
+          "file": "Exam-14-T9-1-1-prompt.png",
+          "description": "Carboxylic-acid substrate: 'O=C(N[C@@H]([R])C(O)=O)OCC1=CC=CC=C1'; N,O-dimethylhydroxylamine: 'CNOC'"
+        },
+        {
+          "file": "Exam-14-T9-1-2-prompt.png",
+          "description": "DCC coupling reagent: 'C1(N=C=NC2CCCCC2)CCCCC1'."
+        }
+      ],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-14-T9-2",
+      "tags": [
+        "2.4",
+        "2.3",
+        "1.2"
+      ],
+      "text_open": "9.1.2 Experimentally, using DCC alone gives a product racemized at the stereogenic carbon because the intermediate in Question 9.1.1 is further converted into a cyclic intermediate that undergoes isomerization and causes racemization. Write the SMILES string of the cyclic intermediate and draw the isomerization mechanism.",
+      "text_images": [],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-14-T9-3",
+      "tags": [
+        "2.1"
+      ],
+      "text_open": "9.2 A trichloromethyl carbinol can undergo a homologation-amination reaction to form a WA containing one additional carbon, as shown below. 9.2.1 Under these conditions, $\\mathrm{(PhSe)_2}$, $\\mathrm{NaBH_4}$, and EtOH generate a complex anion X that contains an Se-B bond but no B-H bond and may be regarded as an equivalent of $\\mathrm{PhSe^-}$. Write the equation for formation of anion X.",
+      "text_images": [
+        {
+          "file": "Exam-14-T9-3-1-prompt.png",
+          "description": "'[R]C(C(Cl)(Cl)Cl)O' reacts with 'CNOC' under $\\mathrm{(PhSe)_2}$, $\\mathrm{NaBH_4}$, NaOH, EtOH, 55°C to form '[R]CC(N(C)OC)=O'"
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-14-T9-4",
+      "tags": [
+        "2.2",
+        "2.4"
+      ],
+      "text_open": "9.2.2 Detection of the intermediate below was used to infer the reaction mechanism. The trichloromethyl carbinol substrate first converts under basic conditions into a small-ring intermediate and then into the intermediate shown below. Using the information in Question 9.2.1, write the SMILES strings of 3 key intermediates leading to the final product, excluding the intermediate shown.",
+      "text_images": [
+        {
+          "file": "Exam-14-T9-4-1-prompt.png",
+          "description": "Structure of the intermediate detected in the reaction. SMILES: '[R]C(C(N(C)OC)=O)[Se]C1=CC=CC=C1'"
+        }
+      ],
+      "full_mark": 6
+    },
+    {
+      "sub_id": "Exam-14-T9-5",
+      "tags": [
+        "2.2"
+      ],
+      "text_open": "9.2.3 Can (PhSe)_2 be regenerated in this reaction? (    )\n(a) Yes; (b) No",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-14-T9-6",
+      "tags": [
+        "2.4",
+        "2.8",
+        "2.5"
+      ],
+      "text_open": "9.2.5 The experiment also produces a byproduct whose molecular mass is approximately 30 lower than that of the major product. Replacing the methyl group bonded to O in N,O-dimethylhydroxylamine with another group can markedly suppress formation of this byproduct, although the reaction time increases accordingly. Using the relevant information, write the SMILES string of one possible modified substrate.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-14-T9-7",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "9.2.6 This experiment must be performed under oxygen-free conditions. If oxygen is present, another byproduct structurally similar to the main product is detected. Given that it contains multiple nitrogen atoms, write its SMILES string.",
+      "text_images": [],
+      "full_mark": 2
+    }
+  ]
+}

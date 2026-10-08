@@ -1,0 +1,83 @@
+{
+  "problem_id": "Exam-19-T7",
+  "header": "Question 7 Fundamental Organic Chemistry",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-19-T7-1",
+      "tags": [
+        "1.2",
+        "1.6"
+      ],
+      "text_open": "7.2 Consider the two conformations of $FCH_2CH_2X^+$ shown below, which interconvert by rotation about the C–C single bond. The relative energy of the conformation on the right is defined as 0.0 kcal/mol. Define the relative energy of the left conformation with respect to the right as $\\Delta E=E_{left\\ conformation}-E_{right\\ conformation}$.\n7.2.2 Let the values of $\\Delta E$ for $X^+ = NH_3^+$, $OH_2^+$, and 1-pyridyl (1-pyridinium) be A, B, and C, respectively. Arrange A, B, and C in increasing order.",
+      "text_images": [
+        {
+          "file": "Exam-19-T7-1-1-prompt.png",
+          "description": "The figure shows two conformations of $FCH_2CH_2X^+$ connected by a reversible-equilibrium arrow. The left conformation has SMILES 'FCC[X+]', and the right conformation has SMILES 'FCC[X+]'. They are conformations of the same molecule and therefore share the same SMILES. In the left conformation, the C–X+ bond is shown as a thick wedge. The right conformation is an extended zigzag arrangement in which X+ and F are not anti, and 0.0 kcal/mol is written below it. The bottom label reads $X^+ = -NH_3^+, -OH_2^+, 1-pyridyl$."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "B < A < C (2 points).",
+        "Credit is awarded only for the completely correct order."
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-19-T7-2",
+      "tags": [
+        "4.3"
+      ],
+      "text_open": "7.3 Comparison of stretching wavenumbers\n7.3.1 Which of the following 2 compounds has the higher carbonyl stretching wavenumber in the infrared spectrum?",
+      "text_images": [
+        {
+          "file": "Exam-19-T7-2-1-prompt.png",
+          "description": "The SMILES of A is '[H]C(C1=CC=CC=C1)=O'; the SMILES of B is '[H]/C(C1=CC=CC=C1)=[O+]/[B-](F)(F)F'. B is the benzaldehyde–BF3 adduct. A ⊕ sign appears next to the carbonyl oxygen and a ⊖ sign next to F3B, corresponding to [O+] and [B-] in the SMILES. O–B is a single bond."
+        }
+      ],
+      "full_mark": 1,
+      "rubric": [
+        "A (1 point)."
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-19-T7-3",
+      "tags": [
+        "1.2",
+        "1.7"
+      ],
+      "text_open": "7.4 Drug molecules usually must adopt a specific conformation when binding to a target protein. If the dominant free-state conformation of a drug is already close to its bound conformation, the free-energy cost of conformational reorganization upon binding is reduced, which can increase binding affinity. Indinavir binds most effectively to HIV protease when its central carbon chain adopts an extended zigzag conformation. The figure below shows two epimers, A and B, of an indinavir analog. Determine which isomer is more likely to bind the target protein more strongly.",
+      "text_images": [
+        {
+          "file": "Exam-19-T7-3-1-prompt.png",
+          "description": "The SMILES of A is 'O=C(N[C@@H]1C(C=CC=C2)=C2C[C@H]1O)[C@H](CC3=CC=CC=C3)[C@@H](F)[C@H](O)CN(CC4)[C@H](C(NC(C)(C)C)=O)CN4CC5=CC=CN=C5'; the SMILES of B is 'O=C(N[C@@H]1C(C=CC=C2)=C2C[C@H]1O)[C@H](CC3=CC=CC=C3)[C@H](F)[C@H](O)CN(CC4)[C@H](C(NC(C)(C)C)=O)CN4CC5=CC=CN=C5'. A and B are epimers of an indinavir analog with the same skeleton, differing only in the orientation of F at the central-chain CH(F) carbon. F is shown with a wedge in A and a dashed bond in B; the SMILES preserve this stereochemical difference as [C@@H](F) and [C@H](F), respectively."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "A (2 points)."
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-19-T7-4",
+      "tags": [
+        "1.2"
+      ],
+      "text_open": "7.5 Consider the three representative conformations A, B, and C shown below. Arrange their relative energies in increasing order.",
+      "text_images": [
+        {
+          "file": "Exam-19-T7-4-1-prompt.png",
+          "description": "The figure shows three representative conformations A, B, and C of dimethoxymethane ($CH_3OCH_2OCH_3$), with reversible-equilibrium arrows between A and B and between B and C. All three have the same SMILES: A is 'COCOC', B is 'COCOC', and C is 'COCOC'. Their conformational differences are expressed by bond orientations that SMILES cannot encode. A is a planar zigzag with both O–CH3 bonds drawn as ordinary single bonds. In B, the left O–CH3 bond is a solid wedge pointing downward and the right O–CH3 bond is an ordinary single bond extending toward the upper right. In C, the left O–CH3 bond is a solid wedge pointing downward and the right O–CH3 bond is a dashed bond pointing downward."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "C < B < A (2 points).",
+        "Credit is awarded only for the completely correct order."
+      ],
+      "rubric_images": []
+    }
+  ]
+}

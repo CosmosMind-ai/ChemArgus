@@ -1,0 +1,50 @@
+{
+  "problem_id": "Exam-16-T9",
+  "header": "Problem 9: Effects of Reaction Conditions and Mechanistic Investigation of Electrochemical Decarboxylative Alkylation\nElectrochemical anodic oxidation can use inexpensive and readily available quaternary-ammonium salts of alkyl carboxylic acids as alkyl sources, avoiding the need for additional oxidants and transition-metal catalysts during decarboxylation. The method therefore offers a simple system, mild conditions, and environmental advantages. Researchers used an unsaturated amide as a model substrate to investigate decarboxylative methylation/arylation. Tetrabutylammonium acetate served as both the methyl source and electrolyte, with carbon cloth as the anode, platinum as the cathode, and DMSO as the solvent. Under constant-current electrolysis at 3 mA with 6.0 equivalents of acetic acid as a proton source at 70°C for 9 h (5.0 F/mol), the target oxindole was obtained in 80% yield.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-16-T9-1",
+      "tags": [
+        "3.5",
+        "2.8",
+        "2.3"
+      ],
+      "text_open": "9.1 Further study showed that the acidity of the proton source strongly affects the reaction. When weaker proton sources, such as tert-butanol or hexafluoroisopropanol, or stronger proton sources, such as p-toluenesulfonic acid or trifluoroacetic acid, were used, the yield decreased substantially and the reaction was sometimes almost completely suppressed. Give a reasonable explanation for each observation.",
+      "text_images": [
+        {
+          "file": "Exam-16-T9-1-1-prompt.png",
+          "description": "Standard reaction in the prompt: 'FC(F)(C(C(N(C1=CC=CC=C1)C)=O)=C)F' reacts with `TBAOAc (1.5 equiv.)` using `C (+) / Pt (-)` under `HOAc (6.0 equiv.)`, `DMSO 4 mL, 70°C`, and `I = 3 mA, 5.0 F/mol`, producing 'CCC1(C(N(C2=CC=CC=C21)C)=O)C(F)(F)F'."
+        }
+      ],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-16-T9-2",
+      "tags": [
+        "2.2",
+        "2.3",
+        "4.2"
+      ],
+      "text_open": "9.3 The researchers performed the following experiments to investigate the reaction mechanism. Note: “standard condition” refers to the standard conditions described above, under which the yield is 80%. 9.3.1 To test for a free-radical intermediate, TEMPO was added as a radical trap. The target product did not form at all. Analysis of the reaction mixture together with high-resolution mass spectrometry revealed products formed by trapping with TEMPO. Give the SMILES structures of possible products.",
+      "text_images": [
+        {
+          "file": "Exam-16-T9-2-1-prompt.png",
+          "description": "Mechanistic experiment for 9.3.1: 'CN(C(C(C)=C)=O)C1=CC=CC=C1' reacts with the salt formed from anion 'CC([O-])=O' (shown with a circled minus sign) and cation 'CCCC[N+](CCCC)(CCCC)CCCC' (shown as `N^nBu_4` with a circled plus sign) under `standard condition` with *TEMPO (3.0 equiv.)*."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-16-T9-3",
+      "tags": [
+        "2.2",
+        "2.3",
+        "2.4"
+      ],
+      "text_open": "9.3.3 On the basis of these mechanistic experiments, two pathways remain possible for the ring-closing step of the standard reaction. Give the SMILES structures of the key intermediates that may be involved in the standard reaction and identify the two possible pathways corresponding to the ring-closing step.",
+      "text_images": [],
+      "full_mark": 6
+    }
+  ]
+}

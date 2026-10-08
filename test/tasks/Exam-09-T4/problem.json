@@ -1,0 +1,49 @@
+{
+  "problem_id": "Exam-09-T4",
+  "header": "Kjeldahl Nitrogen Determination\nDetermination of nitrogen content has long been an important topic in analytical chemistry. In 1883, the Danish chemist Johan G.C.T. Kjeldahl invented the Kjeldahl method. The method mainly comprises digestion, alkalization, and titration: sulfuric-acid digestion converts the nitrogen in a sample into an ammonium salt; alkalization releases ammonia by distillation; and the absorbed ammonia is quantified indirectly by acid-base titration. The organic nitrogen content of a solid sample is to be determined. Answer the following questions based on the procedures described.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-09-T4-1",
+      "tags": [
+        "4.1",
+        "4.5"
+      ],
+      "text_open": "4-1-1 First operation: digestion. Weigh $5.000 \\ \\mathrm{g}$ of the sample into a dry $100 \\ \\mathrm{mL}$ Kjeldahl flask. Add $0.4 \\ \\mathrm{g}$ of copper sulfate, $6 \\ \\mathrm{g}$ of potassium sulfate, and $20 \\ \\mathrm{mL}$ of anhydrous sulfuric acid. Swirl gently, place a small funnel in the flask mouth, and set the flask at an angle of 45° on an asbestos gauze with a small opening. Heat slowly. When the contents turn black and foaming has completely ceased, increase the heat to keep the liquid gently boiling. After the liquid becomes blue-green, clear, and transparent, continue heating for another $1 \\ \\mathrm{h}$. Remove the Kjeldahl flask and cool it to room temperature. Carefully add $20 \\ \\mathrm{mL}$ of water, quantitatively transfer the contents to a $100 \\ \\mathrm{mL}$ volumetric flask, rinse the inner wall of the Kjeldahl flask with a small amount of water, and combine the rinsings in the volumetric flask. Dilute to volume with water, mix, and reserve for use. Conduct a blank experiment in parallel. From the apparatus shown below, select the Kjeldahl flask suitable for digestion. The choices are labeled (a), (b), (c), and (d).",
+      "text_images": [
+        {
+          "file": "Exam-09-T4-1-1-prompt.png",
+          "description": "Image corresponding to option (a): a pear-shaped flask with a short neck and a ground-glass stopper."
+        },
+        {
+          "file": "Exam-09-T4-1-2-prompt.png",
+          "description": "Image corresponding to option (b): a flask with a long neck, a pear-shaped bottom, and a ground-glass stopper."
+        },
+        {
+          "file": "Exam-09-T4-1-3-prompt.png",
+          "description": "Image corresponding to option (c): an Erlenmeyer flask with a conical body, a flat bottom, and a ground-glass stopper."
+        },
+        {
+          "file": "Exam-09-T4-1-4-prompt.png",
+          "description": "Image corresponding to option (d): a volumetric flask with a narrow neck, pear-shaped bottom, an annular calibration mark on the neck, and a ground-glass stopper."
+        }
+      ],
+      "full_mark": 1
+    },
+    {
+      "sub_id": "Exam-09-T4-2",
+      "tags": [
+        "4.1",
+        "4.5"
+      ],
+      "text_open": "4-2 Alkalization. Assemble the Kjeldahl distillation apparatus as shown below. Fill vessel 1 with water to 2/3 of its volume. Add several glass beads, several drops of methyl red, and several milliliters of sulfuric acid until the solution is red. Heat the water in the steam generator to boiling and maintain boiling. Add $10.0 \\ \\mathrm{mL}$ of $20 \\ \\mathrm{g/L}$ boric acid solution and 3 drops of mixed indicator A to the receiving flask, and immerse the lower end of apparatus 8 beneath the liquid surface in vessel 9. Using a pipette, accurately transfer $5.0 \\ \\mathrm{mL}$ of sample digest through apparatus 4 into reaction chamber 5. Rinse the small cup with $10 \\ \\mathrm{mL}$ of water and allow the rinsing to flow into reaction chamber 5, then tightly insert the rod-shaped glass stopper in apparatus 4. Slowly add $400 \\ \\mathrm{g/L}$ sodium hydroxide solution through apparatus 4 into reaction chamber 5 and immediately seal the system. After distilling for $15 \\ \\mathrm{min}$, move the distillate receiver so that the liquid surface is below the lower end of the condenser. Continue distilling for $1 \\ \\mathrm{min}$. Verify with pH paper that the distillate is neutral, rinse the outside of the lower end of the condenser with a small amount of water, and remove the receiving flask. Which of the following statements about the experimental operations and their purposes are correct?\n(a). Methyl red is added to apparatus 1 to generate acidic vapor that reacts with ammonia in apparatus 5 to form an ammonium salt.\n(b). After sodium hydroxide is added, the glass stopper must be inserted tightly and a water seal formed immediately to prevent loss of ammonia.\n(c). The principal purpose of apparatus 6 is to separate liquid water from the steam generated in apparatus 1.\n(d). After alkalization and collection for one digest have been completed, the next reaction may be started by opening screw clamp 7, closing screw clamp 3, and replacing the solution in vessel 9 with distilled water, in that order, to discharge the waste liquid and rinse the reaction chamber.",
+      "text_images": [
+        {
+          "file": "Exam-09-T4-2-1-prompt.png",
+          "description": "This black-and-white line drawing shows an assembly of laboratory glassware. Three main sections on the left, center, and right are connected by tubing, and the numbers 1 through 9 identify specific components. Left section: number 1 points to the liquid inside a long-neck round-bottom flask, represented by a horizontal dashed line. The bottom of the flask rests on a square base. Number 2 points to this base, which has a circular knob at the center of its front face and four feet underneath. The mouth of the round-bottom flask is sealed with a stopper. A very long straight vertical glass tube passes through the center of the stopper, extending below the liquid surface inside the flask and far above the flask mouth. A short right-angle glass tube also passes through the stopper and is connected at its end to U-shaped flexible tubing. Center section: the U-shaped flexible tubing from the left connects to a narrow inlet above the central apparatus. The main central apparatus is inclined from lower left to upper right and contains an outer jacket and an inner structure. Number 4 points to an upward-facing vertical inlet at the upper-right end of the inclined apparatus; it has a stopper through which a short straight tube is inserted. Number 5 points to an elongated cavity or inner-tube structure inside the inclined apparatus. Number 6 points to the enlarged spherical lower-left end of the inclined apparatus. Number 7 points to a narrow tube extending from the spherical end below number 6, connected to a short length of flexible tubing fitted with a clamp (pinchcock). Number 3 points to another narrow tube extending from the upper-middle part of the outer jacket, likewise connected to a short length of flexible tubing fitted with a clamp (pinchcock). The upper-right end of the inclined apparatus connects to the right section through an inverted U-shaped bent glass tube. Right section: number 8 points to a vertically oriented straight condenser. The end of the inverted U-shaped bent glass tube enters the top of the condenser. Two horizontal side-arm connections extend to the right from the outer jacket of condenser 8. A right-pointing arrow beside the upper side arm indicates outward flow, and a left-pointing arrow beside the lower side arm indicates inward flow. Number 9 points to an Erlenmeyer flask directly beneath the condenser. The flask contains liquid, represented by a horizontal dashed line. The inner straight tube of condenser 8 extends downward through the mouth of the flask and below the liquid surface inside it."
+        }
+      ],
+      "full_mark": 2
+    }
+  ]
+}

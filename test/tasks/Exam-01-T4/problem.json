@@ -1,0 +1,27 @@
+{
+  "problem_id": "Exam-01-T4",
+  "header": "Preparation of a Dinuclear Ti Complex\nIn benzene solution, 10.5 mmol of TiBr_4 is mixed with 5 mmol of B_2(NMe_2)_4. A dark-red solution forms immediately, followed by a brown precipitate. The reaction mixture is stirred vigorously at room temperature for 5 h, after which the volatile components are removed under vacuum and passed successively through cold traps at -22 ℃ and -196 ℃. The -196 ℃ trap contains the benzene solvent, whereas the substance collected in the -22 ℃ trap is identified as B(NMe_2)_3. The remaining liquid is removed by distillation, and the insoluble solid is washed with DCM to give a sample whose principal component is X. A 219.7 mg portion of the sample is treated with 25 % sulfuric acid solution, immediately producing a dark-purple solution with no gas evolution at room temperature. Addition of sufficient NaOH solution, from which dissolved air has been removed, to this dark-purple solution produces a blue-black precipitate that gradually evolves gas and is ultimately converted into a white precipitate. On the basis of IR, 1H-NMR, magnetic-moment, and other studies, a structure is proposed for X. In this structure, only one type of coordinating atom and two types of ligands surround Ti. The B-containing ligand, denoted L, is bidentate, and the three atoms bonded to each B atom are all different. The relative molecular mass of the molecule is 1114.3 g/mol.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-01-T4-1",
+      "tags": [
+        "1.4",
+        "2.1"
+      ],
+      "text_open": "4-1 Determine the molecular formula of X by calculation and analysis.",
+      "text_images": [],
+      "full_mark": 6
+    },
+    {
+      "sub_id": "Exam-01-T4-2",
+      "tags": [
+        "1.4",
+        "2.4"
+      ],
+      "text_open": "4-2 Using the information above, write the SMILES structure of X.",
+      "text_images": [],
+      "full_mark": 2
+    }
+  ]
+}

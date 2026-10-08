@@ -1,0 +1,33 @@
+{
+  "problem_id": "Exam-10-T3",
+  "header": "Question 3 Anticoagulant Polymers (12 points, 5%). Anticoagulation is the prevention or treatment of thrombotic disease by inhibiting blood coagulation. Traditional natural anticoagulants, such as heparin, have limitations including structural complexity and substantial batch-to-batch variation. Developing synthetic anticoagulants with well-defined structures and controllable properties has therefore become an important research direction in medicinal chemistry and materials science.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-10-T3-1",
+      "tags": [
+        "2.4",
+        "2.5"
+      ],
+      "text_open": "3.1.1 ACVA, with the condensed structural formula $\\mathrm{HOOCCH_2CH_2C(CN)(CH_3)N=NC(CN)(CH_3)CH_2CH_2COOH}$, is a water-soluble radical initiator and is used in a much smaller amount than reagent BM1429 in the synthesis. Write the SMILES strings of the major and minor polymer products, explicitly showing the end-group structures. The 2 products differ only in their end groups.",
+      "text_images": [
+        {
+          "file": "Exam-10-T3-1-1-prompt.png",
+          "description": "Polymerization of sodium 4-vinylbenzenesulfonate, whose SMILES may be written as 'C=CC1=CC=C(C=C1)S(=O)([O-])=O.[Na+]', in the presence of BM1429, with SMILES 'O=C(O)CCSC(=S)SC(C)C(=O)O', ACVA, and water at 80 °C for 4 h."
+        }
+      ],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-10-T3-2",
+      "tags": [
+        "2.2",
+        "2.3",
+        "2.5"
+      ],
+      "text_open": "3.1.2 Continue to use the reaction scheme from 3.1.1. Besides becoming an end group in the product, reagent BM1429 reversibly binds to the radical polymer chain, thereby lowering the radical concentration in the system and controlling the reaction. Write the SMILES string of the intermediate formed by this reversible binding. The end group remote from the reaction center need not be shown.",
+      "text_images": [],
+      "full_mark": 2
+    }
+  ]
+}

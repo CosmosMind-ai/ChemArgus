@@ -1,0 +1,25 @@
+{
+  "problem_id": "Exam-20-T5",
+  "header": "The Vanishing Sixfold Axis\nCrystals in the hexagonal crystal system are characterized by a sixfold axis along the c direction. In addition to the simplest sixfold rotation axis, for which rotation by 60° about the axis brings the crystal into coincidence with itself, a crystal may contain either of the following two types of sixfold axes:\nFirst, a $6_n$ screw axis, for which rotation by 60° followed by translation along c by n / 6 of the unit-cell length brings the crystal into coincidence with itself.\nSecond, a sixfold rotoinversion axis, for which rotation by 60° followed by inversion through a point on the axis brings the crystal into coincidence with itself.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-20-T5-1",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "5.3 The symmetry of an individual close-packed layer does not necessarily represent the symmetry of the whole crystal. Consider a crystal described as follows. Its close-packed layers are analogous to those in perovskite: metal M and vacancies occupy the $Ca^{2+}$ and $O^{2-}$ sites, respectively, in a 1:3 ratio. These close-packed layers undergo simple hexagonal stacking along c with a four-layer repeat, and the projections of M along c do not overlap within a repeat. X atoms occupy all trigonal-prismatic voids jointly formed by M atoms and vacancies.\n5.3.1 Write the chemical formula of this crystal.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-20-T5-2",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "5.3.3 State the Bravais lattice type of this crystal.",
+      "text_images": [],
+      "full_mark": 3
+    }
+  ]
+}

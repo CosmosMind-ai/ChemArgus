@@ -1,0 +1,16 @@
+{
+  "problem_id": "Exam-22-T2",
+  "header": "Problem 2 Determination of Nickel by EDTA Titration\nNickel is an important strategic metal widely used in stainless steel, high-temperature alloys, and battery materials. Accurate determination of its content is essential for quality control. EDTA complexometric titration is commonly used to determine nickel, but the reaction between $Ni^{2+}$ and EDTA is slow. Back titration (adding excess EDTA first and then back-titrating with a standard $Cu^{2+}$ solution) is therefore often used to improve endpoint sensitivity. This problem concerns the preparation of standard solutions, the principle of back titration, and the elimination of interferences.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-22-T2-1",
+      "tags": [
+        "2.1"
+      ],
+      "text_open": "2.2 Sample Decomposition\nWeigh $m$ = 0.3000 g of the sample into a 250 mL polytetrafluoroethylene beaker. Add 15 mL of concentrated nitric acid and 10 mL of concentrated hydrochloric acid, and heat at low temperature on a hot plate until no obvious reaction remains. If the silicon content of the sample exceeds 1%, add 10–15 drops of concentrated hydrofluoric acid to assist dissolution. Add 10 mL of perchloric acid and continue heating at low temperature until the sample is completely decomposed. Fume with perchloric acid until nearly dry, then remove from the heat. Add 10 mL of hydrochloric acid (1+1), rinse down the beaker wall with water, add water to approximately 50 mL, and gently boil to dissolve the salts. Cool to room temperature under running water, transfer into a 200 mL volumetric flask, dilute to the mark with water, and mix thoroughly.\nIf glassware is used during decomposition, additional Si will be introduced. Write the reaction equation involving $SiO_2$ in the glass.",
+      "text_images": [],
+      "full_mark": 2
+    }
+  ]
+}

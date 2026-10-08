@@ -1,0 +1,51 @@
+{
+  "problem_id": "Exam-17-T2",
+  "header": "Problem 2 Determination of Paracetamol by Cyclic Voltammetry and Study of Its Electrochemistry\nCyclic voltammetry (CV) is an important electrochemical technique for investigating electrochemical reaction mechanisms and performing quantitative analysis. It uses a three-electrode system consisting of a working electrode, a reference electrode, and an auxiliary electrode. A triangular-wave potential that varies linearly with time is applied to the working electrode while the response current is recorded. One triangular-wave scan completes both an oxidation scan and a reduction scan, and the resulting current–potential curve is called a cyclic voltammogram. A substance that can undergo oxidation or reduction at an electrode within the scanned potential range is called an electroactive substance. A typical cyclic voltammogram exhibits an oxidation peak (anodic peak) and a reduction peak (cathodic peak). Under suitable conditions, the peak currents ($I_{pa}$ and $I_{pc}$) are proportional to the concentration of the electroactive substance and form the basis of quantitative analysis. The peak potentials ($E_{pa}$ and $E_{pc}$) and the peak-potential separation ($\\Delta E_p = E_{pa} - E_{pc}$) can be used to assess reaction reversibility and the number of electrons transferred. Changing the scan rate ($v$) can distinguish diffusion control from adsorption control and reveal the kinetics of subsequent chemical reactions.\nParacetamol (APAP, also known as acetaminophen) is a commonly used antipyretic analgesic. Studies show that APAP undergoes electrochemical oxidation at an electrode surface, and its oxidation product NAPQI undergoes subsequent chemical reactions in acidic media. A research group used cyclic voltammetry to investigate the electrochemical behavior of APAP systematically.\nAt room temperature, the peak current ($I_p$, in A) for a reversible electrochemical reaction in a quiescent solution at a planar electrode is related to the scan rate ($v$, in V/s), the concentration of the electroactive substance ($C$, in $\\mathrm{mol/cm^3}$), and other parameters by the Randles–Sevcik equation:\n$$I_p = 2.69 \\times 10^5 n^{3/2} A C D^{1/2} v^{1/2}$$\nn: number of electrons transferred in the reaction.\nA: effective area of the working electrode (unit: $\\mathrm{cm^2}$).\nD: diffusion coefficient of the electroactive substance (unit: $\\mathrm{cm^2/s}$), reflecting how rapidly the substance moves through solution.\nThe figure below is a typical cyclic voltammogram. Curve 1 is the background signal, and curve 2 is the normal response signal.",
+  "header_images": [
+    {
+      "file": "Exam-17-T2-header-1.png",
+      "description": "Typical cyclic voltammogram. The horizontal axis is potential, with tick marks of approximately 0.2, 0.1, 0, -0.1, and -0.2 from left to right; the vertical axis is current. The peak-current and peak-potential symbols $I_{pc}$, $I_{pa}$, $E_{pa}$, and $E_{pc}$ are labeled. Two closed curves are labeled 1 and 2. As stated in the question, curve 1 is the background signal and curve 2 is the normal response signal."
+    }
+  ],
+  "subquestions": [
+    {
+      "sub_id": "Exam-17-T2-1",
+      "tags": [
+        "4.7"
+      ],
+      "text_open": "2.2 At a scan rate of $40\\ \\mathrm{mV\\cdot s^{-1}}$ in a pH = 2.2 buffer, the research group obtained the following cyclic-voltammetry data for standard APAP solutions:\n\n| APAP concentration/(mmol/L) | 0.10 | 0.40 | 1.00 | 3.00 | 5.00 |\n| ----------------- | ----- | ----- | ----- | ----- | ----- |\n| Anodic peak current $I_{pa}$/μA | 2.15 | 5.82 | 13.46 | 38.74 | 63.52 |\n\nUsing concentration as the horizontal coordinate and anodic peak current as the vertical coordinate, obtain the linear regression equation of $I_{pa}$ against APAP concentration and calculate the expected peak current for an APAP solution with a concentration of $3.50\\ \\mathrm{mmol\\cdot L^{-1}}$.",
+      "text_images": [],
+      "full_mark": 5,
+      "rubric": [
+        "With concentration as $x$ (unit: $\\mathrm{mmol\\cdot L^{-1}}$) and peak current as $y$ (unit: μA), least-squares fitting gives the linear regression equation $y = 12.55x + 0.90$, $R^2 = 1.0000$ (3 points). When $x = 3.50\\ \\mathrm{mmol\\cdot L^{-1}}$: $I_{pa} = 12.55 \\times 3.50 + 0.90 = 44.8\\ \\mu\\mathrm{A}$ (2 points; the number of significant figures is not required)."
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-17-T2-2",
+      "tags": [
+        "2.3"
+      ],
+      "text_open": "2.3 To investigate the oxidation mechanism of APAP, the group performed CV scans at $40\\ \\mathrm{mV\\cdot s^{-1}}$ in media of different acidity (pH = 6.0, pH = 2.2, and $1.8\\ \\mathrm{mol\\cdot L^{-1}}\\ H_2SO_4$) and observed the following:\nAt pH = 6.0, both oxidation and reduction peaks appear, but $I_{pa}$ ≠ $I_{pc}$; at pH = 2.2, only the oxidation peak appears and the reduction peak disappears; under strongly acidic conditions ($1.8\\ \\mathrm{mol\\cdot L^{-1}}\\ H_2SO_4$), the reduction peak reappears.\n2.3.1 Explain why the reduction peak disappears at pH = 2.2.",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "At pH = 2.2, the APAP oxidation product NAPQI rapidly undergoes addition of water to form an electrochemically inactive NAPQI hydrate. This substance cannot be reduced within the scanned potential range, so the reduction peak disappears."
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-17-T2-3",
+      "tags": [
+        "2.3"
+      ],
+      "text_open": "2.3.2 What chemical reaction is indicated by the reappearance of the reduction peak under strongly acidic conditions?",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "Under strongly acidic conditions, the NAPQI hydrate is further hydrolyzed to benzoquinone, which can be reduced at the electrode; the reduction peak therefore reappears (2 points)."
+      ],
+      "rubric_images": []
+    }
+  ]
+}

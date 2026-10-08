@@ -1,0 +1,21 @@
+{
+  "problem_id": "Exam-03-T6",
+  "header": "Problem 6 Exploring Our Little Broken Planet. Rocks are generally mixtures of one or more minerals and can be classified as igneous, metamorphic, or sedimentary. Geological processes can transform each type into the others. Igneous rocks form when magma cools. Magma is a complex mixture without a fixed melting point; melting occurs over a temperature range, beginning at the solidus and becoming complete at the liquidus. Most rocks undergo partial melting. During magma cooling and crystallization, changes in physical and chemical conditions cause minerals of different compositions to crystallize in sequence. Consequently, the solid and residual melt often have different chemical compositions. This phenomenon is called chemical differentiation. Temperature, chemical composition, and gravity are important factors affecting chemical differentiation. Metamorphic rocks form when pre-existing rocks in the crust—igneous, sedimentary, or metamorphic—undergo changes in mineral composition, texture, structure, and chemical composition under the influence of temperature, pressure, and chemically active fluids. Metamorphism generally occurs below the solidus temperature of the rock (600-1000 ℃), so melting does not occur in the great majority of cases; pressure, however, has no strict upper limit.",
+  "header_images": [
+    {
+      "file": "Exam-03-T6-header-1.png",
+      "description": "Pressure-temperature (P-T) phase diagram labeled \"A\". The horizontal axis is temperature $T$ in $^\\circ C$, ranging from $1000\\sim2000^\\circ C$. The vertical axis is pressure $P$ in $GPa$, ranging from $0\\sim10GPa$. The diagram contains a curve labeled solidus, which is the thickest curve, a curve labeled liquidus to its right, and several nearly parallel thin curves between them. All curves trend downward as temperature and pressure increase and converge in the high-pressure, high-temperature region near $9GPa$ and $2000^\\circ C$."
+    }
+  ],
+  "subquestions": [
+    {
+      "sub_id": "Exam-03-T6-1",
+      "tags": [
+        "4.2"
+      ],
+      "text_open": "6-1 As magma passes through the crust, some cools and solidifies within the crust to form intrusive rocks, while some reaches the surface to form extrusive rocks. Crystallinity mainly reflects the extent to which a substance has transformed from a disordered amorphous state into an ordered crystalline state. A rock has high crystallinity if its mineral grains are large and well crystallized, with regular and complete particle arrangements and few defects or disorders; otherwise, it has low crystallinity. State whether intrusive or extrusive rocks have higher crystallinity and briefly explain why. (No more than 50 words.)",
+      "text_images": [],
+      "full_mark": 2
+    }
+  ]
+}

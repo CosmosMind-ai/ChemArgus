@@ -1,0 +1,12 @@
+# dependencies
+node_modules/
+
+# evaluation artifacts
+runs/
+
+# python
+__pycache__/
+*.pyc
+
+# never published: Private Set (held out for anti-cheating final checks)
+private/

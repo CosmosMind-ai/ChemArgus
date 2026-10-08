@@ -1,0 +1,222 @@
+{
+  "problem_id": "Exam-15-T9",
+  "header": "Problem 9 Ketene Chemistry. Ketenes are highly reactive, unstable intermediates with diverse synthetic methods and broad industrial applications.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-15-T9-1",
+      "tags": [
+        "2.3",
+        "2.4"
+      ],
+      "text_open": "9.2 Thermal electrocyclic ring opening of cyclobutenones is an important method for generating conjugated polyenyl ketene intermediates. Under thermal conditions, the following substrate undergoes a cascade reaction to give fused-ring product A. 9.2.1 Write the SMILES structure of product A, including stereochemistry.",
+      "text_images": [
+        {
+          "file": "Exam-15-T9-1-1-prompt.png",
+          "description": "The substrate has structure SMILES 'OC(C1=O)(C(OC)=C1OC)C2=C(COC)CCC2'. It is a mixture of enantiomers whose stereocenter is the carbon bearing the hydroxy group, with a wavy bond between that carbon and the hydroxy group. Under 120°C microwave conditions it gives A."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "'[H][C@]1(CCC2)[C@]2(COC)C(C(OC)=C(C1=O)OC)=O' (2 points)."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-15-T9-1-1-rubric.png",
+          "description": "Rubric structure for A: corresponding SMILES '[H][C@]1(CCC2)[C@]2(COC)C(C(OC)=C(C1=O)OC)=O'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-15-T9-2",
+      "tags": [
+        "2.3",
+        "2.4"
+      ],
+      "text_open": "9.2.2 Write the SMILES structure of B.",
+      "text_images": [
+        {
+          "file": "Exam-15-T9-2-1-prompt.png",
+          "description": "The image shows a reaction sequence and reagent structure. At far left is compound 'OC(C1=O)(C(OC)=C1OC)C2=C(OC)C(C(C)(C)C)CCC2', a stereoisomeric mixture with 2 stereocenters: the carbon bearing hydroxy and the carbon bearing tert-butyl; wavy bonds connect the two stereogenic carbons respectively to hydroxy and tert-butyl. At `120 °C, microwave`, it forms **B**. **B** then reacts under `DMP` to give 'CC(C)(C)C(CCCC34C(C(OC)=C(C4=O)OC)=O)=C3OC', labeled **C**. At far right is the DMP reagent, with SMILES 'O=C(OI(OC(C)=O)(OC(C)=O)5OC(C)=O)C6=C5C=CC=C6' and label \"DMP\"."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "'CC(C)(C1=C(OC)C2(C(C(OC)=C(OC)C2O)=O)CCC1)C' (2 points)."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-15-T9-2-1-rubric.png",
+          "description": "Rubric structure for B: corresponding SMILES 'CC(C)(C1=C(OC)C2(C(C(OC)=C(OC)C2O)=O)CCC1)C'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-15-T9-3",
+      "tags": [
+        "2.3",
+        "2.4"
+      ],
+      "text_open": "A slight substrate modification leads through a different pathway to a product of another structure. Thermal treatment of the following substrate generates a ketene that reacts differently; product B is ultimately oxidized to spirocyclic C. 9.2.3 Write the SMILES structures of the 2 key intermediates in conversion of this substrate to B.",
+      "text_images": [],
+      "full_mark": 4,
+      "rubric": [
+        "'CC(C)(C)C1CCCC(/C(O)=C(C(OC)=C=O)/OC)=C1OC' and 'CC(C)(C)C(CCCC23C(O)=C(C(OC)=C3O)OC)=C2OC' (2 points each)."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-15-T9-3-1-rubric.png",
+          "description": "The two key intermediates in conversion to B have SMILES 'CC(C)(C)C1CCCC(/C(O)=C(C(OC)=C=O)/OC)=C1OC' and 'CC(C)(C)C(CCCC23C(O)=C(C(OC)=C3O)OC)=C2OC', respectively."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-15-T9-4",
+      "tags": [
+        "2.3",
+        "2.4"
+      ],
+      "text_open": "9.3 The following photolysis gives mainly products D and E. Mechanistically, the substrate is photoexcited and then cleaves a C-C bond to form diradical F. Radical coupling then forms ketene intermediate G, which is ultimately converted to D and E. 9.3.1 Write the SMILES structures of F and G.",
+      "text_images": [
+        {
+          "file": "Exam-15-T9-4-1-prompt.png",
+          "description": "The image shows a photochemical reaction. Molecule 'O=C1[C@@](N(N([C@H]2C=C1)C(OCC)=O)C(OCC)=O)(C=C2)OC' reacts under hv in `MeOH` (SMILES 'CO') to give two products. The left product, 'O=C(C[C@@H]3[C@]([C@]3([H])N(N4C(OCC)=O)C(OCC)=O)([H])C=C4OC)OC', is labeled **D**. The right product, 'O=C5C[C@]6([H])[C@]([C@]6([H])N(N7C(OCC)=O)C(OCC)=O)([H])[C@@]5([H])C7(OC)OC', is labeled **E**. A plus sign separates the products."
+        }
+      ],
+      "full_mark": 4,
+      "rubric": [
+        "F: 'O=[C]/C=C\\[C@@H]1N(N([C](C=C1)OC)C(OCC)=O)C(OCC)=O' or '[H][C@@](N(N2C(OCC)=O)C(OCC)=O)([CH]C=C=O)[CH]C=C2OC' (2 points); G: '[H][C@@](N(N3C(OCC)=O)C(OCC)=O)(C4C=C=O)C4C=C3OC' (2 points)."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-15-T9-4-1-rubric.png",
+          "description": "Rubric structures for F and G: F is a diradical intermediate with SMILES 'O=[C]/C=C\\[C@@H]1N(N([C](C=C1)OC)C(OCC)=O)C(OCC)=O' or '[H][C@@](N(N2C(OCC)=O)C(OCC)=O)([CH]C=C=O)[CH]C=C2OC'; G is the ketene intermediate with SMILES '[H][C@@](N(N3C(OCC)=O)C(OCC)=O)(C4C=C=O)C4C=C3OC'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-15-T9-5",
+      "tags": [
+        "2.3",
+        "2.4"
+      ],
+      "text_open": "9.3.2 If MeOH is replaced with deuterated $CD_3OD$, write the SMILES structures of deuterated products D-d and E-d.",
+      "text_images": [],
+      "full_mark": 4,
+      "rubric": [
+        "D-d: 'O=C(C([2H])[C@]1([H])[C@]([C@]1([H])N(N2C(OCC)=O)C(OCC)=O)([H])C=C2OC)OC([2H])([2H])[2H]' (2 points); E-d: 'O=C3C([2H])[C@]4([H])[C@]([C@]4([H])N(N5C(OCC)=O)C(OCC)=O)([H])[C@@]3([H])C5(OC([2H])([2H])[2H])OC' (2 points)."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-15-T9-5-1-rubric.png",
+          "description": "Rubric structures for D-d and E-d: D-d SMILES 'O=C(C([2H])[C@]1([H])[C@]([C@]1([H])N(N2C(OCC)=O)C(OCC)=O)([H])C=C2OC)OC([2H])([2H])[2H]'; E-d SMILES 'O=C3C([2H])[C@]4([H])[C@]([C@]4([H])N(N5C(OCC)=O)C(OCC)=O)([H])[C@@]3([H])C5(OC([2H])([2H])[2H])OC'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-15-T9-6",
+      "tags": [
+        "2.3",
+        "2.4"
+      ],
+      "text_open": "9.4 Radical reactions can also construct fused-ring centers bearing a quaternary carbon, as shown below. The reaction is known to proceed through a ketene radical intermediate. Write the SMILES structures of any 2 key intermediates.",
+      "text_images": [
+        {
+          "file": "Exam-15-T9-6-1-prompt.png",
+          "description": "The image shows a reaction equation. 'C#CCCCCCC', drawn as $C_6H_13$ attached to a carbon-carbon triple bond, reacts with 'C45=NCCCN4CCCCC5'. Above the arrow are $^{n}Bu_3SnH$, AIBN; below are CO (80 atm) and benzene, 80°C. The product is 'O=C1N2C(N3CCC2)(CCCCC3)C=C1CCCCCC'."
+        }
+      ],
+      "full_mark": 4,
+      "rubric": [
+        "4 rubric intermediates for 9.4 (4 points; any 2 suffice): first, 'CCCCCC/[C]=C/[Sn](CCCC)(CCCC)CCCC'; second, 'O=[C]/C(CCCCCC)=C\\[Sn](CCCC)(CCCC)CCCC' (equivalent structure 'O=C=C([CH][Sn](CCCC)(CCCC)CCCC)CCCCCC'); third, '[O-]/C([N+]1=C(CCCCC2)N2CCC1)=C([CH][Sn](CCCC)(CCCC)CCCC)\\CCCCCC'; fourth, 'O=C(N3CCCN4C35CCCCC4)[C](C5[Sn](CCCC)(CCCC)CCCC)CCCCCC'."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-15-T9-6-1-rubric.png",
+          "description": "4 rubric intermediates for 9.4: 'CCCCCC/[C]=C/[Sn](CCCC)(CCCC)CCCC'; 'O=[C]/C(CCCCCC)=C\\[Sn](CCCC)(CCCC)CCCC', with equivalent structure 'O=C=C([CH][Sn](CCCC)(CCCC)CCCC)CCCCCC'; '[O-]/C([N+]1=C(CCCCC2)N2CCC1)=C([CH][Sn](CCCC)(CCCC)CCCC)\\CCCCCC'; and 'O=C(N3CCCN4C35CCCCC4)[C](C5[Sn](CCCC)(CCCC)CCCC)CCCCCC'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-15-T9-7",
+      "tags": [
+        "2.3",
+        "2.4"
+      ],
+      "text_open": "9.5 Ketenes may also react with other highly reactive intermediates. In the following reaction, active species I forms together with ketene H; H and I react with dimethyl acetylenedicarboxylate to give the product. 9.5.1 Write the SMILES structure of I.",
+      "text_images": [
+        {
+          "file": "Exam-15-T9-7-1-prompt.png",
+          "description": "The image shows a three-component reaction. Molecules 'O=C(C(C6=CC=CC=C6)=C7C8=CC=CC=C8)C7=O', 'CC(O1)(C)N=NC1(OC)OC', and vertically drawn 'O=C(C#CC(OC)=O)OC', shown as a carbon-carbon triple bond bearing $CO_2Me$ at both ends, are separated by plus signs. They react to form complex spirocyclic product 'O=C(C(C2=CC=CC=C2)=C(C3=CC=CC=C3)C45OC(C(C(OC)=O)=C5C(OC)=O)(OC)OC)C4(OC)OC'."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "'CO[C]OC' (2 points)."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-15-T9-7-1-rubric.png",
+          "description": "Rubric structure for I: dimethoxycarbene, with SMILES 'CO[C]OC'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-15-T9-8",
+      "tags": [
+        "2.3",
+        "2.4"
+      ],
+      "text_open": "9.5.2 Write the SMILES structures of the key intermediates in conversion of H and I to the product.",
+      "text_images": [],
+      "full_mark": 4,
+      "rubric": [
+        "Key intermediates for 9.5.2 (4 points; any 1 of the first 2 may be written): first, 'O=C=C(C1=CC=CC=C1)/C(C2=CC=CC=C2)=C([O-])\\C(OC)=[O+]C'; second, 'O=C(C(C3=CC=CC=C3)=C(C4=CC=CC=C4)C5=O)C5(OC)OC'; third, 'O=C(/C(C(OC)=[O+]C)=[C-]\\C(OC)=O)OC'."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-15-T9-8-1-rubric.png",
+          "description": "Rubric key intermediates in conversion of H and I to product: first, 'O=C=C(C1=CC=CC=C1)/C(C2=CC=CC=C2)=C([O-])\\C(OC)=[O+]C'; second, 'O=C(C(C3=CC=CC=C3)=C(C4=CC=CC=C4)C5=O)C5(OC)OC'; third, 'O=C(/C(C(OC)=[O+]C)=[C-]\\C(OC)=O)OC'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-15-T9-9",
+      "tags": [
+        "1.4",
+        "2.2"
+      ],
+      "text_open": "9.6 Ketenes may also be connected with transition-metal carbonyl complexes. 9.6.1 Write the by-product formed in the first conversion.",
+      "text_images": [
+        {
+          "file": "Exam-15-T9-9-1-prompt.png",
+          "description": "The image shows a multistep reaction and a group-equivalence definition. The initial reactant is formed by coordination of the carbon-carbon double bond in ligand 'O=C(/C=C/C1=NC=CC=C1)[Fc]' to iron carbonyl fragment '[Fe](C#O)(C#O)(C#O)(C#O)', i.e. $Fe(CO)_4$. Under `MeLi, CO`, it forms an intermediate in which two carbon-carbon double bonds of the ligand coordinate to iron carbonyl fragment '[Fe](C#O)(C#O)(C#O)', i.e. $Fe(CO)_3$; the full intermediate SMILES is '[Fc]C(/C=C/C1=NC=CC=C1)=C=O.[O+]#[C-][Fe]([C-]#[O+])[C-]#[O+]'. Heating under `Δ` then gives product **J**, with molecular formula $C_19H_15FeNO$. At far right, `Fc ≡` is defined as the ferrocenyl structure."
+        }
+      ],
+      "full_mark": 1,
+      "rubric": [
+        "$MeCO_2Li$ (1 point)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-15-T9-10",
+      "tags": [
+        "1.4",
+        "2.4"
+      ],
+      "text_open": "9.6.3 Using the molecular-formula clue, write the SMILES structure of final product J.",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "'[Fc]C1=CC=C(C=CC=C2)N2C1=O' (2 points)."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-15-T9-10-1-rubric.png",
+          "description": "Rubric structure for J: corresponding SMILES '[Fc]C1=CC=C(C=CC=C2)N2C1=O'."
+        }
+      ]
+    }
+  ]
+}

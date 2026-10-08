@@ -1,0 +1,34 @@
+{
+  "problem_id": "Exam-08-T6",
+  "header": "Lithium or Sodium?\nBalancing fluctuations in renewable-electricity generation through electrochemical energy storage is essential to achieving carbon-peaking and carbon-neutrality goals. Lithium-ion batteries dominate the market, but constraints on lithium resources have stimulated research into sodium-ion batteries. Their operating principles are similar, yet their material structures and performance differ substantially. This problem considers two representative layered-oxide cathodes.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-08-T6-1",
+      "tags": [
+        "3.2"
+      ],
+      "text_open": "6.2 The following electrochemical data are given. NCM811 has an average discharge voltage of 3.8 V versus metallic lithium and an actual reversible specific capacity of $200\\,\\mathrm{mAh\\cdot g^{-1}}$. The P2 sodium material has an average discharge voltage of 3.2 V versus metallic sodium and an actual reversible specific capacity of $130\\,\\mathrm{mAh\\cdot g^{-1}}$. The volumetric energy density is $E_v=\\rho\\times C\\times U$, where $\\rho$ is density, $C$ specific capacity, and $U$ average voltage.\n6.2.1 Calculate the theoretical volumetric energy density of each cathode and their ratio $\\lambda$ (lithium-based/sodium-based).",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-08-T6-2",
+      "tags": [
+        "3.2"
+      ],
+      "text_open": "The diffusion coefficient D of ions in a layered material and the temperature T obey the Arrhenius equation. For P2-type $Na_{0.67}Ni_{0.33}Mn_{0.67}O_2$, the experimentally measured pre-exponential factor is $D_0 = 5.0 × 10^{-4} cm^2·s^{-1}$ and the activation energy is E_a = 0.35 eV. The Arrhenius equation is $D = D_0 e^{-\\frac{E_a}{RT}}$.\n6.3.2 The lithium-ion diffusion activation energy in NCM811 is approximately \\(0.48\\,\\mathrm{eV}\\). If the pre-exponential factors have the same order of magnitude, compare sodium- and lithium-ion diffusion rates in such layered structures at the same temperature and briefly explain. (No more than 100 words.)",
+      "text_images": [],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-08-T6-3",
+      "tags": [
+        "1.7"
+      ],
+      "text_open": "6.4 Sodium-ion batteries are viewed as a potential complement to lithium-ion batteries because sodium is abundant and the batteries offer good low-temperature performance and relatively high safety, but commercialization still faces challenges.\n6.4.1 Briefly explain, in terms of intrinsic material properties, why increasing the volumetric energy density of sodium-ion batteries may be difficult. (No more than 100 words.)",
+      "text_images": [],
+      "full_mark": 2
+    }
+  ]
+}

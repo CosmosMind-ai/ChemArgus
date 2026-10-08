@@ -1,0 +1,44 @@
+{
+  "problem_id": "Exam-14-T5",
+  "header": "Familiar Structures from an Unfamiliar Perspective (II)",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-14-T5-1",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "Structural background: An orthorhombic crystal of $XO_n$ contains long chains of edge-sharing $[XO_6]$ octahedra whose projections coincide along $a$. Two long chains form a small unit, and these units repeat in the $bc$ plane. The figure below is the projection along $a$ (short side $b$, long side $c$).\n5.1.2 Give the value of n.",
+      "text_images": [
+        {
+          "file": "Exam-14-T5-1-1-prompt.png",
+          "description": "White background with a horizontally oriented thin dark-gray rectangular frame near the center. The frame lies behind colored spheres, rod-like connectors, and translucent purple polygonal faces, and some frame edges are obscured by foreground structures.\n\nThere are 24 visible spheres: 16 red and 8 purple or magenta. The red spheres comprise 1 at the far lower left, 1 at the upper left, 2 in the middle-left region, 1 at the lower left, 3 at the top, 2 at the center, 2 in the lower-central region, 2 in the middle-right region, and 2 at the far right. The purple or magenta spheres comprise 1 at the far left, 1 in the middle-left region, 1 upper-left of center, 1 upper-right of center, 1 in the middle-right region, 1 at the far right, 1 lower-left of center, and 1 lower-right of center.\n\nA local structure of 5 spheres appears on the left: 1 magenta sphere at the far left, 1 red sphere lower-left, 1 red sphere upper-left, 1 purple sphere in the middle-left region, and 1 red sphere left of center. Dark-purple or red rod-like connectors form triangular and rhomboidal outlines. A translucent purple face lies in this region, with the spheres and thick connectors drawn above it.\n\nThe upper region contains 6 principal spheres: red spheres at upper-left, upper-center, upper-right, and upper-center, plus purple or magenta spheres upper-left and upper-right of center. Dark-purple or red connectors and a large translucent purple polygonal face join them. The upper-left red sphere lies over the face edge; the upper-center and upper-right red spheres lie on the upper outline; the two purple or magenta spheres lie within or near the polygon boundary; and the red sphere above center obscures parts of the face and connectors.\n\nThe lower-central region contains 6 principal spheres: a middle-left red sphere, a lower-central red sphere, purple spheres lower-left and lower-right of center, another lower-central red sphere, and a lower-left red sphere. Rod-like connectors and a translucent purple polygonal face join them. A foreground lower-central red sphere obscures part of the face; the two purple spheres each connect to several surrounding red spheres; and the lower-left and lower-central red spheres lie along the lower boundary.\n\nA local structure of 6 spheres appears on the right: middle-right red and purple spheres, lower-right and upper-right red spheres, a far-right purple sphere, and a red sphere at the lower right. Red or dark-purple connectors join them. A translucent purple polygon lies between the middle-right red, upper-right red, lower-right red, and middle-right purple spheres. The far-right purple sphere is connected to the red spheres on the right and forms the rightmost point.\n\nThe dark-gray rectangular frame is farthest back; the translucent purple polygonal faces lie in front of it; and the spheres and thicker connectors are mostly in front of the faces. Some connectors are obscured by spheres, and parts of the translucent faces are obscured by red or purple spheres. The structure extends horizontally, with more dispersed ends and denser central, upper, and lower regions."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-14-T5-2",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "5.1.3 State the lattice type of the crystal.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-14-T5-3",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "5.2.1 Y is in the same group as X, and the structure of $\\mathrm{YO}_n$ is similar to that of $\\mathrm{XO}_n$. $\\mathrm{YO}_n$ is monoclinic, but its unit-cell parameter β = 119.97° is very close to 120°, and a ≈ c. It can therefore be described using a packing scheme analogous to that of a hexagonal crystal: O atoms form an approximate “hexagonal closest packing” along the b axis in an …ABAB… sequence; Y atoms regularly occupy half of the octahedral holes in each layer; and the projections of Y atoms in adjacent layers do not overlap along b. This can be denoted $\\ldots Ac_1Bc_2Ac_1Bc_2\\ldots$. The projection along b is shown below. (The Y atoms on the short diagonal are in the same layer and on the unit-cell surface; those on the long diagonal are in the same layer and inside the unit cell.) Give the number of Y atoms in one unit cell.",
+      "text_images": [
+        {
+          "file": "Exam-14-T5-3-1-prompt.png",
+          "description": "A colored ball-and-stick model on a white background. Behind the main structure is an inclined rectangular or parallelogram frame made of thin dark-gray lines. Portions of the frame are obscured by foreground spheres and connectors.\n\nA three-dimensional direction marker appears at the lower left: a red arrow points upper-left and is labeled a; a blue arrow points right and is labeled c; and a green dot or short arrow near their common origin is labeled b. The angle between the a and c directions is approximately 120°.\n\nThere are 20 visible spheres: 4 larger pale gray-green spheres and 16 red spheres. The 4 pale gray-green spheres lie at the upper-left, upper-right, lower-left, and lower-right positions, forming an approximate quadrilateral. The red spheres are distributed around them and along their connecting paths: 4 at the top, 3 on the left, 4 in the center, 3 at the bottom, and 2 on the right.\n\nThe upper-left pale gray-green sphere is connected to several red spheres: one above by an approximately vertical rod, one upper-left and one lower-left by diagonal rods, one upper-right by a diagonal rod, one middle red sphere lower-right, and one neighboring red sphere lower-left.\n\nThe upper-right pale gray-green sphere is connected to several red spheres: one above by an approximately vertical rod, one upper-center sphere to its upper-left, one central sphere to its lower-left, one below by an approximately vertical red segment, one upper-right, and one lower-right.\n\nThe lower-left pale gray-green sphere is connected to red spheres upper-left, above through an approximately vertical segment, upper-right, lower-right, below, and lower-left.\n\nThe lower-right pale gray-green sphere is connected to red spheres upper-left, upper-right, right, lower-right, below, and lower-left.\n\nThe connectors are mainly gray or pale gray-green, with red portions near some red spheres. Some connectors are obscured by spheres. Overall, the spheres and connectors lie in front of the gray frame, which remains visible through gaps behind the structure. One red sphere at the upper right is paler and appears translucent or highlighted; the remaining red spheres are mostly darker red with light-dark shading."
+        }
+      ],
+      "full_mark": 1
+    }
+  ]
+}

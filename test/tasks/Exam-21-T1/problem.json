@@ -1,0 +1,16 @@
+{
+  "problem_id": "Exam-21-T1",
+  "header": "Chasing the Rainbow\nA silvery-gray, high-melting metal M has no independent mineral in nature and occurs mainly in molybdenite. Industrially, molybdenite is roasted to concentrate the oxides of M.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-21-T1-1",
+      "tags": [
+        "3.2"
+      ],
+      "text_open": "M forms numerous oxides in a wide range of oxidation states and colors, earning them the name \"chemical rainbow.\" Oxide A contains M in its highest oxidation state. It is a yellow, highly deliquescent crystalline solid and dissolves in water to form a strong acid in which the mass fraction of M is 74.12%. Heating a mixture of A and elemental M in a sealed tube gives red crystals B with a metallic luster. Further heating to about 600 °C converts B into the blue solid M2O5; at still higher temperatures, M2O5 decomposes into the gray solid C. M has a different oxidation state in each of A, B, and C, and the oxidation state of M in C is the one most commonly found in oxides of its group. In the gas phase, the M atoms in A have tetrahedral coordination, whereas in the solid state A consists of corner-sharing octahedra and tetrahedra. Passing $Cl_2$ through a heated mixture of M powder and $KCl$ gives the red trimeric chloride D. 1.4 Thermodynamic data show that the reaction of C with $O_2$ to form B is spontaneous at 400 °C; experimentally, however, B decomposes at 400 °C by the reaction $3B(s)\\rightarrow A(s)+C(s)$. Explain this apparent contradiction.",
+      "text_images": [],
+      "full_mark": 4
+    }
+  ]
+}

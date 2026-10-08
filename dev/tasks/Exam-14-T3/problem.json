@@ -1,0 +1,107 @@
+{
+  "problem_id": "Exam-14-T3",
+  "header": "Frustrated Noncovalent Organic Glass\nAs amorphous materials crosslinked through noncovalent interactions, supramolecular glasses are constrained by a trade-off between glass-forming ability and mechanical properties. Inspired by frustrated Lewis pairs, researchers designed and prepared a “frustrated noncovalent organic glass” in which the noncovalent interaction sites were altered. This increased the mechanical toughness of the supramolecular glass by a factor of 4.3 while providing high interfacial adhesion, enabling its use as an impact-resistant coating.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-14-T3-1",
+      "tags": [
+        "2.4",
+        "2.6"
+      ],
+      "text_open": "3.1 A preparation route for a common supramolecular glass A is shown below. Write the SMILES strings of intermediates X1 and X2 and the repeat unit of polymer A (terminal groups are not required; use [*] to mark the connection sites between repeat units). EDC is 1-ethyl-3-(3-dimethylaminopropyl)carbodiimide, an organic dehydrating agent.",
+      "text_images": [
+        {
+          "file": "Exam-14-T3-1-1-prompt.png",
+          "description": "Reaction sequence: 'O=C1C(OCC)=C(OCC)C1=O' reacts with 'NCCO' under [$\\mathrm{Et_3N}$, EtOH, 70°C] to form X1; X1 then reacts with 'C=CCCCCCCCCC(O)=O' under [DMAP, EDC, $\\mathrm{CH_2Cl_2}$] to form X2; finally, X2 reacts with 'SCOCCOCS' under [AIBN, DMF, 70°C] to form A."
+        }
+      ],
+      "full_mark": 6,
+      "rubric": [
+        "Structure of X1: 'O=C1C(NCCO)=C(C1=O)NCCO' (2 points)",
+        "Structure of X2: 'O=C1C(NCCOC(CCCCCCCCC=C)=O)=C(C1=O)NCCOC(CCCCCCCCC=C)=O' (2 points)",
+        "Structure of polymer A; the repeat unit is 'O=C1C(NCCOC(CCCCCCCCCCSCCOCCOCCS[*])=O)=C(NCCOC(CCCCCCCCCC[*])=O)C1=O', where * denotes a connection site between repeat units. (2 points)"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-14-T3-1-1-rubric.png",
+          "description": "Structure of intermediate X1: 'O=C1C(NCCO)=C(C1=O)NCCO'"
+        },
+        {
+          "file": "Exam-14-T3-1-2-rubric.png",
+          "description": "Structure of intermediate X2: 'O=C1C(NCCOC(CCCCCCCCC=C)=O)=C(C1=O)NCCOC(CCCCCCCCC=C)=O'"
+        },
+        {
+          "file": "Exam-14-T3-1-3-rubric.png",
+          "description": "Structure of polymer A; the repeat unit is 'O=C1C(NCCOC(CCCCCCCCCCSCCOCCOCCS[*])=O)=C(NCCOC(CCCCCCCCCC[*])=O)C1=O', where * denotes a connection site between repeat units."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-14-T3-2",
+      "tags": [
+        "1.7",
+        "1.6",
+        "2.4"
+      ],
+      "text_open": "3.2.1 Replacing 2-hydroxyethylamine (ethanolamine) in the above route with the structure shown below, while leaving all other steps unchanged, gives “frustrated noncovalent organic glass” B. The polymer chains of B and A differ only by the isopropyl substituent. The repeat units of both polymers A and B form rings through hydrogen bonding, but the numbers of hydrogen bonds and the groups involved differ: A forms a 10-membered ring and B a 7-membered ring. Write the SMILES strings corresponding to schematic hydrogen-bonded structures between repeat units of A and B, respectively; the hydrogen bonds may be represented as ordinary chemical bonds.",
+      "text_images": [
+        {
+          "file": "Exam-14-T3-2-1-prompt.png",
+          "description": "SMILES string of the structure that replaces 2-hydroxyethylamine (ethanolamine): 'N[C@H](C(C)C)CO'"
+        }
+      ],
+      "full_mark": 4,
+      "rubric": [
+        "Hydrogen-bonding diagram for A (2 points)",
+        "Hydrogen-bonding diagram for B (2 points)",
+        "SMILES strings shown: 'O=C1C(N2CCOC([*])=O)=C(N(CCOC([*])=O)[H]/O=C3C(NCCOC([*])=O)=C(C/3=O/[H]2)NCCOC([*])=O)C1=O', where * represents part of the polymer chain and may be omitted from the drawing; 'O=C1C(N2[H]/O([H]N3[C@@H](COC([*])=O)C(C)C)=C([*])\\OC[C@@H](C(C)C)N(C(C4=O)=C(N([C@@H](COC([*])=O)C(C)C)[H]/5)C4=O)[H]O5=C([*])/OC[C@H]2C(C)C)=C3C1=O', where * represents part of the polymer chain and may be omitted from the drawing."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-14-T3-2-1-rubric.png",
+          "description": "Hydrogen-bonding diagram in which repeat units of polymer A form a 10-membered ring: 'O=C1C(N2CCOC([*])=O)=C(N(CCOC([*])=O)[H]/O=C3C(NCCOC([*])=O)=C(C/3=O/[H]2)NCCOC([*])=O)C1=O', where * represents part of the polymer chain and may be omitted from the drawing."
+        },
+        {
+          "file": "Exam-14-T3-2-2-rubric.png",
+          "description": "Hydrogen-bonding diagram in which repeat units of polymer B form a 7-membered ring: 'O=C1C(N2[H]/O([H]N3[C@@H](COC([*])=O)C(C)C)=C([*])\\OC[C@@H](C(C)C)N(C(C4=O)=C(N([C@@H](COC([*])=O)C(C)C)[H]/5)C4=O)[H]O5=C([*])/OC[C@H]2C(C)C)=C3C1=O', where * represents part of the polymer chain and may be omitted from the drawing."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-14-T3-3",
+      "tags": [
+        "1.7"
+      ],
+      "text_open": "3.2.2 The chain structures of polymers A and B can be represented by the figures below. Which structure corresponds to frustrated noncovalent organic glass B? (      )\n(a) Left figure;\t(b) Right figure",
+      "text_images": [
+        {
+          "file": "Exam-14-T3-3-1-prompt.png",
+          "description": "Multiple short gray rod-like elements and curved gray lines. A tightly spaced, approximately horizontal group of rods appears in the upper-left region, with parallel offsets between rods. Two inclined groups in the upper-right run overall from upper left to lower right, again with parallel offsets. An approximately horizontal group appears near the lower center. Each rod has conspicuously wider protrusions at both ends. Fine gray curves connect the rod groups, bending, crossing, and reversing direction; a longer loop-like curved line is visible on the right."
+        },
+        {
+          "file": "Exam-14-T3-3-2-prompt.png",
+          "description": "Four groups of short gray rod-like elements connected by curved gray lines. The upper-left group contains approximately 5 vertically stacked parallel rods; the upper-right group contains approximately 4; the lower-left and lower-right groups each contain approximately 5 stacked parallel rods and are slightly inclined. Multiple gray curves connect the four groups, with crossing, bending, and branching line relationships visible near the center."
+        }
+      ],
+      "full_mark": 1,
+      "rubric": [
+        "(a) (1 point)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-14-T3-4",
+      "tags": [
+        "1.7"
+      ],
+      "text_open": "3.2.3 If A and B have the same degree of polymerization, give the ratio of the numbers of hydrogen bonds they form (as the simplest integer ratio).",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "1:2 (2 points)"
+      ],
+      "rubric_images": []
+    }
+  ]
+}

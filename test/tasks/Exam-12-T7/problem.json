@@ -1,0 +1,54 @@
+{
+  "problem_id": "Exam-12-T7",
+  "header": "Problem 7 Pigment Chemistry\nColorful artistic treasures bear witness to human civilization, yet time has stripped some precious artifacts of their original colors. Light exposure is one important cause of these mysterious color changes.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-12-T7-1",
+      "tags": [
+        "1.3",
+        "1.7"
+      ],
+      "text_open": "7.1 Compound A is a red pigment widely used since the Neolithic period, but the red pigment surfaces of many Roman murals are accompanied by gray or black deterioration. Analysis shows that under illumination pigment A absorbs environmental Cl^- and forms white-to-gray chloride B and black elemental substance C; gypsum may also form. Researchers simulated the color change by treating A with NaClO solution under basic conditions. Under light and oxygen, NaClO first forms neutral diatomic species D, a strongly oxidizing key intermediate in ozone-layer depletion. D rapidly oxidizes A to ternary compound E and then further oxidizes E to B. Under illumination, B also gradually forms C together with salt F. A projection of the crystal structure of E is shown below. 7.1.1 Write the chemical formulas of A, B, D, and E.",
+      "text_images": [
+        {
+          "file": "Exam-12-T7-1-1-prompt.png",
+          "description": "The figure contains two crystal-structure visualizations, with the right panel enlarging part of the left. The left panel is a two-dimensional framework. Blue spheres form an approximately close-packed, long-range-ordered pattern. Between some adjacent blue spheres, a red sphere lies near their midpoint and is joined to both by two-tone red-blue segments, red near the red sphere and blue near each blue sphere. Treating blue spheres as polygon vertices and each red sphere plus its two segments as an edge gives two polygon types: nearly equilateral triangles and nonagons with nearly equal edge lengths. Going clockwise, the approximate internal angles of a nonagon are 120°, 240°, 60°, 120°, 240°, 60°, 120°, 240°, and 60°. Every triangle has the same translational environment, as does every nonagon. The triangles and nonagons tile the plane without gaps. A green sphere lies near each of the three blue vertices of every triangle, but not near blue spheres that are not triangle vertices; the green spheres form an approximately kagome pattern. The right panel is a three-dimensional space-filling ball-and-stick model showing the bonding of blue, green, and red spheres in one triangle. Blue spheres occupy the three vertices; green spheres lie below the drawing plane at two blue vertices and above it at the third; red spheres lie approximately at the midpoints of the three sides."
+        }
+      ],
+      "full_mark": 7
+    },
+    {
+      "sub_id": "Exam-12-T7-2",
+      "tags": [
+        "2.1"
+      ],
+      "text_open": "7.1.2 Write the ionic equations for oxidation of A to E and of E to B. Note: ignore gypsum formation; the reduction product in both reactions is $Cl^-$. ",
+      "text_images": [],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-12-T7-3",
+      "tags": [
+        "2.3"
+      ],
+      "text_open": "7.2 Another common red pigment F (note that F in 7.2 is unrelated to the substance denoted F in 7.1) is also a semiconductor material. Its multivalent metal M can undergo interconversion between oxidation states under illumination. Studies show that on the surfaces of Van Gogh's oil paintings, F is photoexcited and its metal M is reduced to a single oxidation state. It then reacts with carbon dioxide released by oily binders such as palmitic acid to form intermediate H and ultimately converts completely into white I. On the surfaces of cave-temple and tomb murals, by contrast, F forms black oxide J under illumination.\n7.2.4 Based on the description in Section 7.2, under otherwise identical illumination, in which solution of equal concentration does F produce the larger photocurrent? (      ). (a) NaHCO_3 solution (b) NaCl solution",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-12-T7-4",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "7.3 The most common red pigment used for dyeing textiles in antiquity was an organic pigment whose color arises from a hydroxyanthraquinone chromophore. The following structure is alizarin, a representative organic red dye: 'O=C(C1=C2C=CC(O)=C1O)C3=CC=CC=C3C2=O'. 7.3.1 Alizarin has two photoconversion pathways: excited-state proton transfer (ESPT) gives structure X_1, while electron transfer (ET) oxidizes it to ionic species X_2. Write the SMILES structures of X_1 and X_2. State in words the position of the radical in X_2.",
+      "text_images": [
+        {
+          "file": "Exam-12-T7-4-1-prompt.png",
+          "description": "The figure shows the structure of alizarin H_2Az: 'O=C(C1=C2C=CC(O)=C1O)C3=CC=CC=C3C2=O'."
+        }
+      ],
+      "full_mark": 2
+    }
+  ]
+}

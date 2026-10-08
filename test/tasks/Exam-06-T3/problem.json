@@ -1,0 +1,32 @@
+{
+  "problem_id": "Exam-06-T3",
+  "header": "Problem 3: Protection of Isocyanates (12 points, 5%)\nHMDI [OCN(CH_2)_6NCO] is a common monomer for polymerization reactions.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-06-T3-1",
+      "tags": [
+        "1.7",
+        "1.6"
+      ],
+      "text_open": "3.3 Researchers recently developed a supramolecular method for protecting HMDI. The pentagonal-prismatic product P5A, obtained by Lewis-acid-catalyzed reaction of diethoxybenzene with paraformaldehyde, forms a 1:1 supramolecular complex with HMDI as shown below.\n3.3.1 Identify possible interactions between P5A and HMDI in the complex other than van der Waals forces.",
+      "text_images": [
+        {
+          "file": "Exam-06-T3-1-1-prompt.png",
+          "description": "Schematic 1:1 supramolecular complex of P5A and HMDI. The OCN-(CH_2)_6-NCO chain of HMDI threads through the cavity of pillar[5]arene P5A. The SMILES of P5A is 'CCOC1=CC(CC2=CC(OCC)=C(CC3=CC(OCC)=C(CC4=CC(OCC)=C(C5)C=C4OCC)C=C3OCC)C=C2OCC)=C(OCC)C=C1CC6=C(OCC)C=C5C(OCC)=C6'."
+        }
+      ],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-06-T3-2",
+      "tags": [
+        "1.7",
+        "2.8"
+      ],
+      "text_open": "3.3.2 After synthesis, the complex can be washed with cyclohexane. When HMDI is needed for polymerization, the complex can be dissociated in DCM or chloroform. Explain why DCM or chloroform can dissociate the complex whereas cyclohexane cannot.",
+      "text_images": [],
+      "full_mark": 2
+    }
+  ]
+}

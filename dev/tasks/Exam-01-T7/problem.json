@@ -1,0 +1,20 @@
+{
+  "problem_id": "Exam-01-T7",
+  "header": "Efficiency of Oxidative Phosphorylation",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-01-T7-1",
+      "tags": [
+        "3.2"
+      ],
+      "text_open": "A molecular-level hypothesis has been proposed: for every $2e^-$ transferred through the electron-transfer chain, Complex III transports $2HSuc^-$ across the membrane. The opposing concentration gradients that must be overcome in the two transport events are approximately $1:7$ and $1:8$, respectively. Energy losses from other ion-transport processes at Complexes I and IV may be neglected. The inner-side condition is $pH=8$, the outer-side condition is $pH=5$, succinic acid has $pK_{a1,2}=4.2,5.6$, and the temperature is $310\\,\\mathrm{K}$.\nFor this redox reaction, $\\Delta_rG_m^{\\ominus *}\\approx-2.20\\times10^2\\ \\mathrm{kJ\\,mol^{-1}}$; take the magnitude of the available energy as $220\\ \\mathrm{kJ\\,mol^{-1}}$.\nATP synthase can transport only $HSuc^-$ ions on the outer side of the membrane; neither $H_2Suc$ nor $Suc^{2-}$ outside the membrane can pass through ATP synthase. Thus, of the energy stored in $H_2Suc$, $HSuc^-$, and $Suc^{2-}$ during the redox stage, only the fraction associated with external $HSuc^-$ can be utilized. On this basis, calculate $\\eta_{redox}$.",
+      "text_images": [],
+      "full_mark": 3,
+      "rubric": [
+        "$\\eta_{redox} \\approx 0.709 \\times [1 - (RT ln 7 + RT ln 8)/220] \\approx 0.676$ (3 points)"
+      ],
+      "rubric_images": []
+    }
+  ]
+}

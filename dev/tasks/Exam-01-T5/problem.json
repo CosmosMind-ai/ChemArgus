@@ -1,0 +1,70 @@
+{
+  "problem_id": "Exam-01-T5",
+  "header": "Simple Molecules, Complex Reactions",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-01-T5-1",
+      "tags": [
+        "1.4",
+        "1.5"
+      ],
+      "text_open": "Label D denotes $N_2O$.\nScientists have developed catalyst X, which converts the toxic gas CO to CO_2 under the action of D. Its formula mass is approximately 471.5, and its structure is shown below, where P represents a P(tBu)_2 group. Write the d-orbital electron configuration of the metal ion in X in an octahedral field, approximating the geometry as a regular octahedron.",
+      "text_images": [
+        {
+          "file": "Exam-01-T5-1-1-prompt.png",
+          "description": "Structural representation of catalyst X: '[H][Ru]12(C#O)(N3C(C4=CC=CC=[N]42)=CC=CC3=C[P]1(C(C)(C)C)C(C)(C)C)C#O'"
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "t_{2g}^{6} e_{g}^{0} (2 points)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-01-T5-2",
+      "tags": [
+        "2.2",
+        "2.3",
+        "2.4"
+      ],
+      "text_open": "Label D denotes $N_2O$.\nBased on experimental observations, the following principal catalytic pathway has been proposed: X reacts with D to form Y, whose formula mass is approximately 487.5. Y rapidly converts into its more stable isomer Z. Z then takes up one molecule of CO while releasing one molecule of CO_2, regenerating X. Write the SMILES structures of Y and Z.",
+      "text_images": [],
+      "full_mark": 4,
+      "rubric": [
+        "Y: 'O[Ru]12(C#O)(N3C(C4=CC=CC=[N]42)=CC=CC3=C[P]1(C(C)(C)C)C(C)(C)C)C#O' (2 points)",
+        "Z: 'CC(C)([P]1(C=C2N(C(C3=CC=CC=[N]34)=CC=C2)[Ru]14(C(O)=O)C#O)C(C)(C)C)C' (2 points). Stereochemistry is not required."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-01-T5-2-1-rubric.png",
+          "description": "Reference structure of Y: 'O[Ru]12(C#O)(N3C(C4=CC=CC=[N]42)=CC=CC3=C[P]1(C(C)(C)C)C(C)(C)C)C#O'"
+        },
+        {
+          "file": "Exam-01-T5-2-2-rubric.png",
+          "description": "Reference structure of Z: 'CC(C)([P]1(C=C2N(C(C3=CC=CC=[N]34)=CC=C2)[Ru]14(C(O)=O)C#O)C(C)(C)C)C'"
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-01-T5-3",
+      "tags": [
+        "2.3",
+        "2.4"
+      ],
+      "text_open": "The scientists also found that when THF is used as the solvent, another pathway may operate: X slowly isomerizes to isomer W, which contains two aromatic rings, and W then catalyzes exactly the same process as X. Write the SMILES structure of W.",
+      "text_images": [],
+      "full_mark": 3,
+      "rubric": [
+        "W: 'CC(C)([P]1(CC2=[N](C(C3=NC=CC=C43)=CC=C2)[Ru]14(C#O)(C#O)[H])C(C)(C)C)C' (3 points)."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-01-T5-3-1-rubric.png",
+          "description": "Reference structure of W: 'CC(C)([P]1(CC2=[N](C(C3=NC=CC=C43)=CC=C2)[Ru]14(C#O)(C#O)[H])C(C)(C)C)C'"
+        }
+      ]
+    }
+  ]
+}

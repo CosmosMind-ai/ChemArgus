@@ -1,0 +1,36 @@
+{
+  "problem_id": "Exam-03-T3",
+  "header": "Problem 3 Polymers. Global plastics production reached 3.907 hundred million tonnes in 2021, yet only 8.3% of plastics were recycled, resulting in severe accumulation of plastic waste and environmental problems. Developing next-generation chemically recyclable polymers that can be efficiently and selectively depolymerized back to their original monomers is therefore a viable route toward a closed-loop, sustainable plastics economy and a solution to end-of-life problems. Owing to their distinctive biorenewability and biodegradability, polyesters are among the most promising recyclable polymers.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-03-T3-1",
+      "tags": [
+        "2.2",
+        "2.3"
+      ],
+      "text_open": "3-2 In 2024, researchers developed a polymer containing cyclobutane rings in its main chain. The polymer is thermally stable, resistant to hydrolysis, has tunable mechanical properties, and exhibits excellent chemical recyclability. It is prepared from monomer 4R-BL (R = Bu or Ph) using catalyst Y_1. Denote the resulting polymer as P(4^R-BL). 3-2-1 Draw and give the SMILES of the key intermediates in the initiation and chain-propagation steps of Y_1-catalyzed polymerization of 4R-BL. Ligands on the central Y atom that do not participate in the transformation may be omitted.",
+      "text_images": [
+        {
+          "file": "Exam-03-T3-1-1-prompt.png",
+          "description": "Structure of 4^R-BL: '[R]C(CC1O2)(C1)C2=O'."
+        },
+        {
+          "file": "Exam-03-T3-1-2-prompt.png",
+          "description": "Structure of Y1: 'C[Si](C)(C[Y]123(O4CCCC4)OC5=C(C[N]1(CCO3C)CC6=C(O2)C(C(C)(C)C)=CC(C(C)(C)C)=C6)C=C(C(C)(C)C)C=C5C(C)(C)C)C'."
+        }
+      ],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-03-T3-2",
+      "tags": [
+        "2.3",
+        "2.8"
+      ],
+      "text_open": "3-2-3 Adding one equivalent of isopropanol relative to Y_1 increases the initiation rate of polymerization. Explain why. (No more than 100 words.)",
+      "text_images": [],
+      "full_mark": 4
+    }
+  ]
+}

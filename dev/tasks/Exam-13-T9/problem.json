@@ -1,0 +1,139 @@
+{
+  "problem_id": "Exam-13-T9",
+  "header": "Question 9 Meldrum's Acid. Meldrum's acid is 2,2-dimethyl-1,3-dioxane-4,6-dione and has distinctive reactivity and broad synthetic applications.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-13-T9-1",
+      "tags": [
+        "2.3",
+        "3.9"
+      ],
+      "text_open": "9.2 On heating, the following Meldrum's-acid derivative decomposes through fragmentation and a series of other reactions to give the products shown. Draw the mechanisms leading to the two products and identify the type of each pericyclic reaction.",
+      "text_images": [
+        {
+          "file": "Exam-13-T9-1-1-prompt.png",
+          "description": "Thermal decomposition of the Meldrum's-acid derivative O=C(OC(C)(C)OC/1=O)C1=C(O)/C gives products O=C2C=C(C)OC(C)(C)O2 and O=C3C=C(C)OC(C3C(C)=O)=O."
+        }
+      ],
+      "full_mark": 8,
+      "rubric": [
+        "Award 4 points for the mechanisms and 4 points for the reaction types.",
+        "Answer SMILES: 'CC(O)=C1C(=O)OC(C)(C)OC1=O'; 'CC(=O)C1=C(O)OC(C)(C)OC1=O'; 'CC(=O)C'; 'CC(=O)C(=C=O)C(=O)O'; 'CC(=O)C=C=O'; 'CC1=CC(=O)OC(C)(C)O1'; 'CC(=O)C1C(=O)C=C(C)OC1=O'."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-13-T9-1-1-rubric.png",
+          "description": "Three rows of reaction equations. Row 1: 'CC(O)=C1C(=O)OC(C)(C)OC1=O' undergoes a 1,5-hydrogen shift, also labeled or [1,5]-σ rearrangement, to give 'CC(=O)C1=C(O)OC(C)(C)OC1=O'. This intermediate undergoes a retro-Diels-Alder reaction, also labeled or retro-[4+2] cycloaddition, with loss of acetone, - Me_2CO, SMILES 'CC(=O)C', to give the open-chain ketene carboxylic acid 'CC(=O)C(=C=O)C(=O)O'. Loss of - CO_2 gives O=C=CH-C(=O)CH_3, SMILES 'CC(=O)C=C=O'. Row 2: one molecule of 'CC(=O)C=C=O' and one acetone molecule, 'CC(=O)C', undergo a Diels-Alder reaction, also labeled or [4+2] cycloaddition, to give 'CC1=CC(=O)OC(C)(C)O1'. Row 3: 2 molecules of 'CC(=O)C=C=O' undergo the same cycloaddition to give 'CC(=O)C1C(=O)C=C(C)OC1=O'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-13-T9-2",
+      "tags": [
+        "1.2",
+        "2.7"
+      ],
+      "text_open": "9.3 As shown below, Cu/Ag bimetallic catalysis of a Meldrum-acid derivative and a terminal alkyne in the presence of chiral ligand L^{*} gives a stereospecific product that can be transformed into many derivatives. The reagent loadings are CuI 5 mol%, AgOAc 6.5 mol%, and L^{*} 6.5 mol%. 9.3.1 When R_{1} = R_{2} = Ph, give the absolute configuration of the stereogenic carbon in product P.",
+      "text_images": [
+        {
+          "file": "Exam-13-T9-2-1-prompt.png",
+          "description": "Reactants 'O=C(OC(C)(C)OC/1=O)C1=C\\[R1]' and '[R2]C#C', joined by a plus sign, react under CuI, AgOAc and H_2O above the arrow and DCM, L* below to give product P, SMILES '[R1][C@@H]1CC(OC([R2])=C1)=O'. A right brace branches P into 3 pathways. Path A uses excess LiAlH_4 at -78 °C with $R_1 = 3-BrC_6H_4, R_2 = CH_2OBn$. Path B uses mCPBA, p-TsOH with $R_1 = Ph, R_2 = CH_2OBn$. Path C uses $BnNH_2$, p-TsOH with $R_1 = Ph, R_2 = (CH_2)_4OTBS$."
+        }
+      ],
+      "full_mark": 1,
+      "rubric": [
+        "R (1 point)."
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-13-T9-3",
+      "tags": [
+        "1.4",
+        "2.3",
+        "2.4"
+      ],
+      "text_open": "9.3.2 Write the SMILES strings of at least 3 key metal-containing intermediates in formation of P from the 2 substrates. Ligands on the metal may be omitted; each intermediate contains only 1 type of metal.",
+      "text_images": [],
+      "full_mark": 6,
+      "rubric": [
+        "Any 3 key metal-containing intermediate SMILES are sufficient, 2 points each.",
+        "Answer SMILES: '[R2]C#C[Cu].O=C1OC(C)(C)OC(O)=C1C(C#C[R2])[R1]'; 'O=C(OC(C)(C)O2)C(C(C#C[R2])[R1])C2=O'; 'O=C3OC(C)(C)OC4=[O+]C(C)=C([Ag])C([R1])C43'."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-13-T9-3-1-rubric.png",
+          "description": "Answer metal-containing intermediates, in order: '[R2]C#C[Cu]'; 'O=C1OC(C)(C)OC(O)=C1C(C#C[R2])[R1]'; 'O=C(OC(C)(C)O2)C(C(C#C[R2])[R1])C2=O', whose C-C triple bond coordinates [Ag]; and 'O=C3OC(C)(C)OC4=[O+]C(C)=C([Ag])C([R1])C43'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-13-T9-4",
+      "tags": [
+        "2.4",
+        "2.6"
+      ],
+      "text_open": "9.3.3 A, C_{19}H_{21}BrO_{3}, contains a hemiketal; B, C_{19}H_{18}O_{4}, contains a five-membered ring; and C, C_{22}H_{25}NO_{2}, contains a spiro ring. Using the hints, write the SMILES strings of A, B, and C obtained from their corresponding P products.",
+      "text_images": [],
+      "full_mark": 6,
+      "rubric": [
+        "Award 2 points each for the SMILES strings of A, B, and C.",
+        "Answer SMILES: A 'BrC1=CC=CC(C2CCOC(COCC3=CC=CC=C3)(O)C2)=C1'; C 'O=C(CC(CC45CCCCO5)C6=CC=CC=C6)N4CC7=CC=CC=C7'; B 'O=C(C8)OC(C(COCC9=CC=CC=C9)=O)C8C%10=CC=CC=C%10'."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-13-T9-4-1-rubric.png",
+          "description": "Answer structures A, B, and C. A contains a hemiketal and bromoaryl group, B contains a five-membered lactone/carbonyl motif, and C contains a nitrogen spirocycle. SMILES: A 'BrC1=CC=CC(C2CCOC(COCC3=CC=CC=C3)(O)C2)=C1'; C 'O=C(CC(CC45CCCCO5)C6=CC=CC=C6)N4CC7=CC=CC=C7'; B 'O=C(C8)OC(C(COCC9=CC=CC=C9)=O)C8C%10=CC=CC=C%10'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-13-T9-5",
+      "tags": [
+        "2.3",
+        "2.4",
+        "2.6"
+      ],
+      "text_open": "9.4 The following multicomponent cascade reaction of Meldrum's acid gives the product with high diastereoselectivity. Because Meldrum's acid is acidic, its own acidic proton promotes the reaction spontaneously, including a protonation step. 9.4.1 Write the SMILES strings of 4 key intermediates; stereochemistry need not be shown.",
+      "text_images": [
+        {
+          "file": "Exam-13-T9-5-1-prompt.png",
+          "description": "Multicomponent cascade reaction of Meldrum acid, 'O=C(OC(C)(C)O5)CC5=O', an α,β-unsaturated aldehyde, 'O=C/C(C)=C/C=C/C1=CC=CC=C1', and MeOH at 75 °C in a sealed tube to give polycyclic product '[H]C2(C(C=C3)C4=CC=CC=C4)[C@@]3(OC([C@@H]2C(OC)=O)=O)C'. The product has 2 wavy bonds indicating unspecified stereochemistry."
+        }
+      ],
+      "full_mark": 8,
+      "rubric": [
+        "The rubric gives SMILES for 4 key intermediates, 2 points each; stereochemistry is not required.",
+        "Answer SMILES: 'O=C1OC(C)(C)OC(/C1=C\\C(C)=C\\C=C\\C2=CC=CC=C2)=O'; '[OH+]=C3OC(C)(C)OC(/C3=C\\C(C)=C\\C=C\\C4=CC=CC=C4)=O'; 'CC(O5)(C)OC(O[H])=C(C6[C+](C)C=CC6C7=CC=CC=C7)C5=O'; 'CC(OC8=C9C%10C(C=CC%10C%11=CC=CC=C%11)(C)O8)(C)OC9=[OH+]'; 'CC(OC%12=C%13C%14C(C=CC%14C%15=CC=CC=C%15)(C)O%12)(C)OC%13=O'; 'O=C(OC%16(C)C%17C(C%18=CC=CC=C%18)C=C%16)C%17=C=O'; 'O=C(OC)C%19=C(OC%20(C)C%19C(C%21=CC=CC=C%21)C=C%20)OC(C)(O)C'."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-13-T9-5-1-rubric.png",
+          "description": "At upper left, molecules 'O=C1OC(C)(C)OC(/C1=C\\C(C)=C\\C=C\\C2=CC=CC=C2)=O' and '[OH+]=C3OC(C)(C)OC(/C3=C\\C(C)=C\\C=C\\C4=CC=CC=C4)=O' are separated by the English-localized blue word or. At upper right is 'CC(O5)(C)OC(O[H])=C(C6[C+](C)C=CC6C7=CC=CC=C7)C5=O'. At lower left, 'CC(OC8=C9C%10C(C=CC%10C%11=CC=CC=C%11)(C)O8)(C)OC9=[OH+]' and 'CC(OC%12=C%13C%14C(C=CC%14C%15=CC=CC=C%15)(C)O%12)(C)OC%13=O' are separated by blue or. At lower right, 'O=C(OC%16(C)C%17C(C%18=CC=CC=C%18)C=C%16)C%17=C=O' and 'O=C(OC)C%19=C(OC%20(C)C%19C(C%21=CC=CC=C%21)C=C%20)OC(C)(O)C' are separated by blue or."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-13-T9-6",
+      "tags": [
+        "1.2",
+        "2.7",
+        "2.4"
+      ],
+      "text_open": "9.4.2 Write the SMILES string of the product, including the stereochemistry indicated by the 2 wavy bonds.",
+      "text_images": [],
+      "full_mark": 4,
+      "rubric": [
+        "Write the product SMILES shown in the rubric and include the stereochemistry of the two wavy bonds (4 points).",
+        "Answer SMILES: '[H][C@]1([C@@H](C=C2)C3=CC=CC=C3)[C@@]2(OC([C@@H]1C(OC)=O)=O)C'."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-13-T9-6-1-rubric.png",
+          "description": "A bicyclic structure drawn mainly in blue and red. A five-membered lactone on the left is fused to a five-membered cyclopentene on the right. The lactone contains one O and one carbonyl; one carbon bears a blue solid-wedge methoxycarbonyl group, MeO-C=O. At the ring-junction bridgeheads, the upper carbon bears a blue solid-wedge methyl group, Me, and the lower carbon bears a red solid-wedge hydrogen, H. The adjacent cyclopentene carbon bears a red solid-wedge phenyl group, Ph. The SMILES with stereochemistry is '[H][C@]1([C@@H](C=C2)C3=CC=CC=C3)[C@@]2(OC([C@@H]1C(OC)=O)=O)C'."
+        }
+      ]
+    }
+  ]
+}

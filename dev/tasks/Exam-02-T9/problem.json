@@ -1,0 +1,124 @@
+{
+  "problem_id": "Exam-02-T9",
+  "header": "Problem 9: Selectivity in Chemistry",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-02-T9-1",
+      "tags": [
+        "2.7",
+        "1.2",
+        "2.4"
+      ],
+      "text_open": "9-1 Reduction of the following compound with different reducing agents gives different stereochemical outcomes. Write the SMILES representation of major product 9A1 obtained with LiAlH_{4} and that of major product 9A2 obtained with ^{i}Bu_{2}AlH.",
+      "text_images": [
+        {
+          "file": "Exam-02-T9-1-1-prompt.png",
+          "description": "The structure in the image has SMILES 'O=C(C1)C[C@H]2N([C@@H]1CC2)C'."
+        }
+      ],
+      "full_mark": 4,
+      "rubric": [
+        "The structures of 9A1 and 9A2 are worth 2 points each; stereochemistry is strictly required.",
+        "The SMILES representation of 9A1 is 'CN1[C@H]2CC[C@@H]1C[C@@H](O)C2'.",
+        "The SMILES representation of 9A2 is 'CN3[C@H]4CC[C@@H]3C[C@H](O)C4'."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-02-T9-1-1-rubric.png",
+          "description": "The rubric image shows 9A1 and 9A2. The SMILES representation of 9A1 is 'CN1[C@H]2CC[C@@H]1C[C@@H](O)C2', and that of 9A2 is 'CN3[C@H]4CC[C@@H]3C[C@H](O)C4'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-02-T9-2",
+      "tags": [
+        "2.8"
+      ],
+      "text_open": "$Zn(OTf)_2$ is used in the selective esterification shown below. It acts as a Lewis acid to activate the ester group and coordinates separately to the two substrates to control the reaction site.\n9-2-2 What amount of Zn(OTf)_{2} should be used in this reaction?",
+      "text_images": [
+        {
+          "file": "Exam-02-T9-2-1-prompt.png",
+          "description": "The image shows a reaction proceeding from left to right. At the far left is 'O=C(O/N=C/c2ncccc2)CCc3ccccc3', labeled **9B** below, joined by a plus sign to 'O[C@@H]1[C@@H](O)[C@H](CO)O[C@@H](OCCCCCCCC)[C@H]1NC(CO)=O' in the center. Above the reaction arrow is “Zn(OTf)_2”; below it are “DMF/THF/DME,” “(1:5:9),” and “30°C, 18h,” in sequence."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "A catalytic amount (2 points; an equivalent answer is also acceptable)."
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-02-T9-3",
+      "tags": [
+        "2.4",
+        "2.7",
+        "1.2"
+      ],
+      "text_open": "9-2-3 Write the SMILES representation of the major product, given that only one hydroxy group is esterified.",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "The major product shown in the rubric image (2 points) has SMILES 'CCCCCCCCO[C@H]1[C@H]([C@@H]([C@H]([C@@H](O1)CO)O)O)NC(COC(CCc2ccccc2)=O)=O'."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-02-T9-3-1-rubric.png",
+          "description": "The rubric image shows the monoesterified major product for 9-2-3, with SMILES 'CCCCCCCCO[C@H]1[C@H]([C@@H]([C@H]([C@@H](O1)CO)O)O)NC(COC(CCc2ccccc2)=O)=O'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-02-T9-4",
+      "tags": [
+        "2.2",
+        "2.3"
+      ],
+      "text_open": "9-3-2 Compound 9D is the addition product of acetonitrile and hydrogen peroxide, and 9G contains a peroxide bond. Write the SMILES representations of small molecules 9D and 9F in the catalytic cycle below.",
+      "text_images": [
+        {
+          "file": "Exam-02-T9-4-1-prompt.png",
+          "description": "Structure of compound 9C, with SMILES 'CC1(OC[C@]2(OC[C@H]3OC(C)(O[C@H]3C2=O)C)O1)C'."
+        },
+        {
+          "file": "Exam-02-T9-4-2-prompt.png",
+          "description": "The image shows a reaction segment in which the far-left compound 'C/C=C/c1ccccc1' reacts to the right under an arrow labeled “9C (15 mol%), H_2O_2 (4 equiv.)” above and “K_2CO_3, CH_3CN” and “0°C, 12h” below."
+        },
+        {
+          "file": "Exam-02-T9-4-3-prompt.png",
+          "description": "The image is a catalytic cycle. At the top is 'CC1(OC[C@]2(OC[C@H]3OC(C)(O[C@H]3C2=O)C)O1)C', labeled “9C” below. On the right, `CH_3CN + H_2O_2` points left by a straight arrow to “9D.” A curved arrow from “9D” runs down and left into the main cycle, merging with the downward path from “9C,” and both lead to “9E.” Two curved arrows descend from “9E,” one down-right to “9F” and the other down-left to “9G.” A curved arrow from “9G” runs up and left, meeting an upward curved arrow from 'C/C=C/c1ccccc1' at the lower left; together they lead to `[transition state]^‡`. Finally, a curved arrow from `[transition state]^‡` runs up and right to close the cycle at “9C,” with a curved branch along this upward path pointing up-left to the word “product.”"
+        }
+      ],
+      "full_mark": 4,
+      "rubric": [
+        "The SMILES representation of 9D is 'CC(OO)=N', and that of 9F is 'CC(N)=O'; 2 points each."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-02-T9-4-1-rubric.png",
+          "description": "The rubric image gives the SMILES representation of 9D as 'CC(OO)=N' and that of 9F as 'CC(N)=O'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-02-T9-5",
+      "tags": [
+        "2.7",
+        "1.2",
+        "2.4"
+      ],
+      "text_open": "9-3-3 Predict the stereochemistry and write the SMILES representation of the product.",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "The product, with SMILES 'C[C@@H]1[C@H](O1)C2=CC=CC=C2', is worth 2 points. No credit if (±) is written or the product is identified as a racemate."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-02-T9-5-1-rubric.png",
+          "description": "The rubric image shows the asymmetric epoxidation product, with SMILES 'C[C@@H]1[C@H](O1)C2=CC=CC=C2'."
+        }
+      ]
+    }
+  ]
+}

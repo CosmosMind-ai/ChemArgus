@@ -1,0 +1,172 @@
+{
+  "problem_id": "Exam-23-T8",
+  "header": "Problem 8 Norbornane (24 points, 11%)\nBecause of their rigid frameworks and fixed conformations, norbornane and its derivatives have become classic models in physical organic chemistry for studying stereoelectronic effects, neighboring-group participation, and nonclassical carbocations. The structure and carbon numbering are shown below.",
+  "header_images": [
+    {
+      "file": "Exam-23-T8-header-1.png",
+      "description": "Skeletal structure of norbornane (bicyclo[2.2.1]heptane), with the carbon atoms labeled 1, 2, 3, 4, 5, 6, and 7. Its SMILES is '[C@@H]12CC[C@H](C2)CC1'."
+    }
+  ],
+  "subquestions": [
+    {
+      "sub_id": "Exam-23-T8-1",
+      "tags": [
+        "1.6",
+        "2.4"
+      ],
+      "text_open": "8.2 A substituent X can be introduced at C2 of norbornane, giving the exo-X and endo-X diastereomers.\n8.2.1 When the substituent is hydroxy, which is more stable, the exo or endo configuration? Explain.",
+      "text_images": [
+        {
+          "file": "Exam-23-T8-1-1-prompt.png",
+          "description": "Two norbornane frameworks with substituent X attached to a ring carbon. The left structure is labeled 'exo' below; X extends up-right by a single bond, and the halogen is equatorial. Its SMILES is '[F,Cl,Br,I][C@H]1[C@@H](C2)CC[C@@H]2C1'. The right structure is labeled 'endo'; X extends vertically downward, and the halogen is axial. Its SMILES is '[F,Cl,Br,I][C@@H]1[C@@H](C2)CC[C@@H]2C1'. Here [F,Cl,Br,I] is the ChemDraw export representation of substituent X as a list of halogen atoms."
+        }
+      ],
+      "full_mark": 3,
+      "rubric": [
+        "The exo configuration is more stable (1 point).",
+        "In the endo configuration, the C–O bond and C6-endo-H have a 1,3-diaxial spatial relationship and repel each other (1 point).",
+        "In the exo configuration, the C1–C6 bond can hyperconjugate with the C–O bond (1 point).",
+        "Award 1 point for the steric difference and 1 point for the hyperconjugative effect. If the stability order is incorrect, award no explanation points."
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-23-T8-2",
+      "tags": [
+        "1.6",
+        "2.4"
+      ],
+      "text_open": "8.2.3 Compare the acidities of exo-2-norbornanecarboxylic acid and endo-2-norbornanecarboxylic acid in aqueous solution, and explain the difference.",
+      "text_images": [],
+      "full_mark": 3,
+      "rubric": [
+        "exo-2-Norbornanecarboxylic acid is more acidic (1 point).",
+        "The endo carboxylate anion lies on the concave face of the molecule, where the surrounding framework hinders the approach of water. Poor solvation destabilizes the anion, so its conjugate acid is weaker (2 points).",
+        "Award 1 point for identifying steric hindrance and 1 point for stating that the exo carboxylate is well solvated by water and its negative charge is effectively stabilized. If the acidity order is incorrect, award no explanation points."
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-23-T8-3",
+      "tags": [
+        "2.4",
+        "2.3"
+      ],
+      "text_open": "8.2.4 Write the SMILES string for the major product of the following reaction.",
+      "text_images": [
+        {
+          "file": "Exam-23-T8-3-1-prompt.png",
+          "description": "Two-step reaction. The substrate is a norbornane derivative with SMILES 'Br[C@@H]1[C@@H](C2)CC[C@@H]2[C@@H]1[2H]': bromine is attached to one ring carbon and deuterium [2H] to the adjacent ring carbon. Two successive rightward arrows follow the substrate; the first is labeled 'LDA' and the second 'm-CPBA'. No structure is drawn after either arrow."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "Major product: (2 points)"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-23-T8-3-1-rubric.png",
+          "description": "Major product: an oxygen atom bridges the two adjacent ring carbons that originally bore Br and D in the norbornane framework, forming a three-membered epoxide ring. The oxygen is labeled 'O'. Its SMILES is 'C1C[C@H]2C[C@@H]1[C@@H]3O[C@H]23'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-23-T8-4",
+      "tags": [
+        "2.3",
+        "2.4"
+      ],
+      "text_open": "8.3 The distinctive framework gives norbornane and norbornene derivatives exceptionally rich reactivity.\n8.3.1 The two compounds below give the same product upon solvolysis in acetic acid. Identify which compound solvolyzes faster and write the SMILES string for the product.",
+      "text_images": [
+        {
+          "file": "Exam-23-T8-4-1-prompt.png",
+          "description": "Two norbornane frameworks labeled A (left) and B (right). In A, OTs (p-toluenesulfonate) extends vertically downward by a single bond; its SMILES is 'CC1=CC=C(S(O[C@@H]2[C@@H](C3)CC[C@@H]3C2)(=O)=O)C=C1'. In B, OTs extends diagonally up-right; its SMILES is 'CC1=CC=C(S(O[C@H]2[C@@H](C3)CC[C@@H]3C2)(=O)=O)C=C1'. The OTs group occupies the same position in both structures but has a different stereochemical orientation."
+        }
+      ],
+      "full_mark": 3,
+      "rubric": [
+        "B (1 point)",
+        "Product structure: (2 points; award only 1 point if the product is not identified as racemic; an endo product receives no credit)"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-23-T8-4-1-rubric.png",
+          "description": "Product: a norbornane ring carbon bears OAc (acetoxy), with '(±)' at lower right indicating a racemate. Its SMILES is 'O=C(O[C@H]1[C@@H](C2)CC[C@@H]2C1)C'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-23-T8-5",
+      "tags": [
+        "2.3",
+        "2.4"
+      ],
+      "text_open": "8.3.2 Which of the following compounds solvolyzes faster in acetic acid? Explain using an important intermediate.",
+      "text_images": [
+        {
+          "file": "Exam-23-T8-5-1-prompt.png",
+          "description": "Two norbornene frameworks labeled A (left) and B (right). Each ring contains one C=C bond, and p-toluenesulfonate is attached to bridge carbon C7. In A, TsO extends down-left by a single bond; its SMILES is 'CC1=CC=C(S(O[C@H]2[C@H]3CC[C@@H]2C=C3)(=O)=O)C=C1'. In B, OTs extends up-right; its SMILES is 'CC1=CC=C(S(O[C@@H]2[C@H]3CC[C@@H]2C=C3)(=O)=O)C=C1'. The structures otherwise differ only in the orientation of the sulfonate group."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "A (1 point)",
+        "Key intermediate: (1 point; its enantiomer also receives credit)"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-23-T8-5-1-rubric.png",
+          "description": "Key intermediate (first image, red): its SMILES can be written as '[C@H]12CC[C@@H]([CH+]2)C=C1'. The double bond conjugatively stabilizes the carbocation at the bridgehead carbon, as indicated by dashed lines."
+        },
+        {
+          "file": "Exam-23-T8-5-2-rubric.png",
+          "description": "Key intermediate (second image, blue): its SMILES can be written as '[C@H]12CC[C@@H]([C@@H]23)C3[CH+]1'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-23-T8-6",
+      "tags": [
+        "2.3",
+        "2.4"
+      ],
+      "text_open": "8.3.3 In the reaction below, an optically active substrate racemizes under the action of $KO^tBu$. Write the SMILES string for a key intermediate that explains the racemization.",
+      "text_images": [
+        {
+          "file": "Exam-23-T8-6-1-prompt.png",
+          "description": "One-step reaction. The substrate is a norbornanone derivative whose carbonyl oxygen is labeled 'O'; the ring carbon adjacent to the carbonyl carbon bears two methyl groups, shown as two short single bonds. Its SMILES is 'CC1(C)[C@H]2CC[C@H](C2)C1=O'. The arrow is labeled 'KOtBu, HOtBu' above (t is superscript) and '250°C' below. The product at right has the same framework as the substrate and is marked '(±)' at lower right to indicate a racemate. Thus, the substrate is chiral and the product is racemic."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "Key intermediate: (2 points)"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-23-T8-6-1-rubric.png",
+          "description": "Key intermediate: in the norbornanone framework, the former carbonyl carbon is bonded to a negatively charged oxygen, labeled 'O' with a circled minus sign. That carbon also has an additional single bond to another ring carbon (C2), and C5 retains two methyl groups. Its SMILES is 'CC1(C)C2CC3C(C2)C13[O-]'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-23-T8-7",
+      "tags": [
+        "2.4",
+        "1.6"
+      ],
+      "text_open": "8.3.4 Based on the structure in 8.3.3, predict which hydrogen in the substrate is the most acidic. Give a reasonable explanation.\n(a) $H_a$\n(b) $H_b$\n(c) $H_c$\n(d) $H_d$\n(e) $H_e$",
+      "text_images": [
+        {
+          "file": "Exam-23-T8-7-1-prompt.png",
+          "description": "The same substrate as in 8.3.3: the carbonyl oxygen is labeled 'O', and the ring carbon adjacent to the carbonyl carbon bears two methyl groups. Five hydrogen positions are additionally labeled: $H_a$ and $H_b$ are attached to the same ring carbon (C2), $H_c$ to bridgehead carbon C4, and $H_d$ and $H_e$ to bridge carbon C7. The hydrogen-labeled SMILES is 'CC1(C)[C@@]2([Hc])C[C@]([Ha])([Hb])[C@H]([C@@]2([He])[Hd])C1=O', where [Ha] through [He] are placeholders for the image labels $H_a$ through $H_e$."
+        }
+      ],
+      "full_mark": 4,
+      "rubric": [
+        "(a) (2 points)",
+        "The bonding orbital of the C2–H bond overlaps effectively with the antibonding orbital of the C=O bond. Donation of the C2–H bonding electrons into the carbonyl π* orbital increases the acidity of this hydrogen (2 points)."
+      ],
+      "rubric_images": []
+    }
+  ]
+}

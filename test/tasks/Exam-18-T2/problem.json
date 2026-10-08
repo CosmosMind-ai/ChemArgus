@@ -1,0 +1,21 @@
+{
+  "problem_id": "Exam-18-T2",
+  "header": "Problem 2 Fluoride-Ion-Selective Electrode\nThe core sensing element of a fluoride-ion-selective electrode is a LaF$_3$ single-crystal membrane doped with a small amount of Eu$^{2+}$ and sealed into the end of the electrode tube. The tube contains an internal reference solution, generally with fixed concentrations of NaF and NaCl, and an internal Ag/AgCl reference electrode. During doping, Eu$^{2+}$ replaces some La$^{3+}$ lattice sites, creating fluoride-ion vacancies to maintain electroneutrality. When the electrode is immersed in the sample solution, F$^{-}$ undergoes selective exchange at the membrane-solution interface and migrates through the crystal via these vacancies. Because the activities of F$^{-}$ differ across the membrane, the phase-boundary potentials on the two sides also differ; their difference is the membrane potential. Measuring this potential permits rapid and selective determination of fluoride in a sample. The structure is shown below.",
+  "header_images": [
+    {
+      "file": "Exam-18-T2-header-1.png",
+      "description": "Schematic of the apparatus and electrode structures for determining F⁻ in water with a fluoride-ion-selective electrode, comprising panels A, B, and C. Panel A, measurement apparatus: the negative and positive terminals of a high-input-impedance millivoltmeter (mV) are connected by wires to a fluoride-ion-selective electrode and a type 232 saturated calomel electrode with a single salt bridge, respectively. Both electrodes are immersed in liquid consisting of water sample + TISAB at pH≈5.5 in a plastic beaker. A magnetic stir bar with a rotation arrow is at the bottom, and the beaker is placed on a magnetic stirrer. Panel B, enlarged fluoride-ion-selective electrode: a top wire connects through an internal Ag/AgCl reference electrode into the internal reference solution of constant F⁻ activity inside the electrode body. A LaF₃ single-crystal sensing membrane doped with EuF₂ is at the bottom, with F⁻ in the sample solution outside the membrane. Panel C, enlarged type 232 saturated calomel electrode: a wire connects through a platinum wire in contact with Hg to Hg. A filling port, opened during measurement, is beside the platinum wire. Below the Hg are, in sequence, a Hg+Hg₂Cl₂ paste layer, saturated KCl filling solution, and KCl crystals. A porous ceramic liquid junction at the bottom extends into the sample solution. The electrode notation Pt|Hg(l)|Hg₂Cl₂(s)|KCl(saturated)‖sample solution appears at the bottom, with the note “type 232 has a single salt bridge; type 217 has a double salt bridge.”"
+    }
+  ],
+  "subquestions": [
+    {
+      "sub_id": "Exam-18-T2-1",
+      "tags": [
+        "3.6"
+      ],
+      "text_open": "2.2 For the doped LaF$_3$ single-crystal membrane, the membrane potential is described by the following equation, where $a$ denotes activity and may be approximated by concentration at low F$^{-}$ concentration:\n$$E_{membrane}=\\frac{\\mu_{outside}^{0}-\\mu_{inside}^{0}}{nF}+\\frac{RT}{nF}\\ln\\frac{a_{outside}}{a_{inside}}=k+\\frac{RT}{nF}\\ln\\frac{a_{outside}}{a_{inside}}$$\n2.2.1 Calculate how the millivoltmeter reading changes when the concentration of the ion being measured decreases by a factor of 10.",
+      "text_images": [],
+      "full_mark": 2
+    }
+  ]
+}

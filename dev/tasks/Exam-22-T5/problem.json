@@ -1,0 +1,167 @@
+{
+  "problem_id": "Exam-22-T5",
+  "header": "Unlike most covalent compounds, whose structures can be described using 2c-2e bonds, polyhedral clusters are often electron-deficient systems and require multicenter bonding models.\nWade's rules, more generally known as the polyhedral skeletal electron pair theory (PSEPT), are an important tool for understanding cluster structures. Let $n$ denote the number of atoms or isolobal fragments that form the cluster framework. Subtracting the electrons used in terminal two-center two-electron bonds, nonskeletal lone pairs, and the internal bonding of ligands from the total valence-electron count gives the number of skeletal electrons. Skeletal electron-pair counts of $n+1$, $n+2$, $n+3$, and $n+4$ correspond, respectively, to closo, nido, arachno, and hypho structures. A closo cluster is a complete triangulated polyhedron with $n$ vertices, whereas nido, arachno, and hypho clusters may be regarded as the corresponding closo parent polyhedron with one, two, or three vertices removed, respectively. For example, in $B_5H_9$, 5 BH fragments contribute 10 electrons and 4 additional hydrogen atoms contribute another 4, giving 14 skeletal electrons or 7 skeletal electron pairs. Since the skeletal electron-pair count is $n+2$, the cluster is nido.\nThis problem uses low-valent clusters of Group 13 metals (Al, Ga, In, and Tl) to examine cluster synthesis, structure, bonding, and reactivity.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-22-T5-1",
+      "tags": [
+        "1.6"
+      ],
+      "text_open": "5.1 $B_4Cl_4$ and $B_4(t\\text{-}Bu)_4$ have tetrahedral cores, whereas the acetamido-substituted boron compound $B_4(NHAc)_4$ adopts a butterfly-shaped cyclic structure. Explain why.",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "Because of B-N π bonding, the B atoms are relatively electron-rich. (2 points)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-22-T5-2",
+      "tags": [
+        "2.1"
+      ],
+      "text_open": "5.2 Write equations for the following reactions.\n5.2.1 $AlCl\\cdot x\\,Et_2O$ ($x>1$) reacts with $MgCp^*_2$ at low temperature in toluene/diethyl ether to form $Al_4Cp^*_4$.",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "$4\\,AlCl\\cdot x\\,Et_2O + 2\\,MgCp^*_2 = Al_4Cp^*_4 + 2\\,MgCl_2(OEt_2)_2 + (4x-4)\\,Et_2O$ (2 points)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-22-T5-3",
+      "tags": [
+        "2.1"
+      ],
+      "text_open": "5.2.2 $GaI$ reacts with $Li(THF)_3Ge(SiMe_3)_3$ in toluene to form $[GaGe(SiMe_3)_3]_4$.",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "$4\\,GaI + 4\\,Li(THF)_3Ge(SiMe_3)_3 = [GaGe(SiMe_3)_3]_4 + 4\\,LiI(THF)_3$ (2 points)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-22-T5-4",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "5.4 Tetrahedral clusters not only have unusual structures but also show diverse oxidation chemistry, giving different products under different conditions. Draw the structures of products A, B, D, and E below. 5.4.1 Oxidation of [GaSi(t-Bu)_3]_4 with oxygen gives cubic cluster A = [OGaSi(t-Bu)_3]_4.",
+      "text_images": [],
+      "full_mark": 3,
+      "rubric": [
+        "A is the cubic cluster $[OGaSi(t\\text{-}Bu)_3]_4$. (3 points)"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-22-T5-4-1-rubric.png",
+          "description": "The reference structure of A has SMILES '[Si]([Ga]12O3[Ga]4(O1[Ga]5([Si](C(C)(C)C)(C(C)(C)C)C(C)(C)C)O4[Ga]3([Si](C(C)(C)C)(C(C)(C)C)C(C)(C)C)O52)[Si](C(C)(C)C)(C(C)(C)C)C(C)(C)C)(C(C)(C)C)(C(C)(C)C)C(C)(C)C'. It has a $Ga_4O_4$ heterocubane framework in which 4 Ga and 4 O atoms alternately occupy the vertices of a cube, forming 12 Ga-O edges. Each Ga is bonded to one $Si(t\\text{-}Bu)_3$ group, giving $[OGaSi(t\\text{-}Bu)_3]_4$. All bonds are single bonds, and no charges are shown."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-22-T5-5",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "5.4.2 Further hydrolysis of A gives product B, which contains only one ring and has only one chemical environment for its Ga atoms. Write the SMILES string for B. If necessary, describe its detailed structure in no more than 50 words. Multiple reasonable structures may be possible; writing any one reasonable SMILES string is sufficient.",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "Draw either of the following structures. First: 'O[Ga]1([Si](C(C)(C)C)(C(C)(C)C)C(C)(C)C)[OH][Ga](O)([Si](C(C)(C)C)(C(C)(C)C)C(C)(C)C)[OH][Ga](O)([Si](C(C)(C)C)(C(C)(C)C)C(C)(C)C)[OH][Ga](O)([Si](C(C)(C)C)(C(C)(C)C)C(C)(C)C)[OH]1'. Second: '[OH2+][Ga-]1([Si](C(C)(C)C)(C(C)(C)C)C(C)(C)C)O[Ga-]([OH2+])([Si](C(C)(C)C)(C(C)(C)C)C(C)(C)C)O[Ga-]([OH2+])([Si](C(C)(C)C)(C(C)(C)C)C(C)(C)C)O[Ga-]([OH2+])([Si](C(C)(C)C)(C(C)(C)C)C(C)(C)C)O1'."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-22-T5-5-1-rubric.png",
+          "description": "One reasonable structure of B, and the most accurate reference answer, has SMILES 'O[Ga]1([Si](C(C)(C)C)(C(C)(C)C)C(C)(C)C)[OH][Ga](O)([Si](C(C)(C)C)(C(C)(C)C)C(C)(C)C)[OH][Ga](O)([Si](C(C)(C)C)(C(C)(C)C)C(C)(C)C)[OH][Ga](O)([Si](C(C)(C)C)(C(C)(C)C)C(C)(C)C)[OH]1'. It is an eight-membered $Ga_4O_4$ ring in which 4 Ga atoms and 4 $\\mu_2$-OH groups alternate. Each Ga is bonded to one $Si(t\\text{-}Bu)_3$ group and one terminal OH group. All bonds are single bonds, and no charges are shown."
+        },
+        {
+          "file": "Exam-22-T5-5-2-rubric.png",
+          "description": "Another acceptable structure of B has SMILES '[OH2+][Ga-]1([Si](C(C)(C)C)(C(C)(C)C)C(C)(C)C)O[Ga-]([OH2+])([Si](C(C)(C)C)(C(C)(C)C)C(C)(C)C)O[Ga-]([OH2+])([Si](C(C)(C)C)(C(C)(C)C)C(C)(C)C)O[Ga-]([OH2+])([Si](C(C)(C)C)(C(C)(C)C)C(C)(C)C)O1'. It is an eight-membered $Ga_4O_4$ ring, with the ring oxygen atoms labeled O. Each Ga is bonded to one $Si(t\\text{-}Bu)_3$ group and one water ligand. The SMILES uses charge-separated $[OH2+]$ and $[Ga-]$ forms; the 4 water ligands are labeled OH2/H2O in the figure."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-22-T5-6",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "5.4.3 Oxidation of $C = [InC(SiMe_3)_3]_4$ with o-nitrosotoluene gives a cubic cluster and product D, which contains two benzene rings. Write the SMILES string for aromatic product D and, if necessary, describe its detailed structure in no more than 50 words.",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "'CC1=C(/N=N/C2=C(C)C=CC=C2)C=CC=C1'"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-22-T5-6-1-rubric.png",
+          "description": "The reference structure of D has SMILES 'CC1=C(/N=N/C2=C(C)C=CC=C2)C=CC=C1'. It has an azobenzene framework with an N=N double bond; /N=N/ in the SMILES denotes the trans configuration. Each benzene ring bears one methyl substituent drawn as a short line without a text label, and each methyl group is ortho to the position bonded to nitrogen. All remaining bonds are single bonds, and no charges are shown."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-22-T5-7",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "5.4.4 Oxidation of C with 1,2-thiirane gives a trigonal-bipyramidal cluster E. Write the SMILES string for E and, if necessary, describe its detailed structure in no more than 50 words.",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "'C[Si](C([In]12[In]34(C([Si](C)(C)C)([Si](C)(C)C)[Si](C)(C)C)[In]15(C([Si](C)(C)C)([Si](C)(C)C)[Si](C)(C)C)[In]23(C([Si](C)(C)C)([Si](C)(C)C)[Si](C)(C)C)[S]54)([Si](C)(C)C)[Si](C)(C)C)(C)C'"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-22-T5-7-1-rubric.png",
+          "description": "The reference structure of E has SMILES 'C[Si](C([In]12[In]34(C([Si](C)(C)C)([Si](C)(C)C)[Si](C)(C)C)[In]15(C([Si](C)(C)C)([Si](C)(C)C)[Si](C)(C)C)[In]23(C([Si](C)(C)C)([Si](C)(C)C)[Si](C)(C)C)[S]54)([Si](C)(C)C)[Si](C)(C)C)(C)C'. It has an $In_4$ tetrahedral framework with 6 In-In edges and one S atom bridging a face in a $\\mu_3$ mode. Each In is bonded to one $C(SiMe_3)_3$ group, labeled C(SiMe3)3 in the figure, giving a trigonal-bipyramidal cluster. All bonds are single bonds, and no charges are shown."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-22-T5-8",
+      "tags": [
+        "2.2"
+      ],
+      "text_open": "5.6 Reaction of $GaI$ with $Li(THF)_3R$ ($R = SiMe(SiMe_3)_2$) in toluene gives the octahedral cluster $G = [GaR]_6$. In contrast, reaction of $GaI$ with $Na(THF)_2R'$ ($R' = Si(t\\text{-}Bu)_3$) in toluene forms the octahedral cluster $H = [Ga_6R'_4Bn_2]^{2-}$, where Bn denotes benzyl.\n5.6.1 State the source of the benzyl groups in H.",
+      "text_images": [],
+      "full_mark": 1,
+      "rubric": [
+        "The solvent toluene is deprotonated to generate benzyl anions. (1 point)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-22-T5-9",
+      "tags": [
+        "1.7"
+      ],
+      "text_open": "5.6.3 Explain why G is a highly distorted octahedron whereas H is nearly a regular octahedron.",
+      "text_images": [],
+      "full_mark": 3,
+      "rubric": [
+        "$[GaR]_6$ has 6 skeletal electron pairs (sep), fewer than the 7 sep required for a closo octahedron (1 point). The electron deficiency removes the degeneracy and gives rise to a Jahn-Teller effect (2 points), ultimately causing severe distortion of the octahedron."
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-22-T5-10",
+      "tags": [
+        "1.7"
+      ],
+      "text_open": "5.8 Electron-rich cluster compounds: When the number of ligands in a cluster is much smaller than the number of metal atoms, its structure approaches that of a bare metal-atom cluster; such species are called electron-rich cluster compounds. A representative example is the metalloid cluster $K = Ga_{84}[N(SiMe_3)_2]_{20}^{4-}$. This cluster contains 84 Ga atoms, 64 of which are “bare.” Its structure has three layers: a central $Ga_2$ dumbbell with a bond length of 235 pm, approaching a $Ga\\equiv Ga$ triple bond; a middle $Ga_{32}$ football-shaped tube; and an outer assembly of three $Ga_{10}$ rings surrounded by 20 $N(SiMe_3)_2$ ligands.\nCompare K with the fullerene $Sc_2@C_{84}$, and identify which structural units in K correspond to the encapsulated $Sc_2$ and to the $C_{84}$ carbon cage, respectively.",
+      "text_images": [
+        {
+          "file": "Exam-22-T5-10-1-prompt.png",
+          "description": "Unlabeled three-dimensional ball-and-stick molecular model. The overall structure is a vertically symmetric multilayer assembly. The upper and lower layers each contain a polyhedron made of dark-blue spheres, approximately 12 in total. A larger central polyhedron is formed by approximately 12 purple spheres, and the outermost framework contains approximately 24 orange-yellow spheres. Spheres of the same color are connected by solid lines of the same color, with radial connections between layers. The drawing represents the layered structure of the metalloid cluster $K = Ga_{84}[N(SiMe_3)_2]_{20}^{4-}$ described in the question."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "The central $Ga_2$ unit can be regarded as a “molecule” encapsulated within the $Ga_{32}$ cage, analogous to $Sc_2$ in $Sc_2@C_{84}$. (1 point)",
+        "The $Ga_{32}$ unit is a hollow structure analogous to a fullerene carbon cage. (1 point)"
+      ],
+      "rubric_images": []
+    }
+  ]
+}

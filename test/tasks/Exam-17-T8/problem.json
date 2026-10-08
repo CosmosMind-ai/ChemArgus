@@ -1,0 +1,68 @@
+{
+  "problem_id": "Exam-17-T8",
+  "header": "Problem 8 Fundamentals of Organic Chemistry",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-17-T8-1",
+      "tags": [
+        "1.2"
+      ],
+      "text_open": "8.2 Examine the reaction below and answer the question.\n8.2.1 Determine the configuration of the chiral carbon marked with * in the product, using S/R notation.",
+      "text_images": [
+        {
+          "file": "Exam-17-T8-1-1-prompt.png",
+          "description": "'O=C1C[C@H](O[Si](C)(C)C(C)(C)C)C=C1S(=O)(C2=CC=CC=C2)=O'>Me3Al (2.2 equiv.), Toluene, -78 ℃, 30 min>'O=C1C[C@H](O[Si](C)(C)C(C)(C)C)C(C)C1S(=O)(C2=CC=CC=C2)=O'. The chiral carbon marked with * in the product is the ring carbon bonded to the methyl group."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-17-T8-2",
+      "tags": [
+        "2.8"
+      ],
+      "text_open": "8.2.3 When the Lewis acid is changed from $Me_3Al$ to $Et_3Al$ or $^iBu_3Al$, the yield decreases from 86% to 65% and 32%, respectively. Explain the decrease in yield.",
+      "text_images": [],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-17-T8-3",
+      "tags": [
+        "1.2"
+      ],
+      "text_open": "8.3 Consider the two conformations of $FCH_2C(=O)R$ shown below. They interconvert by rotation about the $C_\\alpha$-C(=O) single bond. The relative energy of the conformation on the right is defined as 0.0 kcal/mol.\n8.3.1 Define the energy of the left conformation relative to the right conformation as $\\Delta E = E_{\\text{left conformation}} - E_{\\text{right conformation}}$. Determine the sign of $\\Delta E$.",
+      "text_images": [
+        {
+          "file": "Exam-17-T8-3-1-prompt.png",
+          "description": "The molecular SMILES is '[R]C([CH2]F)=O'. The image shows two conformations connected by a reversible arrow. In the left conformation, F points downward in the plane of the page, COR points upward and to the right in the plane, and the two H atoms project in front of and behind the upper-left region. In the right conformation, F points upward and to the left in the plane, COR points upward and to the right in the plane, and the two H atoms project in front of and behind the lower region. The right conformation is labeled 0.0 kcal/mol; R = NH2, OMe, Me, H."
+        }
+      ],
+      "full_mark": 1
+    },
+    {
+      "sub_id": "Exam-17-T8-4",
+      "tags": [
+        "1.2",
+        "1.6"
+      ],
+      "text_open": "8.3.2 For $R = NH_2$, OMe, Me, and H, denote the corresponding values of $\\Delta E$ by A, B, C, and D, respectively. Arrange A, B, C, and D in increasing numerical order.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-17-T8-5",
+      "tags": [
+        "1.2"
+      ],
+      "text_open": "8.4 The diagram below shows two conformations, A and B, of a difluoroalkane. Assume that they interconvert only by rotation about a carbon-carbon σ bond, without any change in configuration. Ignore intermolecular interactions and solvent effects, and compare only their intramolecular conformational energies. Determine which of A and B has the lower energy and state the principal reason.",
+      "text_images": [
+        {
+          "file": "Exam-17-T8-5-1-prompt.png",
+          "description": "Both A and B have the SMILES 'C[C@@H](F)C[C@H](C)F'. They are two conformations of the difluoroalkane and are connected by a reversible arrow. In A, the F at C2 points upward on a solid wedge, the F at C4 points downward and to the right on an ordinary single bond, and the methyl group at C4 points upward on a dashed wedge. In B, the F atoms at both C2 and C4 point upward on solid wedges, and the methyl group at C4 points downward and to the right on an ordinary single bond."
+        }
+      ],
+      "full_mark": 3
+    }
+  ]
+}

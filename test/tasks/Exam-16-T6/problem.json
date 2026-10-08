@@ -1,0 +1,117 @@
+{
+  "problem_id": "Exam-16-T6",
+  "header": "Problem 6: Polysulfide Anions\nA sodium-sulfur battery is a high-temperature molten secondary alkali-metal energy-storage battery that uses metallic sodium as the negative electrode, elemental sulfur as the positive electrode, and molten sodium beta-alumina as the solid electrolyte. It offers high energy density, inexpensive raw materials, and suitability for large-scale energy storage, and has become a research focus in electrochemical energy storage in recent years. Charging and discharging proceed through the formation of sodium polysulfides (Na_{2}S_{x}) with different chain lengths.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-16-T6-1",
+      "tags": [
+        "2.1",
+        "2.4"
+      ],
+      "text_open": "6.2 Sodium polysulfides (Na_{2}S_{x}) are key electroactive intermediates in sodium-sulfur batteries, and their anions can be synthesized and observed in the laboratory using common reagents. Under an N_{2} atmosphere, excess sodium tert-butoxide is added to a DMF solution of S_{8}, reducing S_{8} to polysulfide anion A. A disproportionates into another polysulfide anion B containing fewer atoms. Electron paramagnetic resonance (EPR) measurements show that some B anions undergo homolysis in solution to form bent anion C. C is trapped in zeolite cages in lazurite crystals, [(Na,Ca)_{4-8}(AlSiO_{4})_{6}(SO_{4},S,Cl)_{2}], and appears blue in solution. The sodium salt corresponding to polysulfide anion B is a common component of sodium-sulfur batteries. If it is heated to 300°C and melted, anion C dimerizes again to give isomer D of polysulfide anion B; the sulfur atoms in D occupy only two distinct chemical environments. 6.2.1 Give the chemical formulas of A and B.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-16-T6-2",
+      "tags": [
+        "1.6",
+        "2.4"
+      ],
+      "text_open": "6.2.2 Give the SMILES structures of C and D, showing the Lewis connectivity, and indicate the formal charge on every sulfur atom.",
+      "text_images": [],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-16-T6-3",
+      "tags": [
+        "1.6",
+        "2.4"
+      ],
+      "text_open": "6.3 Anion C can also be observed when S_{8} is dissolved in liquid ammonia, together with another hydrogen-free anion E. Early studies proposed the following mechanism: first, liquid ammonia undergoes autoionization to form NH_{2}^{-} and NH_{4}^{+}; second, NH_{2}^{-} attacks S_{8}, giving S_{8}NH_{2}^{-} by addition; third, S_{8}NH_{2}^{-} decomposes into cyclic anion F and a stable dibasic acid; fourth, F rearranges to form anion E and S_{8}, while the dibasic acid reacts with S_{8} and NH_{4}^{+} to form (NH_{4})_{2}S_{x}, which is subsequently converted into C. EPR measurements, however, show that anion F is not formed during the reaction. Moreover, the tendency of liquid ammonia to autoionize is extremely small and cannot explain the high solubility of S_{8} in liquid ammonia. Researchers therefore proposed a more plausible mechanism: first, S_{8}NH_{2}^{-} and NH_{3} participate in a proton-transfer equilibrium, forming S_{8}NH_{3} while generating NH_{2}^{-}, which promotes dissolution; second, NH_{3} can also react by nucleophilic substitution to form the small molecule S_{2}NH_{3}; third, S_{8}NH_{2}^{-} decomposes to anion B and intermediate G; fourth, G transfers all of its protons to NH_{3} to form anion H; fifth, H reacts with S_{2}NH_{3} to give anion E and NH_{3}, with all species in this reaction having a stoichiometric coefficient of 1. 6.3.1 Give the SMILES structures of E, F, G, and H, showing the Lewis connectivity. The Lewis structure of E is known to contain two S-S single bonds, and its sulfur atoms occupy two distinct chemical environments.",
+      "text_images": [],
+      "full_mark": 5
+    },
+    {
+      "sub_id": "Exam-16-T6-4",
+      "tags": [
+        "2.1",
+        "2.2"
+      ],
+      "text_open": "6.3.2 In fact, the fifth reaction proceeds in three steps, and both the first and second steps generate SNH_{3}. Write the chemical equations for the three steps in order.",
+      "text_images": [],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-16-T6-5",
+      "tags": [
+        "3.2",
+        "3.4"
+      ],
+      "text_open": "6.4 Anion C is also relatively common in nature and occurs mainly in ores formed under high-temperature, high-pressure conditions. Calculations show that at 350℃ and 0.5 GPa, anion C can exist as a stable form of sulfur. Reaction 1 (unbalanced) is: H_2S(aq.) + SO_4^{2-}(aq.) + H^+(aq.) → C(aq.) + O_2(g.) + H_2O(l.), \\lg K_1 = -9.6 (when the stoichiometric coefficients of C and H^+ are both 1). The standard enthalpies of formation and standard entropies of several species are listed below (ignore the temperature dependence of enthalpy and entropy and ignore microscopic effects): H_2S(aq.): \\Delta_fH_m^⊖ = -39.0 kJ·mol^{-1}, S_m^⊖ = 122.0 J·mol^{-1}·K^{-1}; HS^-(aq.): -17.7, 61.1; HSO_4^-(aq.): -885.8, 126.9; SO_4^{2-}(aq.): -907.5, 17.0; H^+(aq.): 0, 0; O_2(g.): 0, 205.1; H_2O(l.): -285.8, 70.0.\n6.4.2 Derive the equation of the bold sloping line l_1 in the figure below. Hint: f_O2 denotes the fugacity of oxygen, which physically represents the effective pressure of a real gas. The total dissolved sulfur concentration in the figure is 1 wt% (that is, all dissolved sulfur-containing species in 1 kg of solution contain a total of 10 g of S atoms). Assume that the density of water under these conditions is ρ = 1.0 × 10^3 kg/m^3.",
+      "text_images": [
+        {
+          "file": "Exam-16-T6-5-1-prompt.png",
+          "description": "A two-dimensional predominance-diagram-style plot with a white background, black lines, and a rectangular frame. The top and right sides of the frame also have short tick marks. The horizontal axis is labeled “pH,” with major tick labels 1, 2, 3, 4, 5, 6, 7, 8, and 9; the axis extends beyond 9 without a clearly labeled 10. The vertical axis is labeled “$\\log_{10} f_{O_2}$,” with major ticks −22, −24, −26, −28, −30, −32, and −34 from top to bottom. Several solid black lines divide the plot into regions labeled with formulas or letters. The upper-left region is labeled “HSO_4^-,” the upper-right “SO_4^2-,” the lower-left “H_2S,” and the lower-right “HS^-.” Near the center-left is a light-gray irregular polygon labeled with a capital “C.” It has approximately five sides: an upper-left sloping boundary from about pH 1 and $\\log_{10} f_{O_2}$ about −24 to about pH 5.3 and $\\log_{10} f_{O_2}$ about −26; an upper-right sloping boundary from about pH 5.3 and $\\log_{10} f_{O_2}$ about −26 to about pH 7.6 and $\\log_{10} f_{O_2}$ about −28.4; a thinner lower-right boundary from about pH 7.6 and $\\log_{10} f_{O_2}$ about −28.4, extending down-left to about pH 6.0 and $\\log_{10} f_{O_2}$ about −31; a noticeably bold lower boundary from about pH 6.0 and $\\log_{10} f_{O_2}$ about −31, extending up-left to about pH 1 and $\\log_{10} f_{O_2}$ about −26.8; and a left boundary adjoining the vertical axis. A vertical solid line at about pH 5.3 runs from the top border to near the upper vertex of the gray region and separates HSO_4^- from SO_4^2-. Another vertical solid line at about pH 6.0 runs downward from the lower vertex of the gray region to the bottom border and separates H_2S from HS^-. A thinner sloping line also extends down-right from the upper-right vertex of the gray region to near the right border, separating SO_4^2- from HS^-."
+        }
+      ],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-16-T6-6",
+      "tags": [
+        "2.2",
+        "4.2"
+      ],
+      "text_open": "6.5 Anion C also has many applications in organic synthesis. Use the results of the following control experiments to answer Questions 6.5.1-6.5.4. 6.5.1 According to the control experiments, from which species formed by conversion of elemental sulfur might the sulfur in the product originate?",
+      "text_images": [
+        {
+          "file": "Exam-16-T6-6-1-prompt.png",
+          "description": "Control experiments for 6.5.1, showing two parallel reactions. In the upper reaction, 'C1=CC=C(C#CC#CC2=CC=CC=C2)C=C1' (0.2 mmol) reacts with `S` (0.6 mmol) under 1.8 mmol NaOtBu in DMF, N_2, at 25°C to give 'C1=CC=C(C2=CC=C(C3=CC=CC=C3)S2)C=C1' in 65% yield. In the lower reaction, 'C1=CC=C(C#CC#CC2=CC=CC=C2)C=C1' (0.2 mmol) reacts with `S` (0.6 mmol) under 1.8 mmol NaO^tBu and 4.0 equiv TEMPO in ^tBuOH+DMF, N_2, at 25°C to give 'C1=CC=C(C2=CC=C(C3=CC=CC=C3)S2)C=C1' in 5% yield."
+        }
+      ],
+      "full_mark": 1
+    },
+    {
+      "sub_id": "Exam-16-T6-7",
+      "tags": [
+        "2.3",
+        "2.7"
+      ],
+      "text_open": "6.5.2 In the control experiments above, no radical intermediate was trapped in the first reaction, indicating that it does not follow a radical mechanism, whereas the third reaction proceeds through a radical mechanism. Explain, from the perspective of molecular structure, why the two reactions follow different mechanisms.",
+      "text_images": [
+        {
+          "file": "Exam-16-T6-7-1-prompt.png",
+          "description": "Control experiments for 6.5.2, showing four parallel reactions. In the first, 'C1=CC=C(C#CC#CC2=CC=CC=C2)C=C1' (0.2 mmol) reacts with `Na_2S · 9H_2O` (0.6 mmol) in DMF, air, at 25°C to give 'C1=CC=C(C2=CC=C(C3=CC=CC=C3)S2)C=C1' in 99% yield. In the second, 'C1=CC=C(C#CC#CC2=CC=CC=C2)C=C1' (0.2 mmol) reacts with `Na_2S · 9H_2O` (0.6 mmol) with 4.0 equiv TEMPO in DMF, air, at 25°C to give 'C1=CC=C(C2=CC=C(C3=CC=CC=C3)S2)C=C1' in 92% yield. In the third, 'C1=CC=C(C#CC2=CC=CC=C2)C=C1' (0.6 mmol) reacts with `K_2S` (0.36 mmol) in DMF, Ar, at 130°C to give 'C1(C2=CC=CC=C2)=C(C3=CC=CC=C3)C(C4=CC=CC=C4)=C(C5=CC=CC=C5)S1' in 65% yield. In the fourth, 'C1=CC=C(C#CC2=CC=CC=C2)C=C1' (0.6 mmol) reacts with `K_2S` (0.36 mmol) with 4.0 equiv TEMPO in DMF, Ar, at 130°C to give only a trace of 'C1(C2=CC=CC=C2)=C(C3=CC=CC=C3)C(C4=CC=CC=C4)=C(C5=CC=CC=C5)S1'."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-16-T6-8",
+      "tags": [
+        "2.2",
+        "2.3"
+      ],
+      "text_open": "6.5.3 Give the SMILES structures of two key intermediates in the third reaction of the control experiments in 6.5.2.",
+      "text_images": [],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-16-T6-9",
+      "tags": [
+        "2.8",
+        "2.3"
+      ],
+      "text_open": "6.5.4 Explain separately why the yields of the following two reactions are substantially lower than that of the third reaction in 6.5.2.",
+      "text_images": [
+        {
+          "file": "Exam-16-T6-9-1-prompt.png",
+          "description": "Control experiments for 6.5.4, showing two parallel reactions. In the upper reaction, 'C1=CC=C(C#CC2=CC=CC=C2)C=C1' (0.6 mmol) reacts with `Na_2S · 9H_2O` (0.36 mmol) in DMF, Ar, at 130°C to give 'C1(C2=CC=CC=C2)=C(C3=CC=CC=C3)C(C4=CC=CC=C4)=C(C5=CC=CC=C5)S1' in 36% yield. In the lower reaction, 'C1=CC=C(C#CC2=CC=CC=C2)C=C1' (0.6 mmol) reacts with `S_8` (0.36 mmol) under NaO^tBu in DMF, Ar, at 130°C to give 'C1(C2=CC=CC=C2)=C(C3=CC=CC=C3)C(C4=CC=CC=C4)=C(C5=CC=CC=C5)S1' in less than 5% yield."
+        }
+      ],
+      "full_mark": 2
+    }
+  ]
+}

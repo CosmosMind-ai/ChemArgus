@@ -1,0 +1,111 @@
+{
+  "problem_id": "Exam-20-T9",
+  "header": "Problem 9 Prins Cyclization (25 points, 12%)\nThe Prins cyclization is a powerful synthetic transformation that rapidly constructs tetrahydropyran rings. Tetrahydropyran is a common structural unit in many bioactive molecules, including spongistatins and bryostatins. Researchers have used the Prins cyclization in numerous elegant strategies for the total synthesis of natural-product targets.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-20-T9-1",
+      "tags": [
+        "2.4",
+        "2.2"
+      ],
+      "text_open": "9.1 The following is a classic Prins cyclization that gives the final product with high stereoselectivity, where R = alkyl.\n9.1.1 Write the SMILES strings of A-D in the scheme, including stereochemistry. B is a highly strained intermediate.",
+      "text_images": [
+        {
+          "file": "Exam-20-T9-1-1-prompt.png",
+          "description": "Prins cyclization sequence: '[R]C1=CCCCC1'>H2C=O, H2SO4>[A⇌B]; [B]>H2O>[C]; [C]>H2C=O, H2SO4>[D]. In the image, the last arrow points leftward from C to D. A-D are shown only as letter labels and no structures are provided; R is the placeholder used in the original diagram."
+        }
+      ],
+      "full_mark": 5
+    },
+    {
+      "sub_id": "Exam-20-T9-2",
+      "tags": [
+        "2.2",
+        "2.4"
+      ],
+      "text_open": "9.1.2 The following cascade comprises a Prins cyclization and a rearrangement and ultimately gives a product containing a five-membered ring. Write the SMILES string of the product and of at least 2 charged key intermediates, including stereochemistry.",
+      "text_images": [
+        {
+          "file": "Exam-20-T9-2-1-prompt.png",
+          "description": "Single-step reaction: 'C=C(C)[C@H]([C@H](C(C)=C)O)O'>Me2C=O, H2SO4>[product not shown]. Stereochemistry of the substrate's two OH groups is shown by wedge bonds and retained by the @ markers in the SMILES."
+        }
+      ],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-20-T9-3",
+      "tags": [
+        "1.2",
+        "2.7"
+      ],
+      "text_open": "9.2 A key advantage of the Prins cyclization is that, starting from a single stereocenter and a defined alkene geometry, it can construct up to four stereocenters on a tetrahydropyran ring with high stereoselectivity. In some cases, however, enantiomeric excess (ee) is lost.\n9.2.1 In the Prins cyclization below, the ee of the major product is lower than that of the starting material, and small amounts of two byproducts are detected.\nPredict the configurations of the chiral carbons in the product by assigning the absolute configurations of chiral carbons a and b in the major product using S/R notation.",
+      "text_images": [
+        {
+          "file": "Exam-20-T9-3-1-prompt.png",
+          "description": "Single-step reaction: 'O[C@H](CC=C)C1=CC=CC=C1' reacts with PhCH2CH2CHO under BF3·OEt2 and AcOH conditions to give the major product, 'O=C(O[C@H]1C[C@@H](CCC2=CC=CC=C2)O[C@@H](C3=CC=CC=C3)C1)C', byproduct 1, 'O=C(OC1CC(C2=CC=CC=C2)OC(C3=CC=CC=C3)C1)C', and byproduct 2, 'O=C(OC1CC(CCC2=CC=CC=C2)OC(CCC3=CC=CC=C3)C1)C'. Starting material M is labeled 87% ee and the major product 67% ee. Chiral carbons a and b are labeled on the ring of the major product; OAc at a is shown on a solid wedge, while CH2CH2Ph at b is shown on a dashed bond."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-20-T9-4",
+      "tags": [
+        "2.3",
+        "2.2"
+      ],
+      "text_open": "9.2.2 The pathway to the major product can undergo racemization through a rearrangement. Experimentally, the enantiomer M’ of substrate M is detected. If M and $PhCH_2CH_2CHO$ are replaced by structure N below, racemization through this rearrangement cannot occur under the same conditions. In light of the byproduct structures and the analysis above, write the SMILES strings of the reactants and products in each step of the mechanism by which M forms M’, and label the reaction conditions. Electron-flow arrows need not be shown.",
+      "text_images": [
+        {
+          "file": "Exam-20-T9-4-1-prompt.png",
+          "description": "Substrate N has the SMILES 'C=CC[C@@H](OC(OC(C)=O)CC1=CC=CC=C1)C2=CC=CC=C2'. N is the structure label in the image."
+        }
+      ],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-20-T9-5",
+      "tags": [
+        "2.3",
+        "2.7"
+      ],
+      "text_open": "9.2.3 Explain why a racemization process analogous to the one above cannot occur when substrate N is used.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-20-T9-6",
+      "tags": [
+        "2.2",
+        "2.4"
+      ],
+      "text_open": "9.3 Researchers have developed many broadly useful Prins reactions using unconventional substrates such as alkynols, allenes, and small-ring compounds.\n9.3.1 The reaction below is based on a Prins-type cyclization of a 3,5-diynol with an aldehyde and proceeds through a domino sequence to synthesize a 2,3-dialkylidenetetrahydrofuran framework. The compound shown at the right was detected in the reaction mixture. This compound is not necessarily itself an intermediate and may arise from an intermediate. Based on this information, write the SMILES strings of the key intermediates. Stereochemistry is not required.",
+      "text_images": [
+        {
+          "file": "Exam-20-T9-6-1-prompt.png",
+          "description": "Single-step reaction: 'OCCC#CC#CC1=CC=CC=C1'.'O=CC1=CC=CC=C1'>HBF4·OEt2 (3 equiv), MeOH (3 equiv), DCM, rt, 8 h>'O=C(/C=C1OCCC\\1=C/C2=CC=CC=C2)C3=CC=CC=C3'."
+        },
+        {
+          "file": "Exam-20-T9-6-2-prompt.png",
+          "description": "The image is labeled 'Detected in the reaction mixture:' and the detected compound has the SMILES 'OCC/C(C(C#CC1=CC=CC=C1)=O)=C\\C2=CC=CC=C2'."
+        }
+      ],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-20-T9-7",
+      "tags": [
+        "2.4",
+        "2.7"
+      ],
+      "text_open": "9.3.2 The following reaction proceeds through a three-membered-ring intermediate and gives the product with high stereoselectivity, governed primarily by stereoelectronic effects. Write the SMILES string of the product, including stereochemistry, and briefly explain the stereoselectivity.",
+      "text_images": [
+        {
+          "file": "Exam-20-T9-7-1-prompt.png",
+          "description": "Single-step reaction: 'C=C([Si](C)(C1=CC=CC=C1)C)C[C@@H](O)C'.'[R]C=O'>TMSOTf>[?]. The product structure is not shown and is represented by '?'. R is the placeholder used in the original diagram and was retained after manual confirmation."
+        }
+      ],
+      "full_mark": 4
+    }
+  ]
+}

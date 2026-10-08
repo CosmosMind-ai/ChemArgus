@@ -1,0 +1,142 @@
+{
+  "problem_id": "Exam-17-T10",
+  "header": "Problem 10 Cyclobutanation\nCyclobutane frameworks occur widely in bioactive natural products and pharmaceutical molecules. Because a four-membered ring combines appreciable ring strain with a rigid spatial geometry, the development of efficient and selective methods for constructing cyclobutanes has long been an important goal in organic synthesis.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-17-T10-1",
+      "tags": [
+        "1.2"
+      ],
+      "text_open": "10.1.2 A conformation of cyclobutane is shown below. For 1,3-dimethylcyclobutane and 1,2-dimethylcyclobutane, determine whether the cis or trans isomer is more stable, and write the SMILES string of its preferred conformation.",
+      "text_images": [
+        {
+          "file": "Exam-17-T10-1-1-prompt.png",
+          "description": "Cyclobutane is represented by the SMILES '[H][C@]([C@]([H])([H])[C@]([H])1[H])([H])[C@@]1([H])[H]'. The image is a perspective drawing of a puckered cyclobutane conformation, with two bold wedge bonds and 8 labeled H atoms."
+        }
+      ],
+      "full_mark": 4,
+      "rubric": [
+        "1,3-Dimethylcyclobutane: the cis isomer is more stable (1 point), with both substituents pseudo-equatorial in the preferred conformation (1 point). 1,2-Dimethylcyclobutane: the trans isomer is more stable (1 point), with both substituents pseudo-equatorial in the preferred conformation (1 point)."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-17-T10-1-1-rubric.png",
+          "description": "Reference answer: the preferred conformation of cis-1,3-dimethylcyclobutane, with both substituents pseudo-equatorial, has the SMILES 'C[C@H]1C[C@@H](C)C1'. The image is an unlabeled skeletal conformation drawing."
+        },
+        {
+          "file": "Exam-17-T10-1-2-rubric.png",
+          "description": "Reference answer: the preferred conformation of trans-1,2-dimethylcyclobutane, with both substituents pseudo-equatorial, has the SMILES 'C[C@H]1CC[C@@H]1C'. The image is an unlabeled skeletal conformation drawing."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-17-T10-2",
+      "tags": [
+        "2.2"
+      ],
+      "text_open": "10.2 Werz and co-workers recently reported a method for constructing cyclobutanone frameworks by exploiting the intrinsic ring strain of cyclopropanol derivatives. Under mild conditions, the reaction couples release of small-ring strain with C-C bond formation, providing a new strategy for cyclobutane synthesis. To investigate the mechanism, the researchers designed deuterium-labeling and substituent-effect experiments. In the deuterium-labeling experiments, sulfonium salts bearing deuterium at different allylic positions were prepared and reacted under identical conditions; the resulting deuterium distributions are shown below. Using Experiment I as an example, write the SMILES strings of all key intermediates consistent with the observations.",
+      "text_images": [
+        {
+          "file": "Exam-17-T10-2-1-prompt.png",
+          "description": "Deuterium-labeling reaction in Experiment I: 'OC1(S(C2=CC=C(C)C=C2)(=O)=O)CC1'.'[2H]/C(C1=CC=CC=C1)=C\\C[S+]2C(C)(CCC2(C)C)C.F[B-](F)(F)F'>LiHMDS, CH2Cl2, -78°C to r.t.>'O=C1CCC1(C=C)C2=CC=CC=C2'. The product region shows the deuterium distribution: 89%, 0% D, 22% D, and 22% D."
+        },
+        {
+          "file": "Exam-17-T10-2-2-prompt.png",
+          "description": "Deuterium-labeling reaction in Experiment II: 'OC1(S(C2=CC=C(C)C=C2)(=O)=O)CC1'.'CC1(C)CCC(C)(C)[S+]1C/C([2H])=C/C2=CC=CC=C2.F[B-](F)(F)F'>LiHMDS, CH2Cl2, -78°C to r.t.>'O=C1CCC1(C2=CC=CC=C2)C=C'. The product region shows the deuterium distribution: 94%, 94% D, 0% D, and 0% D."
+        }
+      ],
+      "full_mark": 7,
+      "rubric": [
+        "Key intermediates: '[2H]/C(C1=CC=CC=C1)=C\\[CH-][S+]2C(C)(C)CCC2(C)C' (1 point); 'O=C1CC1' (1 point); '[2H]C(/C=C/[S+]1C(C)(C)CCC1(C)C)(C2([O-])CC2)C3=CC=CC=C3' (1 point); 'CC1(C)CCC(C)(C)[S+]1[CH-]/C=C(C2(O[2H])CC2)/C3=CC=CC=C3' (2 points); 'CC1(C)CCC(C)(C)[S+]1C([2H])/C=C(C2([O-])CC2)/C3=CC=CC=C3' (2 points)"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-17-T10-2-1-rubric.png",
+          "description": "Reference key intermediate 1, represented by the SMILES '[2H]/C(C1=CC=CC=C1)=C\\[CH-][S+]2C(C)(C)CCC2(C)C'."
+        },
+        {
+          "file": "Exam-17-T10-2-2-rubric.png",
+          "description": "Reference key intermediate 2 (cyclopropanone), represented by the SMILES 'O=C1CC1'."
+        },
+        {
+          "file": "Exam-17-T10-2-3-rubric.png",
+          "description": "Reference key intermediate 3, represented by the SMILES '[2H]C(/C=C/[S+]1C(C)(C)CCC1(C)C)(C2([O-])CC2)C3=CC=CC=C3'."
+        },
+        {
+          "file": "Exam-17-T10-2-4-rubric.png",
+          "description": "Reference key intermediate 4, represented by the SMILES 'CC1(C)CCC(C)(C)[S+]1[CH-]/C=C(C2(O[2H])CC2)/C3=CC=CC=C3'."
+        },
+        {
+          "file": "Exam-17-T10-2-5-rubric.png",
+          "description": "Reference key intermediate 5, represented by the SMILES 'CC1(C)CCC(C)(C)[S+]1C([2H])/C=C(C2([O-])CC2)/C3=CC=CC=C3'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-17-T10-3",
+      "tags": [
+        "2.2",
+        "2.4"
+      ],
+      "text_open": "10.3 Inspired by this work, other research groups developed sulfur-ylide-mediated ring expansion of donor-acceptor spirocyclopropanes and applied it to the synthesis of spirocyclobutane frameworks.\n10.3.1 Based on the information above, write the SMILES strings of the key intermediate and final product in the reaction below. Stereochemistry is not required.",
+      "text_images": [
+        {
+          "file": "Exam-17-T10-3-1-prompt.png",
+          "description": "Single-step reaction: 'O=C1C2(C(C3=CC=CC=C3)C2)C(C4=CC5=CC=CC=C5C=C41)=O'.'O=C([CH-][S+](C)C)C1=CC=CC=C1'>EtOAc, reflux, 24 h (sulfur ylide 1.5 equiv)>; no product structure is drawn to the right of the arrow."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "Key intermediate: 'O=C1[C-](CC(C(C(C2=CC=CC=C2)=O)[S+](C)C)C3=CC=CC=C3)C(C4=CC5=CC=CC=C5C=C41)=O' (1 point). Final product: 'O=C1C2(CC(C3=CC=CC=C3)C2C(C4=CC=CC=C4)=O)C(C5=CC6=CC=CC=C6C=C51)=O' (1 point)."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-17-T10-3-1-rubric.png",
+          "description": "Reference answer: the key intermediate in 10.3.1, represented by the SMILES 'O=C1[C-](CC(C(C(C2=CC=CC=C2)=O)[S+](C)C)C3=CC=CC=C3)C(C4=CC5=CC=CC=C5C=C41)=O'."
+        },
+        {
+          "file": "Exam-17-T10-3-2-rubric.png",
+          "description": "Reference answer: the final product in 10.3.1, represented by the SMILES 'O=C1C2(CC(C3=CC=CC=C3)C2C(C4=CC=CC=C4)=O)C(C5=CC6=CC=CC=C6C=C51)=O'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-17-T10-4",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "10.3.2 If the spirocyclopropane substrate in 10.3.1 is replaced by the 2’, 3’-unsubstituted spirocyclopropane shown below, the reaction forms a fused-ring byproduct in addition to the desired ring-expanded product. Write the SMILES string of this byproduct.",
+      "text_images": [
+        {
+          "file": "Exam-17-T10-4-1-prompt.png",
+          "description": "The 2’, 3’-unsubstituted spirocyclopropane substrate has the SMILES 'O=C1C2(CC2)C(C3=CC4=CC=CC=C4C=C31)=O'."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "'O=C1C2=C(OC(C(C3=CC=CC=C3)=O)CC2)C4=CC5=CC=CC=C5C=C41' (2 points)"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-17-T10-4-1-rubric.png",
+          "description": "Reference answer: the fused-ring byproduct in 10.3.2, represented by the SMILES 'O=C1C2=C(OC(C(C3=CC=CC=C3)=O)CC2)C4=CC5=CC=CC=C5C=C41'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-17-T10-5",
+      "tags": [
+        "1.2",
+        "2.7"
+      ],
+      "text_open": "10.3.3 The reaction is in fact stereoselective. For the reaction in 10.3.1, assume that the substrate is racemic. Determine whether the major product is racemic, and determine whether the two substituents on the cyclobutane ring are cis or trans, explaining your answer.",
+      "text_images": [],
+      "full_mark": 3,
+      "rubric": [
+        "The product is racemic (1 point). The substituents are trans (1 point). In the cis pathway, Ph and COPh are crowded on the same face, whereas trans ring closure has less steric hindrance (1 point)."
+      ],
+      "rubric_images": []
+    }
+  ]
+}

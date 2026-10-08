@@ -1,0 +1,44 @@
+{
+  "problem_id": "Exam-18-T1",
+  "header": "Problem 1 Structural Chemistry of Aluminosilicates\nThe fundamental structural unit of silicates is the $[SiO_4]$ tetrahedron. Sharing corner oxygen atoms between silicate tetrahedra can form finite polynuclear anions, one-dimensional chains, two-dimensional layers, and three-dimensional infinite frameworks. Zeolite molecular sieves are aluminosilicates with regular channels and cage structures; their frameworks can be regarded as three-dimensional networks of corner-sharing $[SiO_4]$ and $[AlO_4]$ tetrahedra.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-18-T1-1",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "1.1.4 Describe the long-chain silicate structure with general formula $[Si_4O_{11}]_n^{6n-}$, given that it contains 12-membered rings formed by alternating Si and O atoms.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-18-T1-2",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "1.2 Sodalite belongs to the cubic crystal system. In its conventional unit cell, a sodalite cage (β cage) occupies each vertex and the body center, and the cages are connected by sharing hexagonal faces. In addition, each β cage is connected to other β cages by sharing square faces. Each β cage contains four sodium ions arranged as a regular tetrahedron, with a chloride ion at the center of the tetrahedron; each element has only one crystallographically distinct environment.\n1.2.4 In the β cage of sodalite, the number of Al atoms is the maximum allowed by Lowenstein's rule. State the lattice type of sodalite.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-18-T1-3",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "1.3 In Type A zeolite (LTA), a larger α cage forms at the lattice center. An isolated α cage belongs to the Oh point group and has polyhedral notation [4126886]. The LTA framework may be regarded as a three-dimensional infinite structure in which α cages are connected by sharing regular octagonal faces in a “primitive cubic packing” arrangement. 1.3.1 If each LTA unit cell is regarded as containing 1 α cage, state the number of T atoms in one unit cell of Type A zeolite.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-18-T1-4",
+      "tags": [
+        "1.3",
+        "2.1"
+      ],
+      "text_open": "1.4 In the laboratory, 4Å molecular sieve A can be synthesized hydrothermally from sodium silicate, sodium aluminate, and sodium hydroxide.\n1.4.3 Write the overall equation for the synthesis of molecular sieve A.",
+      "text_images": [],
+      "full_mark": 2
+    }
+  ]
+}

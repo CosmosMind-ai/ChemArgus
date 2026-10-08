@@ -1,0 +1,43 @@
+{
+  "problem_id": "Exam-23-T4",
+  "header": "Question 4 Determination of Aluminum by Titration (25 points, 10%)\nAluminum is an important component of light alloys, and its content directly affects strength, corrosion resistance, and processability. EDTA displacement titration is a classical method for determining aluminum. Excess EDTA is first added to complex aluminum ions, and the excess is back-titrated with standard zinc solution. Fluoride is then added to displace EDTA from Al–EDTA, and the released EDTA is titrated with standard zinc solution to determine the aluminum content.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-23-T4-1",
+      "tags": [
+        "2.1"
+      ],
+      "text_open": "4.1 Preparation of Standard Solutions. Disodium ethylenediaminetetraacetate (EDTA) solution (0.02 mol/L): Weigh 7.4448 g EDTA into a 400 mL beaker, dissolve in water, transfer to a 1000 mL volumetric flask, dilute to the mark, and mix. Standard zinc solution (0.02000 mol/L): Weigh 1.6276 g of zinc oxide (primary standard reagent) that has been dried to constant mass at 110 ℃ into a 400 mL beaker. Add 20 mL hydrochloric acid (1 + 1) and heat to dissolve. Add approximately 200 mL water and then add aqueous ammonia (1 + 1) dropwise until Congo red paper changes from blue to violet. Cool, transfer to a 1000 mL volumetric flask, dilute to the mark with water, and mix. 4.2 Dissolution of the Sample. Accurately weigh 1.0008 g of the alloy sample into a 400 mL glass beaker. Add 20 mL~30 mL hydrochloric acid (1 + 1) and heat to dissolve; for samples that are difficult to dissolve, an appropriate amount of concentrated hydrochloric acid or concentrated nitric acid may be added. Add 5 mL concentrated nitric acid dropwise for oxidation, then add 10 mL~30 mL sulfuric acid (1 + 1). Evaporate until sulfuric acid fumes have evolved for 1 min. Remove from heat and cool slightly, add 50 mL water, and heat to dissolve the salts. 4.3 Separation of the Precipitate. Acidity adjustment: Add 100 mL of complexing-agent solution (containing 200 g/L ammonium citrate and 25 g/L ammonium oxalate) to the test solution, and adjust the pH to 4~5 with aqueous ammonia (1 + 1) and sulfuric acid (1 + 8). If a precipitate forms in a tungsten-containing sample, first add concentrated aqueous ammonia until basic and heat to dissolve the tungstic acid precipitate. After cooling, adjust the pH to 4~5 with sulfuric acid (1 + 1) and aqueous ammonia (1 + 1). If the test solution is turbid, heat it to boiling until clear, cool, and readjust the pH to 4~5. Precipitation and dissolution: Transfer the test solution to a 400 mL plastic beaker, add a small amount of paper pulp, and add 100 mL sodium fluoride solution (35 g/L) with stirring. Stir thoroughly for 5 min and let stand for 40 min. Filter through slow filter paper containing a small amount of paper pulp, wash 7~8 times with sodium fluoride solution (5 g/L), and discard the filtrate. Return the precipitate and filter paper to the original glass beaker and immediately add 20 mL hydrochloric acid-boric acid mixed acid (boric acid:hydrochloric acid:water = 15:25:60) to dissolve the precipitate; it must be added immediately, or complete dissolution will be difficult. Add 20 mL~25 mL concentrated nitric acid and boil without covering with a watch glass to destroy the filter paper. Cool slightly, add 7 mL concentrated perchloric acid, and heat to near dryness with fuming. Cool slightly and add 50 mL water to dissolve the salts.\n4.3.3 Write the ionic equation for addition of sodium fluoride in the “Separation of the Precipitate” step. The purpose of adding paper pulp during filtration is (select one).\nA. Increase precipitate purity\nB. Loosen the gelatinous precipitate and prevent passage through the filter\nC. Act as an indicator\nD. Adsorb impurity ions",
+      "text_images": [],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-23-T4-2",
+      "tags": [
+        "2.1"
+      ],
+      "text_open": "4.3.4 Write the ionic equation for dissolution of the precipitate by the hydrochloric acid–boric acid mixture.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-23-T4-3",
+      "tags": [
+        "4.5"
+      ],
+      "text_open": "4.4 Titration\nAccurately add 20.00 mL EDTA solution to the test solution and boil for 2–3 min. Add 2 drops of 2,4-dinitrophenol solution (2 g/L), then add ammonia (1 + 1) dropwise until the solution is pale yellow. Continue boiling for 1–2 min and cool; if the yellow color fades, add ammonia dropwise until pale yellow again. Add 20 mL acetate–ammonium acetate buffer (pH 5.0–5.5) and 4 drops of xylenol orange solution (2 g/L). Titrate with standard zinc solution until violet-red, without recording the reading. Add 1–2 g sodium fluoride, boil for 2–3 min, and cool to room temperature. If the solution is violet-red, add hydrochloric acid (1 + 1) dropwise until the color just disappears. Add another 10 mL acetate–ammonium acetate buffer and 1–2 drops of xylenol orange solution. Titrate with standard zinc solution to a violet-red endpoint; 12.66 mL is consumed.\n4.4.1 Does the EDTA solution require standardization in this experiment? Briefly explain.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-23-T4-4",
+      "tags": [
+        "2.1"
+      ],
+      "text_open": "4.4.2 Write the ionic equation for addition of sodium fluoride followed by boiling, using $H_2Y^{2-}$ for the doubly charged ethylenediaminetetraacetate ion.",
+      "text_images": [],
+      "full_mark": 2
+    }
+  ]
+}

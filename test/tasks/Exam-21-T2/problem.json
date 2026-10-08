@@ -1,0 +1,36 @@
+{
+  "problem_id": "Exam-21-T2",
+  "header": "Molecular Qubit Frameworks\nMolecular qubit frameworks (MQFs) are among the leading candidate materials for quantum-information chips. Molecular qubits are functional materials that use electron-spin states within molecules to store and process quantum information. Under an applied magnetic field, two controllable quantum states can be selected from the low-energy levels of a magnetic center to serve as the qubit states \"0\" and \"1\". Long-term information storage requires minimizing environmental perturbations to the electron spins and isolating the magnetic centers from one another to obtain a long coherence time. A research team successfully constructed a diluted array of molecular spin qubits by doping trace amounts of $Nd^{3+}$ magnetic spin centers into a rigid yttrium-based MOF.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-21-T2-1",
+      "tags": [
+        "1.4",
+        "1.1"
+      ],
+      "text_open": "2.1 The yttrium-based MOF has the formula $[C_5N_2H_{11}][Y(C_2O_4)_2]$. The cation does not coordinate to $Y^{3+}$. The MOF crystallizes in the monoclinic system with $\\beta$ = 130.6°. Each $C_2O_4^{2-}$ bridges two $Y^{3+}$ ions in a $\\mu_2$-$\\kappa^2$O,O′;$\\kappa^2$O″,O‴ mode, chelating each $Y^{3+}$ ion through two O atoms. Answer the following questions about this compound.\n2.1.1 The cation of this compound contains a six-membered ring, its two nitrogen atoms have identical chemical environments, and it contains no tertiary carbon atom. Write the SMILES string for the cation.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-21-T2-2",
+      "tags": [
+        "1.4"
+      ],
+      "text_open": "2.1.2 Give the coordination number of $Y^{3+}$.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-21-T2-3",
+      "tags": [
+        "3.8",
+        "4.7"
+      ],
+      "text_open": "2.3 In quantum-information storage, environmental lattice vibrations (phonon scattering) strongly perturb spin qubits and shorten their lifetimes. Theoretical studies show that, in this porous oxalate framework, the spin–lattice relaxation rate $1/T_1$ of $Nd^{3+}$ in the higher-temperature range 6.5K–8.5K is driven primarily by the combined Raman process and Orbach process and obeys the following kinetic equation:\n$\\frac{1}{T_1}=A_{Raman}T^7+A_{Orbach}\\exp\\left(-\\frac{U_{eff}}{T}\\right)$\nHere, $A_{Raman}$ and $A_{Orbach}$ are the prefactors for the respective mechanisms, and $U_{eff}$ is the effective energy barrier of the low-lying excited state arising from strong spin–orbit coupling. The experimentally measured $U_{eff}$ for this material is 32.6 K.\nThe table below gives experimental spin–lattice relaxation times $T_1$ measured for the extremely dilute sample at different temperatures $T$ using a pulsed EPR spectrometer:\n\n| Measurement temperature $T$ / K | Measured spin-relaxation time $T_1$ / μs |\n| --- | --- |\n| 6.8 | 6.359 |\n| 7.2 | 4.623 |\n| 7.6 | 3.252 |\n| 8.0 | 2.347 |\n| 8.5 | 1.612 |\n\n2.3.1 Using the data above, calculate $A_{Raman}$ and $A_{Orbach}$ by linear regression.",
+      "text_images": [],
+      "full_mark": 6
+    }
+  ]
+}

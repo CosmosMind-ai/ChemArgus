@@ -1,0 +1,27 @@
+{
+  "problem_id": "Exam-04-T1",
+  "header": "Problem 1 Minerals and Chemistry. In the 18 century, Austrian chemist F. J. Müller discovered a substance X resembling antimony in a gold-bearing ore. It was not until 16 years later that German mineralogist M. H. Klaproth formally discovered and named it. Roasting an X-containing mineral A in air gives B and elemental silver. Theoretically, roasting each 1.000 g of A produces 0.628 g of silver.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-04-T1-1",
+      "tags": [
+        "2.1",
+        "2.2"
+      ],
+      "text_open": "It is known that element $X=Te$, mineral $A=Ag_2Te$, and product $B=TeO_2$.\n1-2 B can be further converted into other compounds of X. (i) B dissolves in a concentrated solution of C to give a solution containing D, while base G is also formed. D reacts with E in a 1:2 ratio, precipitating elemental X and producing C and F. (ii) B reacts with base G to form H. A solution in glacial acetic acid of the acid corresponding to the anion of excess H reacts with F in a 1:4 ratio to give the X-containing compound I and the X-free compound J. Reaction of I with G precipitates elemental X and also forms F and H. (iii) Under acidic conditions, B reacts with hydrogen peroxide to give K. K is reduced by a common monoprotic strong acid L, producing B, X, and elemental M. Interestingly, M reacts with F to form J, a reaction commonly used to titrate M in analytical chemistry. C is a binary compound, and C, D, E, F, H, I, and J are all 2:1 salts. Determine the formulas of compounds D, E, I, and J.",
+      "text_images": [],
+      "full_mark": 10
+    },
+    {
+      "sub_id": "Exam-04-T1-2",
+      "tags": [
+        "3.4",
+        "3.6"
+      ],
+      "text_open": "1-3 The standard electrode potential for conversion of K to B is $+1.02\\mathrm{V}$, that of $\\mathrm{Au^{3+}/Au}$ is $+1.50\\mathrm{V}$, and the logarithmic cumulative stability constant for $\\mathrm{Au^{3+}+4Cl^- = AuCl_4^-}$ is $\\lg \\beta_4 = 25.6$. By a brief calculation, determine whether a mixture of K and concentrated hydrochloric acid can dissolve gold at room temperature.",
+      "text_images": [],
+      "full_mark": 5
+    }
+  ]
+}

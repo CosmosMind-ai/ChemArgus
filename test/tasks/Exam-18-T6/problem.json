@@ -1,0 +1,106 @@
+{
+  "problem_id": "Exam-18-T6",
+  "header": "Problem 6 Low-Valent Compounds of Group 13 Metals · II\nLow-valent compounds of Group 13 elements such as aluminum, gallium, and indium (in the +1 oxidation state) have attracted widespread interest in synthetic chemistry and materials science because of their distinctive electronic structures and reactivities. These species often exist as oligomers, clusters, or coordination complexes. Their structural diversity arises from weak interactions between metal centers and their sensitivity to ligands. This problem focuses on the synthesis and structures of low-valent gallium and indium compounds and their coordination chemistry with Lewis acids, testing your understanding of cluster electron counting, aromaticity criteria, and coordination geometries.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-18-T6-1",
+      "tags": [
+        "1.4",
+        "1.6"
+      ],
+      "text_open": "Part I: Core Frameworks of Gallium Clusters—Incomplete Cubes and Four-Membered Rings\n6.1 An electron-precise tetragallane anion: Ultrasonically prepared “GaI” reacts with $Li(THF)_3Si(SiMe_3)_3$ in toluene at -78°C. Warming affords compound $A = [Li(THF)_4]^+[R_4Ga_4I_3]^-$ ($R = Si(SiMe_3)_3$). The anion of A has an “incomplete-cube” framework: four Ga atoms and three I atoms occupy four and three vertices of a cube, respectively, forming a $Ga_4I_3$ core. Write the SMILES string for the anion of A. Each framework bond is known to be a 2c–2e bond, and every Ga atom obeys the octet rule.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-18-T6-2",
+      "tags": [
+        "1.4"
+      ],
+      "text_open": "6.2 Cyclic tetragallane anions: planar and butterfly conformations\n6.2.1 $ArGaCl_2$ ($Ar$ = 2,6-bis(2,4,6-triisopropylphenyl)phenyl) reacts with excess K in diethyl ether to form $B = K_2[Ga_4Ar_2]$. The $Ga_4$ unit in the anion of B is an almost square four-membered ring. Each $K^+$ coordinates to the $Ga_4$ ring and two benzene rings. Write the SMILES string for B.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-18-T6-3",
+      "tags": [
+        "1.5",
+        "1.7"
+      ],
+      "text_open": "6.2.2 $RGaCl_2\\cdot THF$ ($R = Si(t-Bu)_3$) reacts with excess Na (or K) in heptane to form $C = Na_2Ga_4R_4(THF)_2$. The $Ga_4$ core of C adopts a butterfly (nonplanar) conformation, and the Ga–Ga bond lengths are nearly equal (average 2.43 Å) and appreciably shorter than those in the tetrahedrane $Ga_4R_4$ (2.57 Å). Two $Na^+(THF)$ units lie on opposite sides of the ring. Using the Hückel rule (Hückel aromaticity when the number of delocalized electrons $=4n+2$), determine whether the anion of C is aromatic and explain why it is nonplanar, in contrast to planar B.",
+      "text_images": [
+        {
+          "file": "Exam-18-T6-3-1-prompt.png",
+          "description": "The image shows the single-step reaction 'Cl[Ga-](Cl)([O+]1CCCC1)[Si](C(C)(C)C)(C(C)(C)C)C(C)(C)C'>Na (ex.), n-C7H16, 100 °C>'CC([Si](C(C)(C)C)(C(C)(C)C)[Ga]12([Ga@]34[Si](C(C)(C)C)(C(C)(C)C)C(C)(C)C)[Ga@@]([Ga]35([Si](C(C)(C)C)(C(C)(C)C)C(C)(C)C)[Na@@]14C6CCCO6)([Na@@]25C7CCCO7)[Si](C(C)(C)C)(C(C)(C)C)C(C)(C)C)(C)C'. In the reactant $RGaCl_2\\cdot THF$ ($R = Si(t-Bu)_3$), THF is connected to Ga by a coordinate bond, represented in the SMILES by charge separation as [O+]/[Ga-]. In the product $C = Na_2Ga_4R_4(THF)_2$, the Ga4 ring adopts a butterfly conformation (the @/@@ stereochemical markers are retained in the SMILES), and the two Na+(THF) units lie on opposite sides of the ring."
+        }
+      ],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-18-T6-4",
+      "tags": [
+        "1.4",
+        "2.4"
+      ],
+      "text_open": "6.4 Propeller-shaped molecule: Lithium amide $LiN(SiMe_3)Dipp$ (2.2 eq) reacts with GaCl (1 eq) in toluene/diethyl ether (3:1) to give the cluster $D = [Li(Et_2O)_4][Ga_8(R)_2(R')_4(R'')_2OLi]$, where $R = N(SiMe_3)Dipp$, $R'$ = NHDipp, and $R''$ = NDipp. In the anion, the two central Ga atoms are bonded only to other Ga atoms. Each of the six peripheral Ga atoms bears one terminal N ligand and is also bonded to a bridging N or O atom. Write the SMILES string for the anion of D; $Li^+$ and solvent molecules need not be shown. The authors propose that this cluster is obtained by substitution of the subhalide shown below, with the principal framework retained during substitution.",
+      "text_images": [
+        {
+          "file": "Exam-18-T6-4-1-prompt.png",
+          "description": "The image shows a single-step reaction with the reactant 'Cl[Ga]12Cl[Ga](Cl)(Cl2)[Ga]3([Ga](Cl)(Cl4)Cl[Ga]54Cl)[Ga]51[Ga]6(Cl)Cl[Ga]3(Cl)Cl6', followed by >LiN(SiMe3)Dipp (2.2 eq), PhMe/Et2O>[D]. The SMILES representation of LiN(SiMe3)Dipp is '[Li]N([Si](C)(C)C)C1=C(C(C)C)C=CC=C1C(C)C'. The reactant on the left is a gallium subhalide cluster containing 8 Ga and 12 Cl atoms: 6 terminal Cl atoms, 4 bridging Cl atoms, and 2 Cl atoms shown as short dashed bridges. The lithium amide $LiN(SiMe_3)Dipp$ and (2.2 eq) are written above the arrow, and PhMe/Et2O below it. The product on the right is identified only by the formula $D = [Li(Et_2O)_4][Ga_8(N(SiMe_3)Dipp)_2(NHDipp)_4(NDipp)_2OLi]$; its structure is not drawn."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-18-T6-5",
+      "tags": [
+        "1.4",
+        "2.4"
+      ],
+      "text_open": "Part III: E→E Coordinate Bonds. Some E–E bonds can be viewed as coordinate bonds formed when a lone pair on a low-valent metal(I) center coordinates to a trivalent metal(III) Lewis acid. Special ligands are required to obtain stable monomeric low-valent metal(I) species. The following questions examine two ligand systems—a tridentate borate ligand and crown ethers—and their stabilization of monovalent gallium and indium.\n6.5 Metastable “GaI” reacts with $[Tp(t-Bu)_2]Na$ to give the monomer $E = [Tp(t-Bu)_2]Ga$. E can react further with $GaI_3$ to form the adduct $F = [Tp(t-Bu)_2]Ga\\rightarrow GaI_3$.\n6.5.1 Write the SMILES strings for E and F.",
+      "text_images": [
+        {
+          "file": "Exam-18-T6-5-1-prompt.png",
+          "description": "The image shows the two-step reaction '[H]B1(N2[N]3=C(C(C)(C)C)C=C2C(C)(C)C)N4[N]([Na]3[N]5=C(C(C)(C)C)C=C(C(C)(C)C)N51)=C(C(C)(C)C)C=C4C(C)(C)C'>GaI>[E]; [E]>GaI3, NEt3>[F]'. On the left is the structure of $[Tp(t-Bu)_2]Na$: B is bonded to one H and one N atom from each of three pyrazole rings. Each five-membered pyrazole ring contains two adjacent N atoms, one C=C bond and one C=N bond within the ring, and a t-Bu group on each of two ring carbon atoms. The other N atom of each ring coordinates to the central Na, with two of the N–Na bonds shown as dashed lines. E and F are indicated only by their letter labels; their structures are not drawn."
+        }
+      ],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-18-T6-6",
+      "tags": [
+        "1.4",
+        "1.1"
+      ],
+      "text_open": "6.6 In addition to $[Tp(t-Bu)_2]$, crown ethers such as 18-crown-6 can also stabilize monovalent aluminum-group metals.\n6.6.1 Soluble $InOTf$ reacts with 18-crown-6 in toluene to give adduct G. Write the SMILES string for G and indicate the coordination geometry of In.",
+      "text_images": [],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-18-T6-7",
+      "tags": [
+        "2.4",
+        "1.7"
+      ],
+      "text_open": "6.6.2 Unlike the parent $InOTf$, G rapidly undergoes oxidative addition with $CHCl_3$ to form the $In(III)$ compound H, whereas the parent $InOTf$ does not react under the same conditions. Write the SMILES string for H and explain why G is more reactive than $InOTf$.",
+      "text_images": [],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-18-T6-8",
+      "tags": [
+        "2.4",
+        "1.4"
+      ],
+      "text_open": "6.6.3 Under different conditions, $[In_2Cl_4]$ can form valence isomers:\nIn toluene, it exists as the ion pair J, in which one of the cation and anion has a regular tetrahedral geometry.\nIn THF, it exists as the symmetric molecule K containing an In–In bond, with each In atom five-coordinate.\nIn the presence of dibenzo-18-crown-6, it exists as the $In(I)\\rightarrow In(III)$ donor–acceptor adduct L.\nDibenzo-18-crown-6:\nWrite the SMILES strings for J, K, and L, and indicate the oxidation state of each In atom.",
+      "text_images": [
+        {
+          "file": "Exam-18-T6-8-1-prompt.png",
+          "description": "The image shows the structure of dibenzo-18-crown-6, whose SMILES representation is 'C12=CC=CC=C1OCCOCCOC(C=CC=C3)=C3OCCOCCO2'. The 6 O atoms and 8 methylene bridges alternate within an 18-membered ring. Each of the 2 benzene rings, drawn in Kekulé form with alternating double bonds, is fused into the crown ring through 2 adjacent carbon atoms. All bonds other than those within the benzene rings are single bonds."
+        }
+      ],
+      "full_mark": 9
+    }
+  ]
+}

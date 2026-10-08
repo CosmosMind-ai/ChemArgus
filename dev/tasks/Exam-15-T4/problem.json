@@ -1,0 +1,82 @@
+{
+  "problem_id": "Exam-15-T4",
+  "header": "Problem 4 Determination of Chloride by the Volhard Method. ① Pipette 20.00 mL of 0.1 mol/L standard silver nitrate titrant into a 250 mL conical flask. Add 30 mL water, 5 mL nitric acid solution, and 2 mL saturated ferric ammonium sulfate solution. While shaking, titrate with standard potassium thiocyanate titrant until a pale brown-red color appears and persists for 1 min. Record the volume of standard potassium thiocyanate consumed: V_{1} = 19.88 mL. ② Weigh 0.10 g sodium chloride that has been ignited at 500 ℃ ~ 600 ℃ to constant mass, accurate to 0.1 mg. Dissolve it in approximately 40 mL water in a beaker and transfer to a 100 mL volumetric flask. Add 5 mL nitric acid solution (1+3), then add 25.00 mL of 0.1 mol/L standard silver nitrate solution while shaking vigorously. Dilute to the mark with water and mix. Let stand in the dark for 5 min, filter through rapid filter paper, and discard the first 10 mL of filtrate. Accurately pipette 50.00 mL filtrate into a 250 mL conical flask, add 2 mL of 1 mol/L ferric ammonium sulfate solution, and titrate with standard potassium thiocyanate while shaking until a pale brown-red color appears and persists for 1 min. Record V_{2} = 4.01 mL. ③ Measure 50 mL test solution into a 100 mL colorimetric tube and otherwise follow the same procedure as in ②. Record V_{3} = 2.98 mL.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-15-T4-1",
+      "tags": [
+        "4.5",
+        "2.1"
+      ],
+      "text_open": "4.1 Calculate the concentrations of the standard silver nitrate and potassium thiocyanate titrant solutions.",
+      "text_images": [],
+      "full_mark": 5,
+      "rubric": [
+        "Let the exact concentration of $AgNO_3$ solution be c1 and that of KSCN solution be c2.",
+        "In step ①, $Ag^+$ and $SCN^-$ react in a 1 : 1 ratio:",
+        "\\[{{c}_{1}}\\times 20.00\\text{ mL}={{c}_{2}}\\times 19.88\\text{ mL}\\]",
+        "Therefore:",
+        "\\[{{c}_{2}}=\\frac{20.00}{19.88}{{c}_{1}}\\] (1 point)",
+        "From step ②, the mass of the primary standard NaCl is m = 0.1000 g, and M(NaCl) = 58.44 g/mol.",
+        "The amount of NaCl is \\[n(\\text{C}{{\\text{l}}^{\\text{-}}})=\\frac{0.1000\\text{ g}}{58.44\\text{ g/mol}}=1.71116\\text{ mmol}\\] (1 point).",
+        "In the 100 mL volumetric flask, 25.00 mL $AgNO_3$ is added; the excess $Ag^+$ is determined by back-titration of the remaining solution.",
+        "Titration of 50 mL filtrate consumes 4.01 mL KSCN solution, so the excess $Ag^+$ in the 100 mL solution consumes 8.02 mL KSCN solution.",
+        "From the material balance:",
+        "\\[25.00\\cdot {{c}_{1}}=1.71116+8.02\\cdot {{c}_{2}}\\] (1 point).",
+        "Solving simultaneously gives:",
+        "\\[c(\\text{AgN}{{\\text{O}}_{\\text{3}}})={{c}_{1}}\\approx 0.1011\\text{ mol/L}\\] (1 point).",
+        "\\[c(\\text{KSCN})={{c}_{2}}=1.006036\\times 0.10106\\approx 0.1017\\text{ mol/L}\\] (1 point)."
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-15-T4-2",
+      "tags": [
+        "4.1",
+        "4.7"
+      ],
+      "text_open": "4.4.2 Explain why the first 10 mL of filtrate is discarded.",
+      "text_images": [],
+      "full_mark": 1,
+      "rubric": [
+        "To eliminate adsorption of solutes such as $Ag^+$ ions by the filter paper, ensuring that the subsequently pipetted 50.00 mL filtrate accurately represents the concentration of the diluted solution."
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-15-T4-3",
+      "tags": [
+        "4.2",
+        "4.5"
+      ],
+      "text_open": "4.5 If addition of standard silver nitrate produces a colloidal solution, what additional operation is required before filtration?",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "Heat the solution in a boiling-water bath until a coagulated silver chloride precipitate appears. (1 point) Remove it and cool rapidly to room temperature in cold water. (1 point)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-15-T4-4",
+      "tags": [
+        "4.5",
+        "2.1",
+        "4.7"
+      ],
+      "text_open": "4.6 Calculate the $Cl^-$ concentration in the sample.",
+      "text_images": [],
+      "full_mark": 3,
+      "rubric": [
+        "In step ③, the total amount of $Ag^+$ added is \\[25.00\\text{ mL}\\times 0.10106\\text{ mol/L}=2.5265\\text{ mmol}\\] (1 point)",
+        "Titration of 50.00 mL filtrate consumes 2.98 mL standard KSCN solution.",
+        "Therefore, the total excess $Ag^+$ is \\[2\\times 2.98\\text{ mL}\\times 0.10167\\text{ mol/L}=0.6060\\text{ mmol}\\] (1 point)",
+        "The total amount of $Cl^-$ in the test solution is \\[n(\\text{C}{{\\text{l}}^{\\text{-}}})=2.5265-0.6060=1.9205\\text{ mmol}\\]",
+        "The original $Cl^-$ concentration in the test solution is:",
+        "\\[c(\\text{C}{{\\text{l}}^{\\text{-}}})=\\frac{1.9205\\text{ mmol}}{50.00\\text{ mL}}\\approx 0.03841\\text{ mol/L}\\] (1 point)"
+      ],
+      "rubric_images": []
+    }
+  ]
+}

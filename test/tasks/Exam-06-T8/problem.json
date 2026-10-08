@@ -1,0 +1,80 @@
+{
+  "problem_id": "Exam-06-T8",
+  "header": "Problem 8: Fundamental Organic Chemistry",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-06-T8-1",
+      "tags": [
+        "2.4",
+        "2.7",
+        "2.3"
+      ],
+      "text_open": "8.2 Sulfur ylides are important nucleophilic carbon reagents that react with carbonyl compounds, α, β-unsaturated carbonyl compounds, and related substrates. Note: consider thermodynamic and kinetic products. 8.2.1 Compare the two reactions and write the SMILES representation of the major product of each.",
+      "text_images": [
+        {
+          "file": "Exam-06-T8-1-1-prompt.png",
+          "description": "'O=C1CCC(C(C)(C)C)CC1' reacts with '[CH2-][S+](C)C' in THF at 0 °C."
+        },
+        {
+          "file": "Exam-06-T8-1-2-prompt.png",
+          "description": "'O=C1CCC(C(C)(C)C)CC1' reacts with 'C[S+](=O)(C)[CH2-]' in THF at 65 °C."
+        }
+      ],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-06-T8-2",
+      "tags": [
+        "2.4",
+        "2.7",
+        "2.3"
+      ],
+      "text_open": "8.2.2 Compare the two reactions and write the SMILES representation of the major product of each.",
+      "text_images": [
+        {
+          "file": "Exam-06-T8-2-1-prompt.png",
+          "description": "'O=C1CCC(C(=C)C)C=C1C' reacts with '[CH2-][S+](C)C' in THF at 0 °C."
+        },
+        {
+          "file": "Exam-06-T8-2-2-prompt.png",
+          "description": "'CC(=C)C1CCC(=O)C(C)=C1' reacts with 'C[S+](=O)(C)[CH2-]' in THF at 50°C."
+        }
+      ],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-06-T8-3",
+      "tags": [
+        "1.2",
+        "1.7"
+      ],
+      "text_open": "8.3 Molecular conformations. 8.3.1 Determine which side is favored in the following conformational equilibrium. 8.3.2 Determine which side is favored in the following conformational equilibrium. Note: combine the answers to 8.3.1-8.3.2 directly, for example, AA.",
+      "text_images": [
+        {
+          "file": "Exam-06-T8-3-1-prompt.png",
+          "description": "8.3.1 Interconversion equilibrium between molecule A and molecule B, whose SMILES are 'O=C1[C@@]2([H])[C@](N(C)CCC2)([H])CCC1' and 'O=C3[C@]4([H])[C@](N(C)CCC4)([H])CCC3', respectively."
+        },
+        {
+          "file": "Exam-06-T8-3-2-prompt.png",
+          "description": "8.3.2 Interconversion equilibrium between molecule A and molecule B, whose SMILES are 'O=C1[C@@]2([H])[C@](N(C(C)=O)CCC2)([H])CCC1' and 'O=C3[C@]4([H])[C@](N(C(C)=O)CCC4)([H])CCC3', respectively."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-06-T8-4",
+      "tags": [
+        "4.3"
+      ],
+      "text_open": "8.4.2 Examine the following four IR spectra and select from A-D the organic structure that best matches each spectrum. (A) phenol; (B) aniline; (C) N-methylaniline; (D) benzoic acid. Enter the capital letters in the order corresponding to (a)(b)(c)(d), for example, ABCD.",
+      "text_images": [
+        {
+          "file": "Exam-06-T8-4-1-prompt.png",
+          "description": "Four infrared spectra, each with a horizontal axis for vibrational absorption wavenumber in cm^{-1}; the four spectra are labeled (a), (b), (c), and (d) from left to right."
+        }
+      ],
+      "full_mark": 4
+    }
+  ]
+}

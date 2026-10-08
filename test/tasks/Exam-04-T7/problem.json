@@ -1,0 +1,17 @@
+{
+  "problem_id": "Exam-04-T7",
+  "header": "Problem 7 Microbial Fuel Cells. Data that may be used in this problem, all at 25 ℃ unless otherwise stated: $\\varphi^\\Theta_{\\mathrm{HCO_3^-}/\\mathrm{CH_3COO^-}} = 0.187\\ \\mathrm{V}$; $\\varphi^\\Theta_{\\mathrm{K_3Fe(CN)_6/K_4Fe(CN)_6}} = 0.361\\ \\mathrm{V}$; $\\mathrm{p}K_{\\mathrm{a1},\\mathrm{a2},\\mathrm{a3}}(\\mathrm{H_3PO_4}) = 2.16,\\ 7.21,\\ 12.3$; $\\mathrm{p}K_\\mathrm{a}(\\mathrm{CH_3COOH}) = 4.76$; $\\mathrm{p}K_{\\mathrm{a1},\\mathrm{a2}}(\\mathrm{H_2CO_3}) = 6.37,\\ 10.33$; $\\Delta_\\mathrm{r}H_\\mathrm{c}(\\mathrm{CH_3COOH}) = -875\\ \\mathrm{kJ\\cdot mol^{-1}}$; $\\Delta_\\mathrm{r}H_\\mathrm{c}(n-\\mathrm{C_3H_7COOH}) = -2184\\ \\mathrm{kJ\\cdot mol^{-1}}$. A microbial fuel cell (MFC) uses microorganisms as catalysts to convert the chemical energy of organic and inorganic substances directly into electrical energy. MFCs oxidatively decompose organic matter in wastewater, such as glucose and acetic acid, while generating electricity. This treatment both reduces the chemical oxygen demand of the wastewater and converts organic matter into useful energy.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-04-T7-1",
+      "tags": [
+        "3.4",
+        "3.6"
+      ],
+      "text_open": "The electrode-solution compositions, as analytical concentrations, are: electrode A, 0.0223 M $Na_2HPO_4$, 0.0359 M $NaH_2PO_4$, 0.0504 M $K_3[Fe(CN)_6]$, and 0.0167 M $K_4[Fe(CN)_6]$; electrode B, 0.0223 M $Na_2HPO_4$, 0.0359 M $NaH_2PO_4$, 0.0132 M $CH_3COONa$, and 0.0075 M $NaHCO_3$. The pH at A is 7.00 and B may be treated as having the same pH.\n7-1-2 Assuming the pH values at electrodes A and B are approximately equal, calculate the electrode potentials of A and B under these conditions. Give 3 significant figures.",
+      "text_images": [],
+      "full_mark": 4
+    }
+  ]
+}

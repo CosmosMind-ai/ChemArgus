@@ -1,0 +1,113 @@
+{
+  "problem_id": "Exam-04-T10",
+  "header": "Problem 10 Hydrazones and Their Salts: Our Advantage",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-04-T10-1",
+      "tags": [
+        "2.2",
+        "2.3"
+      ],
+      "text_open": "Reaction background: The reaction shown below first converts the ketone into a hydrazone intermediate and then effects elimination at the carbonyl $\\alpha$ carbon. The “second step” is conversion of the hydrazone intermediate to the final product under $H^+/H_2O$.\n10-1-2 Explain why the hydrazone is introduced, and give the SMILES of one key intermediate in the second step.",
+      "text_images": [
+        {
+          "file": "Exam-04-T10-1-1-prompt.png",
+          "description": "Two-step reaction. The leftmost structure is '[*]C1C([*])CC[C@]2([H])[C@@H](Br)C(CC[C@@]21C)=O'. Each * is attached to a wavy line denoting an additional ring system that does not participate and need not be considered. Reaction with ethoxycarbonyl hydrazine 'NNC(OCC)=O' gives '[*]C1C(CC[C@@]2([C@H](/C(CC[C@@]21C)=N\\NC(OCC)=O)Br)[H])[*]', with the same meaning for * and the upper-right wavy line. H^+/H_2O then gives '[*]C1C(CCC2=CC(CC[C@@]21C)=O)[*]', again with the same meaning for *."
+        }
+      ],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-04-T10-2",
+      "tags": [
+        "2.3"
+      ],
+      "text_open": "10-2 A hydrazone can be reduced under basic conditions to a C-C double bond. 10-2-1 A dianion is known to appear during the reaction. Which statements are correct? (a) The first proton removed is on N. (b) The first proton removed is on C. (c) The reaction rate is controlled by departure of Ts^-. (d) The reaction rate is controlled by the second deprotonation. (e) It cannot be determined.",
+      "text_images": [
+        {
+          "file": "Exam-04-T10-2-1-prompt.png",
+          "description": "Reaction of hydrazone '[R1]/C(C[R2])=N/NS(C1=CC=C(C)C=C1)(=O)=O' under 1) Base and 2) TMSCl gives the C-C double-bond product '[R1]/C([Si](C)(C)C)=C/[R2]'."
+        }
+      ],
+      "full_mark": 1
+    },
+    {
+      "sub_id": "Exam-04-T10-3",
+      "tags": [
+        "2.7",
+        "2.8"
+      ],
+      "text_open": "Consider the reaction shown; Quench means quenching. With potassium carbonate as base, product A forms. With LDA, A and a small amount of B form. The substituent R also affects the outcome. 10-2-2 With LDA, arrange the following R groups in decreasing B yield/A yield: (a) R = H; (b) R = Me; (c) R = F.",
+      "text_images": [
+        {
+          "file": "Exam-04-T10-3-1-prompt.png",
+          "description": "Multiple pathways from common substrate 'O=C(CC(C)(C)C1)C([R])C1=O'. Downward reaction with TsNHNH_2, 1 eq, gives bracketed intermediate M. M gives A, 'O=C1CC(C)(C)CC=C1[R]', under 1) K_2CO_3, heat; 2) Quench. Under 1) LDA; 2) Quench, M gives both A and B, where B is 'O=C1CC(C)(C)C=CC1[R]'. SMILES/structure strings shown: 'O=C1CC(C)(C)CC=C1[R]'."
+        }
+      ],
+      "full_mark": 1
+    },
+    {
+      "sub_id": "Exam-04-T10-4",
+      "tags": [
+        "2.2",
+        "2.4"
+      ],
+      "text_open": "10-3 Similarly, the N-N bond of a hydrazone can be converted into a diazo group, which undergoes many interesting reactions. 10-3-1 Give the SMILES of intermediate C.",
+      "text_images": [
+        {
+          "file": "Exam-04-T10-4-1-prompt.png",
+          "description": "Two-step reaction. The left substrate is 'BrC1=C(OC)C(OC)=C(C=NNS(C2=CC=C(C)C=C2)(=O)=O)C(COC)=C1'. It reacts with 'BrC1=C(OC)C=CC(B(O)O)=C1' under K_2CO_3, 1,4-dioxane, 110 ℃ to give unknown C. C then gives 'BrC1=C(OC)C(OC)=C(CC2=CC=C(OC)C(Br)=C2)C(CO)=C1' under BBr_3, CH_2Cl, then THF/H_2O."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-04-T10-5",
+      "tags": [
+        "1.2",
+        "2.4"
+      ],
+      "text_open": "10-3-2 Based on the reaction above, give the SMILES of products D, E, and F. Include stereochemistry.",
+      "text_images": [
+        {
+          "file": "Exam-04-T10-5-1-prompt.png",
+          "description": "Reaction producing D. Substrate '[R2][C@@]([R3])([BPin])[C@](C/1)([R1])CC1=N\\NC2=C(C=C(C=C2C)C)C' gives unknown D under Cs_2CO_3, 3.0 equiv, in 1,4-dioxane at 100 ℃."
+        },
+        {
+          "file": "Exam-04-T10-5-2-prompt.png",
+          "description": "Reaction producing E. 'CC1=CC=C(S(NN=C2[C@@H](CCN=[N+]=[N-])CCCC2)(=O)=O)C=C1' plus '[R1]B(O)O' gives unknown E under K_2CO_3, 3.0 equiv, in 1,4-dioxane at 150 ℃."
+        },
+        {
+          "file": "Exam-04-T10-5-3-prompt.png",
+          "description": "Reaction producing F. 'CC1=CC=C(S(NN=C2CCN(CC#N)CC2)(=O)=O)C=C1' plus '[R2]/C=C/B(O)O' gives unknown F under K_2CO_3, 2.0 equiv, in 1,4-dioxane with MW at 120 ℃."
+        }
+      ],
+      "full_mark": 6
+    },
+    {
+      "sub_id": "Exam-04-T10-6",
+      "tags": [
+        "2.2"
+      ],
+      "text_open": "10-4 Under suitable conditions, a hydrazone can generate a highly reactive carbene. When first proposed, the reaction shown was called an \"unusual carbon-skeleton rearrangement\". After spectroscopic structure determination and isotope labeling, a mechanism was proposed that includes an intramolecular ring closure and a \"questionable\" addition to an sp-hybridized carbon. 10-4-1 Give the SMILES of 2 neutral key intermediates.",
+      "text_images": [
+        {
+          "file": "Exam-04-T10-6-1-prompt.png",
+          "description": "One-step reaction. Reactant 'CC1=CC=C(C=C1)S(N/N=C(C2C(/C3=N/NS(C4=CC=C(C=C4)C)(=O)=O)C2)\\C5C3C5)(=O)=O' under excess NaH in diglyme at 190 ℃ gives 'C12=CC=NN1C=CC3C2C3'."
+        }
+      ],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-04-T10-7",
+      "tags": [
+        "2.3",
+        "3.7"
+      ],
+      "text_open": "10-4-2 When the two three-membered rings of the reactant are on the same side, the yield is 60%; when on opposite sides, it is 40%. Explain this in terms of activation energy.",
+      "text_images": [],
+      "full_mark": 1
+    }
+  ]
+}

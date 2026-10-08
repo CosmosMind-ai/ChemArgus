@@ -1,0 +1,122 @@
+{
+  "problem_id": "Exam-19-T9",
+  "header": "Question 9 The Appeal of Self-Immolative Reactions\nFragmentation is an important and elegant class of skeletal-reorganization processes in organic chemistry. Classical fragmentations are usually controlled by specific electronic effects and cleave otherwise inert chemical bonds through concerted electron transfer.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-19-T9-1",
+      "tags": [
+        "2.2",
+        "2.3"
+      ],
+      "text_open": "9.1 Write the SMILES strings for at least 2 key intermediates in the following Eschenmoser–Tanabe fragmentation.",
+      "text_images": [
+        {
+          "file": "Exam-19-T9-1-1-prompt.png",
+          "description": "The figure shows the one-step sequence 'CC1CC2(OC2C(C1)=O)C'>1. TsNHNH2, rt; 2. 55°C, 2h, 50%>'CC(CC(CC#C)C)=O'."
+        }
+      ],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-19-T9-2",
+      "tags": [
+        "2.4",
+        "2.2"
+      ],
+      "text_open": "In recent years, chemists have introduced the concept of fragmentation driven by a cascade of electron transfers into drug delivery and smart sensing, developing self-immolative reactions. Such systems usually consist of a trigger group, a conjugated linker, and a leaving payload. When a specific stimulus activates the trigger, long-range concerted fragmentation begins within the molecule, causing spontaneous disassembly and release of the target molecule.\n9.2 In the following molecule, reduction serves as the specific stimulus. After neutral intermediate A forms, self-immolation occurs immediately. Write the SMILES string for intermediate A.",
+      "text_images": [
+        {
+          "file": "Exam-19-T9-2-1-prompt.png",
+          "description": "The figure shows two steps: 'O=C(NC1=CC=C(CC(NCCN(C)C)=O)C=C1)OCC2=CC=C([N+]([O-])=O)C=C2'>60Co γ-ray, iPrOH/H2O>[A]; [A]>H2O>'O=C(NC1=CC=C(CC(NCCN(C)C)=O)C=C1)OCC2=CC=C(NO)C=C2'.'CO2'.'OCC1=CC=C(NO)C=C1'. Intermediate A is represented only by a bold boxed A and its structure is not shown; CO2 appears as a text label."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-19-T9-3",
+      "tags": [
+        "2.4",
+        "2.1"
+      ],
+      "text_open": "9.3 A slight modification of the substrate in 9.2 allows more complex products to be obtained through a cascade reaction in $H_2O$. The reaction produces 2 inorganic and 2 organic products. Write the SMILES strings for the 2 organic products and the formulas of the 2 inorganic products.",
+      "text_images": [
+        {
+          "file": "Exam-19-T9-3-1-prompt.png",
+          "description": "The figure shows the one-step reaction 'O=C(NC1=CC=C([N+]([O-])=O)C=C1)OCC2=CC=C(B(O)O)C=C2'>H2O2>[products not shown]."
+        }
+      ],
+      "full_mark": 6
+    },
+    {
+      "sub_id": "Exam-19-T9-4",
+      "tags": [
+        "2.4",
+        "1.2"
+      ],
+      "text_open": "9.4 Ring formation is fundamental to organic reactions. Certain ring-forming reactions can also serve as specific stimuli that initiate self-immolation.\n9.4.1 In the reaction above, the substrate undergoes Michael addition to give B. Self-immolation of B forms seven-membered-ring compound C. Write the SMILES string for C and the chemical formula of the small inorganic molecule produced.",
+      "text_images": [
+        {
+          "file": "Exam-19-T9-4-1-prompt.png",
+          "description": "The figure shows the one-step reaction 'C=CC(OC1=CC=C(COC(NC2=CC=CC=C2)=S)C=C1)=O'.'SC[C@H](N)C(O)=O'>PBS (PH=7.4, 10mM)>[B]. The cysteine thiol is shown with a dashed wedge to indicate stereochemistry, retained by the @ marker in the SMILES. The product is labeled only B and its structure is not shown."
+        }
+      ],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-19-T9-5",
+      "tags": [
+        "2.4",
+        "2.3"
+      ],
+      "text_open": "9.4.2 Ring formation is not the endpoint; a pericyclic reaction follows. This strategy uses the inverse-electron-demand Diels–Alder reaction (IEDDA) between a trans-cyclooctene derivative (TCO) and a tetrazine derivative to trigger self-immolation. In the reaction below, IEDDA between TCO and tetrazine releases a gas and forms a dihydropyridazine intermediate. After the pericyclic reaction, an N atom of the dihydropyridazine acts as the initiating group for self-immolation, producing 2 aromatic organic compounds. Write the SMILES strings for both products.",
+      "text_images": [
+        {
+          "file": "Exam-19-T9-5-1-prompt.png",
+          "description": "The figure shows the one-step reaction 'CC1=NN=C(C)N=N1'.'O=C(NC1=CC=CC=C1)OC2CCCCC/C=C/2'>>[products not shown]."
+        }
+      ],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-19-T9-6",
+      "tags": [
+        "2.3",
+        "2.8"
+      ],
+      "text_open": "9.4.3 The dihydropyridazine intermediate must undergo a formal σ-migration rearrangement before it can initiate 1,4-elimination, the subsequent self-immolation. Name this rearrangement and explain why it is faster in water than in an organic phase.",
+      "text_images": [],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-19-T9-7",
+      "tags": [
+        "2.2",
+        "2.4"
+      ],
+      "text_open": "9.5 The following substance can undergo a self-immolative reaction through rearrangement.\nWrite the SMILES strings for 1 key rearrangement intermediate containing 2 five-membered rings and the 2 organic molecules produced by self-immolation.",
+      "text_images": [
+        {
+          "file": "Exam-19-T9-7-1-prompt.png",
+          "description": "The figure shows the one-step reaction 'CC(C)(C(C1=CC=CC=C1)O)S(C2=NC3=CC=CC=C3S2)(=O)=O'>10% DMSO/PBS, pH = 7.4, 37°C>[products not shown]."
+        }
+      ],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-19-T9-8",
+      "tags": [
+        "2.1",
+        "2.4"
+      ],
+      "text_open": "9.6 The following polymer readily depolymerizes through self-immolation under acidic conditions. Write the reaction equation.",
+      "text_images": [
+        {
+          "file": "Exam-19-T9-8-1-prompt.png",
+          "description": "The figure shows a cyclic polymer in which three benzene-ring units alternate with O–CH units to form a ring. The visible cyclic skeleton has SMILES 'C1(C2OC3OC(OC4OC(OC5O2)C6=C5C=CC=C6)C7=C4C=CC=C7)=C3C=CC=C1'. A curved bracket marks the repeating portion with subscript n-2, so the full structure is an n-mer of monomer '[*]OC1OC([*])C2=C1C=CC=C2'. H+ is written above the arrow and the product is not shown."
+        }
+      ],
+      "full_mark": 3
+    }
+  ]
+}

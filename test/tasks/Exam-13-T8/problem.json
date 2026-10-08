@@ -1,0 +1,97 @@
+{
+  "problem_id": "Exam-13-T8",
+  "header": "Question 8 Fundamentals of Organic Chemistry. This problem concerns aldehyde and ketone hydration equilibria, asymmetric addition, neighboring-group participation, and pH-dependent hydrolysis mechanisms.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-13-T8-1",
+      "tags": [
+        "1.2",
+        "2.7",
+        "2.4"
+      ],
+      "text_open": "8.2 Addition reactions of unsymmetrical aldehydes and ketones generally exhibit some stereoselectivity. Select the major product formed in each of the following reactions. 8.2.3",
+      "text_images": [
+        {
+          "file": "Exam-13-T8-1-1-prompt.png",
+          "description": "Question 8.2.3: reduction of tert-butyl-substituted cyclohexanone by (iPrO)_3Al/iPrOH gives two possible cyclohexanol stereoisomers. The 4-tert-butylcyclohexanone reactant has a solid-wedge tert-butyl bond and SMILES 'CC(C)(C)C(CC1)CCC1=O'. A rightward arrow labeled '(iPrO)3Al' above, SMILES 'CC(O[Al](OC(C)C)OC(C)C)C', and iPrOH below, SMILES 'CC(O)C', gives an alcohol with a wavy OH bond and SMILES 'CC(C)(C)[C@H]2CCC(O)CC2'. Below, one diastereomer has a dashed OH bond and SMILES 'CC(C)(C)[C@H]4CC[C@@H](O)CC4'; '(b)' has a solid-wedge OH bond and SMILES 'CC(C)(C)[C@H]3CC[C@H](O)CC3'."
+        }
+      ],
+      "full_mark": 1
+    },
+    {
+      "sub_id": "Exam-13-T8-2",
+      "tags": [
+        "1.2",
+        "2.7",
+        "2.4"
+      ],
+      "text_open": "8.2.4",
+      "text_images": [
+        {
+          "file": "Exam-13-T8-2-1-prompt.png",
+          "description": "A bicyclic ketone bearing a bridgehead methyl group has SMILES 'O=C1[C@@]2(C)CC[C@@H](C2)C1'. A rightward arrow labeled LiAlH_4 gives an alcohol with a wavy OH bond, indicating unspecified configuration at the new stereocenter, with SMILES 'OC3[C@@]4(C)CC[C@@H](C4)C3'. Below are two diastereomers: '(a)', with a dashed OH bond, has SMILES 'O[C@@H]5[C@@]6(C)CC[C@@H](C6)C5'; '(b)', with a solid-wedge OH bond, has SMILES 'O[C@H]7[C@@]8(C)CC[C@@H](C8)C7'."
+        }
+      ],
+      "full_mark": 1
+    },
+    {
+      "sub_id": "Exam-13-T8-3",
+      "tags": [
+        "2.3",
+        "4.2"
+      ],
+      "text_open": "8.4 Intramolecular catalysis sometimes occurs in aqueous hydrolysis of ketals, esters, and related compounds. This neighboring-group participation allows a group near the reaction center to provide an acidic, basic, or otherwise activating site, producing unusual pH dependence of the rate k. 8.4.1 Kinetic data show that the acetylsalicylate anion hydrolyzes much faster than neutral acetylsalicylic acid. Researchers proposed 2 intramolecular mechanisms, nucleophilic catalysis and general-base catalysis, as shown below. Isotope tracing shows that hydrolysis with H_{2}^{18}O does not produce salicylic acid containing ^{18}O. Which mechanism is correct?",
+      "text_images": [
+        {
+          "file": "Exam-13-T8-3-1-prompt.png",
+          "description": "Two catalytic mechanisms for hydrolysis of acetylsalicylate. In the English-localized upper half, the label is Nucleophilic catalysis:. Acetylsalicylate, SMILES 'CC(OC1=CC=CC=C1C([O-])=O)=O', forms an intermediate containing an ortho oxyanion and mixed-anhydride motif, SMILES 'CC(OC(C1=C([O-])C=CC=C1)=O)=O', which hydrolyzes under an arrow labeled H_2O to salicylic acid, SMILES 'O=C(C1=C(O)C=CC=C1)O'. In the lower half, the label is General-base catalysis:. Acetylsalicylate interacts with H-O-H; 2 curved arrows show the carboxylate oxyanion abstracting a water proton while the water oxygen attacks the acetyl carbonyl carbon. This gives a tetrahedral intermediate bearing methyl, hydroxyl, oxyanion, aryl ether, and ring carboxyl groups, SMILES 'CC(O)(OC1=CC=CC=C1C(O)=O)[O-]', which decomposes to the same salicylic acid, SMILES 'O=C(C1=C(O)C=CC=C1)O'."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-13-T8-4",
+      "tags": [
+        "1.6",
+        "2.3",
+        "1.7"
+      ],
+      "text_open": "8.4.2 Introducing nitro groups at both positions meta to the acetyloxy group of acetylsalicylic acid reverses the hydrolysis mechanism in the resulting dinitro compound, so the other proposed mechanism operates. Give a brief reasonable explanation.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-13-T8-5",
+      "tags": [
+        "2.3",
+        "3.7",
+        "4.2"
+      ],
+      "text_open": "8.4.3 The hydrolysis rate k of the cyclic ketal below varies with pH as shown. An anomalous plateau occurs over pH = 2-4. Propose the ketal-hydrolysis mechanism in this region.",
+      "text_images": [
+        {
+          "file": "Exam-13-T8-5-1-prompt.png",
+          "description": "k-pH curve for the cyclic ketal with SMILES 'O=C(C(C=CC=C1)=C1OC2OCCCC2)O'. A rectangular black coordinate frame has inward ticks on all sides and a decorative colored background at the left. The vertical axis is k/×10³ s⁻¹ with labels 0, 10, 20, 30, and 40 from bottom to top. The horizontal axis is pH with consecutive integers 1 through 7. A smooth black curve decreases overall with increasing pH and is relatively flat between pH 2 and 5. Along and near the curve are 12 hollow circular data markers with small center dots."
+        }
+      ],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-13-T8-6",
+      "tags": [
+        "2.3",
+        "3.7",
+        "4.2"
+      ],
+      "text_open": "8.4.4 The rate of ester hydrolysis of the substance below varies with pH as shown. Explain the k-pH curve mechanistically.",
+      "text_images": [
+        {
+          "file": "Exam-13-T8-6-1-prompt.png",
+          "description": "log k-pH curve for ester hydrolysis of the substrate with SMILES 'ClC1=C(OC(C)=O)C(CC2=C(Cl)C(Cl)=CC(Cl)=C2O)=C(Cl)C(Cl)=C1'. A black rectangular frame with inward ticks has vertical axis log k/s⁻¹ labeled -5, -4, -3, -2, and -1 from bottom to top and horizontal axis pH labeled 2, 4, 6, 8, 10, and 12. A continuous black curve with solid and hollow data markers first decreases, reaches a minimum near pH 5-6, then rises, forms a relatively flat plateau around pH 9-11, and bends upward again above pH 12."
+        }
+      ],
+      "full_mark": 6
+    }
+  ]
+}

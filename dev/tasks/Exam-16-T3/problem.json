@@ -1,0 +1,56 @@
+{
+  "problem_id": "Exam-16-T3",
+  "header": "Problem 3: Photopromoted Polymerization",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-16-T3-1",
+      "tags": [
+        "2.2",
+        "2.3",
+        "2.4"
+      ],
+      "text_open": "3.1 On 2023-3-24, researchers from Istanbul Technical University published a study of visible-light-induced cationic step-growth polymerization. 3.1.1 In a direct initiation system for cationic polymerization, an onium salt can absorb light directly to initiate the reaction. An advantage of this initiation mode is that it generates an acidic environment in situ, further promoting the reaction. On this basis, give all products of the initiation reaction shown below.",
+      "text_images": [
+        {
+          "file": "Exam-16-T3-1-1-prompt.png",
+          "description": "The figure shows a reaction in which the species on the left is a salt composed of a circled negatively charged `PF_6^-` anion and a circled positively charged cation; its corresponding SMILES is '[Ar][I+][Ar].F[P-](F)(F)(F)(F)F'. The salt reacts to the right under `hv` and `300 nm` shown above the arrow and `R-H` shown below the arrow."
+        }
+      ],
+      "full_mark": 4,
+      "rubric": [
+        "ArI (1 point), HPF_{6} (1 point), R· (1 point), Ar· (1 point)",
+        "If more than 4 products are listed, only the first 4 are considered; incorrect entries do not incur deductions."
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-16-T3-2",
+      "tags": [
+        "2.2",
+        "2.4"
+      ],
+      "text_open": "3.1.2 Give the SMILES structures of 1 key active intermediate derived from the monomer and of the product in this reaction.",
+      "text_images": [
+        {
+          "file": "Exam-16-T3-2-1-prompt.png",
+          "description": "The figure shows a reaction in which the leftmost molecule is 'C1=CSC=C1', followed by the label \"(2 equiv)\". It reacts with a salt shown at the upper right, composed of a circled negatively charged `PF_6^-` anion and a circled positively charged cation; the corresponding SMILES of the salt is 'C1([I+]C2=CC=CC=C2)=CC=CC=C1.F[P-](F)(F)(F)(F)F'. The reaction proceeds to the right under `hv` shown below the arrow."
+        }
+      ],
+      "full_mark": 4,
+      "rubric": [
+        "'C1=CC=C[S+]1' (2 points), 'C1(C2=CC=CS2)=CC=CS1' (2 points)"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-16-T3-2-1-rubric.png",
+          "description": "Rubric structure 1: a thiophene radical cation/key active intermediate. The structure in the image has the SMILES 'C1=CC=C[S+]1'."
+        },
+        {
+          "file": "Exam-16-T3-2-2-rubric.png",
+          "description": "Rubric structure 2: the bithiophene product. The structure in the image has the SMILES 'C1(C2=CC=CS2)=CC=CS1'."
+        }
+      ]
+    }
+  ]
+}

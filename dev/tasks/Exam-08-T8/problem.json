@@ -1,0 +1,146 @@
+{
+  "problem_id": "Exam-08-T8",
+  "header": "Conformational Stability and Electronic Effects\nThis problem tests a systematic understanding of basic conformational analysis and the origins of molecular stability. Compare conformations accessible through bond rotation and answer in terms of steric effects, hyperconjugation, dipole-dipole interactions, electronegativity differences, and related factors.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-08-T8-1",
+      "tags": [
+        "1.2",
+        "1.7"
+      ],
+      "text_open": "For 8.1–8.3 and 8.5–8.6, describe in words the most stable conformation of each molecule shown, specifying in particular whether each substituent is equatorial or axial.\n8.1",
+      "text_images": [
+        {
+          "file": "Exam-08-T8-1-1-prompt.png",
+          "description": "'CC(C)(C)N1CN(C(C)(C)C)CN(C(C)(C)C)C1'"
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "Most stable conformation: a trisubstituted nitrogen-containing six-membered ring whose skeleton lies approximately in the plane of the page. It contains three nitrogen atoms, 1 at the left, one at the upper right, and one at the lower right. Each nitrogen bears a tert-butyl (tBu) substituent, and all three tBu groups project outward from the ring. Two tBu groups are equatorial and one is axial. (2 points)"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-08-T8-1-1-rubric.png",
+          "description": "A trisubstituted nitrogen-containing six-membered ring whose skeleton lies approximately in the plane of the page. It contains three nitrogen atoms, 1 at the left, one at the upper right, and one at the lower right. Each nitrogen bears a tert-butyl (tBu) substituent, and all three tBu groups project outward from the ring. Two tBu groups are equatorial and one is axial."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-08-T8-2",
+      "tags": [
+        "1.2",
+        "1.7"
+      ],
+      "text_open": "8.2",
+      "text_images": [
+        {
+          "file": "Exam-08-T8-2-1-prompt.png",
+          "description": "'CN1N(C)CN(C)N(C)C1'"
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "Most stable conformation: a six-membered ring containing four nitrogen atoms in an approximately chair conformation. Two adjacent N atoms lie on the left and another adjacent pair on the right; carbon atoms at the top and bottom connect the pairs. Each N bears an outward-pointing substituent. The methyl substituents on N atoms at positions 1 and 4 are equatorial, whereas those on N atoms at positions 2 and 5 are axial. (2 points)"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-08-T8-2-1-rubric.png",
+          "description": "A six-membered ring containing four nitrogen atoms in an approximately chair conformation. Two adjacent N atoms lie on the left and another adjacent pair on the right; carbon atoms at the top and bottom connect the pairs. Each N bears an outward-pointing substituent. The methyl substituents on N atoms at positions 1 and 4 are equatorial, whereas those on N atoms at positions 2 and 5 are axial."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-08-T8-3",
+      "tags": [
+        "1.2",
+        "1.7"
+      ],
+      "text_open": "8.3",
+      "text_images": [
+        {
+          "file": "Exam-08-T8-3-1-prompt.png",
+          "description": "'CN1N(CC2=CC=CC=C2)CN(C)N(CC3=CC=CC=C3)C1'"
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "Most stable conformation: a six-membered chair containing four nitrogen atoms, arranged as adjacent pairs on the left and right sides. Both Bn substituents are axial, while the other two methyl substituents are equatorial. (2 points)"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-08-T8-3-1-rubric.png",
+          "description": "A six-membered chair containing four nitrogen atoms, arranged as adjacent pairs on the left and right sides. Both Bn substituents are axial, while the other two methyl substituents are equatorial."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-08-T8-4",
+      "tags": [
+        "1.2",
+        "1.6",
+        "1.7"
+      ],
+      "text_open": "8.4 Explain, in terms of steric hindrance, hyperconjugation, dipole-dipole interactions, electronegativity differences, and related effects, why the anti-staggered conformation predominates in 1,2-dihaloethanes when the halogen is Cl or Br, whereas the gauche-staggered conformation predominates when the halogen is F. (No more than 100 words.)",
+      "text_images": [],
+      "full_mark": 5,
+      "rubric": [
+        "Cl and Br have large atomic radii. Although C-Cl and C-Br bonds are long, the atoms themselves are bulky, and bringing the two halogens close together in the gauche conformation causes strong van der Waals repulsion. (1 point)",
+        "Because F is strongly electronegative, the C-F antibonding orbital is low in energy and is a good electron acceptor. (1 point)",
+        "In the gauche conformation, a C-H bond and a C-F bond are antiperiplanar, giving effective orbital overlap that substantially lowers the system's energy. (1 point)",
+        "The two strongly polar bonds subtend an angle of 60°, producing substantial dipole-dipole repulsion. (1 point)",
+        "The stabilization from hyperconjugation exceeds the destabilization from dipole-dipole repulsion. (1 point)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-08-T8-5",
+      "tags": [
+        "1.2",
+        "1.7"
+      ],
+      "text_open": "8.5",
+      "text_images": [
+        {
+          "file": "Exam-08-T8-5-1-prompt.png",
+          "description": "'O=C(C)N1CCCC[C@H]1C'"
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "Most stable conformation: an N-acyl-substituted nitrogen-containing cyclic skeleton. At the left is an acetyl fragment, $\\mathrm{CH_3}$-C(=O)-N-, and to the right is a nitrogen-containing ring attached through N. The ring adopts an overall chair conformation. The acetyl group is approximately equatorial, while the methyl substituent at the $\\alpha$ position to N is axial. (2 points)"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-08-T8-5-1-rubric.png",
+          "description": "An N-acyl-substituted nitrogen-containing cyclic skeleton. At the left is an acetyl fragment, $\\mathrm{CH_3}$-C(=O)-N-, and to the right is a nitrogen-containing ring attached through N. The ring adopts an overall chair conformation. The acetyl group is approximately equatorial, while the methyl substituent at the $\\alpha$ position to N is axial."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-08-T8-6",
+      "tags": [
+        "1.2",
+        "1.7"
+      ],
+      "text_open": "8.6",
+      "text_images": [
+        {
+          "file": "Exam-08-T8-6-1-prompt.png",
+          "description": "'O=C(C)N1[C@@H](C)CCC[C@H]1C'"
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "Most stable conformation: an N-acyl-substituted nitrogen-containing cyclic skeleton. At the left is an acetyl fragment, $\\mathrm{CH_3}$-C(=O)-N-, and to the right is a nitrogen-containing ring attached through N. The ring adopts an overall chair conformation. The acetyl group is approximately equatorial, and both methyl groups at positions $\\alpha$ to N are axial. (2 points)"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-08-T8-6-1-rubric.png",
+          "description": "An N-acyl-substituted nitrogen-containing cyclic skeleton. At the left is an acetyl fragment, $\\mathrm{CH_3}$-C(=O)-N-, and to the right is a nitrogen-containing ring attached through N. The ring adopts an overall chair conformation. The acetyl group is approximately equatorial, and both methyl groups at positions $\\alpha$ to N are axial."
+        }
+      ]
+    }
+  ]
+}

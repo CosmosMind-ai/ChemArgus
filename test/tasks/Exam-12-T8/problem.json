@@ -1,0 +1,78 @@
+{
+  "problem_id": "Exam-12-T8",
+  "header": "Problem 8 Properties and Applications of Acetal Derivatives\nAn acetal is an organic compound formed when one molecule of an aldehyde or ketone undergoes acid-catalyzed nucleophilic addition with two molecules of alcohol followed by dehydration. Its core structure has two alkoxy groups bonded to the same carbon atom, giving acetals distinctive chemical properties and uses.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-12-T8-1",
+      "tags": [
+        "1.5",
+        "2.5",
+        "2.7"
+      ],
+      "text_open": "8-1 When benzaldehyde is used to protect mannitol (structure shown below; SMILES: 'OC[C@@H](O)[C@@H](O)[C@H](O)[C@H](O)CO'), the reaction ratio is 1:2, whereas with acetone the ratio becomes 1:3. This difference arises because benzaldehyde protects 1,3-diols to form six-membered cyclic acetals, while acetone protects 1,2-diols to form five-membered cyclic ketals. Explain the difference in selectivity.",
+      "text_images": [
+        {
+          "file": "Exam-12-T8-1-1-prompt.png",
+          "description": "The image shows the structure of mannitol, whose SMILES is 'OC[C@@H](O)[C@@H](O)[C@H](O)[C@H](O)CO'."
+        }
+      ],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-12-T8-2",
+      "tags": [
+        "2.7",
+        "2.8"
+      ],
+      "text_open": "8-2-1 Replacing the oxygen atoms in an acetal with sulfur gives a thioacetal, which has different reactivity. Compare the stabilities of the following substances in $1 \\ \\mathrm{mol/L}$ hydrochloric acid and explain your answer.",
+      "text_images": [
+        {
+          "file": "Exam-12-T8-2-1-prompt.png",
+          "description": "Substance A on the left is a ketone with SMILES 'CC1CCCC1=O'; substance B on the right is a thioketone with SMILES 'CC1CCCC1=S'."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-12-T8-3",
+      "tags": [
+        "2.7",
+        "2.8"
+      ],
+      "text_open": "8-2-2 Compare the stabilities of the following substances in $1 \\ \\mathrm{mol/L}$ hydrochloric acid and explain your answer.",
+      "text_images": [
+        {
+          "file": "Exam-12-T8-3-1-prompt.png",
+          "description": "Substance A on the left is a thioketal with SMILES 'C1CCCC12SCCCS2'; substance B on the right is a ketal with SMILES 'C1CCCC12OCCCO2'."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-12-T8-4",
+      "tags": [
+        "2.4",
+        "2.5"
+      ],
+      "text_open": "8-3-1 A proposed synthetic route to M is shown below. Write the SMILES structures of N and M.",
+      "text_images": [
+        {
+          "file": "Exam-12-T8-4-1-prompt.png",
+          "description": "'CC(C)CC=O' reacts with SCCCS to form 'CC(C)CC1SCCCS1'. Subsequent reaction with $\\mathrm{n-BuLi}$ and 'C[Si](C1(SCCCS1)CC2CO2)(C)C' gives compound N. Under $\\mathrm{HgCl_2/MeOH}$ conditions, N is converted to compound M."
+        }
+      ],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-12-T8-5",
+      "tags": [
+        "2.4",
+        "2.5"
+      ],
+      "text_open": "8-3-2 If the reagent in the initial step is replaced with ethylene dithiol, treatment of the thioacetal with butyllithium does not give the expected product. Instead, a side reaction occurs and produces a pungent odor. IR spectroscopy shows that the reaction mixture contains many products, one of which gives an absorption attributable to a carbon-carbon double bond in a hydrocarbon. Based on this information, write 2 products formed in the reaction.",
+      "text_images": [],
+      "full_mark": 3
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "problem_id": "Exam-09-T1",
+  "header": "Material-Balance Analysis of an Electrolytic Process\n\"If this silvery-white lightweight metal could be produced on a large scale at low cost, transportation and building structures would undergo a qualitative transformation.\" In the late 19th century, industry fiercely competed to develop a method for producing this lightweight metal. At almost the same time, chemists Charles M. Hall and Paul Héroult independently proposed, on opposite sides of the Atlantic, a high-temperature molten-salt electrolysis route: a reddish-brown ore A (whose principal component is A') is purified and then electrolytically reduced in a molten-salt bath to obtain the silvery-white metal B, thereby laying the foundation of the modern metallurgical industry for B. Natural ore A is usually reddish brown and often contains silicon dioxide impurities. During electrolysis, the mineral flux C is added to lower the melting point of the system, and a carbonaceous anode is used. The anode is continuously consumed, releasing gas D. Industrial electrolytic cells normally operate at atmospheric pressure and at approximately 955℃. Before Hall-Héroult electrolysis, ore A must be purified by the Bayer process. This process mainly comprises the following steps: first, crushed ore A is stirred with a 30 wt% NaOH solution at 473 K and 3.5 MPa for 2 h, converting it into the soluble complex E; the solution is then cooled to 320 K, seeded with particles approximately 75 μm in size (50 g·L^{-1}), and allowed to stand for 48 h, precipitating F with a relatively narrow particle-size distribution that facilitates subsequent calcination; finally, F is calcined in air at 1370 K for 6 h to regenerate high-purity A'. When mineral flux C is the principal component of the molten-salt bath, the bath usually contains two key substances: solid G, which must be replenished periodically, and compound H. Solid G is added periodically to maintain their molar ratio in the bath. If $Na_2CO_3$ impurity enters the bath, $Na_2CO_3$ reacts with G, releasing a small amount of gas D and producing compound H, which remains soluble in the molten-salt bath, together with another by-product. Define the bath ratio as BR = n(H) / n(G) = 2.50",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-09-T1-1",
+      "tags": [
+        "2.1",
+        "3.6"
+      ],
+      "text_open": "1.2 On a certain day, 15.0 kg of $Na_2CO_3$ impurity enters the molten-salt bath. Assume that all H produced dissolves in the bath and all D escapes. 1.2.1 Calculate the mass of A' additionally produced by the side reaction that day.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-09-T1-2",
+      "tags": [
+        "2.1"
+      ],
+      "text_open": "1.2.2 Calculate the additional mass of G that should be added that day to restore BR to 2.50.",
+      "text_images": [],
+      "full_mark": 4
+    }
+  ]
+}

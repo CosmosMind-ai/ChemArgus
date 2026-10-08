@@ -1,0 +1,31 @@
+{
+  "problem_id": "Exam-03-T1",
+  "header": "",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-03-T1-1",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "1-3 The following structure is an As-S polyanion. Write its chemical formula, including the charge.",
+      "text_images": [
+        {
+          "file": "Exam-03-T1-1-1-prompt.png",
+          "description": "This schematic of an As-S polyanion shows a two-dimensional network of solid red circles (As atoms) and hollow white circles (S atoms) connected by black line segments. Its repeating motifs are cyclic clusters, each typically an eight-membered ring formed by alternating 4 red and four white nodes. Visually, each eight-membered ring contains a special terminal white node that is connected by only one line to a red node on the ring and points toward the center of the ring. The rings are not isolated; adjacent cyclic clusters are linked by individual bridging white nodes. Red nodes on adjacent clusters connect to a shared bridging white node between them. Every red node not connected to an inward-pointing white node participates in bridging, whereas a red node connected to an inward-pointing white node does not. Repetition in all directions forms a flexible, wavy-looking infinite two-dimensional network. At the image boundaries, some nodes have short black lines extending outward without terminating at another circle. Near the upper part of the image, the labels \"As\" and \"S\" point respectively to a specific red node and an adjacent white node."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-03-T1-2",
+      "tags": [
+        "2.4",
+        "1.4"
+      ],
+      "text_open": "1-4 Under illumination, Fe(CO)_5 reacts with (C_6F_5As)_4 to form complex X with ω(Fe) = 8.57%. 1-4-1 Write the chemical formula of complex X.",
+      "text_images": [],
+      "full_mark": 2
+    }
+  ]
+}

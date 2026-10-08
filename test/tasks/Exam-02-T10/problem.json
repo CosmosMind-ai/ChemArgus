@@ -1,0 +1,97 @@
+{
+  "problem_id": "Exam-02-T10",
+  "header": "Problem 10: Forever Unnamed",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-02-T10-1",
+      "tags": [
+        "2.2"
+      ],
+      "text_open": "10-1 A neutral reaction intermediate can be obtained by the process shown below. Write its SMILES representation.",
+      "text_images": [
+        {
+          "file": "Exam-02-T10-1-1-prompt.png",
+          "description": "A chemical reaction equation: the reactants on the left are [R1]CC(=O)Cl and R_2NC, joined by a plus sign `+`; a horizontal right-pointing arrow in the center leads to bold X on the right."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-02-T10-2",
+      "tags": [
+        "2.4",
+        "2.2",
+        "1.2"
+      ],
+      "text_open": "10-2-1 Further reactions can proceed from intermediates of type X. Write the SMILES representations of products A and B in the reactions below, given that B contains a five-membered aromatic ring. 10-2-2 Label the absolute configurations of all chiral carbon atoms in the structure of A from the preceding question.",
+      "text_images": [
+        {
+          "file": "Exam-02-T10-2-1-prompt.png",
+          "description": "The image shows two parallel reactions. In the upper reaction, the starting material is 'CC1=C(O[Si](C)(C)C(C)(C)C)CC[C@@H]1C[N+]#[C-]'. Above the arrow is “(a)tBuCOCl,DCM,r.t.” and below it “(b)AgBF_4,DCM,-78∘C”; the arrow leads to product A. In the lower reaction, '[R]C(Cl)=O' + '[Ar]C[N+]#[C-]' reacts under “base” to give product B."
+        }
+      ],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-02-T10-3",
+      "tags": [
+        "2.2",
+        "2.3"
+      ],
+      "text_open": "10-2-3 Write the SMILES representation of another electrically neutral key intermediate Y, other than the type-X intermediate, involved in formation of B.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-02-T10-4",
+      "tags": [
+        "2.4",
+        "2.3",
+        "2.7"
+      ],
+      "text_open": "10-2-4 If an appropriate amount of CH_{2}=CHCO_{2}Me is added to the reaction system that forms B, Y is trapped to form two products, C_{1} and C_{2}. Write their SMILES representations.",
+      "text_images": [],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-02-T10-5",
+      "tags": [
+        "2.2"
+      ],
+      "text_open": "10-3-1 Addition of other reagents changes the reaction pathway. Write the small-molecule by-product formed in the reaction below and the SMILES representation of another electrically neutral key intermediate, other than the type-X intermediate, involved in the reaction.",
+      "text_images": [
+        {
+          "file": "Exam-02-T10-5-1-prompt.png",
+          "description": "A continuous multistep reaction sequence. The substrate is `R_1COCl`; above the first arrow is R_2NC; above the second is `P(OR_3)_3`; and above the third is '[O-]/C([Ar])=C\\[N+]1=CC=CC=C1'. The final product is 'O=C([Ar])C1=C(C([R1])=C2C=CC=CN12)N[R2]'."
+        }
+      ],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-02-T10-6",
+      "tags": [
+        "2.4",
+        "2.2"
+      ],
+      "text_open": "10-3-2 In the presence of Et_{3}N, EtO_{2}CCOCl, CyNC, P(Oi-Pr)_{3}, NCCH_{2}CN, and CS_{2} undergo a multicomponent reaction in MeCN. Write the SMILES representation of product D.",
+      "text_images": [],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-02-T10-7",
+      "tags": [
+        "2.2",
+        "2.4"
+      ],
+      "text_open": "10-4 Under certain conditions, an α-carbonyl diazo compound can replace an acyl chloride in a similar reaction with an isocyanide. Write the SMILES representations of all intermediates and products in the scheme below. W and all three products contain a five-membered ring, but only the five-membered ring in E is aromatic; F also contains a six-membered ring.",
+      "text_images": [
+        {
+          "file": "Exam-02-T10-7-1-prompt.png",
+          "description": "A synthetic reaction scheme: '[R1]C(C(C([R1])=O)=[N+]=[N-])=O' is the starting material and is converted by an arrow to Z. Intermediate Z then reacts with `R_2NC` to form W. Intermediate **W** branches into three transformations: the upper branch reacts with `MeNHNH_2` to form E; the middle branch reacts with '[R1]C(C([R1])=O)=C=O' to form F; and the lower branch forms H under H^+ conditions."
+        }
+      ],
+      "full_mark": 10
+    }
+  ]
+}

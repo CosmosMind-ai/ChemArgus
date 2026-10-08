@@ -1,0 +1,33 @@
+{
+  "problem_id": "Exam-21-T4",
+  "header": "Determination of Manganese by Ammonium Nitrate Oxidation Titrimetry\nManganese is an important element in steels and alloys, and its content directly affects their strength, hardness, and wear resistance. Ammonium nitrate oxidation titrimetry is a classical method for determining manganese: ammonium nitrate oxidizes Mn(II) to Mn(III) in a phosphoric acid medium, and the product is then titrated with a standard ammonium iron(II) sulfate solution. This problem addresses standardization of the titrant, control of the oxidation conditions, and calculation of the result.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-21-T4-1",
+      "tags": [
+        "1.4"
+      ],
+      "text_open": "4.2 Sample treatment and titration\nWeigh 0.2026 g of sample into a 300 mL conical flask. Add 15 mL of concentrated phosphoric acid and 5 mL of concentrated nitric acid, and heat until the sample dissolves completely. Continue heating and evaporating until the surface becomes still and faint fumes just begin to appear (about 220–240 °C), then remove the flask from the heat. Immediately add 3.0 g ± 0.2 g of ammonium nitrate. While swirling the flask, use a rubber-bulb pipette to blow tangentially across the mouth of the flask to remove nitrogen oxides until the yellow fumes disappear completely. Allow the mixture to cool slightly, add 60 mL of distilled water, mix thoroughly, and cool to room temperature. Titrate with the standard ammonium iron(II) sulfate solution until the solution is pale red. Add 2 drops of N-phenylanthranilic acid indicator solution (2 g/L) and continue titrating to a bright-yellow endpoint. The standard ammonium iron(II) sulfate solution consumed is 16.48 mL, and the blank consumes 0.84 mL.\n4.2.2 Give the predominant form of manganese after oxidation by ammonium nitrate. (Hint: the ligand is dihydrogen phosphate.)",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "$Mn(H_2PO_4)_3$ (manganese(III) tris(dihydrogen phosphate), tris(dihydrogenphosphato)manganese(III), manganese dihydrogen phosphate, or another equivalent expression) (2 points)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-21-T4-2",
+      "tags": [
+        "2.1"
+      ],
+      "text_open": "4.2.4 Write the net ionic equation for the titration. In the products, the metal ions are present as free ions rather than complexes.",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "$Mn(H_2PO_4)_3 + Fe^{2+} + 3H^+ = Mn^{2+} + Fe^{3+} + 3H_3PO_4$ (2 points)"
+      ],
+      "rubric_images": []
+    }
+  ]
+}

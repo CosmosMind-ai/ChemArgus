@@ -1,0 +1,119 @@
+{
+  "problem_id": "Exam-22-T8",
+  "header": "Problem 8 Cascade Cyclizations Involving \\alpha-Oxoketenes (25 points, 11%)\n\\alpha-Oxoketenes are highly reactive intermediates that readily react with various dienes, dipoles, and nucleophiles. Unlike ordinary ketenes, \\alpha-oxoketenes favor [4+2] rather than [2+2] cyclization reactions.",
+  "header_images": [
+    {
+      "file": "Exam-22-T8-header-1.png",
+      "description": "General reaction scheme for an \\alpha-oxoketene with nucleophiles and unsaturated components, using R1, R2, Nu, Y, and Z as placeholders. The \\alpha-oxoketene has SMILES '[R2]C(C([R1])=C=O)=O'. Three arrows originate from this structure. The first points to a molecule with SMILES '[R2]C(C([R1])C([Nu])=O)=O', with NuH written above the arrow. The second points to a molecule with SMILES '[R2]C(C(CC=[Z][Y]1)([R1])C1=O)=O', with a molecule having SMILES 'C=C[Z]=[Y]' shown above the arrow. The third points to a molecule with SMILES '[R2]C(O[Y][Z]1)=C([R1])C1=O', with a molecule having SMILES '[Z]=[Y]' shown above the arrow."
+    }
+  ],
+  "subquestions": [
+    {
+      "sub_id": "Exam-22-T8-1",
+      "tags": [
+        "2.2",
+        "2.4"
+      ],
+      "text_open": "8.1.1 The Wolff rearrangement is one of the best methods for generating \\alpha-oxoketenes in situ. The resulting intermediate can be trapped immediately by various nucleophiles or participate in cycloaddition reactions, rapidly increasing molecular complexity. For example, dimedone A gives diazoketone B as shown, which rearranges to the corresponding \\alpha-oxoketene C. Write the SMILES string for one key electrically neutral intermediate M in the conversion of A to B, and write the SMILES string for C.",
+      "text_images": [
+        {
+          "file": "Exam-22-T8-1-1-prompt.png",
+          "description": "The figure shows a two-step reaction: 'O=C1CC(C)(C)CC(C1)=O'>TsN3, NEt3, MeCN, rt, 13 h>'O=C1CC(C)(C)CC(C1=[N+]=[N-])=O'. Only “heat” is written above the second arrow, and the product is labeled “\\alpha-oxo ketene C” without a drawn structure."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-22-T8-2",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "8.1.4 Diazoketone B generally undergoes thermolysis to form a highly reactive \\alpha-oxoketene, which then reacts with nucleophiles. However, B can also add to nucleophiles at room temperature. For example, reaction of A and B in aqueous ammonia gives the tetracyclic compound G, which contains two unusual six-membered rings. The $^{1}$H NMR spectrum of G shows four sets of resonances at $\\delta$ 12.4, 2.6, 2.5, and 1.1. Write the SMILES string for G.",
+      "text_images": [
+        {
+          "file": "Exam-22-T8-2-1-prompt.png",
+          "description": "The figure shows a one-step reaction: 'O=C1CC(C)(C)CC(C1)=O'.'O=C1CC(C)(C)CC(C1=[N+]=[N-])=O'>NH3·H2O>[G]. G is shown only as a label; its structure is not drawn."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-22-T8-3",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "8.2 Reactions of \\alpha-Oxoketenes (I)\nThe 1,5-benzodiazepin-2-one, or diazepine-type, framework is an important pharmacologically active structure. The following method constructs this framework in a single step.\n8.2.1 An \\alpha-oxoketene contains two electrophilic carbon atoms in a 1,3 relationship and can react with a 1,4-dinucleophile to give the seven-membered diazepine-type compound H1. The reaction is performed under microwave irradiation without additives, proceeds within minutes, and gives moderate to good yields. Write the SMILES string for H1.",
+      "text_images": [
+        {
+          "file": "Exam-22-T8-3-1-prompt.png",
+          "description": "The figure shows a one-step reaction: 'NC1=CC=CC=C1N'.'O=C1CC(C)(C)CC(C1=[N+]=[N-])=O' (B, 1 eq)>Toluene, microwave, 180 °C, 6 min>[H1]. H1 is shown only as a label; its structure is not drawn."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-22-T8-4",
+      "tags": [
+        "2.4",
+        "2.3"
+      ],
+      "text_open": "8.2.2 When the reaction is performed with a seven-membered cyclic ketone diazo compound, the expected product is not obtained; instead, the rearranged imidazolone product H2 forms. Write the SMILES string for H2. Note: lowering the temperature to 130℃ gives reaction product H3, whose structure is similar to H1, and H2 and H3 are constitutional isomers.",
+      "text_images": [
+        {
+          "file": "Exam-22-T8-4-1-prompt.png",
+          "description": "The figure shows a one-step reaction: 'NC1=CC=CC=C1N'.'O=C1CCCCC(C1=[N+]=[N-])=O' (seven-membered cyclic ketone diazo compound, 1 eq)>Toluene, microwave, 180 °C, 3 min>[H2]. H2 is shown only as a label; its structure is not drawn."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-22-T8-5",
+      "tags": [
+        "2.4",
+        "4.3"
+      ],
+      "text_open": "8.3 Reactions of \\alpha-Oxoketenes (II)\n8.3.1 Diels-Alder reaction product: In the following reaction, two reactive species undergo a Diels-Alder reaction to give product J. The IR spectrum of J shows the following peak wavenumbers, IR (neat): 2956, 2866, 1759, 1692, 1409, 1342, 1245, 1144, and 697 cm$^{-1}$. Write the SMILES string for product J.",
+      "text_images": [
+        {
+          "file": "Exam-22-T8-5-1-prompt.png",
+          "description": "The figure shows a one-step reaction: 'O=C1CC(C)(C)CC(C1=[N+]=[N-])=O'.'O=C(N=[N+]=[N-])C1=CC=CC=C1' (5 eq)>Toluene, 130 °C>[J]. J is shown only as a label; its structure is not drawn."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-22-T8-6",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "8.3.2 Cascade ring closure involving Diels-Alder reactions. The following transformation undergoes one intermolecular Diels-Alder reaction followed by one intramolecular Diels-Alder reaction, constructing the hexacyclic compound K in a single operation. Write the SMILES string for K. Stereochemistry is not required.",
+      "text_images": [
+        {
+          "file": "Exam-22-T8-6-1-prompt.png",
+          "description": "The figure shows a multicomponent reaction: 'CC(CC(C1=[N+]=[N-])=O)(C)CC1=O'.'[H]C(C1=NC(C2=CC=CC=C2)=CO1)=O'.'NCC=C'>Toluene, microwave, 140 °C, 5 min>[K]. K is shown only as a label; its structure is not drawn."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-22-T8-7",
+      "tags": [
+        "2.2",
+        "2.3",
+        "2.4"
+      ],
+      "text_open": "8.3.3 Spirocyclic ring systems can be constructed by reactions of ketenes with imines. The potential-energy diagram for the following reaction is shown below.\nIn the formation of M from C and L, 3 key intermediates, INT1, INT2, and INT3, are involved. They are constitutional isomers, and conversion of INT1 to INT2 involves an s-trans to s-cis conformational change of the diene. Write the SMILES strings for INT1, INT2, and INT3, and identify the type of pericyclic reaction by which INT2 forms product M.",
+      "text_images": [
+        {
+          "file": "Exam-22-T8-7-1-prompt.png",
+          "description": "Reaction potential-energy diagram. The vertical axis is labeled “Relative energy” in kJ/mol, with tick marks at -75, -50, -25, 0, 25, and 50. The horizontal axis is labeled “Reaction coordinate.” In the legend, a solid line denotes pathway I and a dashed line denotes pathway II. Solid pathway I starts at 0 kJ/mol, crosses a 44.8 kJ/mol barrier to intermediate INT1 at 7.6 kJ/mol, crosses a 49.2 kJ/mol barrier to INT2 at 24.2 kJ/mol, and then crosses a 56.9 kJ/mol barrier to the product at -73.4 kJ/mol. Dashed pathway II starts from INT1, crosses a 27.9 kJ/mol barrier to INT3 at -17.3 kJ/mol, and then joins the product at -73.4 kJ/mol."
+        },
+        {
+          "file": "Exam-22-T8-7-2-prompt.png",
+          "description": "The figure shows a one-step reaction: 'CC(CC(C1=[N+]=[N-])=O)(C)CC1=O'.'C/N=C/C=C/C1=CC=CC=C1'>Toluene, 160 °C, 15 min>'O=C(CC(C)(C)C1)[C@@]21[C@@H](C3=CC=CC=C3)C=CN(C)C2=O'."
+        }
+      ],
+      "full_mark": 7
+    }
+  ]
+}

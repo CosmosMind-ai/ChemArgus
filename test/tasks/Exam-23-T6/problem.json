@@ -1,0 +1,39 @@
+{
+  "problem_id": "Exam-23-T6",
+  "header": "Problem 6 Determination of the Oxygen-Uptake Ratio of an Oxygen Carrier (23 points, 10%)\nA laboratory has prepared inactive Co(Salen) and wishes to determine the oxygen-uptake ratio $n_{O_2}:n_{[Co(II)(Salen)]}$ after the carrier has fully absorbed $O_2$ from its surroundings under specified conditions. Inactive Co(Salen) itself has almost no oxygen-uptake capacity, but it dissolves in coordinating solvents such as DMF or DMSO, and the resulting solution can absorb oxygen. The main procedure is described below:",
+  "header_images": [
+    {
+      "file": "Exam-23-T6-header-1.png",
+      "description": "Schematic apparatus for measuring the oxygen-uptake ratio, with no text, letters, numbers, or arrow labels. At left is a U-shaped gas burette. Its left arm is vertical and bears evenly spaced short, unnumbered graduations. Both arms contain liquid, with the level in the left arm higher than that in the right. In the center is a three-neck round-bottom flask containing liquid in its lower portion and resting above a rectangular base. The left neck connects to a downward-sloping bent addition tube that also contains liquid; its liquid level lies below that in the flask, and its downward-facing open end is not submerged. The middle neck connects to a long vertical tube that bends left at the top and enters the right arm of the gas burette; this connecting tube contains no liquid. The right neck connects to a two-way stopcock assembly with a spherical bulb above it, a short tube at the top, and two symmetric thin rods; this part contains no liquid."
+    }
+  ],
+  "subquestions": [
+    {
+      "sub_id": "Exam-23-T6-1",
+      "tags": [
+        "4.1"
+      ],
+      "text_open": "6.1 Assembly of the Measurement Apparatus. Accurately weigh 0.1136 g Co(Salen) and transfer it through a dry glass funnel into a clean, dry three-neck flask. Assemble the apparatus as shown below. Apply a layer of petroleum jelly, as thin as possible, to the ground-glass joints of the bent tube, gas inlet tube, and two-way stopcock. Place 5 mL DMF (or DMSO) in the bent tube and connect the charging bent tube to the flask. Use a narrow-tip glass dropper to add 1 mL deionized water to the gas burette, whose graduations increase upward. Inflate the oxygen bag and connect it to the two-way stopcock on the right. Apply pressure to the oxygen bag so that air is expelled through the graduated gas burette. When the oxygen in the bag has been almost completely discharged, close the stopcock. Add approximately 5 mL more deionized water to the graduated gas burette so that the difference between the liquid levels exceeds 2 cm. Observe the liquid levels; the system may be considered to have reached thermal equilibrium when the change in liquid level is less than 0.03 mL over three consecutive minutes.\n6.2 Determination of the Oxygen-Uptake Ratio\nAfter assembling the apparatus, determine the oxygen-uptake ratio of the Co(Salen) sample as follows.\nRecord the laboratory temperature and atmospheric pressure. Remove the oxygen bag, open the stopcock to the atmosphere, and keep the gas burette vertical. When the liquid levels in the two arms are equal (difference less than 0.03 mL), close the stopcock and record the position of the liquid level in the gas burette. Then introduce DMF (or DMSO) into the flask, stir rapidly, and observe the changes in the reactants. Promptly add deionized water to the gas burette with a narrow-tip glass dropper to keep the liquid levels in its two arms equal. Record the liquid-level position every 20~40 seconds until ________. Calculate the actual volume of oxygen absorbed.\n6.2.1 State how the DMF (or DMSO) should be introduced into the flask.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-23-T6-2",
+      "tags": [
+        "4.2"
+      ],
+      "text_open": "6.2.2 State the observation that should fill the blank in the procedure above.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-23-T6-3",
+      "tags": [
+        "4.7"
+      ],
+      "text_open": "6.2.4 Suppose the preceding group cleaned all of the apparatus with a volatile organic solvent S, which has no coordinating ability, after performing the same experiment. Before starting, a student finds a small amount of liquid solvent S remaining in the three-neck flask. If the apparatus is used directly, will the measured oxygen-uptake ratio be higher or lower than the true value? Briefly explain.",
+      "text_images": [],
+      "full_mark": 3
+    }
+  ]
+}

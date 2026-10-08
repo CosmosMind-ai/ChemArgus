@@ -1,0 +1,32 @@
+{
+  "problem_id": "Exam-16-T2",
+  "header": "Problem 2: Thermogravimetric Analysis of a Complex Double Salt\nOn April 28, 2023, researchers from the Institute of General and Inorganic Chemistry published a thermogravimetric study of a double salt. A solution of 2 mL of 85% phosphoric acid diluted with 5 mL of deionized water was added in small portions to a suspension prepared beforehand from 320 mg of calcium carbonate and 5 mL of deionized water. During continuous stirring at room temperature, foaming caused by the release of carbon dioxide was first observed, after which the solution became clear. Another solution containing 560 mg of K_{2}HPO_{4} in 5 mL of deionized water was then added. The resulting solution remained completely clear, and product A was precipitated by adding 15 mL of acetone in five 3 mL portions while stirring continuously. The precipitate was filtered, washed twice with 2.5 mL portions of acetone, and dried under ambient conditions to give A. Thermogravimetric analysis of A gave the result shown below. A is stable at 95°C and completes thermal decomposition at 530 °C. The decomposition occurs in the ranges 95-143°C, 143-240°C, and 240-530°C, each accompanied by a corresponding mass loss. The theoretical mass losses for the three steps are 6.645%, 4.984%, and 6.645%, respectively.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-16-T2-1",
+      "tags": [
+        "4.6",
+        "4.7",
+        "2.1"
+      ],
+      "text_open": "2.1 Using the preparation and thermogravimetric experiments for A, determine the chemical formula of A by appropriate qualitative reasoning and quantitative calculation.",
+      "text_images": [
+        {
+          "file": "Exam-16-T2-1-1-prompt.png",
+          "description": "In this thermogravimetric-differential thermal analysis (TG-DTA) plot, the left vertical axis is mass percentage ($\\text{Mass / \\%}$), ranging from 80 to 100, and corresponds to the dark-red TG curve. As temperature increases, this curve displays several stepwise mass-loss stages and finally levels off at approximately $82\\%$. The right vertical axis is heat flow ($\\text{Heat flow / }\\mu\\text{V}$), ranging from -4 to 2; a downward arrow labeled \"$\\text{endo}$\" indicates that downward deflection is endothermic. The red DTA curve shows four prominent changes with increasing temperature: a sharp, strong downward endothermic peak at 120, a second distinct downward endothermic peak at 186 after recovery, a narrower third downward endothermic peak at 301 after another recovery, and then an upward rise to a broad local exothermic peak at 458, after which the curve trends downward overall."
+        }
+      ],
+      "full_mark": 6
+    },
+    {
+      "sub_id": "Exam-16-T2-2",
+      "tags": [
+        "2.1"
+      ],
+      "text_open": "2.2 Write the chemical equations for the three mass-loss steps, expressing A and each intermediate product with formulas containing 2 Ca atoms.",
+      "text_images": [],
+      "full_mark": 3
+    }
+  ]
+}

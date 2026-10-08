@@ -1,0 +1,17 @@
+{
+  "problem_id": "Exam-07-T3",
+  "header": "Synthesis and Applications of Contrast Agents\nThe rapid expansion of medical magnetic resonance imaging has driven the development of contrast agents, most of which are complexes of element 64, Gd. Gd(III) is highly paramagnetic, making it an excellent candidate relaxation agent; among species that exist stably as hydrated ions, it is one of the most strongly magnetic.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-07-T3-1",
+      "tags": [
+        "2.4",
+        "1.4"
+      ],
+      "text_open": "3.3 In one method for preparing a common Gd(III) contrast agent, aminoacetic acid is reacted with 1,2-dibromoethane in a 1:1 ratio in aqueous solution to give a tetrabasic acid X. Addition of X to $[Gd(H_2O)_8]^{3+}$ gives an anion A with a monocapped square-antiprismatic coordination geometry, one ligand of which is deprotonated X. Write the SMILES representations of X and A.",
+      "text_images": [],
+      "full_mark": 5
+    }
+  ]
+}

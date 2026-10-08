@@ -1,0 +1,60 @@
+{
+  "problem_id": "Exam-02-T1",
+  "header": "Problem 1: Carbon Coordination! Since Frankland reported Et_2Zn in 1849, molecules containing carbon-metal bonds have been known and have continually attracted intensive study. Carbon atoms have been found to exhibit a wide variety of electron-donation numbers and coordination numbers when coordinated to metals.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-02-T1-1",
+      "tags": [
+        "1.4",
+        "1.6"
+      ],
+      "text_open": "1-1 For the ligands Ph_3PCPPh_3 (denoted L) and RCR (where R is an alkyl group), state the coordination mode by which each preferentially coordinates to a transition-metal atom.",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "L preferentially coordinates to a π acceptor, whereas the carbene preferentially coordinates to a π donor. (2 points)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-02-T1-2",
+      "tags": [
+        "1.1",
+        "1.4"
+      ],
+      "text_open": "1-2 L reacts with ZnI_2 or CdI_2 in a 1:1 ratio, but the products have different structures. The ZnI_2 complex has 2 mutually perpendicular mirror planes and 1 twofold rotation axis but no inversion center. The CdI_2 complex has only 1 mirror plane and 1 twofold rotation axis but does possess an inversion center. Draw both structures.",
+      "text_images": [],
+      "full_mark": 4,
+      "rubric": [
+        "Structure of the ZnI_2 complex: 'I[Zn]([L])I' (2 points).",
+        "Structure of the CdI_2 complex: '[L][Cd]1(I)I[Cd](I)([L])I1' (2 points)."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-02-T1-2-1-rubric.png",
+          "description": "Schematic structure of the ZnI_2 complex: 'I[Zn]([L])I'"
+        },
+        {
+          "file": "Exam-02-T1-2-2-rubric.png",
+          "description": "Schematic structure of the CdI_2 complex: '[L][Cd]1(I)I[Cd](I)([L])I1'"
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-02-T1-3",
+      "tags": [
+        "2.1",
+        "2.4",
+        "1.4"
+      ],
+      "text_open": "1-5 As stated in the introduction, carbon atoms can donate different numbers of electrons in complexes. Reaction of WCl_6 with (CH_3)_3CCH_2Li and Ph_2PCH_2CH_2PPh_2 gives a mononuclear W complex containing 3 carbon-tungsten bonds whose lengths are all distinctly different. Write the equation for its preparation.",
+      "text_images": [],
+      "full_mark": 3,
+      "rubric": [
+        "WCl_6 + 6(CH_3)_3CCH_2Li + Ph_2PCH_2CH_2PPh_2 → 3C(CH_3)_4 + 6LiCl + W(Ph_2PCH_2CH_2PPh_2)[(CH_3)_3CCH_2][(CH_3)_3CCH][(CH_3)_3CC] (3 points)."
+      ],
+      "rubric_images": []
+    }
+  ]
+}

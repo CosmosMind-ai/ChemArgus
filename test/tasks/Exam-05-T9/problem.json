@@ -1,0 +1,78 @@
+{
+  "problem_id": "Exam-05-T9",
+  "header": "NHC Chemistry",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-05-T9-1",
+      "tags": [
+        "2.2"
+      ],
+      "text_open": "9.1 The benzoin condensation is familiar. Give the SMILES of the four key intermediates in the catalytic cycle shown.",
+      "text_images": [
+        {
+          "file": "Exam-05-T9-1-1-prompt.png",
+          "description": "Under NEt_3, 'CC[N+]1=CSC(CCO)=C1' gives 'CC[N+]1=[C-]SC(CCO)=C1'. Reaction with '[H]C(C1=CC=CC=C1CCC(C)=O)=O' gives A; proton transfer gives B; B gives C; proton transfer gives D; D gives 'O=C1C(O)(C)CCC2=CC=CC=C21' and regenerates 'CC[N+]1=[C-]SC(CCO)=C1'. SMILES/structure strings shown: 'CC[N+]1=[C-]SC(CCO)=C1'."
+        }
+      ],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-05-T9-2",
+      "tags": [
+        "2.2"
+      ],
+      "text_open": "9.3 Formaldehyde reacts poorly directly with NHCs. The reaction shown introduces a fragment equivalent to formaldehyde. Give the SMILES of the three key intermediates between the five-carbon aldose substrate and intermediate X.",
+      "text_images": [
+        {
+          "file": "Exam-05-T9-2-1-prompt.png",
+          "description": "'O[C@H]1[C@@H](O)[C@H](O)C(O)OC1' and 'O=C(C1=CC=CC=C1)/C=C/C2=CC=CC=C2' give 'C[N+]1=CSC(C)=C1C.[I-]' under 20 mol% 'O=C(C1=CC=CC=C1)CC(C([H])=O)C2=CC=CC=C2', 20 mol% K_2CO_3, MeCN, 130 °C, μW, 10 min. Intermediate X: 'O/C([H])=C1N(C)C(C)=C(C)S\\1'."
+        }
+      ],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-05-T9-3",
+      "tags": [
+        "2.2"
+      ],
+      "text_open": "9.4 When the reactant is not an aldehyde, NHCs can catalyze other reactions. The following reaction of an α-hydroxy ketone is NHC-catalyzed; the catalytic cycle is shown, and G carries one positive charge. 9.4.1 Compare the molecular formulas of reactants and products and identify the small-molecule product Y.",
+      "text_images": [
+        {
+          "file": "Exam-05-T9-3-1-prompt.png",
+          "description": "Reaction of 'O=C(C(C)(C)O)/C=C/C1=C(C)C=C(C)C=C1C' and 'CC1NCCCC1' under 10 mol% of the listed NHC catalyst, 10 mol% of the listed hydroxamic reagent, and 20 mol% DBU, DCM, room temperature gives 'C[C@@H]1N(C(CCC2=C(C)C=C(C)C=C2C)=O)CCCC1' and 'C[C@H]1NCCCC1'. SMILES/structure strings shown: 'CC1=CC(C)=CC(C)=C1[N+]2=CN3C(CCC3)=N2.[O-]Cl(=O)(=O)=O', 'O=C(CO1)N(O)[C@@H]([C@@H]1C2)C3=C2C=CC=C3'."
+        },
+        {
+          "file": "Exam-05-T9-3-2-prompt.png",
+          "description": "Catalytic cycle: 'C[C@@H]1NCCCC1' reacts with H to give 'O=C(N1[C@@H](C)CCCC1)CCC2=C(C)C=C(C)C=C2C' and the cyclic hydroxamic product. The azolium catalyst and DBU form the NHC. The cyclic hydroxamic product and G give H and regenerate the NHC after loss of [H^+]. The NHC reacts with the α-hydroxy ketone to give E; E gives Y and F; protonation of F gives G. SMILES/structure strings shown: 'O=C1N(O)[C@H](C(C=CC=C2)=C2C3)[C@H]3OC1', 'O=C1N(O)[C@H](C(C=CC=C2)=C2C3)[C@H]3OC1', 'CC1=CC(C)=CC(C)=C1[N+]2=CN3C(CCC3)=N2', 'CC1=CC(C)=CC(C)=C1[N+]2=[C-]N3C(CCC3)=N2', 'CC1=CC(C)=CC(C)=C1[N+]2=[C-]N3C(CCC3)=N2', 'CC1=CC(C)=CC(C)=C1[N+]2=[C-]N3C(CCC3)=N2', 'O=C(C(C)(C)O)/C=C/C1=C(C)C=C(C)C=C1C'."
+        }
+      ],
+      "full_mark": 1
+    },
+    {
+      "sub_id": "Exam-05-T9-4",
+      "tags": [
+        "2.2",
+        "2.3"
+      ],
+      "text_open": "9.4.2 Give the SMILES of the four key intermediates E, F, G, and H.",
+      "text_images": [],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-05-T9-5",
+      "tags": [
+        "2.2",
+        "2.3"
+      ],
+      "text_open": "9.5 With a vicinal diketone substrate, the reaction mode changes again. Give the SMILES of the four key intermediates. NEt_3 acts only as a base with the thiazolium ion; the resulting NHC first reacts with the vicinal diketone. Two addition-elimination events occur and each is treated as one step; their tetrahedral intermediates need not be shown. The NHC formed in the initial acid-base step also need not be shown.",
+      "text_images": [
+        {
+          "file": "Exam-05-T9-5-1-prompt.png",
+          "description": "'[Ar]C(C=C)=O' and 'O=C(C(C1=CC=CC=C1)=O)C2=CC=CC=C2' react under 'C[N+]1=CSC2=C1CCCCC2' and NEt_3 to give '[Ar]C(C(C(C1=CC=CC=C1)=O)CC(C2=CC=CC=C2)=O)=O'."
+        }
+      ],
+      "full_mark": 7
+    }
+  ]
+}

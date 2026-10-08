@@ -1,0 +1,164 @@
+{
+  "problem_id": "Exam-05-T8",
+  "header": "Problem 8 Basic Organic Chemistry",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-05-T8-1",
+      "tags": [
+        "1.2",
+        "1.6"
+      ],
+      "text_open": "8.2 Apply conformational analysis analogous to n-butane. 8.2.1 Rank the shown conformations of 1-butene from high to low energy.",
+      "text_images": [
+        {
+          "file": "Exam-05-T8-1-1-prompt.png",
+          "description": "3 conformations of C=CCC. A has a left double bond and a zigzag chain ending in an ordinary vertical-up bond. B has a similar skeleton but an upward solid-wedge terminal bond. C has a solid-wedge terminal bond directed lower right."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "B > A > C. (2 points; if n pairwise swaps give the correct order, award 2 - n.)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-05-T8-2",
+      "tags": [
+        "1.2",
+        "1.6"
+      ],
+      "text_open": "8.2.2 Rank the shown conformations of allyl alcohol from high to low energy.",
+      "text_images": [
+        {
+          "file": "Exam-05-T8-2-1-prompt.png",
+          "description": "4 conformations of C=CCO. A ends in an ordinary upward OH bond; B in an upward solid-wedge OH bond; C in a rightward solid-wedge OH bond of different orientation; D ends directly in OH by an ordinary line without wedge stereochemistry."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "D > B > C > A. (2 points; if n pairwise swaps give the correct order, award 2 - n.)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-05-T8-3",
+      "tags": [
+        "1.2",
+        "1.6"
+      ],
+      "text_open": "8.2.3 Rank the shown conformations of 2-methyl-1-butene from high to low energy.",
+      "text_images": [
+        {
+          "file": "Exam-05-T8-3-1-prompt.png",
+          "description": "4 conformations of 'C=C(C)CC'. A has the terminal methyl cis to the double bond by an ordinary upward bond; B has an upward solid wedge; C a lower-right solid wedge; D an ordinary trans arrangement."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "D > B > A > C. (2 points; if n pairwise swaps give the correct order, award 2 - n.)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-05-T8-4",
+      "tags": [
+        "1.2",
+        "1.6"
+      ],
+      "text_open": "8.2.4 Rank the shown conformations of methylallyl alcohol from high to low energy.",
+      "text_images": [
+        {
+          "file": "Exam-05-T8-4-1-prompt.png",
+          "description": "4 conformations of 'C=C(C)CO'. A has OH cis to the double bond by an ordinary line; B an upward solid-wedge OH; C a rightward solid-wedge OH; D an ordinary trans double-bond/OH arrangement."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "D > B > C > A. (2 points; if n pairwise swaps give the correct order, award 2 - n.)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-05-T8-5",
+      "tags": [
+        "1.5",
+        "1.6"
+      ],
+      "text_open": "8.3.3 Which has the largest X-C-O bond angle, X = CF_3, CH_3, or CBr_3?",
+      "text_images": [],
+      "full_mark": 1,
+      "rubric": [
+        "B. (1 point)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-05-T8-6",
+      "tags": [
+        "1.6"
+      ],
+      "text_open": "8.3.4 Which of X-C-O (X = CF_3, CH_3, CBr_3) has the smallest bond angle?",
+      "text_images": [],
+      "full_mark": 1,
+      "rubric": [
+        "A. (1 point)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-05-T8-7",
+      "tags": [
+        "1.7"
+      ],
+      "text_open": "8.4 Ring strain can strongly affect reaction rates and equilibria. 8.4.1 Rank the substances from greatest to least ring strain.",
+      "text_images": [
+        {
+          "file": "Exam-05-T8-7-1-prompt.png",
+          "description": "3 compounds: A, 'C1CC=CC1'; B, 'C1=CC=CC1'; C, 'C=C1CCCC1'."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "A > C > B (2 points). If the order is not completely correct and n swaps are required to obtain the correct order, award 2 - n points, with a minimum score of 0."
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-05-T8-8",
+      "tags": [
+        "1.7"
+      ],
+      "text_open": "8.4.2 Select the substance that reacts faster with NaBH_4.",
+      "text_images": [
+        {
+          "file": "Exam-05-T8-8-1-prompt.png",
+          "description": "2 compounds: A, 'O=C1CCCC1'; B, 'O=C1CCCCC1'."
+        }
+      ],
+      "full_mark": 1,
+      "rubric": [
+        "B. (1 point)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-05-T8-9",
+      "tags": [
+        "1.7"
+      ],
+      "text_open": "8.4.3 Select the substance with the greater equilibrium enol fraction.",
+      "text_images": [
+        {
+          "file": "Exam-05-T8-9-1-prompt.png",
+          "description": "2 compounds: A, 'O=C1C(C(OCC)=O)CCC1'; B, 'O=C1C(C(OCC)=O)CCCC1'."
+        }
+      ],
+      "full_mark": 1,
+      "rubric": [
+        "B. (1 point)"
+      ],
+      "rubric_images": []
+    }
+  ]
+}

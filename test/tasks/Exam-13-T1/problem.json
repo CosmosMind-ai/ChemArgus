@@ -1,0 +1,16 @@
+{
+  "problem_id": "Exam-13-T1",
+  "header": "Question 1 Vanadium Chemistry. The ionic radius of vanadium is close to those of Fe and Ti, so vanadium commonly occurs in ores associated with Ti and Fe. The principal extraction method first concentrates vanadium in slag, which is roasted to form $FeV_2O_4$. NaCl-$Na_2SO_4$ is then added and melted while oxygen is introduced, converting vanadium into a soluble 1:1 salt in reaction 1. Water leaching gives a vanadium-containing solution, after which an ammonium salt is added to separate the vanadium in reaction 2. Heating the resulting substance at 500 °C gives a simple orange-yellow vanadium oxide product in reaction 3. $VO_2$ has many interesting physical properties, including thermochromism. At atmospheric pressure, $VO_2$ has 2 phases, monoclinic M1 and rutile R, and a phase transition upon heating changes the color of $VO_2$. Thermodynamic data and unit-cell structures for the 2 phases of $VO_2$ near the transition temperature at $p^⊖$ are given below; the large spheres are V and the small spheres are O.\n\nThe first 2 columns of the table are thermodynamic data, and the final six columns are unit-cell parameters.\n\n| Phase | $\\Delta_{f}H_m^{\\ominus}/\\mathrm{kJ\\cdot mol^{-1}}$ | $S_m^{\\ominus}/\\mathrm{J\\cdot mol^{-1}\\cdot K^{-1}}$ | a/pm | b/pm | c/pm | α/° | β/° | γ/° |\n|---|---|---|---|---|---|---|---|---|\n| M1 phase | -714.4 | 61.62 | 575.2 | 452.5 | 538.2 | 90 | 122.6 | 90 |\n| R phase | -710.1 | 74.17 | 455.4 | 455.4 | 285.3 | 90 | 90 | 90 |",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-13-T1-1",
+      "tags": [
+        "4.2"
+      ],
+      "text_open": "1.2 Briefly explain why $Na_2SO_4$ is added in the process represented by reaction 1.",
+      "text_images": [],
+      "full_mark": 2
+    }
+  ]
+}

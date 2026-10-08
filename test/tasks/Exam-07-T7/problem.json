@@ -1,0 +1,70 @@
+{
+  "problem_id": "Exam-07-T7",
+  "header": "The Chemistry of As, Sb, and Bi\nThe pnictogens are a familiar group of elements. N and P are well known for their wide range of applications in organic chemistry; As, Sb, and Bi can likewise bond to carbon and form many interesting compounds. ",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-07-T7-1",
+      "tags": [
+        "1.4"
+      ],
+      "text_open": "7.1 The positive trivalent oxidation state is common among the pnictogens. Their lone pairs and vacant d orbitals give them Lewis basicity and acidity of varying strength. 7.1.1 In sharp contrast to $NR_3$, the inertness of the 6s electrons makes $BiR_3$ a rather weak base with poor coordination ability, although it can sometimes form complexes. The neutral complex A and the monocation B both contain a $BiPh_3$ ligand. In A, the mass fractions of Bi and the central metal Cr are 33.05 % and 8.22 %, respectively; in B, the mass fractions of Bi and the central metal Fe are 33.86 % and 9.04 %, respectively. The central metals in both A and B obey the 18-electron rule, and both complexes contain CO ligands. Write the chemical formulas of A and B.",
+      "text_images": [],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-07-T7-2",
+      "tags": [
+        "1.4",
+        "1.5"
+      ],
+      "text_open": "7.1.2 Considering the structures of A and B, explain why the Bi-M bonds in them are stable. (No more than 50 words.)",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-07-T7-3",
+      "tags": [
+        "1.4",
+        "2.4"
+      ],
+      "text_open": "7.1.3 Compared with $BiR_3$, $SbR_3$ is slightly less acidic but markedly more basic, which enables a wider variety of reactions. Mixing equimolar amounts of $Me_2SbBr$, $Me_3Sb$, and $MeSbBr_2$ does not give mixed products from methyl-group exchange; instead, a 2:1 ionic compound is obtained. Both its cation and anion contain two Sb atoms. The cation contains no Br, and the anion has a center of symmetry. Write the SMILES representations of the cation and anion separately, and state the geometry at each metal center.",
+      "text_images": [],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-07-T7-4",
+      "tags": [
+        "1.1",
+        "1.4"
+      ],
+      "text_open": "7.2 Reaction of $SbF_2OTf$ or $SbF(OTf)_2$ with the ligand $^{Dipp}BIAN$ (structure shown below) in $CH_2Cl_2$ gives the five-coordinate Sb complex $SbF_2(^{Dipp}BIAN)OTf$ or $SbF(^{Dipp}BIAN)(OTf)_2$, respectively.\n7.2.1 Use VSEPR theory to predict the molecular geometry of $SbF(^{Dipp}BIAN)(OTf)_2$.",
+      "text_images": [
+        {
+          "file": "Exam-07-T7-4-1-prompt.png",
+          "description": "Structure of $^{Dipp}BIAN$: 'CC(C)C(C=CC=C1C(C)C)=C1/N=C2C3=CC=CC4=C3C(C\\2=N/C5=C(C(C)C)C=CC=C5C(C)C)=CC=C4'."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-07-T7-5",
+      "tags": [
+        "1.4",
+        "1.5"
+      ],
+      "text_open": "7.2.2 The Sb-O bond in $SbF_2({}^{Dipp}BIAN)OTf$ is longer than that in $SbF({}^{Dipp}BIAN)(OTf)_2$. Briefly explain why.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-07-T7-6",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "7.2.3 Replacing $F^-$ with $N_3^-$ greatly decreases the stability of the product. After $Sb(N_3)(^{Dipp}BIAN) (OTf)_2$ is left overnight in a protic solvent, its proton NMR spectrum shows that it has decomposed to form a new cation. This cation contains no Sb and contains a special five-membered ring in addition to the five-membered carbon ring in $^{Dipp}BIAN$. Write the SMILES representation of this cation; a textual description may be used to supplement the structure.",
+      "text_images": [],
+      "full_mark": 2
+    }
+  ]
+}

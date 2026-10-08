@@ -1,0 +1,17 @@
+{
+  "problem_id": "Exam-21-T7",
+  "header": "Silver in the Making\nIn the worldview of alchemists, metals were not inert matter but substances that \"grew\" and \"evolved\" within Earth's crust. They believed that all base metals, such as lead and iron, were evolving toward the perfect noble metals, gold and silver. Metal M has the largest atomic number among elements with no definite year or person of discovery. As early as about 1500 CE, the Inca used M, Cu, and Sn to make alloys for the tumi knife.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-21-T7-1",
+      "tags": [
+        "2.1",
+        "1.1"
+      ],
+      "text_open": "7.17.1 When miners and alchemists unearthed M near silver veins, glinting with a faint pink metallic luster, they found it harder than lead, more brittle than tin, and remarkably low-melting. They called M \"silver in the making\" (Tectum Argenti). Adding oxide A of M to excess hydrochloric acid gives a solution of B. Solid B and M are mixed and heated to 325℃, then cooled at 270℃ for 1–2 weeks. Excess B is removed by extraction with benzene, yielding a black solid chloride C containing 16.52% chlorine. C consists of a nine-atom cluster cation D, a mononuclear dianion E, and a dinuclear dianion F; M has the same oxidation state in B, E, and F (reaction 1). Adding excess concentrated sodium hydroxide to a nitrate solution of M may be regarded as forming the simple hydroxide precipitate G. Passing chlorine through this suspension gives the brown, strongly oxidizing powder H (reaction 2).\n7.1.2 Write equations for reactions 1 and 2. Explain why $NaBiO_3$ is a strong oxidizing agent.",
+      "text_images": [],
+      "full_mark": 4
+    }
+  ]
+}

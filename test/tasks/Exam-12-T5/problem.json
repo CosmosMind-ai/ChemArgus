@@ -1,0 +1,31 @@
+{
+  "problem_id": "Exam-12-T5",
+  "header": "Problem 5 Structure of a Barium Titanate\nA hexagonal-family form of $\\mathrm{BaTiO_3}$ has an interesting structure.\nIn this crystal, all Ba and O atoms together form a special stacking pattern. In a close-packed structure, designate a close-packed layer whose coordination environment above and below is the same as in hexagonal close packing as h, and one whose coordination environment is the same as in cubic close packing as c. For example, double hexagonal close packing (ABACABAC...) can be represented as hchchc.... The joint Ba/O stacking sequence is hcchcch...; considering only Ba gives the same hcchcch... sequence.\nEach Ba is coordinated by 12 O atoms to form a $\\mathrm{[BaO_{12}]}$ tetradecahedral unit. Ti occurs in two chemical environments. In one, two $\\mathrm{TiO_6}$ octahedra share a face to form a $\\mathrm{[Ti_2O_9]}$ unit; in the other, an isolated $\\mathrm{[TiO_6]}$ unit forms, meaning that it does not share a face with another $\\mathrm{TiO_6}$ octahedron, although corner sharing is possible. The ratio of the two types of Ti atoms is 2:1. In the conventional unit cell whose vertices are the Ti atoms of the isolated $\\mathrm{[TiO_6]}$ units, one Ba has coordinates (2/3, 1/3, 0.5967). The unit-cell parameters are a = b = 574.6 pm and c = 1399.9 pm.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-12-T5-1",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "5.1 Multiple selection: which of the following statements are correct?\n(a) The Ti arrangement resembles hexagonal diamond.\n(b) Each O layer forms a kagome-type \"six-pointed-star array\" like that shown in [Exam-12-T5-1-1-prompt.png].\n(c) If all Ba and O atoms are regarded as jointly forming the hcchcch... close-packed sequence and Ti atoms are treated as interstitial atoms, Ti occupies all octahedral voids formed solely by O atoms.\n(d) This $\\mathrm{BaTiO_3}$ contains 2 distinct Ti-O bonds and 2 distinct Ba-O bonds.",
+      "text_images": [
+        {
+          "file": "Exam-12-T5-1-1-prompt.png",
+          "description": "The image shows a translationally symmetric planar network made of black straight lines and circles and possessing additional symmetries. There are 3 sets of black lines in different directions; within each set, adjacent parallel lines are equally spaced. Together, the three sets partition the plane into closed regular hexagons and equilateral triangles of equal edge length, with a circle at every line intersection. Around each circle, the four polygons appear in the order triangle, hexagon, triangle, hexagon. In the overall connectivity, each of the three edges of every triangle is shared with a hexagonal region, and each of the 6 edges of every hexagon is shared with a hexagonal region."
+        }
+      ],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-12-T5-2",
+      "tags": [
+        "1.3",
+        "3.9"
+      ],
+      "text_open": "5.4 Calculate the second-shortest Ba-Ba distance.",
+      "text_images": [],
+      "full_mark": 5
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "problem_id": "Exam-09-T10",
+  "header": "Indium-Catalyzed Alkyne-Migration Reaction\n4-Alkynyl-2-quinolone derivatives occur widely in bioactive molecules with antibacterial, antitumor, and other activities. Indium-catalyzed alkyne migration provides a new route for efficiently synthesizing these compounds. Using ortho-alkynyl benzamides as substrates, the method efficiently constructs a 4-alkynyl-2-quinolone framework under $\\mathrm{In(OTf)_3}$ catalysis accompanied by selective alkyne migration. Analyze the reaction process and answer the questions.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-09-T10-1",
+      "tags": [
+        "2.2",
+        "2.3"
+      ],
+      "text_open": "10.1 Alkyne migration involves transposition of an alkynyl group along a carbon chain, allowing interconversion between internal and terminal alkynes. A classic example is the Alkyne Zipper Reaction, which uses KAPA reagent to move an alkyne to the terminus. Write the SMILES structures of the 3 key uncharged intermediates in this reaction.",
+      "text_images": [
+        {
+          "file": "Exam-09-T10-1-1-prompt.png",
+          "description": "Substrate: 'CCC#CC1=CC=CC=C1'. The reagent is KAPA, represented by SMILES 'NCCCN[K]', in which the terminal -NH_2 chelates to K to form a six-membered ring. Product: 'C#CCCC1=CC=CC=C1'. The figure shows migration of the alkyne from an internal position to the terminus."
+        }
+      ],
+      "full_mark": 3,
+      "rubric": [
+        "3 points, 1 point each. Reference SMILES: 'CC=C=C(C1=CC=CC=C1)', 'CC#CCC1=CC=CC=C1', and 'C=C=CCC1=CC=CC=C1'."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-09-T10-1-1-rubric.png",
+          "description": "'CC=C=C(C1=CC=CC=C1)', 'CC#CCC1=CC=CC=C1', and 'C=C=CCC1=CC=CC=C1'"
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-09-T10-2",
+      "tags": [
+        "2.8"
+      ],
+      "text_open": "10.4 The authors used the ortho-alkynyl benzamide substrate above to study the alkyne-migration process. Analyze the following conversion and answer the questions. 10.4.1 The authors proposed that In(III) also catalyzes isomerization of B to A. The process proceeds smoothly in 1,4-dioxane, giving A in 89 % NMR yield. In contrast, under otherwise identical conditions in chlorobenzene or toluene, only trace A is detected. Explain why.",
+      "text_images": [
+        {
+          "file": "Exam-09-T10-2-1-prompt.png",
+          "description": "Substrate: 'O=C(C(C(C)C)=O)N(C)C1=CC=CC=C1C#CCCCC'; conditions: In(OTf)_3 and 1,4-dioxane (1,4-dioxane). Product A: 'CN1C2=CC=CC=C2C(C#CCCC)=C(C(C)C)C1=O'; product B: 'CN(C([C@@]1(O)C(C)C)=O)C2=CC=CC=C2C1=[C@@]=C([H])CC'."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "1,4-Dioxane can stabilize the carbocation intermediate and promote the dehydration pathway from B to A (2 points)."
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-09-T10-3",
+      "tags": [
+        "1.6",
+        "2.7"
+      ],
+      "text_open": "10.4.2 If the catalyst is replaced by a stronger Lewis acid, such as $\\mathrm{Fe(OTf)_3}$ or $\\mathrm{Sm(OTf)_3}$, the yield of product A instead decreases substantially. Explain why.",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "As oxophilic Lewis acids/hard acids, Fe(OTf)_3 and Sm(OTf)_3 coordinate strongly with 1,4-dioxane and thereby inhibit dehydrative isomerization (2 points)."
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-09-T10-4",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "10.5 The authors also explored downstream transformations of 4-alkyl-2-quinolone products. Write the SMILES structures of the following 2 products. Pay attention to stereochemistry in reaction 1. Reaction 2 is a ring-expansion reaction of another quinolone derivative.",
+      "text_images": [
+        {
+          "file": "Exam-09-T10-4-1-prompt.png",
+          "description": "Reaction 1 reactant: 'O=C1N(C2=CC=CC=C2C(C#CCCC)=C1C)C'; conditions: C=C[R], Thioxanthen-9-one (0.3 eq.), 390 nm LEDs, CH_3CN, 6-9h; product unknown. Reaction 2 reactant: 'O=C1N(C)C2=CC=CC=C2C(C#CCCC)=C1C3=CC=CC=C3'; conditions: HOTf (2.0 eq.), PhMe, 100°C, 24h."
+        }
+      ],
+      "full_mark": 4,
+      "rubric": [
+        "4 points, 2 points each. Reference SMILES: product 1 is 'CN1C2=CC=CC=C2[C@@]3(C#CCCC)[C@@](C[C@@H]3[R])(C)C1=O' (the relative stereochemistry shown must be retained); product 2 is 'CN1C2=CC=CC=C2C3=C(C4=CC=CC=C4C(CCC)=C3)C1=O'."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-09-T10-4-1-rubric.png",
+          "description": "Product 1 is 'CN1C2=CC=CC=C2[C@@]3(C#CCCC)[C@@](C[C@@H]3[R])(C)C1=O'; product 2 is 'CN1C2=CC=CC=C2C3=C(C4=CC=CC=C4C(CCC)=C3)C1=O'."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "problem_id": "Exam-17-T7",
+  "header": "Problem 7 Low-Valent Cluster Compounds of Group 13 Metals\nLow-valent compounds of Group 13 elements such as aluminum and gallium can form metal clusters with diverse structures. Their bonding modes and electronic structures are important for understanding the nature of metal-metal bonds. This problem concerns low-valent gallium and aluminum halides and their assembly reactions with ligands, focusing on structural analysis, oxidation-state calculations, and cluster reactivity.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-17-T7-1",
+      "tags": [
+        "2.1"
+      ],
+      "text_open": "Synthesis and structures of $E_3$ units: Ga-Ga bonds are relatively stable and can support extended compounds.\n7.1 Chain-like $E_3$ structure: reaction of freshly prepared LiM with 1.67 eq GaI affords the trigallane C = $Ga_3M_3I_2$.\n7.1.1 Write the reaction equation for the formation of C from LiM and GaI.",
+      "text_images": [
+        {
+          "file": "Exam-17-T7-1-1-prompt.png",
+          "description": "Two-step reaction: '[dipp]N=C=N[dipp]'>t-BuLi (1eq), n-hexane, 0 °C>intermediate Li+M-, where M denotes the ligand and the SMILES for M- is '[dipp]/N=C([N-][dipp])/C(C)(C)C'. The M- anion has an N,N'-bis(dipp) amidinate framework with t-Bu bonded to the central carbon. The second step is '[dipp]/N=C([N-][dipp])/C(C)(C)C'>GaI (1.67eq), Toluene, -78 °C>C, where C = $Ga_3M_3I_2$ and its SMILES is 'I[Ga]1([Ga]2([Ga]3(I)N([dipp])C(C(C)(C)C)=[N]3[dipp])N([dipp])C(C(C)(C)C)=[N]2[dipp])N([dipp])C(C(C)(C)C)=[N]1[dipp]'. Three Ga atoms form a chain through Ga-Ga single bonds, each terminal Ga bears one I, and each Ga is chelated by one M ligand. No wedge or dashed bonds are shown."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "$3LiM + 5GaI = Ga_3M_3I_2 + 2Ga + 3LiI$ (2 points)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-17-T7-2",
+      "tags": [
+        "2.1"
+      ],
+      "text_open": "7.1.2 Write the equation for the substitution reaction of trigallane C with $NaBEt_3H$ to form Et(M)Ga-Ga(M)-Ga(M)H.",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "$Ga_3M_3I_2 + NaBEt_3H = Et(M)Ga-Ga(M)-Ga(M)H + NaI + BEt_2I$ (2 points)",
+        "$Ga_3M_3I_2 + NaBEt_3H = Et(M)Ga-Ga(M)-Ga(M)H + NaBEt_2I_2$ is also acceptable."
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-17-T7-3",
+      "tags": [
+        "2.4",
+        "1.6"
+      ],
+      "text_open": "7.2 Cyclic $E_3$ structure: cyclotrigallanes have intriguing electronic properties. Reaction of $(Mes_2C_6H_3)Li$ with $GaCl_3$ gives $(Mes_2C_6H_3)GaCl_2$, which is reduced with potassium metal in diethyl ether to afford the cyclic gallium compound D = $K_2[(Mes_2C_6H_3)Ga]_3$. This compound has a nearly equilateral triangular $Ga_3$ core, with an average Ga-Ga bond length of 2.426 Å that is markedly shorter than a typical single bond, indicating a higher bond order. The two potassium ions lie on opposite sides of the $Ga_3$ plane. Write the SMILES string for D and determine whether its anion is aromatic.",
+      "text_images": [
+        {
+          "file": "Exam-17-T7-3-1-prompt.png",
+          "description": "Two-step reaction: $GaCl_3$ reacts with LiAr (1.0 eq) in $Et_2O$ at -78 °C; $K^0$ (4.0 eq) is then added and the mixture is reacted at rt. for 5 days to give $K_2(ArGa)_3·(Et_2O)_2$. The structure defining Ar = $(Mes_2C_6H_3)$ appears at the right: the top carbon of the central benzene ring, drawn in an alternating-double-bond Kekulé form, bears a wavy bond marking the attachment point to Ga, and each of the two ortho carbons bears a 2,4,6-trimethylphenyl group (Mes). The encodable structure of Ar is represented by the SMILES '[*]C1=C(C2=C(C)C=C(C)C=C2C)C=CC=C1C3=C(C)C=C(C)C=C3C', where [*] is the attachment point corresponding to the wavy bond."
+        }
+      ],
+      "full_mark": 3,
+      "rubric": [
+        "Structure of D: 'CC1=CC(C)=CC(C)=C1C(C=CC=C2C3=C(C)C=C(C)C=C3C)=C2[Ga-]4=[Ga-]([Ga]4C5=C(C6=C(C)C=C(C)C=C6C)C=CC=C5C7=C(C)C=C(C)C=C7C)C8=C(C9=C(C)C=C(C)C=C9C)C=CC=C8C%10=C(C)C=C(C)C=C%10C.[K+].[K+]'. The two K+ ions coordinate on opposite sides of the Ga3 triangular plane (2 points). The anion is aromatic (1 point)."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-17-T7-3-1-rubric.png",
+          "description": "Reference structure of D: the anion [(Mes2C6H3)Ga]3 is represented by the SMILES 'CC1=CC(C)=CC(C)=C1C(C=CC=C2C3=C(C)C=C(C)C=C3C)=C2[Ga-]4=[Ga-]([Ga]4C5=C(C6=C(C)C=C(C)C=C6C)C=CC=C5C7=C(C)C=C(C)C=C7C)C8=C(C9=C(C)C=C(C)C=C9C)C=CC=C8C%10=C(C)C=C(C)C=C%10C.[K+].[K+]'. Three Ga atoms form a $Ga_3$ triangle, and each Ga is bonded to one Ar group; each central benzene ring bears Mes groups at the 2,6-positions, and all 6 Mes groups are 2,4,6-trimethylphenyl. The cluster has an overall 2- charge, shown at the center of the $Ga_3$ triangle and represented in the SMILES by two [Ga-] atoms. The two K+ ions coordinate on opposite sides of the Ga3 triangular plane, with their interactions with $Ga_3$ shown by dashed lines. In the SMILES, the Ga3 ring contains one Ga=Ga double bond as an aromatic Kekulé representation, whereas the original drawing shows all three Ga-Ga bonds as solid single lines. No wedge bonds are shown."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-17-T7-4",
+      "tags": [
+        "2.4",
+        "1.4"
+      ],
+      "text_open": "7.4 Eight-membered-ring structure: gaseous GaI is cocondensed with excess $PEt_3$ in toluene at -196 °C and then warmed slowly, giving F = $Ga_8I_8·6PEt_3$. This cluster has $C_{2h}$ symmetry and contains a nearly planar eight-membered $Ga_8$ ring. Two iodine atoms bridge across the ring to form a four-membered $Ga_2I_2$ ring. All eight Ga atoms are four-coordinate, and the average Ga-Ga bond length is 2.466 Å.\n7.4.1 Write the SMILES string for F.",
+      "text_images": [],
+      "full_mark": 4,
+      "rubric": [
+        "Structure of F = $Ga_8I_8·6PEt_3$: 'I[Ga@]1([P](CC)(CC)CC)[Ga@](I)([P](CC)(CC)CC)[Ga@@](I)([P](CC)(CC)CC)[Ga@@]2(I3)[Ga@](I)([P](CC)(CC)CC)[Ga@@](I)([P](CC)(CC)CC)[Ga@](I)([P](CC)(CC)CC)[Ga@]13I2' (4 points)"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-17-T7-4-1-rubric.png",
+          "description": "Reference structure of F = $Ga_8I_8·6PEt_3$, represented by the SMILES 'I[Ga@]1([P](CC)(CC)CC)[Ga@](I)([P](CC)(CC)CC)[Ga@@](I)([P](CC)(CC)CC)[Ga@@]2(I3)[Ga@](I)([P](CC)(CC)CC)[Ga@@](I)([P](CC)(CC)CC)[Ga@](I)([P](CC)(CC)CC)[Ga@]13I2'. The 8 Ga atoms form an eight-membered ring through single bonds. Two I atoms bridge opposite Ga atoms across the ring; in the drawing, one bridging I is connected to the two Ga atoms by solid wedge bonds and the other by dashed bonds. Each of the remaining 6 Ga atoms bears one terminal I and one PEt3 (Et3P). The stereochemistry is retained by the @/@@ markers."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-17-T7-5",
+      "tags": [
+        "1.7",
+        "2.4"
+      ],
+      "text_open": "7.4.2 The Ga/I/$PEt_3$ system forms the eight-membered-ring cluster F ($Ga_8I_8$), whereas the Al/Br/$NEt_3$ system forms the four-membered-ring cluster E ($Al_4Br_4$) under similar conditions. Which explanations are the most reasonable? Select all that apply.\n(A) Ga has a smaller atomic radius than Al and a shorter Ga-Ga bond; formation of a four-membered ring would therefore cause greater ring strain and bond-angle distortion, so an eight-membered ring is favored to relieve strain.\n(B) I has a larger atomic radius than Br and is well suited for bridging; transannular bridges stabilize the eight-membered ring.\n(C) $PEt_3$ is a stronger electron donor than $NEt_3$, increasing the electron density at Ga and shortening the Ga-Ga bonds, which favors formation of a larger ring system.\n(D) The Ga-Ga bonds in the eight-membered ring have a higher bond order than the Al-Al bonds in the four-membered ring, giving greater thermodynamic stability.",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "AB (2 points)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-17-T7-6",
+      "tags": [
+        "2.4",
+        "1.2"
+      ],
+      "text_open": "7.5 Fused-ring structure: attempts to synthesize amine-stabilized $Ga_8I_8·6NEt_3$ were unsuccessful, but partial oxidation unexpectedly gave G = $Ga_8I_8O_2·6NEt_3$. Its structure has $C_i$ symmetry and consists of two nearly planar $Ga_4O$ rings fused through a shared edge of a central four-membered $Ga_2O_2$ ring. All Ga atoms are four-coordinate. Write the SMILES string for G.",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "Structure of G = $Ga_8I_8O_2·6NEt_3$: 'I[Ga@]1(O2[Ga@@](I)([N](CC)(CC)CC)[Ga@](I)([N](CC)(CC)CC)[Ga@]1([N](CC)(CC)CC)I)O3[Ga@@]2(I)[Ga@@](I)([N](CC)(CC)CC)[Ga@](I)([N](CC)(CC)CC)[Ga@@]3(I)[N](CC)(CC)CC' (2 points). Stereochemistry must be shown. The scoring guide includes a second acceptable structure: 'I[Ga@@]1(O2[Ga@@](I)([N](CC)(CC)CC)[Ga@](I)([N](CC)(CC)CC)[Ga@]1([N](CC)(CC)CC)I)O3[Ga@]2(I)[Ga@@](I)([N](CC)(CC)CC)[Ga@](I)([N](CC)(CC)CC)[Ga@@]3(I)[N](CC)(CC)CC'."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-17-T7-6-1-rubric.png",
+          "description": "Reference structure of G = $Ga_8I_8O_2·6NEt_3$ in the first scoring-guide image, represented by the SMILES 'I[Ga@]1(O2[Ga@@](I)([N](CC)(CC)CC)[Ga@](I)([N](CC)(CC)CC)[Ga@]1([N](CC)(CC)CC)I)O3[Ga@@]2(I)[Ga@@](I)([N](CC)(CC)CC)[Ga@](I)([N](CC)(CC)CC)[Ga@@]3(I)[N](CC)(CC)CC'. Two $Ga_4O$ rings are fused through a shared edge of the central four-membered $Ga_2O_2$ ring. Each of the 8 Ga atoms bears one terminal I, and 6 of the Ga atoms additionally bear NEt3 (Et3N); the two Ga atoms in the central ring have no amine ligand. Wedge/dashed-bond stereochemistry is retained by the @/@@ markers."
+        },
+        {
+          "file": "Exam-17-T7-6-2-rubric.png",
+          "description": "Reference structure of G = $Ga_8I_8O_2·6NEt_3$ in the second scoring-guide image, represented by the SMILES 'I[Ga@@]1(O2[Ga@@](I)([N](CC)(CC)CC)[Ga@](I)([N](CC)(CC)CC)[Ga@]1([N](CC)(CC)CC)I)O3[Ga@]2(I)[Ga@@](I)([N](CC)(CC)CC)[Ga@](I)([N](CC)(CC)CC)[Ga@@]3(I)[N](CC)(CC)CC'. The framework composition and connectivity are the same as in the first image, but the wedge/dashed orientations of I and NEt3 at some Ga atoms differ. One Ga vertex at the upper right is unlabeled in the image; this vertex is [Ga@@] in the SMILES."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-17-T7-7",
+      "tags": [
+        "1.1"
+      ],
+      "text_open": "7.6 Tetrahedral type: high-temperature gaseous GaBr is cocondensed with a toluene solution of $NHEt_2$. The resulting dark solution is concentrated and allowed to stand at 25 °C, yielding crystals of cluster H = $Ga_5Br_7(NHEt_2)_5$. H contains a $Ga_5$ core in which the central Ga atom is tetrahedrally surrounded by four Ga atoms.\n7.6.2 In the sterically congested H molecule, the 12 heteroatoms—the halogens and the O/N atoms of the ligands—adopt an arrangement that maximizes their mutual separation. What polyhedron is formed by these 12 vertices?",
+      "text_images": [
+        {
+          "file": "Exam-17-T7-7-1-prompt.png",
+          "description": "Structure of H = $Ga_5Br_7(NHEt_2)_5$: the central Ga is connected by single bonds to four peripheral Ga atoms in a tetrahedral arrangement. The encodable structure of H is represented by the SMILES '[L][Ga](Br)(Br)[Ga]([Ga]([L])(Br)Br)([Ga]([L])([L])Br)[Ga]([L])(Br)Br', where [L] denotes the $NHEt_2$ ligand labeled in the image. A total of 5 L ligands and 7 Br atoms are distributed among the peripheral Ga atoms. The lower right of the image defines L = $NHEt_2$, and all bonds are solid single bonds."
+        }
+      ],
+      "full_mark": 1,
+      "rubric": [
+        "Distorted icosahedron or icosahedron (1 point). A regular icosahedron receives no credit."
+      ],
+      "rubric_images": []
+    }
+  ]
+}

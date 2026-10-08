@@ -1,0 +1,42 @@
+{
+  "problem_id": "Exam-01-T3",
+  "header": "Lithium Redox-Flow Battery\nA lithium redox-flow battery based on redox-targeting reactions is shown below. Redox targeting links an active material to an electrode by introducing into the electrolyte a highly soluble redox mediator paired with that active material. This approach both circumvents the solubility limitation of the active material and allows low-solubility active materials to be stored in tanks.",
+  "header_images": [
+    {
+      "file": "Exam-01-T3-header-1.png",
+      "description": "Schematic of an electrochemical flow apparatus. At the center is a battery stack composed of multiple plate-like layers, with blue outer plates and black and green layers between them. The left blue plate is labeled “+” and the right blue plate “-”. A wire at the top connects to a glowing light bulb; \\(e\\) is labeled above the wire, and an arrow shows electron transfer from the blue plate labeled “-” to the blue plate labeled “+”. To the left of the stack is a cylindrical vessel containing a pale-blue liquid and a cylindrical material labeled \\(\\mathrm{LiFePO_4}\\). \\(\\mathrm{Fe(CN)_6^{4-}}\\) is labeled above it and \\(\\mathrm{Fe(CN)_6^{3-}}\\) below it. Blue tubing connects the left vessel to the central stack and forms a circulation loop through a bottom pump labeled \\(\\mathrm{Pump}\\). The circulation direction is: blue plate labeled “+” → lower blue tubing → \\(\\mathrm{Pump}\\) → bottom of the left vessel (\\(\\mathrm{Fe(CN)_6^{3-}}\\)) → \\(\\mathrm{LiFePO_4}\\) → upper part of the left vessel (\\(\\mathrm{Fe(CN)_6^{4-}}\\)) → upper blue tubing → blue plate on the side labeled “+”. To the right of the stack is a cylindrical vessel containing a pale-yellow liquid and a cylindrical material labeled \\(\\mathrm{LiTi_2(PO_4)_3}\\). \\(\\mathrm{S_2^{2-}}\\) is labeled above it and \\(\\mathrm{S^{2-}}\\) below it. Yellow tubing connects the right vessel to the central stack and forms a circulation loop through a bottom pump labeled \\(\\mathrm{Pump}\\). The circulation direction is: blue plate labeled “-” → lower yellow tubing → \\(\\mathrm{Pump}\\) → bottom of the right vessel (\\(\\mathrm{S^{2-}}\\)) → \\(\\mathrm{LiTi_2(PO_4)_3}\\) → upper part of the right vessel (\\(\\mathrm{S_2^{2-}}\\)) → upper yellow tubing → blue plate labeled “-”."
+    }
+  ],
+  "subquestions": [
+    {
+      "sub_id": "Exam-01-T3-1",
+      "tags": [
+        "2.1",
+        "3.5"
+      ],
+      "text_open": "3-2 Write the electrode reactions at the cathode and anode during charging.",
+      "text_images": [],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-01-T3-2",
+      "tags": [
+        "2.1",
+        "3.5"
+      ],
+      "text_open": "3-3 Write the reactions occurring in the catholyte and anolyte tanks during charging.",
+      "text_images": [],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-01-T3-3",
+      "tags": [
+        "3.5",
+        "3.6"
+      ],
+      "text_open": "3-4 This lithium redox-flow battery operates at a constant current of 2.0 A for 24 minutes, during which the mass of solid material in the catholyte tank changes by 1.52 g. Calculate the efficiency with which the battery converts chemical energy into electrical energy.",
+      "text_images": [],
+      "full_mark": 4
+    }
+  ]
+}

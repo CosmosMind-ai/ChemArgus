@@ -1,0 +1,45 @@
+{
+  "problem_id": "Exam-22-T6",
+  "header": "Problem 6 Heteroatoms (23 points, 9%)\nIntroducing heteroatoms often changes chemical reactivity. The following questions examine aromatic substitution, ylide reactions, and amide reduction.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-22-T6-1",
+      "tags": [
+        "2.7"
+      ],
+      "text_open": "6.1 First consider substitution reactions of aromatic systems. Compounds A and B are separately treated with persulfate under basic conditions.\n6.1.1 Is the major substitution product of each of A and B the ortho or the para product?",
+      "text_images": [
+        {
+          "file": "Exam-22-T6-1-1-prompt.png",
+          "description": "The SMILES representation of A is '[O-]C1=CC=CC=C1', and that of B is 'NC1=CC=CC=C1'. A boxed letter A or B appears below the corresponding structure. To the right of each structure is a single-headed arrow pointing right, with $S_2O_8^{2-}$ written above it; the product is not shown. All bonds are solid lines, and no stereochemistry is indicated."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-22-T6-2",
+      "tags": [
+        "2.2"
+      ],
+      "text_open": "6.1.2 Write the SMILES string for 1 key intermediate in the formation of the ortho product.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-22-T6-3",
+      "tags": [
+        "2.4",
+        "2.2"
+      ],
+      "text_open": "6.2.2 After comparing the ylide reactions above, consider two related transformations. E reacts separately with a carbonyl compound (an aldehyde or ketone) and with an imine, giving an alkene in each case.\nWrite the SMILES strings for F and at least 3 key intermediates in its formation. Note: some intermediates contain a five-membered ring, and sulfur is present in the products only as elemental sulfur.",
+      "text_images": [
+        {
+          "file": "Exam-22-T6-3-1-prompt.png",
+          "description": "The figure shows two parallel reactions: 'CN(C)/C(SCC(OC)=O)=[N+](C)/C'.'[H]C(C1=CC=CC=C1)=O'>BTMG, THF, -78 ℃, 2h>[F]; and 'CN(C)/C(SCC(OC)=O)=[N+](C)/C'.'[H]/C(C1=CC=CC=C1)=N\\S(C2=CC=C(C)C=C2)(=O)=O'>BTMG, CHCl3, -78 ℃ to rt, 2h>[G]. The letter E is shown below each 'CN(C)/C(SCC(OC)=O)=[N+](C)/C' structure. F and G are represented only by boxed letters, and their structures are not shown. In both reactions, the counterion of E is NTf_2^-, whose structure is not shown."
+        }
+      ],
+      "full_mark": 9
+    }
+  ]
+}

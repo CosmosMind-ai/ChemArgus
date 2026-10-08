@@ -1,0 +1,25 @@
+{
+  "problem_id": "Exam-07-T6",
+  "header": "The Phases and Properties of Water and the Evolution of Temperature-Scale Definitions\nWater is the source of life, and its unique physicochemical properties play a crucial role in nature. The phase diagram below describes the phase equilibria of water at different temperatures and pressures. ",
+  "header_images": [
+    {
+      "file": "Exam-07-T6-header-1.png",
+      "description": "Schematic physicochemical phase diagram drawn with black lines on a white background. The origin of the rectangular coordinate system is labeled “O”; the vertical axis points upward and is labeled “p,” and the horizontal axis points rightward and is labeled “T/K.” The value “273.16” appears toward the left of the horizontal axis, with a vertical dashed line rising from it to the triple point, which is also labeled “O.” Four lines meet at triple point O: a solid solid-gas coexistence curve bending down and left to point B; a slightly curved solid-liquid coexistence line with negative slope extending up and left to point C; dashed line OD extending leftward; and a solid liquid-gas coexistence curve bending up and right to point A, the critical point. Point P lies on solid curve OA. A double-slash break symbol “//” appears midway along this curve, with a corresponding “//” break on the right side of the horizontal axis. A vertical dashed line fq passes through point P on curve OA, with f above and q below. Above and to the right of point A is a right-angled boundary extending rightward and upward; the top of its vertical segment is labeled “E,” and the right end of its horizontal segment is labeled “F.” The regions are labeled as follows: “ice” to the left of line OC, “water” between OC and OA, “water vapor” below OA and OB, and “supercritical water,” written vertically, inside the upper-right right-angled region bounded by E and F."
+    }
+  ],
+  "subquestions": [
+    {
+      "sub_id": "Exam-07-T6-1",
+      "tags": [
+        "3.1"
+      ],
+      "text_open": "6.1.2 State the physical meaning of curve OD.",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "Line OD is the metastable equilibrium line between supercooled liquid water and water vapor, or equivalently the vapor-pressure curve of supercooled water (2 points)."
+      ],
+      "rubric_images": []
+    }
+  ]
+}

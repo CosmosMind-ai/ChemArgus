@@ -1,0 +1,117 @@
+{
+  "problem_id": "Exam-16-T7",
+  "header": "Problem 7: Baldwin’s Rules\nThis problem concerns the regioselectivity of intramolecular ring-closing reactions, Baldwin’s rules, and their exceptions.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-16-T7-1",
+      "tags": [
+        "2.3",
+        "2.7",
+        "2.4"
+      ],
+      "text_open": "7.1 Give the SMILES structure of the product formed by the intramolecular reaction of the molecule shown below under suitable conditions, and explain the selectivity.",
+      "text_images": [
+        {
+          "file": "Exam-16-T7-1-1-prompt.png",
+          "description": "Substrate in the prompt, with SMILES 'C=C(CC(N)C(OC)=O)C(OC)=O'."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-16-T7-2",
+      "tags": [
+        "2.3",
+        "2.7",
+        "2.4"
+      ],
+      "text_open": "7.2 Baldwin’s rules are important empirical rules for explaining the regioselectivity of ring-closing reactions. Researchers used the reaction below in a classic mechanistic test of these rules. 7.2.1 Give the SMILES structures of the key intermediate in each of the two possible pathways and of the final product, and use Baldwin’s rules to identify the predominant pathway.",
+      "text_images": [
+        {
+          "file": "Exam-16-T7-2-1-prompt.png",
+          "description": "Reaction in the prompt: PhCH=CHCO_2Me reacts with NH_2NH_2 at 65°C."
+        }
+      ],
+      "full_mark": 5
+    },
+    {
+      "sub_id": "Exam-16-T7-3",
+      "tags": [
+        "2.3",
+        "4.2"
+      ],
+      "text_open": "7.2.2 Proof by contradiction is often used in scientific research to test reaction mechanisms. Using the substrate shown below as the main starting material, design an experiment to demonstrate that this reaction does not proceed through the pathway disfavored by Baldwin’s rules. State the experimental approach and the basis for the inference.",
+      "text_images": [
+        {
+          "file": "Exam-16-T7-3-1-prompt.png",
+          "description": "Substrate in the prompt, with SMILES 'O=C(/C=C/C1=CC=CC=C1)O[K]'."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-16-T7-4",
+      "tags": [
+        "2.3",
+        "2.7",
+        "2.4"
+      ],
+      "text_open": "7.3 “Exceptions” to Baldwin’s rules. 7.3.1 Give the SMILES structure of the product formed by the intramolecular reaction of the molecule shown below under suitable basic conditions, and explain the selectivity.",
+      "text_images": [
+        {
+          "file": "Exam-16-T7-4-1-prompt.png",
+          "description": "Substrate in the prompt, with SMILES 'BrCCC(C)(C)C(C)=O'."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-16-T7-5",
+      "tags": [
+        "2.3",
+        "1.6"
+      ],
+      "text_open": "7.3.2 The molecule shown below readily undergoes ring closure under suitable basic conditions with the amide nitrogen as the nucleophilic center. Explain why.",
+      "text_images": [
+        {
+          "file": "Exam-16-T7-5-1-prompt.png",
+          "description": "Substrate in the prompt, containing a structure with SMILES 'O=C(N[Ar])CCCBr'."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-16-T7-6",
+      "tags": [
+        "2.3",
+        "2.7",
+        "2.4"
+      ],
+      "text_open": "7.4 Give the SMILES structure of the major product formed by the intramolecular reaction of the molecule shown below under suitable basic conditions, and explain the selectivity.",
+      "text_images": [
+        {
+          "file": "Exam-16-T7-6-1-prompt.png",
+          "description": "Substrate in the prompt, with SMILES 'O=C(C)CC(C(C)=O)CC(C)=O'."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-16-T7-7",
+      "tags": [
+        "2.3",
+        "2.4",
+        "2.7"
+      ],
+      "text_open": "7.5 Drawing on the discussion above, give the SMILES structure of the product formed by the intramolecular reaction of the molecule shown below under suitable conditions.",
+      "text_images": [
+        {
+          "file": "Exam-16-T7-7-1-prompt.png",
+          "description": "Substrate in the prompt, with SMILES 'O=C(CC(OCC)=O)CC(CCl)OC'."
+        }
+      ],
+      "full_mark": 2
+    }
+  ]
+}

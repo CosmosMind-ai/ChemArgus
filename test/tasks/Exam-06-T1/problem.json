@@ -1,0 +1,26 @@
+{
+  "problem_id": "Exam-06-T1",
+  "header": "Problem 1: The Immortal Red Dragon. The development of alchemy depended on the joint investigations of scholars in China and abroad. In Tiangong Kaiwu, Song Yingxing recorded a method for purifying the “Red Dragon.” Low-purity “Red Dragon” was first “calcined together for five double-hours” in a sealed iron vessel to obtain a silvery-white elemental metal that is liquid at room temperature. The metal was then reacted in the proportion “one jin of metal to two jin of shitingzhi (a nonmetallic element),” yielding “fourteen liang of vermilion and three liang five qian of secondary vermilion.” Both “vermilion” and “secondary vermilion” are high-purity forms of the “Red Dragon.”",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-06-T1-1",
+      "tags": [
+        "2.1"
+      ],
+      "text_open": "1-1-2 Write the equation for the reaction that produces the silvery-white elemental metal.",
+      "text_images": [],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-06-T1-2",
+      "tags": [
+        "2.1",
+        "4.2"
+      ],
+      "text_open": "1-2 Throughout the history of alchemy, many scholars explored the chemical properties of the “Red Dragon.” Because it is chemically stable, subduing the immortal “Red Dragon” was a longstanding goal of alchemists. (i) Boiling a mixture of “wood ash” and “lime” gives strongly basic “caustic potash.” Boiling this with excess sulfur produces a dark-red mixed solution called “liver of sulfur.” When the “Red Dragon” is placed in this solution, it “completely merges with the red holy water.” Adding acid generates foul-smelling “dragon's breath” and instantly turns the originally clear liquid turbid (reaction 1). After the reaction, a large amount of soft, pale yellow-brown powder remains at the bottom. (ii) The “Green Lion” is a salt with formula mass 278.02. When strongly heated in a furnace, it first releases clear water and then “roars” out pungent “white smoke,” which condenses into a highly corrosive viscous liquid called “oil of vitriol” (reaction 2). Heating “oil of vitriol” with “saltpeter,” a potassium salt, produces dense “red fumes” that condense into slightly yellow “strong water.” Adding “sal ammoniac,” an ammonium salt, to the “strong water” gives the “King's Sword,” meaning aqua regia. When the King's Sword pierces the “Red Dragon,” it dies amid “red fumes”; its body is completely consumed into clear water, leaving only “yellow grease” floating on the surface (reaction 3). The “yellow grease” is the same substance as shitingzhi. Write the equations for reactions 1-3. Note: reaction 1 comprises two reactions, and reaction 2 is the overall reaction by which the “Green Lion” forms “oil of vitriol.”",
+      "text_images": [],
+      "full_mark": 9
+    }
+  ]
+}

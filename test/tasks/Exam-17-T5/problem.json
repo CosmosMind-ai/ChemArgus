@@ -1,0 +1,95 @@
+{
+  "problem_id": "Exam-17-T5",
+  "header": "Problem 5 Dicarbon Anions",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-17-T5-1",
+      "tags": [
+        "1.3",
+        "1.4"
+      ],
+      "text_open": "5.2 Starting from crystalline $CaC_2$, inserting square Co layers into some of the interlayer spaces and replacing Ca with U gives a tetragonal $UCoC_2$ crystal. Its structure is shown below, where the large spheres represent U, the medium spheres represent Co, and the small spheres represent C. The lattice parameter c = 728 pm.\n5.2.1 Name the coordination polyhedron formed by the C atoms around Co.",
+      "text_images": [
+        {
+          "file": "Exam-17-T5-1-1-prompt.png",
+          "description": "An oblique three-dimensional ball-and-stick rendering of the tetragonal unit cell of $UCoC_2$ on a white background. Thin gray-black lines outline a rectangular-prismatic unit-cell frame elongated vertically along c. There are 10 large spheres, including spheres at face centers on the top and the upper and lower basal faces; 4 medium spheres lie on the side faces, one at an upper-middle position on each left/right face and one at a lower-middle position on each front/back face; and 8 small spheres form upper and lower groups, with two vertical pairs in each group along c joined by short brown sticks. The upper pair is on the front/back faces and the lower pair on the left/right faces. The small spheres are joined to adjacent large spheres by short sticks, forming a layered framework; the medium spheres have no sticks. At lower left, a blue arrow points upward and is labeled c, a green arrow points right and is labeled b, and a red arrow points lower-left and is labeled a. Bonding obscured by occlusion cannot be resolved. Apart from a, b, and c, the image contains no text or legend. According to the caption, the large, medium, and small spheres represent U, Co, and C, respectively. The coordinates of the two carbon atoms in the unit cell are (1/2, 0, 0.155) and (1/2, 0, 0.358)."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-17-T5-2",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "5.3 A uranium carbide belongs to the cubic crystal system. Its unit-cell projections along the a, b, and c directions are all as shown below. The large spheres represent U and the small spheres represent C. All atoms of the same element are equivalent in the crystal, and the lattice parameter a = 808 pm.\n5.3.1 Write the chemical formula of this crystal.",
+      "text_images": [
+        {
+          "file": "Exam-17-T5-2-1-prompt.png",
+          "description": "Crystal-axis indicator on a white background: a solid red circle is at the lower left with a black letter a superimposed, indicating that the a axis points out of the page toward the viewer. A blue arrow extends upward from the circle and is labeled c above its tip; a green arrow extends rightward and is labeled b to the right of its tip. Apart from a, b, and c, the image contains no text or other graphics."
+        },
+        {
+          "file": "Exam-17-T5-2-2-prompt.png",
+          "description": "Crystal-axis indicator on a white background: a solid green circle is at the lower left with a black letter b superimposed, indicating that the b axis points out of the page toward the viewer. A red arrow extends upward from the circle and is labeled a above its tip; a blue arrow extends rightward and is labeled c at its right end. Apart from a, b, and c, the image contains no text or other graphics."
+        },
+        {
+          "file": "Exam-17-T5-2-3-prompt.png",
+          "description": "Crystal-axis indicator on a white background: a solid blue circle is at the lower left with a black letter c superimposed, indicating that the c axis points out of the page toward the viewer. A green arrow extends upward from the circle and is labeled b above its tip; a red arrow extends rightward and is labeled a at its right end. Apart from a, b, and c, the image contains no text or other graphics."
+        },
+        {
+          "file": "Exam-17-T5-2-4-prompt.png",
+          "description": "Unit-cell projection of the uranium carbide in 5.3 (two-dimensional projection of a ball-and-stick model on a white background): thin black lines form a square unit-cell border, with some spheres lying on the border. The image contains only two sphere types: large light-blue highlighted spheres and small brown spheres. The large spheres occur at the four corners, at the middle of the top and bottom edges, and at several interior positions; some large spheres overlap in pairs. Some small spheres are joined by short brown sticks into paired or chain-like arrangements, while others are isolated. The image contains no text, letters, numbers, arrows, or legend. As specified in the prompt, the large spheres represent U and the small spheres represent C. The prompt states that the projections along the a, b, and c directions are all as shown; this image is that projection panel."
+        }
+      ],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-17-T5-3",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "5.3.4 One carbon atom in the unit cell has coordinates (1/2, 1/4, 0.536). Calculate the carbon-carbon bond length in this crystal.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-17-T5-4",
+      "tags": [
+        "1.3",
+        "1.7"
+      ],
+      "text_open": "5.4 The carbon-carbon bond lengths in ethane, ethene, and ethyne are approximately 154 pm, 134 pm, and 120 pm, respectively. On this basis, predict the negative charge on the dicarbon anion in $CaC_2$, $UCoC_2$, and the uranium carbide in 5.3, respectively. The carbon-carbon bond orders in the three compounds are distinct integers.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-17-T5-5",
+      "tags": [
+        "1.3",
+        "1.7"
+      ],
+      "text_open": "5.5 Crystalline $DyCoC_2$ has a structure entirely different from that of $UCoC_2$. Its three-dimensional structure and projection along the c direction are shown below, where the large spheres represent Dy, the medium spheres represent Co, and the small spheres represent C. The only common stable positive oxidation state of Dy is +3. A small sample of $DyCoC_2$ is hydrolyzed in 2 mol/L dilute hydrochloric acid. Gas-chromatographic analysis gives the following mass fractions of the gaseous hydrolysis products: 74% ethane, 13% propane, 12% methane, and 1% ethene; no ethyne is formed.\n5.5.1 Predict the carbon-carbon bond order in $DyCoC_2$.",
+      "text_images": [
+        {
+          "file": "Exam-17-T5-5-1-prompt.png",
+          "description": "Three-dimensional ball-and-stick model of crystalline $DyCoC_2$ (oblique rendering on a white background): thin black lines outline a parallelepiped unit cell. There are 10 large blue-violet highlighted spheres of varying shades: 8 at the 8 corners and 2 at the centers of the top and bottom faces. There are 3 medium dark-blue spheres in a horizontal layer through the middle of the cell, positioned left of center, right of center, and at the center. Approximately 9 small brown spheres surround the medium spheres and are connected to them by dark-blue or brown short sticks; some small spheres bridge two medium spheres, forming an in-layer zigzag network. There are no direct sticks between large spheres or between medium spheres. Some spheres are obscured, so the exact number of brown small spheres cannot be fully determined. A three-axis indicator at the lower left has a blue upward arrow labeled c, a green rightward arrow labeled b, and a red arrow pointing down-left labeled a. Apart from a, b, and c, the image contains no text or legend. As specified in the prompt, the large, medium, and small spheres represent Dy, Co, and C, respectively."
+        },
+        {
+          "file": "Exam-17-T5-5-2-prompt.png",
+          "description": "Projection of crystalline $DyCoC_2$ along the c direction (two-dimensional projection of a ball-and-stick model on a pale gray-white background): thin black lines form a rectangular unit-cell border. Four large blue spheres lie at the corners; 1 slightly smaller blue sphere lies at the center of the rectangle without any bonds; and 3 medium blue spheres lie at the midpoints of the left and right edges and at the center of the lower edge. There are 10 small brown spheres: 2 terminal spheres outside the rectangle at the upper left and upper right, while the remaining 8 form 4 horizontal dumbbell pairs joined by two parallel short brown sticks. These pairs lie at the upper center, middle left, middle right, and outside the rectangle at the lower center. Each medium blue sphere is connected to 4 brown spheres by two-colored blue-brown short sticks, and adjacent blue spheres and brown pairs form triangular units. A three-axis indicator at the lower left has a red rightward arrow labeled a, a green upward arrow labeled b, and a blue circle bearing the letter c, indicating that the c axis points out of the page toward the viewer. Apart from a, b, and c, the image contains no text or legend. As specified in the prompt, the large, medium, and small spheres represent Dy, Co, and C, respectively."
+        }
+      ],
+      "full_mark": 1
+    },
+    {
+      "sub_id": "Exam-17-T5-6",
+      "tags": [
+        "1.6"
+      ],
+      "text_open": "5.5.3 Briefly explain why the experimentally measured carbon-carbon bond length in crystalline $DyCoC_2$ is 138 pm.",
+      "text_images": [],
+      "full_mark": 2
+    }
+  ]
+}

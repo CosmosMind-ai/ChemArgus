@@ -1,0 +1,55 @@
+{
+  "problem_id": "Exam-20-T10",
+  "header": "Photocatalytic Reactions",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-20-T10-1",
+      "tags": [
+        "2.2",
+        "2.4"
+      ],
+      "text_open": "10.1 Researchers studied the visible-light photocatalytic difluoroallylation of a silane shown below. The photosensitizer is 4-CzIPN, denoted PC. Under irradiation, PC is excited to PC* and can undergo one-electron reduction to the reduced radical anion PC$^{·-}$. PC$^{·-}$ is unstable and is readily oxidized back to PC. The detailed structure of the photosensitizer need not be considered in any subquestion.\n10.1.1 Based on the reaction mechanism, write the SMILES strings of 1 nitrogen-containing key intermediate and 2 fluorine-containing key intermediates other than PC and its various forms. Quinuclidine is 1-azabicyclo[2.2.2]octane.",
+      "text_images": [
+        {
+          "file": "Exam-20-T10-1-1-prompt.png",
+          "description": "Single-step reaction: 'CC1=CC=C(C(C(F)(F)F)=C)C=C1'.Et3SiH>4-CzIPN, Blue LED; quinuclidine, KHCO3, MeCN>'CC1=CC=C(C(C[Si](CC)(CC)CC)=C(F)F)C=C1'. At the left of the arrow, a p-methylphenyl-C(CF3)=CH2 substrate is joined by a plus sign to Et3SiH; the product is p-methylphenyl-C(=CF2)-CH2SiEt3."
+        }
+      ],
+      "full_mark": 6
+    },
+    {
+      "sub_id": "Exam-20-T10-2",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "10.1.2 When the reaction solvent is changed from the original solvent to THF, a different product is formed. This product still contains 2 fluorine atoms. Write the SMILES string of this byproduct.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-20-T10-3",
+      "tags": [
+        "2.2",
+        "2.4"
+      ],
+      "text_open": "10.1.3 Keep the standard reaction conditions unchanged, but replace the para methyl group on the substrate's aryl ring with a para acetyl group (-COCH$_3$). The expected difluoroallylsilane is not obtained; instead, a different major product is formed. Carefully examine the mechanism in 10.1.1, write the SMILES string of this major product, and briefly explain why an analogue of the 10.1.1 product is not formed.",
+      "text_images": [],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-20-T10-4",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "10.2 The researchers further found that the α-trifluoromethyl alkene derivative above can react with 1,3-dioxolane in a similar visible-light photocatalytic system. Product A is formed predominantly in MeCN, whereas product B is formed predominantly in DMSO. B contains only 1 fluorine atom. Write the SMILES string of B.",
+      "text_images": [
+        {
+          "file": "Exam-20-T10-4-1-prompt.png",
+          "description": "Single-step reaction: 'C=C(C(F)(F)F)C1=CC=C(C2=CC=CC=C2)C=C1'.'O1CCOC1'>4-CzIPN(1 mol%), quinuclidine(20 mol%); NaHCO3(1.5 equiv), Blue LED, Solv., rt, 12 h>. At the left of the arrow, a 4-biphenyl-C(CF3)=CH2 substrate is joined by a plus sign to 1,3-dioxolane; no product structure is drawn to the right."
+        }
+      ],
+      "full_mark": 2
+    }
+  ]
+}

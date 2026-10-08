@@ -1,0 +1,75 @@
+{
+  "problem_id": "Exam-06-T5",
+  "header": "Problem 5: Layered Conductive Materials",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-06-T5-1",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "5.1 CuSe crystal X has a layered structure. Its tetragonal unit cell is shown below, with dark spheres representing Cu and light spheres representing Se.\n5.1.1 Name the coordination polyhedron formed by the Se atoms around each Cu in crystal X.",
+      "text_images": [
+        {
+          "file": "Exam-06-T5-1-1-prompt.png",
+          "description": "A three-dimensional perspective view of a rectangular-prismatic unit cell drawn with thin dark-gray lines. Axes at the lower left show c vertically upward, b toward the right, and a toward the lower left. Ten larger blue spheres and four smaller green spheres are connected by cylindrical bonds. Blue spheres occupy all vertices of the prism and the face centers of the top and bottom faces. In the upper half, two green spheres are symmetrically positioned near the upper portions of the left and right faces. The left green sphere lies below several blue spheres at the upper left and is bonded to two blue spheres in the upper-left region and the blue sphere at the top center. The right green sphere similarly lies below the upper-right blue spheres and is bonded to two blue spheres in the upper-right region and the top-center blue sphere. In the lower half, two green spheres are symmetrically positioned near the lower portions of the front and back faces. The front green sphere is bonded to the lower-left and lower-right blue spheres of the front face and to the bottom-center blue sphere; the rear green sphere is bonded analogously to the corresponding rear-face blue spheres and bottom-center sphere. Overall, the green spheres lie between upper and lower sets of blue spheres, forming two layers in which green spheres bridge multiple blue spheres."
+        }
+      ],
+      "full_mark": 1
+    },
+    {
+      "sub_id": "Exam-06-T5-2",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "5.1.2 Within each layer, these Cu-Se polyhedra are connected by ( ).\na. sharing vertices\nb. sharing edges\nc. sharing faces",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-06-T5-3",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "5.1.3 State the lattice type of crystal X.",
+      "text_images": [],
+      "full_mark": 1
+    },
+    {
+      "sub_id": "Exam-06-T5-4",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "5.2 Translate the Cu-Se polyhedral layers in crystal X horizontally so that neighboring Se atoms in the upper and lower layers align along c, then fill all regular square-prismatic voids formed by Se with Tl to obtain tetragonal crystal Y.\n5.2.1 Write the chemical formula of crystal Y in the simplest integer ratio.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-06-T5-5",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "5.2.4 State the lattice type of crystal Y.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-06-T5-6",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "5.4 Replacing each single Cu-Se polyhedral layer in crystal Y with a double layer, in which the two component layers share one layer of Se atoms, gives crystal Z with a conduction mechanism similar to that of Y.\n5.4.1 Write the chemical formula of crystal Z.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-06-T5-7",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "5.4.2 Approximate the 8 Se atoms around Tl in crystal Y as a perfect cube, and assume that the shapes and sizes of all coordination polyhedra remain unchanged in the transformation from Y to Z. State directly the value of unit-cell parameter c for the conventional unit cell of crystal Z.",
+      "text_images": [],
+      "full_mark": 2
+    }
+  ]
+}

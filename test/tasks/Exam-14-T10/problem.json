@@ -1,0 +1,53 @@
+{
+  "problem_id": "Exam-14-T10",
+  "header": "Visible-Light Photocatalytic Reactions of Sulfonium Salts\nOn 2023-5-3, researchers from Qingdao University of Science and Technology published a study of visible-light photocatalytic reactions of sulfonium salts. Let the photosensitizer be denoted PC; in the photocatalytic pathway, light excites PC to PC*, which then participates in the reaction.",
+  "header_images": [
+    {
+      "file": "Exam-14-T10-header-1.png",
+      "description": "'CC1=CC=C([S+]2CCCC2)C=C1.F[P-](F)(F)(F)(F)F' reacts with 'C=CC1=CC=CC=C1' under hv, Photocatalyst (mol%), Base (3.0 equiv), DMSO, N2, 24 h, r.t."
+    }
+  ],
+  "subquestions": [
+    {
+      "sub_id": "Exam-14-T10-1",
+      "tags": [
+        "2.4",
+        "2.2"
+      ],
+      "text_open": "Standard conditions: The sulfonium salt shown reacts with styrene using PC7 (10 mol%) as the photosensitizer, $\\mathrm{Na_2CO_3}$ (3.0 equiv) as the base, and anhydrous DMSO as the solvent under irradiation with a 455 nm blue LED at room temperature for 24 hours.\n10.2.2 Researchers added 1,1-diphenylethylene under the standard conditions to trap a reaction intermediate, giving a product containing 3 rings. Write the SMILES string of this 3-ring product.",
+      "text_images": [],
+      "full_mark": 1
+    },
+    {
+      "sub_id": "Exam-14-T10-2",
+      "tags": [
+        "2.4",
+        "2.8"
+      ],
+      "text_open": "10.2.3 Performing the reaction under the standard conditions but without DMSO gives a different product. Write its SMILES string.",
+      "text_images": [],
+      "full_mark": 1
+    },
+    {
+      "sub_id": "Exam-14-T10-3",
+      "tags": [
+        "2.2",
+        "2.3",
+        "2.4"
+      ],
+      "text_open": "10.3 Write the SMILES strings of the key intermediates and product of this reaction.",
+      "text_images": [],
+      "full_mark": 5
+    },
+    {
+      "sub_id": "Exam-14-T10-4",
+      "tags": [
+        "2.4",
+        "2.5"
+      ],
+      "text_open": "10.4 Treatment of the product from 10.3 with mCPBA (meta-chloroperoxybenzoic acid) gives two additional products. Write their SMILES strings.",
+      "text_images": [],
+      "full_mark": 2
+    }
+  ]
+}

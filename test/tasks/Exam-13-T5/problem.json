@@ -1,0 +1,35 @@
+{
+  "problem_id": "Exam-13-T5",
+  "header": "Question 5 Crystal Distortions. Under ideal conditions, several classic crystal structures have high symmetry, including cubic perovskite, fluorite, and spinel structures. Under certain conditions, however, some crystal structures distort, breaking the original high symmetry and lowering it to tetragonal, trigonal, orthorhombic, monoclinic, or another crystal system.",
+  "header_images": [
+    {
+      "file": "Exam-13-T5-header-1.png",
+      "description": "A perspective ball-and-stick model of a three-dimensional crystal structure. Axes at the lower left show a in red pointing toward the lower left and into the view, b in green pointing horizontally right, and c in blue pointing vertically upward. The outer framework is a cube with a large light-blue sphere at each of its 8 vertices and thin light-blue rods joining adjacent vertices. A smaller red sphere is embedded near the midpoint of each of the 12 cube edges. The largest green sphere is suspended at the center of the cube and connects radially to the 12 red spheres through 12 thin green rods. The 8 red spheres in the top layer, c = 1, and bottom layer, c = 0, are accompanied by broad white arrows with black borders and bold black coordinates indicating displacement. In the top layer, the left sphere has a rightward arrow and (0.5,0.0098,1); the right sphere has a leftward arrow and (0.5,0.9902,1); the front sphere has a lower-right arrow and (1.0098,0.5,1); and the rear sphere has an upper-right arrow and (-0.0098,0.5,1). In the bottom layer, the left sphere has an outward left arrow and (0.5,-0.0098,0); the right sphere has an outward right arrow and (0.5,1.0098,0); the front sphere has a lower-left arrow and (0.9902,0.5,0); and the rear sphere, seen in perspective below and to the right of the central green sphere, has an upper-left arrow and (0.0098,0.5,0)."
+    }
+  ],
+  "subquestions": [
+    {
+      "sub_id": "Exam-13-T5-1",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "5.2 At low temperature, $NaNiO_2$ distorts from a high-symmetry structure into a base-centered monoclinic crystal, as shown below; the large, medium, and small spheres are Na, Ni, and O, respectively. One O atom has coordinates (0.222, 0.5, 0.205), both Ni and Na occupy vertex or face-center positions, and the unit-cell parameters are a = 5.33 Å, b = 2.86 Å, c = 5.59 Å, and β = 110.5°. 5.2.1 Before distortion, the structure follows a close-packing model: O forms the closest-packed array, while alternating Na and Ni layers occupy octahedral holes in the O array. Use ABC for the close-packed O layers, abc for the Na layers, and a’b’c’ for the Ni layers. Represent the close-packing sequence before distortion using letters, giving one repeat unit, and state the Bravais lattice of the undistorted crystal.",
+      "text_images": [
+        {
+          "file": "Exam-13-T5-1-1-prompt.png",
+          "description": "A perspective three-dimensional ball-and-stick model enclosed by an inclined parallelepiped outlined with thin black lines. Axes at the lower left show a in red pointing roughly left, b in green pointing into the page, and c in blue pointing steeply toward the upper right. Three sphere sizes and colors represent the elements: the largest golden spheres are Na, medium silver-gray spheres are Ni, and the smallest red spheres are O. Thin cylindrical bonds are split between the colors of the connected atoms, such as yellow-red Na-O and silver-red Ni-O bonds. The structure is a highly ordered alternating layered arrangement along c. Silver-gray Ni layers lie near the upper and lower faces of the cell. Each Ni connects diagonally to 6 O atoms through 6 silver-red bonds, forming a typical $NiO_6$ octahedron. These edge-sharing octahedra extend laterally in planes perpendicular to c to form robust two-dimensional $NiO_2$ slabs. A layer of large golden Na spheres occupies the central plane in the open space between the 2 $NiO_2$ slabs. Each Na radiates 6 yellow-red bonds in an octahedral geometry, connecting upward to 3 O atoms at the bottom of the upper $NiO_2$ slab and downward to 3 O atoms at the top of the lower $NiO_2$ slab. Thus, rather than forming simple vertical linear units, the interlayer Na atoms act as structural anchors through a three-dimensional network of 6 contacts, 3 above and 3 below, joining the separated silver-red slabs along c into a continuous crystal network."
+        }
+      ],
+      "full_mark": 5
+    },
+    {
+      "sub_id": "Exam-13-T5-2",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "5.2.2 Calculate all distinct Ni-O bond lengths after distortion.",
+      "text_images": [],
+      "full_mark": 4
+    }
+  ]
+}

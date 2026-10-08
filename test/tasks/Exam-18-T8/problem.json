@@ -1,0 +1,67 @@
+{
+  "problem_id": "Exam-18-T8",
+  "header": "Problem 8 Reactions of Amino-Acid Side Chains\nAmino-acid side chains can undergo chemical reactions when they contain functional groups. These groups include hydroxy, phenolic, thiol, indolyl, imidazolyl, guanidino, methylthio, non-α−amino, and non-α−carboxy groups. Each functional group can react with many reagents, and some of these reactions form the basis of chemical modification of proteins. Stereochemistry is not considered in this problem.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-18-T8-1",
+      "tags": [
+        "2.4",
+        "2.5"
+      ],
+      "text_open": "8.2 Toi reaction: In sodium borate buffer at pH 8~9 and 25~35℃, the guanidino side chain of arginine reacts with 1,2−cyclohexanedione to form condensation product E$^+$. E$^+$ contains a newly formed ring. Its chemical formula is $C_{12}H_{23}N_4O_4^+$, and if only hydrogens attached to carbon are considered, there are 6 distinct chemical environments. Write the SMILES string for E$^+$.",
+      "text_images": [
+        {
+          "file": "Exam-18-T8-1-1-prompt.png",
+          "description": "'O=C(O)C(N)CCCNC(N)=N'.'O=C1CCCCC1=O'>>[E+]. No conditions are written above the arrow, and the product structure is not drawn but is labeled E$^+$. The arginine structure is labeled Arginine."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-18-T8-2",
+      "tags": [
+        "2.2",
+        "2.5"
+      ],
+      "text_open": "8.3 Patchornik reaction: Under mild conditions, the indole ring of a tryptophan residue in a protein can be oxidized by NCS and undergo rearrangement, causing cleavage of the peptide bond. Write the SMILES strings for the two key intermediates between the tryptophan residue and intermediate X.",
+      "text_images": [
+        {
+          "file": "Exam-18-T8-2-1-prompt.png",
+          "description": "The figure shows a two-step reaction: 'O=C(N[R2])C(N[R1])CC1=CNC2=CC=CC=C21'>NCS, H2O>'O=C1C(N[R1])CC2(O1)C3=CC=CC=C3NC2Cl'; 'O=C1C(N[R1])CC2(O1)C3=CC=CC=C3NC2Cl'>NCS, H2O>'O=C1C(N[R1])CC2(O1)C3=CC=CC=C3NC2=O'. The intermediate structure containing Cl is labeled X, while the product on the right has no letter label. R1 and R2 are the original placeholders in the figure."
+        }
+      ],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-18-T8-3",
+      "tags": [
+        "2.2",
+        "2.5"
+      ],
+      "text_open": "8.4.1 Hopkins-Cole reaction: A protein solution is mixed with Hopkins-Cole reagent, whose principal active component is glyoxylic acid. Concentrated sulfuric acid is then carefully added down the wall of the tube so that it forms a separate lower layer. If the protein contains tryptophan, a violet ring appears at the interface between the two liquid layers. However, this reaction is not simple or reliable for quantitative determination of tryptophan because product formation is slow, various color changes occur concurrently, and the products have low stability. Studies have shown that tryptophan can form two differently colored products with glyoxylic acid. When a small amount of aldehyde is used and the reaction temperature is below 15°C, the first colored product is carmine. Write the SMILES strings for three key intermediates between the tryptophan residues and intermediate Y.",
+      "text_images": [
+        {
+          "file": "Exam-18-T8-3-1-prompt.png",
+          "description": "The figure shows a two-step reaction: '[R]C1=CNC2=CC=CC=C21'.'[R]C1=CNC2=CC=CC=C21'.'O=C([H])C(O)=O'>'[R]C1=CNC2=CC=C(C(C(O)=O)C3=CC=C(NC=C4[R])C4=C3)C=C21'; '[R]C1=CNC2=CC=C(C(C(O)=O)C3=CC=C(NC=C4[R])C4=C3)C=C21'>[O], -CO2, -H2O>'[R]C1=CNC2=CC=C(/C=C(C=C3)/C=C4C3=NC=C4[R])C=C21'. The intermediate structure after the first arrow is labeled Y. R is the original placeholder in the figure."
+        }
+      ],
+      "full_mark": 6
+    },
+    {
+      "sub_id": "Exam-18-T8-4",
+      "tags": [
+        "2.2",
+        "2.5"
+      ],
+      "text_open": "8.4.2 Raising the temperature to approximately 50°C provides sufficient activation energy to promote a further condensation reaction, forming a second blue-violet product. Write the SMILES strings for two key intermediates between the reactant in the scheme and intermediate Z.",
+      "text_images": [
+        {
+          "file": "Exam-18-T8-4-1-prompt.png",
+          "description": "The figure shows a two-step reaction: 'NC(C(O)=O)CC1=CN=C2C1=C/C(C=C2)=C/C3=CC=C(NC=C4CC(N)C(O)=O)C4=C3'>glyoxylic acid, -H2O>'O=C(C(NC1C(O)=O)CC2=C1N=C3C2=C/C(C=C3)=C/C4=CC=C(NC5=C6CC(NC5C(O)=O)C(O)=O)C6=C4)O'; 'O=C(C(NC1C(O)=O)CC2=C1N=C3C2=C/C(C=C3)=C/C4=CC=C(NC5=C6CC(NC5C(O)=O)C(O)=O)C6=C4)O'>-CO2>'O=C(C(NC1)CC2=C1N=C3C2=C/C(C=C3)=C/C4=CC=C(NC5=C6CC(NC5)C(O)=O)C6=C4)O'. The upper-right structure is labeled Z, and the structure of glyoxylic acid is shown above the first arrow."
+        }
+      ],
+      "full_mark": 4
+    }
+  ]
+}

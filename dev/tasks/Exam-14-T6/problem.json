@@ -1,0 +1,35 @@
+{
+  "problem_id": "Exam-14-T6",
+  "header": "Kinetic Proofreading in Enzyme Reactions\nIncorrect enzyme-amino acid binding can occur during protein synthesis, so organisms require proofreading mechanisms to ensure accurate enzyme recognition. Studies show that aminoacyl-tRNA synthetases (aaRSs) use kinetic proofreading to reduce the fraction of incorrect products. In this problem, C denotes the correct amino acid and D the incorrect amino acid.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-14-T6-1",
+      "tags": [
+        "2.9",
+        "2.4"
+      ],
+      "text_open": "6.2.1 In fact, aaRS uses a kinetic proofreading mechanism that can be represented by the elementary-reaction pathway below. ATP can activate amino-acid functional groups. For example, under enzyme catalysis ATP reacts with the carboxyl group of phenylalanine, releasing pyrophosphate and forming an intermediate in which AMP is linked to the carboxyl group. The structures of ATP and phenylalanine are shown below. Write the SMILES string of the ATP-activated phenylalanine product.",
+      "text_images": [
+        {
+          "file": "Exam-14-T6-1-1-prompt.png",
+          "description": "Reaction scheme on a white background with black text and arrows.\n\nE + aa + ATP on the left is connected to E·aa·ATP on the right by horizontal reversible arrows labeled k₁ above and k₋₁ below.\n\nA horizontal rightward arrow labeled k₂ connects E·aa·ATP to E·aa·AMP + PPi.\n\nAn upward vertical arrow above E·aa·AMP is labeled k₃ on the left and points to E + aa·AMP.\n\nA downward vertical arrow below E·aa·AMP is labeled k₄ on the left and tRNA on the right and points to E + aa-tRNA + AMP, with aa-tRNA in bold."
+        },
+        {
+          "file": "Exam-14-T6-1-2-prompt.png",
+          "description": "Adenosine triphosphate, ATP: 'NC1=NC=NC2=C1N=CN2[C@H]3[C@H](O)[C@H](O)[C@@H](COP(OP(OP([O-])([O-])=O)([O-])=O)([O-])=O)O3'; phenylalanine, Phe: '[O-]C([C@@H]([NH3+])CC1=CC=CC=C1)=O'"
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "'NC1=NC=NC2=C1N=CN2[C@H]3[C@H](O)[C@H](O)[C@@H](COP(OC([C@H](CC4=CC=CC=C4)[NH3+])=O)([O-])=O)O3' (2 points; 1 point if the charges are incorrect)"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-14-T6-1-1-rubric.png",
+          "description": "SMILES string: 'NC1=NC=NC2=C1N=CN2[C@H]3[C@H](O)[C@H](O)[C@@H](COP(OC([C@H](CC4=CC=CC=C4)[NH3+])=O)([O-])=O)O3'"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "problem_id": "Exam-17-T4",
+  "header": "Problem 4 Gravimetric Determination of Tungsten (17 points, 8%)\nTungsten is an important strategic metal that has an irreplaceable strengthening role in cemented carbides, high-speed steel, and specialty steels. Accurate determination of tungsten content is essential for quality control of alloy materials. In the classical gravimetric method, tungsten is converted to a tungstic-acid precipitate, ignited to tungsten trioxide, and weighed. Accurate tungsten content is obtained by correcting for interference from coexisting elements such as molybdenum, chromium, and vanadium. This problem concerns precipitation and separation of tungsten, correction for impurities, and special treatment of niobium-containing samples, and tests understanding of the principles of gravimetric analysis and strategies for eliminating interference.\nThe hydrochloric acid used in this problem is diluted 1:1, the nitric acid is concentrated, and every reported mass has been corrected for the tare mass of the crucible.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-17-T4-1",
+      "tags": [
+        "2.1"
+      ],
+      "text_open": "4.1 Procedure for samples without niobium\nA sample of mass $m$ is weighed into a beaker. Hydrochloric acid and nitric acid are added, and the mixture is heated gently to dissolve the sample and evaporated to a syrup to remove nitrogen oxides. Hydrochloric acid is added to dissolve the salts, the solution is diluted with water and brought to the boil, and cinchonine hydrochloride solution is added slowly to precipitate all tungsten as tungstic acid. The precipitate is aged at 70-80℃ for 4 h and then filtered and washed with a cinchonine hydrochloride wash solution.\nThe precipitate and filter paper are placed in a platinum crucible, carbonized, and ignited at 750-800℃. The residue is moistened with water, hydrofluoric acid and sulfuric acid are added, and the mixture is heated to volatilize silicon. It is then ignited to constant mass, giving a mass $m_1$ of impure $WO_3$.\nSodium carbonate is added to the platinum crucible for fusion. After cooling, the melt is extracted with hot water and filtered, and the residue is ignited and weighed to give $m_2$. The filtrate is analyzed spectrophotometrically for molybdenum, chromium, and vanadium, which are converted to the corresponding oxide masses $m_3$, $m_4$, and $m_5$.\n4.1.1 Write the equation for oxidation of elemental tungsten to tungstic acid, $H_2WO_4$, in hydrochloric acid/nitric acid.",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "$W + 2HNO_3 = H_2WO_4 + 2NO\\uparrow$ (2 points)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-17-T4-2",
+      "tags": [
+        "4.7",
+        "2.1"
+      ],
+      "text_open": "4.1.6 During aqueous extraction after sodium carbonate fusion, $WO_3$ is converted to $Na_2WO_4$ and enters solution, whereas $TiO_2$ and $Fe_2O_3$ remain insoluble. Analysis of a tungsten-steel sample gives the following data: $m$ = 0.5123 g, $m_1$ = 0.0842 g, $m_2$ = 0.0018 g, $m_3$ = 0.0023 g, $m_4$ = 0.0015 g, and $m_5$ = 0.0012 g. Calculate the mass fraction of tungsten in the sample.",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "$w_W = (m_1-m_2-m_3-m_4-m_5)/m \\times 0.7930 \\times 100\\% = 12.0\\%$ (2 points). Deduct 1 point if the answer is not reported to 3 significant figures."
+      ],
+      "rubric_images": []
+    }
+  ]
+}

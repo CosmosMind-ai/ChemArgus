@@ -1,0 +1,38 @@
+{
+  "problem_id": "Exam-17-T3",
+  "header": "Problem 3 Aqueous Self-Assembly and Competitive Recognition by Bowl-Shaped Molecules\nMolecular recognition in water is often governed simultaneously by electrostatic interactions, hydrogen bonding, solvation effects, and shape complementarity, so the actual outcome of supramolecular assembly can differ from a simple prediction based on charge complementarity. Tribenzotriquinacene (TBTQ) derivatives are rigid bowl-shaped molecules whose frameworks have distinct concave and convex faces. Introducing ionic groups around the rim of a TBTQ framework can confer water solubility and enable charge-controlled self-assembly.\nAs shown, compound A is a cationic TBTQ bowl bearing 6 ammonium groups, compound B is an anionic TBTQ bowl bearing 6 carboxylate groups, and compound C is mesitylene-α, α′, α″-trisulfonate, a trianionic guest bearing three $CH_2SO_3^-$ groups on an aromatic ring.",
+  "header_images": [
+    {
+      "file": "Exam-17-T3-header-1.png",
+      "description": "Compound A (TBTQ hexaammonium salt, labeled $A\\cdot Cl_6$): a bowl-shaped TBTQ framework in which each ring bears 3-aminopropoxy chains on 2 adjacent aromatic carbon atoms, for a total of 6 $NH_3^+$ groups and 6 $Cl^-$ ions. Its SMILES string is '[NH3+]CCCOC1=CC(C2C3(C4C5=C(C=C(C(OCCC[NH3+])=C5)OCCC[NH3+])C3C6=CC(OCCC[NH3+])=C(OCCC[NH3+])C=C62)C)=C4C=C1OCCC[NH3+].[Cl-].[Cl-].[Cl-].[Cl-].[Cl-].[Cl-]'."
+    },
+    {
+      "file": "Exam-17-T3-header-2.png",
+      "description": "Compound B (TBTQ hexacarboxylate, labeled $B\\cdot (NH_4)_6$): a bowl-shaped TBTQ framework in which each ring bears carboxymethoxy chains on 2 adjacent aromatic carbon atoms, for a total of 6 $CO_2^-$ groups and 6 $NH_4^+$ ions. Its SMILES string is '[O-]C(COC(C=C1C2C3(C)C(C4=CC(OCC([O-])=O)=C(C=C4C3C5=CC(OCC([O-])=O)=C(C=C52)OCC([O-])=O)OCC([O-])=O)C1=C6)=C6OCC([O-])=O)=O.[NH4+].[NH4+].[NH4+].[NH4+].[NH4+].[NH4+]'."
+    },
+    {
+      "file": "Exam-17-T3-header-3.png",
+      "description": "Compound C (trisodium benzene-1,3,5-tris(methylsulfonate), labeled $Na_3\\cdot C$): its SMILES string is '[O-]S(=O)(CC1=CC(CS(=O)([O-])=O)=CC(CS(=O)([O-])=O)=C1)=O.[Na+].[Na+].[Na+]'."
+    }
+  ],
+  "subquestions": [
+    {
+      "sub_id": "Exam-17-T3-1",
+      "tags": [
+        "1.7"
+      ],
+      "text_open": "3.1 Based only on the charge complementarity and bowl-shaped structures of A and B, describe in words the AB capsule assembly that would be most readily expected. No specific structure needs to be drawn.",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "The two bowl openings face each other, and the positive charges of the ammonium groups around the rim of A attract the negative charges of the carboxylate groups around the rim of B (2 points), as illustrated by:"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-17-T3-1-1-rubric.png",
+          "description": "Schematic answer for the capsule assembly in 3.1. On a pure white background, two similarly sized hemispheres are arranged vertically, centered, and separated by a narrow horizontal white gap without touching. The upper hemisphere is sky blue, with its curved face upward and flat face downward, and bears a black plus sign (+) at the center of its front curved surface. The lower hemisphere is red, with its flat face upward and curved face downward like a bowl, and bears a black minus sign (-) at the center of its front curved surface. Their flat faces are parallel and face each other, together approximating a complete sphere. Both hemispheres have smooth three-dimensional shading, highlights, and gloss without outlines. The figure contains no words, letters, numbers, arrows, or explicit chemical structures."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "problem_id": "Exam-20-T2",
+  "header": "A Solvent-Responsive Color-Changing Complex\nThe pentacyanoferrate(II) complex ion X is a solvatochromic complex that is highly sensitive to changes in the dielectric constant and hydrogen-bond-donor ability of its solvent environment. Studies show that the color of X changes in opposite directions with solvent composition in the two binary solvent systems methanol/water and formamide (FA)/water.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-20-T2-1",
+      "tags": [
+        "1.4",
+        "1.6"
+      ],
+      "text_open": "2.1 The color of complex ion X arises primarily from metal-to-ligand charge transfer, MLCT.\n2.1.2 In the MLCT mechanism of X, the excited state $X^{*}$ can be represented by a limiting resonance form of the ground-state ion in which one nitrogen atom of the organic ligand is a radical cation. Write the SMILES string of this limiting resonance form and correctly label the oxidation state of Fe.",
+      "text_images": [
+        {
+          "file": "Exam-20-T2-1-1-prompt.png",
+          "description": "X has the SMILES 'COC(C=C1)=CC=C1[N+](C=C2)=CC=C2C3=CC=[N]([Fe+2]([C-]#N)([C-]#N)([C-]#N)([C-]#N)[C-]#N)C=C3'. Complex ion X has an overall charge of two negative units."
+        }
+      ],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-20-T2-2",
+      "tags": [
+        "1.7"
+      ],
+      "text_open": "2.1.3 State which has the larger dipole moment: ground-state X or its excited state $X^{*}$.",
+      "text_images": [],
+      "full_mark": 1
+    },
+    {
+      "sub_id": "Exam-20-T2-3",
+      "tags": [
+        "3.2",
+        "1.7"
+      ],
+      "text_open": "2.2 To quantify the effects of solvent dielectric constant and hydrogen-bond-donor ability on the color of the complex ion, the following linear relationship is used:\n$E_{CT} = E_0 + s\\cdot f(ε) + k\\cdot α$\nwhere ε is the dielectric constant of the solvent, α is the hydrogen-bond-donor acidity of the solvent, the Onsager polarity function is $f(ε)=\\frac{2(ε-1)}{2ε+1}$, and s and k are the corresponding linear coefficients.\n2.2.3 For a binary methanol/water solvent, the fitted linear coefficients are\n$E_0$ = −28.112 kcal·mol^{-1}; s = 123.758 kcal·mol^{-1}; k = −61.985 kcal·mol^{-1}.\nThe dielectric constant ε of the binary methanol/water solvent is approximately linearly related to the mole fraction of methanol $x_{MeOH}$:\n$ε = 79.2 - 43.6\\cdot x_{MeOH}$\nThe hydrogen-bond-donor acidity α of the mixed solvent is approximately independent of solvent composition. Calculate the slope of $E_{CT}$ with respect to $x_{MeOH}$ for the complex in the mixed solvent at $x_{MeOH}$ = 0.50. Hint: for $u = u(v(x))$, $du/dx = (du/dv) \\cdot (dv/dx)$.",
+      "text_images": [],
+      "full_mark": 6
+    },
+    {
+      "sub_id": "Exam-20-T2-4",
+      "tags": [
+        "1.7",
+        "3.9"
+      ],
+      "text_open": "2.3 In a binary formamide (FA)/water solvent, FA is the more polar component. Preferential solvation makes the local solvent mole fraction y around the solute differ from the bulk solvent mole fraction x. The Suppan dielectric-enrichment model is used:\n$\\frac{y_n}{y_p}=\\frac{x_n}{x_p}e^{-Z_{ps}}$\nwhere the subscript n denotes the less polar solvent and p the more polar solvent. In an FA/water mixture, the solvation index is $Z_{ps}=0.412$.\n2.3.2 Define the local enrichment factor of the more polar solvent p as $η_p = y_p / x_p$. Derive an expression for $η_p$ in terms of $x_p$ and $Z_{ps}$, and calculate $η_p$ at $x_p$ = 0.600.",
+      "text_images": [],
+      "full_mark": 5
+    },
+    {
+      "sub_id": "Exam-20-T2-5",
+      "tags": [
+        "1.6",
+        "1.7"
+      ],
+      "text_open": "Experimental observation: in methanol/water, the absorption peak shifts to the blue as the mole fraction of the more polar component, water, increases. In FA/water, the absorption peak shifts to the red as the mole fraction of the more polar component, FA, increases, and preferential solvation occurs.\n2.4 Based on the information and model analysis above, in a methanol/water solvent the (      ) between solute and solvent determines the direction of the solute's absorption-peak shift, and the solvent predominantly stabilizes (      ). In an FA/water solvent, the (      ) between solute and solvent determines the direction of the absorption-peak shift, and the solvent predominantly stabilizes (      ).\n(a) Dipole/electrostatic interactions; (b) hydrogen-bonding interactions; (c) ground-state X; (d) excited-state $X^{*}$",
+      "text_images": [],
+      "full_mark": 2
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "problem_id": "Exam-21-T3",
+  "header": "Preparation and Properties of a Thermochromic Copper(II) Complex\nMaterials whose compounds exhibit thermochromism through structural phase transitions are widely used in anti-counterfeiting applications. To synthesize the thermochromic complex $[Cu(deen)_2](ClO_4)_2$ (deen denotes N,N-diethylethylenediamine), hydrated copper perchlorate must first be prepared, followed by introduction of the deen ligand.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-21-T3-1",
+      "tags": [
+        "1.4",
+        "4.3"
+      ],
+      "text_open": "Hydrated copper perchlorate can be prepared by a precipitation–dissolution method. Dissolve $CuSO_4\\cdot 5H_2O$ in water, add $NaOH$ solution with stirring, and heat slowly on a hot plate until the precipitate turns black. Maintain gentle boiling for 5–10 min, allow the mixture to cool slightly, and collect the precipitate by suction filtration. Rinse it with a small amount of deionized water, then use a glass rod to transfer the precipitate into an evaporating dish containing 10 mL of water. Add perchloric acid, gently guide the precipitate into the solution with the glass rod, and stir until it dissolves completely to form a copper perchlorate solution. Concentrate the solution by gentle heating to about 2 mL. On cooling, crystals of hydrated copper perchlorate are obtained. The preparation of $[Cu(deen)_2](ClO_4)_2$ begins with the hydrated copper perchlorate crystals obtained above. Adding absolute ethanol to these crystals gives a clear blue solution. In a dry beaker, dissolve N,N-diethylethylenediamine in ethanol to obtain a clear pale-yellow solution. Slowly add the ethanolic deen solution to the ethanolic copper perchlorate solution with stirring; the mixture immediately turns deep blue-violet. Stir for 2–3min, then allow it to stand for about 10 min. A large amount of pink precipitate forms at the bottom of the vessel while the supernatant remains deep blue-violet. Collect the product by suction filtration and dry it to obtain $[Cu(deen)_2](ClO_4)_2$. 3.2.2 Dissolving the red $[Cu(deen)_2](ClO_4)_2$ in water again gives a deep-blue solution. Explain why. (No more than 50 words)",
+      "text_images": [],
+      "full_mark": 4,
+      "rubric": [
+        "$H_2O$ coordinates at the axial sites of $[Cu(deen)_2]^{2+}$, changing the coordination geometry of Cu(II) from square planar toward elongated octahedral. (2 points)",
+        "The energy of the associated d–d transition decreases and the absorption undergoes a red shift, causing the complementary color to shift toward blue and giving a blue appearance. (2 points)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-21-T3-2",
+      "tags": [
+        "1.4"
+      ],
+      "text_open": "3.3 In a thermochromism experiment on $[Cu(deen)_2](ClO_4)_2$, a small amount of the $[Cu(deen)_2](ClO_4)_2$ complex is held between pieces of adhesive tape and heated with a hair dryer. The sample changes from pink to blue-violet and returns to pink on cooling.\n3.3.1 Based on crystal field theory, describe in words as necessary the structural change of the $[Cu(deen)_2]^{2+}$ unit upon heating and cooling. The cooled unit may be approximated as centrosymmetric, whereas after heating it is no longer centrosymmetric.",
+      "text_images": [],
+      "full_mark": 3,
+      "rubric": [
+        "Before heating, the coordination geometry is square planar (1 point); in the high-temperature phase, the $CuN_4$ unit undergoes a slight tetrahedral distortion out of the plane. (2 points)",
+        "The answer must show that the two ligands are not coplanar after heating. It need not be drawn as an ideal tetrahedron, although an ideal tetrahedral depiction is not penalized."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-21-T3-2-1-rubric.png",
+          "description": "Rubric diagram for 3.3.1 showing the structures of the $[Cu(deen)_2]^{2+}$ unit after heating and cooling. Both the left and right structures contain a central Cu coordinated by four N atoms. Two N atoms are $-NH_2$ termini (each labeled $H_2$ next to N, at upper left and lower right), and two are $-NEt_2$ termini (each bearing two ethyl zigzag chains). The structure to the left of the reversible arrow is the preheating structure: all four Cu coordination bonds lie in one plane and Cu has square-planar geometry. In the heated structure on the right, the two bonds to the right of Cu are wedge bonds pointing behind and in front of the plane (a dashed wedge above and a solid bold wedge below), while the other two remain ordinary solid lines, indicating a slight tetrahedral distortion of four-coordinate Cu. A reversible arrow connects the structures, labeled \"Heating\" above and \"Cooling\" below. No charge is shown in the diagram."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-21-T3-3",
+      "tags": [
+        "4.6"
+      ],
+      "text_open": "3.4 To investigate the thermochromism of $[Cu(deen)_2]X_2$ complexes formed with monovalent counteranion $X^-$, differential scanning calorimetry is performed on $[Cu(deen)_2](ClO_4)_2$ and $[Cu(deen)_2](NO_3)_2$. Multiple interactions occur between the cations and anions in both complexes. The results are shown below. For both complexes, the color change is associated with a phase-transition temperature, and the chemical composition remains unchanged across the color change. The temperature at the peak maximum is defined as the transition temperature.\n3.4.1 From the graph, directly give the thermochromic transition temperatures of $[Cu(deen)_2](ClO_4)_2$ and $[Cu(deen)_2](NO_3)_2$.",
+      "text_images": [
+        {
+          "file": "Exam-21-T3-3-1-prompt.png",
+          "description": "Untitled coordinate plot. The horizontal axis is labeled \"Temperature/°C\" with major ticks at 50, 100, 150, and 200 and minor ticks at 25, 75, 125, and 175. The vertical axis is labeled \"Thermogravimetry\" vertically and has no numerical ticks. Two solid black curves are shown. The legend at lower left uses short line segments for \"$ClO_4$(a)\" and \"$NO_3$(b),\" and the curves are labeled (a) and (b). Curve (a), corresponding to $[Cu(deen)_2](ClO_4)_2$, has a lower baseline and a sharp upward peak at about 45–50°C, remains flat thereafter, and drops steeply after about 200°C. Curve (b), corresponding to $[Cu(deen)_2](NO_3)_2$, has a higher baseline, a broad upward peak at about 110°C, a sharp upward peak at about 145°C, another smaller upward peak at about 180°C, and a steep drop after about 200°C. No arrows are shown."
+        }
+      ],
+      "full_mark": 4,
+      "rubric": [
+        "$[Cu(deen)_2](ClO_4)_2$ : 45 ℃ (any value from 40 ~ 50 ℃ is accepted) (2 points). No credit is awarded if any other peak is identified as the transition peak.",
+        "$[Cu(deen)_2](NO_3)_2$: 145 ℃ (any value from 135–150 ℃ is accepted) (2 points)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-21-T3-4",
+      "tags": [
+        "1.4",
+        "4.6"
+      ],
+      "text_open": "3.4.2 Using the information above, explain the origin of the difference between the transition temperatures of $[Cu(deen)_2](ClO_4)_2$ and $[Cu(deen)_2](NO_3)_2$. (No more than 100 words)",
+      "text_images": [],
+      "full_mark": 4,
+      "rubric": [
+        "① Difference in coordination ability: $NO_3^-$ coordinates more strongly than $ClO_4^-$ and may partially coordinate to Cu(II), so structural distortion of $[Cu(deen)_2](NO_3)_2$ requires more energy and occurs at a higher transition temperature. (2 points)",
+        "② The hydrogen-bond network formed by $NO_3^-$ and ligand N-H groups is stronger and more ordered than that in the $ClO_4^-$ system. This makes the low-temperature structure of $[Cu(deen)_2](NO_3)_2$ more stable, or raises the energy required for the phase transition, resulting in a higher transition temperature. (2 points)",
+        "Anion size (steric effects) and lattice energy may also matter, but they were not addressed above. Answers based on these factors—for example, that bulky $ClO_4^-$ gives a loosely packed lattice and sufficient free space for configurational distortion of $[Cu(deen)_2]^{2+}$, whereas dense packing of $NO_3^-$ suppresses such distortion—may receive 1–2 points at the grader's discretion."
+      ],
+      "rubric_images": []
+    }
+  ]
+}

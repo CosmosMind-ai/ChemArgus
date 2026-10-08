@@ -1,0 +1,66 @@
+{
+  "problem_id": "Exam-05-T1",
+  "header": "Problem 1 Chemistry of Element M. Historically, the mining and use of minerals largely determined the progress of elemental research. Element M and another element are named after the same country. M is about as abundant as nitrogen in Earth's crust but is extremely dispersed. Minerals containing M alone are uncommon, but binary compound A of M and element N often occurs with sphalerite. A contains 48.20% M by mass and is widely used in optoelectronics.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-05-T1-1",
+      "tags": [
+        "2.1"
+      ],
+      "text_open": "Given $M=Ga$, $B=GaCl$, $C=GaCl_3$, and $N=As$.\n1-1-2 Write the equation for the reaction of B with N.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-05-T1-2",
+      "tags": [
+        "1.4",
+        "1.5"
+      ],
+      "text_open": "1-1-3 D can also be prepared in benzene without heating. Explain why D forms readily in benzene by giving the SMILES of the relevant structure. No more than 100 words.",
+      "text_images": [],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-05-T1-3",
+      "tags": [
+        "1.4",
+        "2.4"
+      ],
+      "text_open": "1-2 At 250 K, chloride C reacts with $\\mathrm{Me_3SiH}$ to form E. E commonly exists as a dimer in which all chlorine atoms have equivalent environments. 1-2-1 Give the SMILES of the actual structure of E.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-05-T1-4",
+      "tags": [
+        "1.4",
+        "2.4",
+        "2.7"
+      ],
+      "text_open": "1-2-2 At low temperature, the different reactions of E with ammonia and trimethylamine attracted attention. IR and other data show that the products have similar compositions but different coordination numbers of M; the coordination number in the ammonia product equals that in the E dimer. Neither product is dimeric or polymeric. Give the product SMILES for reaction with trimethylamine and ammonia, and explain the difference in no more than 20 words.",
+      "text_images": [],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-05-T1-5",
+      "tags": [
+        "3.2"
+      ],
+      "text_open": "1-3 The physical properties of element M are equally distinctive. At standard atmospheric pressure, the thermodynamic data for M and related compounds are given below. Assume that all $\\Delta H$ and $\\Delta S$ values are independent of temperature. Throughout the temperature range considered, the most stable oxide of M remains in the solid state.\n| Substance | $\\Delta_\\mathrm{f} H_m^\\circ \\, (\\mathrm{kJ\\cdot mol^{-1}})$ | $S_m^\\circ \\, (\\mathrm{J\\cdot mol^{-1}\\cdot K^{-1}})$ |\n|---|---:|---:|\n| $M(s)$ | 0 | 40.9 |\n| $M(l)$ | 5.6 | 56.0 |\n| $M(g)$ | 277.0 | 169.0 |\n| $O_2(g)$ | 0 | 205.2 |\n| Most stable oxide of M $(s)$ | -1089.0 | 88.0 |\n1-3-2 Determine the temperature range in which M reacts spontaneously with oxygen at standard atmospheric pressure.",
+      "text_images": [],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-05-T1-6",
+      "tags": [
+        "3.2",
+        "3.4"
+      ],
+      "text_open": "1-3-3 Calculate the ambient pressure when the boiling point of M is 2200 K.",
+      "text_images": [],
+      "full_mark": 3
+    }
+  ]
+}

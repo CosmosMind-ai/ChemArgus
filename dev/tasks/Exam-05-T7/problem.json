@@ -1,0 +1,198 @@
+{
+  "problem_id": "Exam-05-T7",
+  "header": "Problem 7 Explosive Chemistry. An explosion rapidly converts a system's energy into mechanical work through gas expansion, usually with intense heat, light, and sound. Explosive chemistry appears both as a laboratory hazard and in high-density energy-storage materials.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-05-T7-1",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "7-1-2 Isopropanol deterioration is modeled by acetone reacting in acid with equal numbers of H_2O_2 molecules: two acetone molecules give DADP and 3 give TATP. Both are highly symmetric peroxides. Give their SMILES.",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "7-1-2 DADP: 'CC1(C)OOC(C)(C)OO1'; TATP: 'CC1(C)OOC(C)(C)OOC(C)(C)OO1'. (1 point each)"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-05-T7-1-1-rubric.png",
+          "description": "DADP and TATP structures as listed. SMILES/structure strings shown: 'CC1(C)OOC(C)(C)OO1', 'CC1(C)OOC(C)(C)OOC(C)(C)OO1'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-05-T7-2",
+      "tags": [
+        "2.2",
+        "2.3"
+      ],
+      "text_open": "7-1-3 One TATP first gives cyclic A plus acetone; A then gives acetone, dipolar B, and gas. Write 2 equations with A and B as SMILES.",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "7-1-3 Reaction 1: 'CC1(C)OOC(C)(C)OOC(C)(C)OO1>>CC2(C)OOOC(C)(C)OO2.CC(C)=O'. (1 point)",
+        "Reaction 2: 'CC1(C)OOOC(C)(C)OO1>>C/C(C)=[O+]/[O-].CC(C)=O.O=O'. (1 point)",
+        "No credit unless A and B are SMILES. 'CC1(OO1)C' and 'CC([O+])([O-])C' are not accepted for B."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-05-T7-2-1-rubric.png",
+          "description": "Reaction 1: 'CC1(C)OOC(C)(C)OOC(C)(C)OO1>>CC2(C)OOOC(C)(C)OO2.CC(C)=O'."
+        },
+        {
+          "file": "Exam-05-T7-2-2-rubric.png",
+          "description": "Reaction 2: 'CC1(C)OOOC(C)(C)OO1>>C/C(C)=[O+]/[O-].CC(C)=O.O=O'."
+        },
+        {
+          "file": "Exam-05-T7-2-3-rubric.png",
+          "description": "Incorrect B: 'CC1(OO1)C'."
+        },
+        {
+          "file": "Exam-05-T7-2-4-rubric.png",
+          "description": "Incorrect B: 'CC([O+])([O-])C'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-05-T7-3",
+      "tags": [
+        "1.6",
+        "1.7"
+      ],
+      "text_open": "7-1-4 DADP is unexpectedly much more stable than M. Lone-pair donation into a particular antibonding orbital controls the difference. Give limiting resonance-form SMILES for each and explain. No more than 100 words.",
+      "text_images": [
+        {
+          "file": "Exam-05-T7-3-1-prompt.png",
+          "description": "'CC1(C)CCC(C)(C)OO1'."
+        }
+      ],
+      "full_mark": 4,
+      "rubric": [
+        "DADP: 'CC1(C)OOC(C)(C)OO1' ↔ '[O-]OC(C)(C)O/[O+]=C(C)/C'; M: 'CC1(C)CCC(C)(C)OO1' ↔ '[CH2-]CC(C)(C)O/[O+]=C(C)/C', or the listed methyl-anion alternative. (1 point each; carbocation forms accepted.) (2 points total.) Additional structure strings specified: 'CC1(C)CCC(C)(C)OO1', 'CC2=[O+]OC(C)(C)CC2.[CH3-]'.",
+        "O is more electronegative than C, so the O^- limiting form of DADP is more stable and gives greater stabilization. Equivalently, σ*(C-O) is lower than σ*(C-C) and hyperconjugates better with the O lone pair, reducing lone-pair repulsion. (2 points)"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-05-T7-3-1-rubric.png",
+          "description": "DADP and M resonance pairs as listed. SMILES/structure strings shown: 'CC1(C)OOC(C)(C)OO1', '[O-]OC(C)(C)O/[O+]=C(C)/C', 'CC1(C)CCC(C)(C)OO1', '[CH2-]CC(C)(C)O/[O+]=C(C)/C'."
+        },
+        {
+          "file": "Exam-05-T7-3-2-rubric.png",
+          "description": "Alternative M resonance pair with 'CC2=[O+]OC(C)(C)CC2.[CH3-]'. SMILES/structure strings shown: 'CC1(C)CCC(C)(C)OO1'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-05-T7-4",
+      "tags": [
+        "1.7"
+      ],
+      "text_open": "7-2-2 If H_2O_2 is enclosed in the CL-20 cage, does sensitivity rise or fall? Explain briefly. (No more than 100 words.)",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "7-2-2 It rises. (1 point) Heated H_2O_2 generates radicals that initiate rapid chain decomposition of CL-20. (1 point; radical generation or initiation of decomposition is sufficient.)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-05-T7-5",
+      "tags": [
+        "2.2"
+      ],
+      "text_open": "7-3 Thermal decomposition of condensed-phase CL-20 may proceed through a series of complex transformations. Initially, cleavage of an N-N bond in CL-20 generates NO_2, which then reacts with CL-20 and its remaining fragments through several pathways: (1) NO_2 oxidizes CL-20 to G. G may be represented by the formula CN-CHO. Homolytic bond cleavage and hydrogen-radical transfer by G produce the common small molecules H and I, of which H contains nitrogen. (2) NO_2 reacts with CL-20 to form J, which decomposes to a hydroxyl radical and K; K contains no carbon. 7-3-1 Give the SMILES representations of G (without formal charges), I, and J.",
+      "text_images": [],
+      "full_mark": 5,
+      "rubric": [
+        "7-3-1 G: '[C]=NC([H])=O'; I: '[C-]#[O+]'; J: 'O=NO[H]'. 5 points total: G and J are worth 2 points each, and I is worth 1 point. Each structure earns credit only if it is entirely correct."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-05-T7-5-1-rubric.png",
+          "description": "G SMILES. SMILES/structure strings shown: '[C]=NC([H])=O'."
+        },
+        {
+          "file": "Exam-05-T7-5-2-rubric.png",
+          "description": "I SMILES. SMILES/structure strings shown: '[C-]#[O+]'."
+        },
+        {
+          "file": "Exam-05-T7-5-3-rubric.png",
+          "description": "J SMILES. SMILES/structure strings shown: 'O=NO[H]'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-05-T7-6",
+      "tags": [
+        "1.5"
+      ],
+      "text_open": "7-3-2 Give two other reasonable resonance forms of G.",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "'[C-]#[N+]C([H])=O' and '[C]=[N+]=C([H])[O-]'. (1 point each) (2 points total.)"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-05-T7-6-1-rubric.png",
+          "description": "The two resonance forms. SMILES/structure strings shown: '[C-]#[N+]C([H])=O', '[C]=[N+]=C([H])[O-]'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-05-T7-7",
+      "tags": [
+        "2.2",
+        "2.3"
+      ],
+      "text_open": "7-3-3 Intermediate X rearranges intramolecularly and then cleaves to two common small molecules. Give the other key intermediate and final products.",
+      "text_images": [
+        {
+          "file": "Exam-05-T7-7-1-prompt.png",
+          "description": "Lewis structure of X: 'C=N[N+]([O-])=O'."
+        }
+      ],
+      "full_mark": 3,
+      "rubric": [
+        "Intermediate '[O-]CN=[N+]=O'. (1 point)",
+        "Products '[H]C([H])=O' and '[N-]=[N+]=O'. (1 point each)"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-05-T7-7-1-rubric.png",
+          "description": "Red mechanism: X rearranges to '[O-]CN=[N+]=O', then cleaves to formaldehyde and nitrous oxide, with curved electron arrows shown. SMILES/structure strings shown: 'C=N[N+]([O-])=O', 'C=N[N+]([O-])=O', '[O-]CN=[N+]=O', '[H]C([H])=O', '[H]C([H])=O', '[N-]=[N+]=O', '[N-]=[N+]=O'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-05-T7-8",
+      "tags": [
+        "3.7",
+        "3.8",
+        "4.7"
+      ],
+      "text_open": "7-4 N-N bond cleavage is the rate-determining step in the early thermal decomposition of crystalline CL-20. To determine its activation energy $E_a$, researchers simulated CL-20 decomposition in a rigid container and obtained the initial $NO_2$ formation rates below. $T\\ (\\mathrm{K})$: 1488, 1969, 2547, 3124. $k\\ (\\mathrm{s^{-1}})$: $1.28\\times10^9$, $1.54\\times10^9$, $1.74\\times10^9$, $1.89\\times10^9$. 7-4-1 Treat N-N cleavage under the simulated conditions as a first-order reaction obeying the Arrhenius law. Calculate $E_a$ and the pre-exponential factor $A$, both to 2 significant figures.",
+      "text_images": [],
+      "full_mark": 6,
+      "rubric": [
+        "From the Arrhenius equation $k=Ae^{-E_a/(RT)}$, linearization gives $\\ln k=-\\dfrac{E_a}{RT}+\\ln A$. (1 point; either the original or linearized equation earns credit.)\n\n| \\(1/T \\, (\\text{K}^{-1})\\) | \\(6.720 \\times 10^{-4}\\) | \\(5.079 \\times 10^{-4}\\) | \\(3.926 \\times 10^{-4}\\) | \\(3.201 \\times 10^{-4}\\) |\n|---|---|---|---|---|\n| \\(\\ln k\\) | 20.97 | 21.16 | 21.28 | 21.36 |\n\n(1 point; at least one type of data must be processed, otherwise no credit is awarded for this step.) $\\ln k=-1.10\\times10^3/T+21.7$. (2 points) Therefore $E_a=9.2\\ \\mathrm{kJ\\cdot mol^{-1}}$ and $A=2.7\\times10^9\\ \\mathrm{s^{-1}}$. (2 points)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-05-T7-9",
+      "tags": [
+        "3.7",
+        "4.7"
+      ],
+      "text_open": "7-4-3 The simulated pre-exponential factor is four orders of magnitude below experiment for CL-20 under real explosion conditions. Give 1 principal reason based on the setup. No more than 100 words.",
+      "text_images": [],
+      "full_mark": 1,
+      "rubric": [
+        "The simulation uses a rigid container of constant volume, whereas the volume of a real explosion increases rapidly; equivalently, the fixed volume keeps the local concentration of gaseous products higher than in a real explosion. (1 point; the complete explanation is required.)"
+      ],
+      "rubric_images": []
+    }
+  ]
+}

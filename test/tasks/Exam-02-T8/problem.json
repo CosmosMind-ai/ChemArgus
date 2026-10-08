@@ -1,0 +1,54 @@
+{
+  "problem_id": "Exam-02-T8",
+  "header": "Problem 8: Familiar Named Reactions (14 points)",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-02-T8-1",
+      "tags": [
+        "2.7",
+        "1.2"
+      ],
+      "text_open": "8-1 The Baeyer-Villiger oxidation should be familiar, and migrating groups are known to follow an order of migratory aptitude. Explain why the following reaction gives a single product in very high yield.",
+      "text_images": [
+        {
+          "file": "Exam-02-T8-1-1-prompt.png",
+          "description": "A reaction proceeds from left to right. The molecule 'O=C1[C@@H]2C3C4CC2[C@H]5C4CC3[C@H]51' on the left reacts under a one-way arrow labeled “m-CPBA” above and “DCM,93%” below to give 'O=C1[C@@H]2C3C4CC2[C@H]5C4CC3[C@H]5O1' on the far right."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-02-T8-2",
+      "tags": [
+        "2.3",
+        "2.7",
+        "2.2"
+      ],
+      "text_open": "8-3 The Schmidt rearrangement should be familiar. The following two substrates give different products under identical conditions. Explain the outcome for the second substrate.",
+      "text_images": [
+        {
+          "file": "Exam-02-T8-2-1-prompt.png",
+          "description": "The image shows two parallel reaction equations. In the upper reaction, the reactant on the left has SMILES 'O=C1CCCC1CCC(c2ccccc2)N=[N+]=[N-]' and reacts under an arrow labeled “CF_3SO_2OH” above and “0°C” below to give 'O=C3CCCC4N3C(c5ccccc5)CC4' on the right. In the lower reaction, the reactant on the left has SMILES 'O=C6CCCC6CCCC(c7ccccc7)N=[N+]=[N-]' and reacts under an arrow labeled “CF_3SO_2OH” above and “0°C” below to give 'O=C8CCCC89C(CCC9)Nc%10ccccc%10' on the right."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-02-T8-3",
+      "tags": [
+        "2.2",
+        "2.3",
+        "1.2"
+      ],
+      "text_open": "8-4 At first glance, the following reaction appears simple and seemingly requires only elimination, hydride migration, and addition. Closer examination shows that this interpretation is inconsistent with the stereochemical information. Write the SMILES representations of all key intermediates actually involved, including their stereochemistry.",
+      "text_images": [
+        {
+          "file": "Exam-02-T8-3-1-prompt.png",
+          "description": "'C[C@@H]1CO[C@@]2([H])N1[C@](CC(OC)=C)(C#N)CCC2' and 'Cl[Mg]CCCC1OCCO1' react under tBuMe2SiOTf, DCM/Et2O/THF, then NH4Cl/H2O conditions to give 'C[C@@H]1CO[C@]2(CCCC3OCCO3)N1[C@]([H])(CC(OC)=C)CCC2'."
+        }
+      ],
+      "full_mark": 8
+    }
+  ]
+}

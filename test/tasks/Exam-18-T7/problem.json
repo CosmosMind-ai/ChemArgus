@@ -1,0 +1,113 @@
+{
+  "problem_id": "Exam-18-T7",
+  "header": "Problem 7 Rearrangement Reactions",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-18-T7-1",
+      "tags": [
+        "2.2",
+        "2.3"
+      ],
+      "text_open": "7.1 The following reaction involves a pericyclic reaction. Write the SMILES strings for 3 key intermediates in the reaction pathway.",
+      "text_images": [
+        {
+          "file": "Exam-18-T7-1-1-prompt.png",
+          "description": "The figure shows a one-step reaction: 'ClC(/C(C)=C/CC)=O'.'CC1=CCCC1'>AlCl3>'O=C1[C@@H](C)[C@@](CC)(C)C2=C1CCC2'. In the product, two carbon atoms bear a methyl and an ethyl group, respectively, on wedged bonds. The @/@@ stereochemical descriptors are retained in the SMILES."
+        }
+      ],
+      "full_mark": 6
+    },
+    {
+      "sub_id": "Exam-18-T7-2",
+      "tags": [
+        "2.2",
+        "2.4"
+      ],
+      "text_open": "7.2 In different solvents, a carbene can give different rearrangement products. Under irradiation, the following diazo compound forms a carbene and rearranges to ketene A.\n7.2.1 Write the SMILES string for A.",
+      "text_images": [
+        {
+          "file": "Exam-18-T7-2-1-prompt.png",
+          "description": "The figure shows a one-step reaction: 'O=C1OC2=CC=CC=C2C1=[N+]=[N-]'>hν>[A]. The product is labeled only as [A], and its structure is not shown."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-18-T7-3",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "7.2.2 In an aqueous $10^{-3}$ mol/L $HClO_4$ solution, A undergoes ring closure to form B. Write the SMILES string for B.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-18-T7-4",
+      "tags": [
+        "2.4",
+        "1.2"
+      ],
+      "text_open": "7.2.3 In hexane, A undergoes dimerization to give several products. Write the SMILES strings for C, which contains 4 six-membered rings, and D, which contains 2 five-membered rings and 2 six-membered rings. Both products are centrosymmetric.",
+      "text_images": [],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-18-T7-5",
+      "tags": [
+        "2.2",
+        "2.4"
+      ],
+      "text_open": "7.3 Purpurogallin is a natural pigment formed by oxidation of pyrogallol, followed by dimerization and loss of a small molecule.\n7.3.1 Write the SMILES strings for 2 key intermediates in the second transformation.",
+      "text_images": [
+        {
+          "file": "Exam-18-T7-5-1-prompt.png",
+          "description": "The figure shows a three-step reaction: 'OC1=C(O)C(O)=CC=C1'>[O]>'O=C(C=CC=C1O)C1=O'; 'O=C(C=CC=C1O)C1=O'>H2O>'OC1=CC(CC=CC(O)=C2O)=C2C(O)=C1O'; 'OC1=CC(CC=CC(O)=C2O)=C2C(O)=C1O'>[O]>Purpurogallin. The final product is labeled only by name, and its structure is not shown."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-18-T7-6",
+      "tags": [
+        "2.4",
+        "1.7"
+      ],
+      "text_open": "7.3.2 Purpurogallin is known to be an aromatic compound. Write its SMILES string.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-18-T7-7",
+      "tags": [
+        "2.2",
+        "2.7",
+        "2.3"
+      ],
+      "text_open": "7.4 Ozonolysis of allylic alcohols shows unusual selectivity.\n7.4.1 Write the SMILES strings for 2 key intermediates in the first step and 1 key intermediate in the second step.",
+      "text_images": [
+        {
+          "file": "Exam-18-T7-7-1-prompt.png",
+          "description": "The figure shows a two-step reaction: 'OC1(C)C=CC(C)(C)CC1'>O3>'CC1(C(O)OO2)OC2C(C)(C)CC1'; 'CC1(C(O)OO2)OC2C(C)(C)CC1'>NaOH>'O=C1C=CC(C)(C)CC1'."
+        }
+      ],
+      "full_mark": 6
+    },
+    {
+      "sub_id": "Exam-18-T7-8",
+      "tags": [
+        "2.4",
+        "2.5",
+        "2.7"
+      ],
+      "text_open": "7.4.2 Write the SMILES string for the product of the following reaction. It contains no cyclic structure.",
+      "text_images": [
+        {
+          "file": "Exam-18-T7-8-1-prompt.png",
+          "description": "The figure shows a one-step reaction: 'C/C(C)=C1[C@@](C)(C[C@H](C)CC/1)O'>1) O3, 2) NaOH>[product not shown]. In the starting material, OH is shown on a hashed wedge, one methyl group on a solid wedge, and the opposite methyl group on a dashed bond. The @/@@ stereochemical descriptors are retained in the SMILES."
+        }
+      ],
+      "full_mark": 2
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "problem_id": "Exam-07-T4",
+  "header": "Determination of Sulfur Dioxide in Wine\nThe sulfur dioxide content of a wine sample is determined spectrophotometrically as follows. I. Construct a calibration curve. Accurately transfer 0.00 mL, 0.20 mL, 0.50 mL, 1.00 mL, 2.00 mL, and 3.00 mL of sulfur dioxide working standard solutions (containing 0.0 μg, 2.0 μg, 5.0 μg, 10.0 μg, 20.0 μg, and 30.0 μg sulfur dioxide, respectively) into 25 mL stoppered test tubes, and add formaldehyde-buffered absorbing solution to 10.00 mL. Then add, in sequence, 0.5 mL of 3 g/L ammonium sulfamate solution, 0.5 mL of 1.5 mol/L sodium hydroxide solution, and 1.0 mL of 0.5 g/L pararosaniline hydrochloride solution (structure shown below). Mix thoroughly and allow to stand for 20 min. Measure the absorbance of each standard solution at 579 nm using a UV–visible spectrophotometer. The following data are obtained:\n\n| $\\text{SO}_2$ content $m / \\mu\\text{g}$ | 0.0 | 2.0 | 5.0 | 10.0 | 20.0 | 30.0 |\n|---|---|---|---|---|---|---|\n| Absorbance $A$ | 0.003 | 0.062 | 0.159 | 0.312 | 0.618 | 0.928 |\n\nII. Accurately weigh 0.5000 g of the wine sample and add formaldehyde-buffered absorbing solution to 100 mL. After shaking for 2 h, take 10 mL of the solution and perform the spectrophotometric determination as in Step I. Repeat the measurement three times; the absorbances A’ are 0.637, 0.638, and 0.635. In China, the required sulfur dioxide content of alcoholic beverages is below $0.2500 \\ \\mathrm{g\\,dm^{-3}}$. Take the density of the wine to be $0.9 \\ \\mathrm{g\\,cm^{-3}}$. The structure of pararosaniline hydrochloride is 'NC1=CC=C(/C(C2=CC=C(N)C=C2)=C3C=CC(C=C\\3)=[NH2+])C=C1.[Cl-]'.",
+  "header_images": [
+    {
+      "file": "Exam-07-T4-header-1.png",
+      "description": "Structural diagram of pararosaniline hydrochloride; the SMILES representation is 'NC1=CC=C(/C(C2=CC=C(N)C=C2)=C3C=CC(C=C\\3)=[NH2+])C=C1.[Cl-]'."
+    }
+  ],
+  "subquestions": [
+    {
+      "sub_id": "Exam-07-T4-1",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "4-1 The principle used in this titration is that A, formed by the addition reaction of sulfur dioxide with formaldehyde, forms a blue-violet complex with pararosaniline hydrochloride. Its absorbance is proportional to the sulfur dioxide concentration. Write the SMILES representation of A.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-07-T4-2",
+      "tags": [
+        "4.1",
+        "2.8"
+      ],
+      "text_open": "4-2 Why must 0.5 mL of 1.5 mol/L sodium hydroxide solution be added to adjust the pH before measurement? (No more than 50 words.)",
+      "text_images": [],
+      "full_mark": 2
+    }
+  ]
+}

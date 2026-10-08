@@ -1,0 +1,63 @@
+{
+  "problem_id": "Exam-21-T6",
+  "header": "Pharmacokinetics and Molecular Design (II)\nPharmacokinetics quantitatively studies the absorption, distribution, metabolism, and excretion of drugs in living organisms and uses mathematical principles and methods to describe how plasma drug concentration changes with time. Chemical-kinetic modeling provides a systematic understanding of drug metabolism in vivo. This problem concerns the oxidative metabolism of diclofenac in the body.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-21-T6-1",
+      "tags": [
+        "3.7"
+      ],
+      "text_open": "The Michaelis equation is $r=r_{max}[S]/(K_m+[S])$.\nExperiments show that $[S]$ and $r$ for the 4′-hydroxylation of diclofenac catalyzed by human liver microsomes obey the following relationship:\n| Group | $[S]_1$ / $\\mu\\mathrm{M}$ | $r_1$ / $(\\mathrm{pmol \\cdot min^{-1} \\cdot mg^{-1}})$ | $[S]_2$ / $\\mu\\mathrm{M}$ | $r_2$ / $(\\mathrm{pmol \\cdot min^{-1} \\cdot mg^{-1}})$ |\n| --- | --- | --- | --- | --- |\n| Low concentration | 0.90 | 39.27 | 1.80 | 72.00 |\n| High concentration | 90.0 | 392.73 | 180.0 | 411.43 |\n\n6.2.4 Under the same conditions, the 5-hydroxylation has $K_m = 43\\ \\mu\\mathrm{M}$ and $r_{max} = 15.4\\ \\mathrm{pmol \\cdot min^{-1} \\cdot mg^{-1}}$. Intrinsic clearance $CL_{int}$ is defined by $CL_{int} = r_{max}/K_m$. Calculate $CL_{int}$ for the 4′- and 5-hydroxylation pathways and briefly explain the kinetic meaning of $CL_{int}$. Hint: the drug concentration in the liver is much lower than $K_m$.",
+      "text_images": [],
+      "full_mark": 5,
+      "rubric": [
+        "From the given Michaelis equation, $r = r_{max}[S]/(K_m + [S])$, which can be rearranged to $[S]/r = (1/r_{max})[S] + K_m/r_{max}$. Let $x = [S]$ and $y = [S]/r$; then $y = ax + b$, where $a = 1/r_{max}$ and $b = K_m/r_{max}$. (1 point)",
+        "Using the experimental data provided:\n| x | 0.9 | 1.8 | 90 | 180 |\n| y | 0.02292 | 0.02500 | 0.2292 | 0.4375 |\nLinear regression gives $y = 0.00231480x + 0.0208339$, with $R^2 \\approx 1.000$. Therefore, $r_{max} = 1/a = 432\\ \\mathrm{pmol \\cdot min^{-1} \\cdot mg^{-1}}$ and $K_m = b/a = 9.00\\ \\mu\\mathrm{M}$. (1 point)",
+        "$CL_{int}(4′) = 432/9.00 = 48.0\\ \\mu\\mathrm{L \\cdot min^{-1} \\cdot mg^{-1}}$ (1 point); $CL_{int}(5) = 15.4/43 = 0.358\\ \\mu\\mathrm{L \\cdot min^{-1} \\cdot mg^{-1}}$ (1 point).",
+        "Kinetic meaning: when the drug concentration $[S]$ is extremely low, $[S]$ in the denominator of the Michaelis equation can be neglected, giving $r \\approx \\left(\\frac{r_{max}}{K_m}\\right) \\cdot [S]$. Under these conditions, $CL_{int}$ represents the first-order rate constant. (1 point; describing it as the clearance capacity per unit amount of enzyme at low concentration is also accepted.)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-21-T6-2",
+      "tags": [
+        "2.9",
+        "3.7"
+      ],
+      "text_open": "6.2.5 The kinetic parameters for the individual steps in the pathways above are shown below:\n| Pathway | Substrate → product | Enzyme | $CL_{int}$ / $(\\mu\\mathrm{L}\\cdot\\mathrm{min}^{-1}\\cdot\\mathrm{mg}^{-1})$ |\n| --- | --- | --- | --- |\n| 4′-hydroxylation pathway | DF → 4′-OH-DF | CYP2C9 | / |\n| 4′-hydroxylation pathway | 4′-OH-DF → A | CYP2C9 | 358 |\n| 5-hydroxylation pathway | DF → 5-OH-DF | CYP3A4 | / |\n| 5-hydroxylation pathway | 5-OH-DF → B | CYP2C9 | 103 |\n\nThe researchers also compared detoxification of the quinone products from the two hydroxylation pathways. The measured curves are shown below, where \"conjugate\" denotes a detoxification product.\nExplain why both steps of the 5-hydroxylation pathway have lower $CL_{int}$ values than those of the 4′-hydroxylation pathway, yet the 5-hydroxylation pathway is more toxic. (No more than 100 words)",
+      "text_images": [
+        {
+          "file": "Exam-21-T6-2-1-prompt.png",
+          "description": "Coordinate plot containing two side-by-side panels labeled A and B at upper left. Both horizontal axes are labeled 'GSH concentration (mM)' with ticks at 0, 2, 4, and 6; both vertical axes are labeled 'Conjugate formation (%)' with ticks at 0, 50, and 100. Each panel contains one solid black curve with filled circular data markers, some with vertical error bars. In panel A, the curve rises rapidly from near the origin as GSH concentration increases, approaches 100% at about 2 mM, and remains on a plateau. In panel B, the curve rises more gradually from near the origin and approaches 100% at about 5–6 mM, without a clear plateau. There is no legend or title."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "① In the 5-hydroxylation pathway, once 5-OH-DF is formed it is more readily converted to toxic B. In contrast, the first step of the 4′ pathway is relatively faster, so 4′-OH-DF is more likely to accumulate and can enter detoxification pathways such as conjugative metabolism. (1 point)",
+        "② The graph shows that quinone A forms abundant adduct at a lower GSH concentration, indicating that it is captured more readily by GSH. Quinone B requires a higher GSH concentration to reach a similar level and is therefore more likely to escape GSH detoxification and bind covalently to cellular proteins. (1 point) Thus, although the 5′ pathway has lower metabolic flux, it is more toxic."
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-21-T6-3",
+      "tags": [
+        "1.7",
+        "2.9"
+      ],
+      "text_open": "6.3 Diclofenac has a half-life of about 1.0h in humans and is cleared mainly through CYP2C9-catalyzed 4′-hydroxylation of an aromatic ring. The structurally similar fenclorac is more resistant to aromatic hydroxylation and has a half-life exceeding 20h. Its structure is shown below.\nFrom a structural perspective, explain why fenclorac has a longer duration of action. (No more than 50 words)",
+      "text_images": [
+        {
+          "file": "Exam-21-T6-3-1-prompt.png",
+          "description": "The SMILES representation of fenclorac is 'OC(CC1=C(OC2=CC=C(Cl)C=C2Cl)C=CC=C1)=O'."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "In fenclorac, the principal 4′-hydroxylation site of diclofenac is occupied by a para Cl substituent, so there is no 4′-H available for hydroxylation. (2 points) Its oxidative metabolic clearance is therefore lower, giving a longer half-life and duration of action.",
+        "An answer also noting that the bridging atom in fenclorac is O, so formation of a quinonoid structure by oxidation cannot eliminate the formal charge, whereas diclofenac has a bridging N atom that can form an imine upon oxidation, receives 1 point."
+      ],
+      "rubric_images": []
+    }
+  ]
+}

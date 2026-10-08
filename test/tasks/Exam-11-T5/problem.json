@@ -1,0 +1,21 @@
+{
+  "problem_id": "Exam-11-T5",
+  "header": "Problem 5: Familiar Structures from an Unfamiliar Perspective (18 points, 7%)",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-11-T5-1",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "5.2 Crystal Y has the chemical formula QF_y. Its projections along the a and c directions are shown below; black spheres represent Q ions and white spheres represent F^-. 5.2.1 Give the value of y.",
+      "text_images": [
+        {
+          "file": "Exam-11-T5-1-1-prompt.png",
+          "description": "The image contains two two-dimensional projections of a crystal structure. The left panel is a rectangular view of the b-c plane. Axes at the lower left show c vertically upward, b horizontally to the right, and a perpendicular to the page. A large black sphere is located at each of the four corners, with two-dimensional fractional coordinates (b, c) = (0.00, 0.00), (1.00, 0.00), (0.00, 1.00), and (1.00, 1.00). Two large black spheres lie inside the unit cell at approximately (0.33, 0.33) and (0.67, 0.67). The small white spheres in the unit cell include 4 single spheres at approximately (b, c) = (0.00, 0.50), (0.67, 0.17), (1.00, 0.50), and (0.33, 0.83), and 3 pairs of overlapping spheres at approximately (b, c) = (0.17, 0.17), (0.50, 0.50), and (0.83, 0.83). The right panel is a parallelogram view of the a-b plane. Axes at the lower left show a horizontally to the right, b diagonally toward the upper left, and c perpendicular to the page; the angle between a and b is approximately 120°. A large black sphere is located at each of the four corners, with two-dimensional fractional coordinates (a, b) = (0.00, 0.00), (1.00, 0.00), (0.00, 1.00), and (1.00, 1.00). Two large black spheres lie inside the unit cell at approximately (0.33, 0.67) and (0.67, 0.33). All the small white spheres in the unit cell are single spheres, 11 in total, at approximately (0.00, 0.50), (0.50, 0.00), (0.33, 0.17), (0.17, 0.33), (0.83, 0.17), (0.50, 0.50), (0.17, 0.83), (1.00, 0.50), (0.83, 0.67), (0.67, 0.83), and (0.50, 1.00)."
+        }
+      ],
+      "full_mark": 2
+    }
+  ]
+}

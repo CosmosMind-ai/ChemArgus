@@ -1,0 +1,25 @@
+{
+  "problem_id": "Exam-09-T5",
+  "header": "Reviewing the Old to Learn the New: Revisiting a Hexagonal Laves Phase\nA magnesium-zinc alloy belongs to the hexagonal crystal system, with unit-cell parameters a = 0.5157 nm and c = 0.8373 nm. Projections of the unit cell along different directions are shown below. The large light-colored spheres represent Mg atoms, and the small dark-colored spheres represent Zn atoms. Interestingly, the projections along the a and b directions are identical. One Zn atom has coordinates (0.830, 0.170, 0.250). ",
+  "header_images": [
+    {
+      "file": "Exam-09-T5-header-1.png",
+      "description": "The image presents, side by side, three two-dimensional projections of a crystal structure on white backgrounds, each enclosed by thin solid gray lines and composed of small dark-gray spheres and large light-gray spheres. Each projection includes blue coordinate axes with arrows. The left projection is a vertically elongated rectangular unit-cell projection showing the bc plane. At its lower-left corner, the coordinate axes indicate the b axis horizontally to the right and the c axis vertically upward. A total of 10 small dark-gray spheres are visible in the rectangle: four at the vertices, two at the midpoints of the vertical edges, and 4 within the cell arranged from bottom to top in a staggered left-right-left-right zigzag along the vertical direction. Another 4 large light-gray spheres are distributed inside, arranged from bottom to top in the opposite right-left-right-left sequence. The middle projection immediately beside it is a rectangular projection of the ac plane. Its lower-left axes indicate the c axis vertically upward but the a axis horizontally to the left. This view is completely identical to the left view in cell shape and in the number, positions, and visual arrangement of all dark- and light-gray spheres: 4 dark spheres at the vertices, 2 at the midpoints of the vertical edges, 4 additional dark spheres staggered left and right inside, and 4 large light spheres staggered right and left. The rightmost projection shows the ab plane. Its lower-left coordinate axes indicate the a axis horizontally to the right and the b axis obliquely upward to the left, forming an obtuse angle and defining a parallelogram unit-cell outline with a horizontal base and sides inclined upward to the left. A small dark-gray sphere lies at each of the four vertices. Another 6 small dark-gray spheres are arranged in a ring inside the cell: one each near the left and right interiors of the top horizontal edge, one each near the left and right interiors of the bottom horizontal edge, and one near the middle interior of each inclined side. Among these 6 internal dark spheres, only 2 large light-gray spheres lie in diagonal relation. One occupies an open region in the upper-left part of the cell and is partially surrounded by 3 internal dark spheres; the other occupies the lower-right region and is likewise partially surrounded by 3 internal dark spheres."
+    }
+  ],
+  "subquestions": [
+    {
+      "sub_id": "Exam-09-T5-1",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "5.2 Calculate the shortest Zn-Zn distance. ",
+      "text_images": [],
+      "full_mark": 6,
+      "rubric": [
+        "The possible shortest Zn-Zn distances may occur between Zn1-Zn2, Zn2-Zn3, or Zn2-Zn4. First write their coordinates: Zn1(0, 0, 0), Zn2(0.830, 0.170, 0.250), Zn3(0.830, 0.660, 0.250), Zn4(0.830, -0.340, 0.250) (1 point). Calculate the Zn1-Zn2 distance, retaining one extra significant figure during the calculation: $d_a = |0.830 - 1| \\times 0.5157 \\text{ nm} = 0.08767 \\text{ nm}$, $d_b = |0.170 - 0| \\times 0.5157 \\text{ nm} = 0.08767 \\text{ nm}$, $d_c = |0.250 - 0| \\times 0.8373 \\text{ nm} = 0.2093 \\text{ nm}$, and $d(\\text{Zn1-Zn2}) = \\sqrt{d_a^2 + d_b^2 - 2 d_a d_b \\cos \\theta + d_c^2}$ $= \\sqrt{0.08767^2 + 0.08767^2 - 2 \\times 0.08767^2 \\times (-1/2) + 0.2093^2} = 0.259 (\\text{nm})$ (2 points). Calculate the Zn2-Zn3 distance: $d(\\text{Zn2-Zn3}) = (0.660 - 0.170) \\times 0.5157 \\text{ nm} = 0.253 (\\text{nm})$ (1 point). Calculate the Zn2-Zn4 distance: $d(\\text{Zn2-Zn4}) = 2 \\times (0.170 - (-0.340)) \\times 0.5157 \\text{ nm} = 0.263 (\\text{nm})$ (1 point). Therefore, the shortest Zn-Zn distance is Zn2-Zn3 and equals 0.253nm (1 point)."
+      ],
+      "rubric_images": []
+    }
+  ]
+}

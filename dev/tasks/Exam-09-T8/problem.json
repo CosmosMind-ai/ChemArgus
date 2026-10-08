@@ -1,0 +1,47 @@
+{
+  "problem_id": "Exam-09-T8",
+  "header": "Problem 8 Fundamentals of Organic Chemistry",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-09-T8-1",
+      "tags": [
+        "1.1",
+        "1.5"
+      ],
+      "text_open": "Let the bond angles shown below be α and β, respectively, and define γ = α - β. Rank the following substances in decreasing order of γ.",
+      "text_images": [
+        {
+          "file": "Exam-09-T8-1-1-prompt.png",
+          "description": "A: 'O=C1OCC1'; B: 'O=C1OCCC1'; C: 'O=C1OCCCC1'. The image labels the two bond angles α and β, where α is the carbonyl O-C-C bond angle and β is the ester O-C-O bond angle."
+        }
+      ],
+      "full_mark": 3,
+      "rubric": [
+        " ABC (3 points)",
+        "Each blank is worth 1 point; award that 1 point if correct, and that 1 point is not awarded if incorrect."
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-09-T8-2",
+      "tags": [
+        "2.3",
+        "3.1",
+        "3.7"
+      ],
+      "text_open": "Reaction background: The rate constant of the reaction shown below is significantly greater in acetone than in ethanol.\nCompared with the reaction in ethanol, how do the Gibbs free energies of the reactant ground state and transition state change relative to one another in acetone, thereby decreasing the activation energy? (a) Only the transition-state energy decreases. (b) Only the reactant energy increases. (c) The reactant energy decreases and the transition-state energy also decreases. (d) None of the above (write the correct answer as well).",
+      "text_images": [
+        {
+          "file": "Exam-09-T8-2-1-prompt.png",
+          "description": "1-Bromopropane reacts with sodium iodide in a solvent: 'BrCCC' gives 'ICCC' under NaI and Solv. conditions."
+        }
+      ],
+      "full_mark": 4,
+      "rubric": [
+        " (d) (2 points). The energies of both the reactant and transition state are higher than in ethanol, but the reactant energy increases by more than the transition-state energy (2 points)."
+      ],
+      "rubric_images": []
+    }
+  ]
+}

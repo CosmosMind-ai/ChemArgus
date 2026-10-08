@@ -1,0 +1,32 @@
+{
+  "problem_id": "Exam-10-T6",
+  "header": "The 2025 Nobel Prize in Chemistry was awarded to Susumu Kitagawa, Richard Robson, and Omar M. Yaghi for their contributions to research on metal-organic frameworks, or MOFs. Chemists recently prepared a new Cr-MOF material, CPM-243, that resists strong acids and bases and remains stable over approximately 16 pH units under extreme conditions ranging from pH < 0 to pH > 14, redefining the feasibility of Cr-MOFs in the search for the most chemically stable MOFs.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-10-T6-1",
+      "tags": [
+        "1.4",
+        "2.4"
+      ],
+      "text_open": "6-2 Cr-MOFs are currently known for MOFs based on $\\mathrm{Cr_3O}$ trimers, such as MIL-88(Cr), generally with dicarboxylate ligands such as terephthalate. Write the SMILES string of a single $[\\mathrm{Cr_3O(RCOO)_6}]$ metal-cluster node in this MOF. Use 'COC(C)OC' to represent $\\mathrm{RCOO^-}$ and disregard the charge on the node.",
+      "text_images": [],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-10-T6-2",
+      "tags": [
+        "1.4",
+        "2.1"
+      ],
+      "text_open": "6-3-2 Known Cr-trimer MOFs have pendant ligands, such as F^{-}/OH^{-}/$\\mathrm{H_2O}$, and correspondingly low-connectivity frameworks. In CPM-243(Ac), chemists instead used the tripyridyl ligand tpt to provide three additional intercluster cross-links through Cr-N bonds, producing a 9-connected MOF framework. The synthesis was performed by adding chromium(III) acetate hydrate, $\\mathrm{Cr(Ac)_3 \\cdot 2H_2O}$, terephthalic acid, $\\mathrm{H_2bdc}$, 2,4,6-tris(4-pyridyl)-1,3,5-triazine, tpt, and glacial acetic acid, $\\mathrm{Hac}$, to a polytetrafluoroethylene liner. After adding 5.0 g of water and stirring for one hour, the vessel was sealed and heated for 3 days in an oven preheated to $220^\\circ\\mathrm{C}$. Given that CPM-243(Ac) has the formula $[(\\mathrm{Cr_3O})(\\mathrm{bdc})_x(\\mathrm{tpt})_y(\\mathrm{ac})]$, first determine $x$ and $y$ from the structure, and then write the reaction equation.",
+      "text_images": [
+        {
+          "file": "Exam-10-T6-2-1-prompt.png",
+          "description": "Structure of the organic compound tpt, with the SMILES 'C1(C2=CC=NC=C2)=NC(C3=CC=NC=C3)=NC(C4=CC=NC=C4)=N1'."
+        }
+      ],
+      "full_mark": 4
+    }
+  ]
+}

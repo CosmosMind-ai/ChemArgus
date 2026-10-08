@@ -1,0 +1,61 @@
+{
+  "problem_id": "Exam-01-T8",
+  "header": "Fundamental Concepts and Reactions of Organic Compounds\nFor Problems 8-1 through 8-5, make the requested judgment and provide a reasonable explanation. For Problems 8-6 and 8-7, answer according to the stated conditions and requirements.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-01-T8-1",
+      "tags": [
+        "2.3"
+      ],
+      "text_open": "Does Dewar benzene, whose structure is shown below, convert to benzene under irradiation or heating? Limit your answer to no more than 50 words.",
+      "text_images": [
+        {
+          "file": "Exam-01-T8-1-1-prompt.png",
+          "description": "Structure of Dewar benzene: 'C12C=CC1C=C2'"
+        }
+      ],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-01-T8-2",
+      "tags": [
+        "1.2",
+        "2.7"
+      ],
+      "text_open": "Which compound is oxidized more rapidly by periodic acid, cis-1,2-cyclohexanediol or trans-1,2-cyclohexanediol? Limit your answer to no more than 50 words.",
+      "text_images": [],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-01-T8-3",
+      "tags": [
+        "1.5",
+        "1.6"
+      ],
+      "text_open": "For the carbene shown below, is the singlet or triplet state more stable? Limit your answer to no more than 100 words.",
+      "text_images": [
+        {
+          "file": "Exam-01-T8-3-1-prompt.png",
+          "description": "Structure of the carbene in the question: '[C@@H]12CCC([C]2)C=C1'"
+        }
+      ],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-01-T8-4",
+      "tags": [
+        "2.3",
+        "2.4"
+      ],
+      "text_open": "The compound shown below has an intense floral fragrance and is a useful perfume ingredient, but under basic conditions it is converted into an odorless isomer. Write the SMILES structure of this isomer.",
+      "text_images": [
+        {
+          "file": "Exam-01-T8-4-1-prompt.png",
+          "description": "Structure of the fragrance compound in the question: 'CC(C)(O)[C@H]1CC[C@@H](C=O)CC1'"
+        }
+      ],
+      "full_mark": 2
+    }
+  ]
+}

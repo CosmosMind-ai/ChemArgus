@@ -1,0 +1,117 @@
+{
+  "problem_id": "Exam-22-T1",
+  "header": "Problem 1 Chemistry of the Rare-Earth Elements\nRare-earth elements are indispensable strategic resources for modern high technology, new energy, advanced materials, defense, and related fields. Often called the “vitamins of industry” and a “treasure house of new materials,” they comprise scandium, yttrium, and all the lanthanides. For convenience, the symbol Ln is commonly used in coordination and inorganic chemistry to denote the lanthanides or the entire rare-earth series. This problem examines rare-earth chemistry in detail.\nNote: Different letters or alphanumeric combinations in this problem may represent the same element or chemical formula.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-22-T1-1",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "1.2 Consider a rare-earth element M1 as an example of rare-earth chemistry. M1 has two common oxidation states in its compounds. Elemental M1 is a silvery-white metal that slowly tarnishes in air. M1 dissolves in dilute hydrochloric acid, releasing colorless gas A and giving a pale blue-green solution (Reaction 1). Adding dilute sulfuric acid dropwise to this solution immediately produces white precipitate B, which is insoluble in dilute nitric acid. After B is filtered, washed, and dried, it is ignited to constant mass at 800 °C under Ar; the white precipitate becomes dark-brown powder C (Reaction 2), an oxide of M1. If the mass of B is 2.480 g, 1.760 g of C is obtained after ignition. A separate portion of B is heated with dilute hydrochloric acid and bromine water until it dissolves (Reaction 3), during which the solution changes from pale blue-green to colorless (or very pale pink). The solution is divided into two portions. Excess aqueous ammonia and oxalic acid are added separately to give white gelatinous precipitate D (with aqueous ammonia) and white precipitate E (with oxalic acid), respectively. Filtering and igniting either D or E at 900 °C likewise gives C. C is mixed with Y2O3 in a certain ratio and calcined at high temperature; product F emits bright red fluorescence under ultraviolet irradiation. 1.2.3 Write ionic equations for Reactions 1 and 3 and a chemical equation for Reaction 2.",
+      "text_images": [],
+      "full_mark": 6,
+      "rubric": [
+        "Reaction 1: $Eu + 2H^+ \\rightarrow Eu^{2+} + H_2$ (2 points)\nReaction 2: $2EuSO_4 \\rightarrow Eu_2O_3 + SO_2 + SO_3$ (2 points)\nReaction 3: $2EuSO_4 + Br_2 \\rightarrow 2Eu^{3+} + 2Br^- + 2SO_4^{2-}$ (2 points)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-22-T1-2",
+      "tags": [
+        "1.4"
+      ],
+      "text_open": "1.4 Coordination Compounds of Rare-Earth Elements\n1 equivalent of elemental rare-earth metal M5 and 2.8 equivalents of ethylene glycol monomethyl ether are added together to a toluene solution to form X. Addition of 2,6-dimethylphenol then precipitates orange crystals Y. Y is filtered and washed; upon slight heating it becomes a different crystal Z. Further characterization provides the following information:\n① The effective magnetic moment of X is 7.9 $\\mu_B$.\n② Crystal diffraction shows that Y belongs to the orthorhombic crystal system, with $a$ = 12.748 Å, $b$ = 12.900 Å, and $c$ = 29.220 Å. The unit cell contains 2 formula units, and the theoretical density of Y is 1.428 $\\mathrm{g/cm^3}$.\n③ Elemental analysis of Z gives the following experimental mass fractions: $\\omega(C)$ = 39.60%, $\\omega(O)$ = 18.86%, and $\\omega(H)$ = 5.74%. Crystal diffraction shows that Z belongs to the tetragonal crystal system, with $a$ = 14.837 Å and $c$ = 15.117 Å. The crystal contains 2 formula units, and the density of Z is 1.1854 times the theoretical density of Y.\n④ The anion of Z contains an $[M5_4O_4]$ cluster framework and exactly two types of ligands. One ligand adopts two different coordination modes. All M5 atoms are 7-coordinate, and a particular conformation has 1 twofold rotation axis.\n⑤ The oxidation state of M5 is the same in X, Y, and Z.\n1.4.2 Determine the chemical formulas of X, Y, and Z, showing your calculations. In your answer, the ethylene glycol monomethyl ether anion may be abbreviated as $mee^-$, and the 2,6-dimethylphenoxide anion as $dmp^-$.\n",
+      "text_images": [],
+      "full_mark": 9,
+      "rubric": [
+        "Y is orthorhombic, with unit-cell volume $V_Y = 12.748 \\times 12.900 \\times 29.220 = 4805.2\\ \\mathrm{Å}^3$. From the density equation $\\rho_Y = ZM / (N_AV)$, with $Z = 2$ for both Y and Z:\nFirst calculate $M_Y$: $\\frac{M_Z}{M_Y} = \\frac{\\rho_Z V_Z}{\\rho_Y V_Y} = \\frac{1.1854\\rho_Y V_Z}{\\rho_Y V_Y} = 1.1854 \\times \\frac{3327.80}{4805.2} = 0.8209$. (1 point for determining the molar mass of Y)\n$M_Y = \\frac{1.428 \\times 4805.2 \\times 10^{-24} \\times 6.022 \\times 10^{23}}{2} = 2066\\ \\mathrm{g/mol}$.\nThus, $M_Y - M_Z$ = 369 g/mol, approximately the mass of 4 toluene molecules, so Y is a toluene solvate of Z. (1 point)\nFor Z, $\\omega(C)$ = 39.63% and $\\omega(O)$ = 18.85%. Taking $M_Z$ = 1697 g/mol:\nNumber of C atoms: $n(C) = (1697 \\times 0.3960) / 12.01 \\approx 56$\nNumber of O atoms: $n(O) = (1697 \\times 0.1886) / 16.00 \\approx 20$\nNumber of H atoms: $n(H) = (1697 \\times 0.0574) / 1.008 = 96.6$\n(1 point for determining the numbers of C, O, and H atoms in Z; integers or decimals are accepted.)\nThe hydrogen mass fraction from elemental analysis often has a relatively large error. The system contains only two types of ligands: ① the ethylene glycol monomethyl ether anion, $mee^-$: $C_3H_7O_2^-$, containing 3 C and 2 O atoms; ② the 2,6-dimethylphenoxide anion, $dmp^-$: $C_8H_9O^-$, containing 8 C and 1 O atom.\nLet the numbers of $dmp^-$ and $mee^-$ ligands be x and y, respectively. Then $\\begin{cases} 8x + 3y = 56 \\\\ x + 2y = 20 \\end{cases}$, giving x = 4 and y = 8. Thus, Z contains 4 $dmp^-$ and 8 $mee^-$ ligands. (1 point for determining the numbers of ligands in Z; it is not necessary to distinguish dmp from dmpH or mee from meeH.)\nLet Z contain z metal atoms of atomic weight $M_{M5}$. From mass conservation:\n$z \\cdot M_{M5} = M_Z - 4M_{dmp} - 8M_{mee} - 4M_H = 1697 - 4 \\times 121.17 - 8 \\times 75.09 - 4 \\times 1.008 \\approx 608$ (g/mol).\nTry z = 4: $M_{M5}$ = 608/4 = 152. Atomic weight 152 corresponds to europium (Eu). In fact, the statement that the anion of Z contains an $[M5_4O_4]$ cluster framework establishes that z ≥ 4.\nMagnetic-moment verification: $\\mu_{eff}$ = 7.9 $\\mu_B$, in close agreement with the theoretical value of 7.94 $\\mu_B$ for $Eu^{2+}$ ($4f^7$); experimental values are generally 7.6~8.0 $\\mu_B$. Therefore, M5 = Eu in the +2 oxidation state. (2 points for identifying M5. Any reasonable procedure that identifies M5 earns at least 6 points for the entire subquestion.)\nZ = $H_4[Eu_4(mee)_8(dmp)_4]$ (1 point)\nY = $H_4[Eu_4(mee)_8(dmp)_4]\\cdot 4C_7H_8$ (1 point)\nX = $[Eu(mee)_2]_n$ (1 point; $Eu(mee)_2$ is also accepted)"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-22-T1-2-1-rubric.png",
+          "description": "Equation: $\\frac{M_Z}{M_Y} = \\frac{\\rho_Z V_Z}{\\rho_Y V_Y} = 1.1854 \\times \\frac{3327.80}{4805.2} = 0.8209$."
+        },
+        {
+          "file": "Exam-22-T1-2-2-rubric.png",
+          "description": "Equation: $M_Y = \\frac{1.428 \\times 4805.2 \\times 10^{-24} \\times 6.022 \\times 10^{23}}{2} = 2066\\ \\mathrm{g/mol}$."
+        },
+        {
+          "file": "Exam-22-T1-2-3-rubric.png",
+          "description": "Equation: $\\begin{cases} 8x + 3y = 56 \\\\ x + 2y = 20 \\end{cases}$."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-22-T1-3",
+      "tags": [
+        "1.4"
+      ],
+      "text_open": "1.4.3 Write the SMILES strings for the cation and anion of Z. You may treat all $\\sigma$ coordinate bonds as ordinary single bonds and represent the structures using SMILES.",
+      "text_images": [],
+      "full_mark": 4,
+      "rubric": [
+        "Structure: the cation consists of 4 hydrogen ions, $(H^+)$; the anion has SMILES 'CO1CCO[Eu]1234([dmp])O5(CCO6C)[Eu]789(OCCO8C)([dmp])O2(CCO9C)[Eu]%10%11%12(O(C)CCO%12)([dmp])O3(CCO4C)[Eu]5%136(O(C)CCO%13)([dmp])O%107CCO%11C', where dmp denotes a dmp ligand, and the anion carries a $4-$ charge. The anion has an approximately cubic [Eu_4O_4] core. All dmp ligands are terminal. The mee ligands fall into two classes: 4 each provide 1 O face-bridging group and 1 linear bridging group, with the terminal O bearing a methyl group, whereas the other 4 coordinate only through 2 terminal O atoms.",
+        "This subquestion uses deductions. Deduct 1 point if, and only if, some mee ligands in the anion have the wrong “direction,” with the methyl-bearing O drawn as the face-bridging group and the non-methyl-bearing O as the linear bridge. Any other error in the anion structure loses all points assigned to the anion. Deduct 1 point if the cations are absent or incorrect, and 1 point if the charge of the anion is not shown. The minimum score is 0."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-22-T1-3-1-rubric.png",
+          "description": "Scoring diagram. $(H^+)_4$ is shown on the left, and the anion is shown on the right. The anion has SMILES 'CO1CCO[Eu]1234([dmp])O5(CCO6C)[Eu]789(OCCO8C)([dmp])O2(CCO9C)[Eu]%10%11%12(O(C)CCO%12)([dmp])O3(CCO4C)[Eu]5%136(O(C)CCO%13)([dmp])O%107CCO%11C' and an approximately cubic [Eu_4O_4] core. A $4-$ charge is written at the upper right of the anion. The 4 dmp ligands are represented by the label 'dmp', with their structures omitted."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-22-T1-4",
+      "tags": [
+        "2.1"
+      ],
+      "text_open": "1.5 Electrochemistry of the Rare-Earth Elements\nThe following standard electrode potentials are given for acidic medium at 25 °C:\n$O_2(g) + 4H^+ + 4e^- \\rightarrow 2H_2O$    $E° = +1.229\\ \\mathrm{V}$\n$M1^{n+} + e^- \\rightarrow M1^{(n-1)+}$    $E° = -0.35\\ \\mathrm{V}$\n1.5.1 At pH = 0 and 25 °C, calculate the common logarithm $\\lg K$ of the standard equilibrium constant for oxidation of $M1^{(n-1)+}$ to $M1^{n+}$ by $O_2$.",
+      "text_images": [],
+      "full_mark": 3,
+      "rubric": [
+        "Reaction: $4Eu^{2+} + O_2 + 4H^+ \\rightarrow 4Eu^{3+} + 2H_2O$\n$E° = E_+ - E_- = 1.229\\ \\mathrm{V} - (-0.35\\ \\mathrm{V}) = 1.579\\ \\mathrm{V}$ (1 point)\n$\\Delta_r G° = -nFE° = -4 \\times 96485\\ \\mathrm{C\\cdot mol^{-1}} \\times 1.579\\ \\mathrm{V} = -6.095 \\times 10^5\\ \\mathrm{J\\cdot mol^{-1}}$ (1 point)\n$\\ln K = -\\frac{\\Delta_r G°}{RT} = \\frac{6.095 \\times 10^5}{8.314 \\times 298} = 246$\n$\\lg K = \\lg e \\times \\ln K = 106.8$ (1 point). Writing M1 instead of Eu in the procedure and result incurs no deduction."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-22-T1-4-1-rubric.png",
+          "description": "Equation: $E° = E_+ - E_- = 1.229\\ \\mathrm{V} - (-0.35\\ \\mathrm{V}) = 1.579\\ \\mathrm{V}$."
+        },
+        {
+          "file": "Exam-22-T1-4-2-rubric.png",
+          "description": "Equation: $\\Delta_r G° = -nFE° = -4 \\times 96485\\ \\mathrm{C\\cdot mol^{-1}} \\times 1.579\\ \\mathrm{V} = -6.095 \\times 10^5\\ \\mathrm{J\\cdot mol^{-1}}$."
+        },
+        {
+          "file": "Exam-22-T1-4-3-rubric.png",
+          "description": "Equation: $\\ln K = -\\frac{\\Delta_r G°}{RT} = \\frac{6.095 \\times 10^5}{8.314 \\times 298} = 246$."
+        },
+        {
+          "file": "Exam-22-T1-4-4-rubric.png",
+          "description": "Equation: $\\lg K = \\lg e \\times \\ln K = 106.8$."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-22-T1-5",
+      "tags": [
+        "2.1"
+      ],
+      "text_open": "1.5.2 The partial pressure of oxygen in air is $p(O_2)$ = 0.21 bar. Use a calculation to determine whether $M1^{(n-1)+}$ will be oxidized by oxygen in air when pH = 4.00 and $[M1^{(n-1)+}]$ = $[M1^{n+}]$ = 1.00 mol·L-1.",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "$E(O_2) = E° + \\frac{RT}{4F}\\ln\\frac{[H^+]^4 p(O_2)}{p°} = 0.982\\ \\mathrm{V}$ (1 point)\nBecause the concentrations are equal, the $Eu^{3+}/Eu^{2+}$ electrode potential is $E = E° = -0.35\\ \\mathrm{V}$. The cell electromotive force is $\\Delta E = 0.982\\ \\mathrm{V} - (-0.35\\ \\mathrm{V}) = 1.33\\ \\mathrm{V} > 0$, and $\\Delta G < 0$. Therefore, under these conditions, $Eu^{2+}$ is still oxidized spontaneously by oxygen in air. (1 point for calculating the correct electromotive force and reaching the correct conclusion.)\nIf the calculated result is incorrect, no point is awarded for the conclusion even if it is correct. Writing M1 instead of Eu in the procedure and result incurs no deduction."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-22-T1-5-1-rubric.png",
+          "description": "Equation: $E(O_2) = E° + \\frac{RT}{4F}\\ln\\frac{[H^+]^4 p(O_2)}{p°} = 0.982\\ \\mathrm{V}$."
+        },
+        {
+          "file": "Exam-22-T1-5-2-rubric.png",
+          "description": "Equations: $\\Delta E = 0.982\\ \\mathrm{V} - (-0.35\\ \\mathrm{V}) = 1.33\\ \\mathrm{V} > 0$ and $\\Delta G < 0$."
+        }
+      ]
+    }
+  ]
+}

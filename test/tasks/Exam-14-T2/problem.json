@@ -1,0 +1,27 @@
+{
+  "problem_id": "Exam-14-T2",
+  "header": "Electrochemistry of an Oxidoreductase\nLaccase is a copper-containing oxidoreductase that catalyzes the reduction of oxygen to water while oxidizing phenolic compounds and various other substrates. Its catalytic center contains a T1 copper center (electron-acceptor site) and a T2/T3 trinuclear copper cluster (redox site). Because of its high activity and selectivity, laccase is often used as a cathode catalyst in biofuel cells. This problem concerns a laccase from Trametes versicolor, which may be approximated as a spherical protein with diameter d of approximately 5.0 nm. The standard electrode potential of its T1 copper center is $E_{\\mathrm{T1}}^\\circ=+0.78\\ \\mathrm{V}$ (vs. SHE). The laccase is immobilized on different electrodes to investigate its direct electron transfer (DET) and mediated electron transfer (MET) behavior.",
+  "header_images": [
+    {
+      "file": "Exam-14-T2-header-1.png",
+      "description": "A set of colored ribbon and line structures comprising magenta, brown, and green regions.\n\nThe upper-central magenta region includes several ribbon arrows, folded ribbons, and thin lines. The green region on the right includes ribbon arrows, curved lines, and a helical coil near the bottom. The brown region on the left and at the bottom includes several ribbon arrows and thin lines.\n\nVisible labels are His 458, Asp 206, T1 Cu, and T2 & T3 Cu. His 458 is left of center, Asp 206 is upper-right of center, T1 Cu is in the middle-left region, and T2 & T3 Cu is below center.\n\nSeveral small spherical markers in blue, orange, red, purple, and other colors appear near the center. Black dashed circular or elliptical markers surround some spheres and nearby labels. There are no axes, table, legend, or title."
+    }
+  ],
+  "subquestions": [
+    {
+      "sub_id": "Exam-14-T2-1",
+      "tags": [
+        "3.7",
+        "4.2"
+      ],
+      "text_open": "2.1.2 For random orientations, the electron-transfer rate for the orientation with the T1 copper center nearest the electrode is approximately $1.1\\times10^{13}$ times that for the farthest orientation. Using the figure below, explain why immobilizing the enzyme on the electrode surface is necessary for the redox reaction. The small circle represents the T1 copper center (electron-acceptor site), and the triangle represents the T2/T3 trinuclear copper cluster (redox site). (No more than 50 words.)",
+      "text_images": [
+        {
+          "file": "Exam-14-T2-1-1-prompt.png",
+          "description": "The label Substrate appears at the upper left and Product at the upper right. A long horizontal light-gray rectangle with a dotted texture spans the bottom and is labeled Electrode at the lower right.\n\nA sequence of 5 blue circles is arranged from left to right above the gray rectangle. Each contains a red triangle and a small orange circle. The red triangles have different orientations: No. 1 points approximately upward, No. 2 upper-left, No. 3 left, No. 4 lower-left, and No. 5 downward.\n\nBelow blue circle No. 1 is a white rectangular box labeled e⁻, with a black arrow pointing upward from the box to the blue circle. Two curved arrows above circle No. 1 run from near Substrate toward Product.\n\nBlack dashed horizontal lines extend from several orange dots and connect to vertical double-headed arrows or scale lines on the right. The vertical double-headed arrow near circle No. 1 is labeled d. Similar vertical lines or double-headed arrows extend upward from the gray surface near the remaining circles, indicating progressively larger distances from the gray region to the orange dots."
+        }
+      ],
+      "full_mark": 2
+    }
+  ]
+}

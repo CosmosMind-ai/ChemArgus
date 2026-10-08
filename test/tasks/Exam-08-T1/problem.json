@@ -1,0 +1,45 @@
+{
+  "problem_id": "Exam-08-T1",
+  "header": "Problem 1 Peierls's Wondrous Gift\nIn the 18 century, Austrian mineralogist Müller von Reichenstein discovered a new substance while studying a gold ore. It had a silvery-white metallic luster but was brittle and a poor conductor; it burned with a blue flame and gave off an unusual odor resembling rotten radishes. German chemist Martin Klaproth later confirmed that it was a new element and named it after the Latin word for Earth. Interestingly, another member of the same group discovered decades later was named after the Moon to complement Earth. This element, denoted E, can be obtained by reduction of either its oxide A or its sodium oxoacid salt B; E has the same oxidation state in A and B. An early preparation heated B with carbon black. The simple hydride C of E is a foul-smelling, highly unstable gas whose aqueous solution is weakly acidic. Passing C into $\\mathrm{FeCl_3}$ solution gives a black precipitate. Another oxide D of E is an orange solid. When D dissolves in concentrated aqueous NaOH, the resulting anhydrous sodium salt contains 46.64% E by mass.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-08-T1-1",
+      "tags": [
+        "2.1"
+      ],
+      "text_open": "1-2-1 Write the equation for heating B with carbon black to obtain elemental E.",
+      "text_images": [],
+      "full_mark": 1
+    },
+    {
+      "sub_id": "Exam-08-T1-2",
+      "tags": [
+        "2.1"
+      ],
+      "text_open": "1-2-3 Write the equation for dissolution of D in concentrated aqueous NaOH.",
+      "text_images": [],
+      "full_mark": 1
+    },
+    {
+      "sub_id": "Exam-08-T1-3",
+      "tags": [
+        "1.3",
+        "1.6"
+      ],
+      "text_open": "1-4-1 Structural studies of $\\alpha$-E show infinite one-dimensional zigzag chains in which each E atom bonds to its two neighboring E atoms, forming continuous $(E)_n$ chains with $n\\rightarrow\\infty$. Elemental halogen X is widely used for surgical disinfection. E and X form F, G, and H with E:X ratios of 1:1, 2:1, and 1:4, respectively. F retains the $(E)_n$ chain. Both E and X have two chemical environments, each in a 1:1 ratio. The coordination numbers of the two E atoms are in a 3:4 ratio, and one X atom forms only one covalent bond to E. G can be viewed as portions of two long F chains joined by additional E-E bonds to form an infinite six-membered-ring structure, and the E coordination numbers in G are the same as in F. H exists as a tetramer with two E environments, and every E atom is six-coordinate. Give SMILES descriptions of the structural motifs of F and G.",
+      "text_images": [],
+      "full_mark": 6
+    },
+    {
+      "sub_id": "Exam-08-T1-4",
+      "tags": [
+        "1.1",
+        "1.6"
+      ],
+      "text_open": "1-4-2 Give the SMILES structure of the H tetramer.",
+      "text_images": [],
+      "full_mark": 3
+    }
+  ]
+}

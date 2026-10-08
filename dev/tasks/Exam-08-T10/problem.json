@@ -1,0 +1,190 @@
+{
+  "problem_id": "Exam-08-T10",
+  "header": "Brook Rearrangement\nNote: Unless otherwise specified, cyclic structures involved in the Brook-rearrangement process need not be shown for intermediates in this problem. The Brook rearrangement is a nucleophilic rearrangement centered on silyl migration and is commonly used to construct carbon-oxygen and carbon-carbon bonds.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-08-T10-1",
+      "tags": [
+        "1.2",
+        "2.2",
+        "2.4"
+      ],
+      "text_open": "10.1 A typical Brook rearrangement proceeds as shown below.\n10.1.1 Give the SMILES structures of intermediates A and B.",
+      "text_images": [
+        {
+          "file": "Exam-08-T10-1-1-prompt.png",
+          "description": "Under basic conditions, '[R][C@@](O)([2H])[Si]([R])([R])[R]' reversibly forms [A]; [A] reversibly forms [B]; and protonation of [B] gives '[H][C@@]([R])([2H])O[Si]([R])([R])[R]'."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "A: '[O-][C@]([R])([2H])[Si]([R])([R])[R]'; B: '[R][C-]([2H])O[Si]([R])([R])[R]'. (1 point each.) No credit is awarded unless retention of configuration at the carbon atom is indicated."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-08-T10-1-1-rubric.png",
+          "description": "A ('[O-][C@]([R])([2H])[Si]([R])([R])[R]') and B ('[R][C-]([2H])O[Si]([R])([R])[R]')."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-08-T10-2",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "10.2 Complete the following reactions using the information above. Ignore stereochemistry.\n10.2.1 Give the SMILES structure of product C.",
+      "text_images": [
+        {
+          "file": "Exam-08-T10-2-1-prompt.png",
+          "description": "'O=C([Si](C)(C)C)C1=CC=CC=C1' reacts with 'FC(F)(F)[Si](C)(C)C' in the presence of $[\\mathrm{nBu}_4\\mathrm{N}][\\mathrm{Ph}_3\\mathrm{SnF}_2]$ to give C."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "C: 'F/C(F)=C(O[Si](C)(C)C)/C1=CC=CC=C1'. (2 points)"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-08-T10-2-1-rubric.png",
+          "description": "C ('F/C(F)=C(O[Si](C)(C)C)/C1=CC=CC=C1')."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-08-T10-3",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "10.2.2 Give the SMILES structure of product D. Hint: D contains a TMS group but no O-Si bond.",
+      "text_images": [
+        {
+          "file": "Exam-08-T10-3-1-prompt.png",
+          "description": "'BrC1CC1CC2=CC=CC=C2' is treated with tBuLi in $\\mathrm{Et_2O}$ at -78 °C, then with 'O=C([Si](C)(C)C)C1=CC=CC=C1' from -78 °C to room temperature for 30 min, followed by $\\mathrm{NH_4Cl}$ and $\\mathrm{H_2O}$, to give D."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "D: 'O=C(CC(CC1=CC=CC=C1)C[Si](C)(C)C)C2=CC=CC=C2'. (2 points)"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-08-T10-3-1-rubric.png",
+          "description": "D ('O=C(CC(CC1=CC=CC=C1)C[Si](C)(C)C)C2=CC=CC=C2')."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-08-T10-4",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "10.3 The Brook rearrangement has broad applications and can be used to construct an eight-membered ring stereoselectively. The Brook rearrangement occurs during formation of E, and G contains two fewer seven-membered rings than F.\n10.3.1 Ignoring stereochemistry, give the SMILES structures of intermediates E and F.",
+      "text_images": [
+        {
+          "file": "Exam-08-T10-4-1-prompt.png",
+          "description": "'O=C([Si](C)(C)C(C)(C)C)/C=C/C(C)(C)C' reacts with '[Li]OC1=CCCCC=C1' in THF at -80 °C to give E. E reacts with 'O=S(N1C(C2=CC=CC=C2)O1)(C3=CC=CC=C3)=O' under NaHMDS conditions to give F. F is treated with $\\mathrm{Pb(OAc)_4}$ in MeOH/benzene to give G ('O=C(C1CCCC(C=O)C(C(C)(C)C)/C=C1/O[Si](C)(C)C(C)(C)C)OC'; the stereochemistry of its three stereogenic carbon atoms is not shown)."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "E: 'O=C(C1)[C@H]2CCC[C@@H]1[C@@H](C(C)(C)C)C=C2O[Si](C)(C)C(C)(C)C'; F: 'O=C(C1O)C2CCCC1[C@H](C(C)(C)C)C=C2O[Si](C)(C)C(C)(C)C'. (1 point each; stereochemistry is not required.)"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-08-T10-4-1-rubric.png",
+          "description": "E: 'O=C(C1)[C@H]2CCC[C@@H]1[C@@H](C(C)(C)C)C=C2O[Si](C)(C)C(C)(C)C'; F: 'O=C(C1O)C2CCCC1[C@H](C(C)(C)C)C=C2O[Si](C)(C)C(C)(C)C'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-08-T10-5",
+      "tags": [
+        "1.2"
+      ],
+      "text_open": "10.3.2 Give a SMILES structure that shows the relative stereochemistry of the stereogenic centers in G.",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "G: 'O=C([C@H]1CCC[C@@H](C=O)[C@@H](C(C)(C)C)/C=C1/O[Si](C)(C)C(C)(C)C)OC'. (2 points; no credit if the stereochemistry is incorrect.)"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-08-T10-5-1-rubric.png",
+          "description": "G ('O=C([C@H]1CCC[C@@H](C=O)[C@@H](C(C)(C)C)/C=C1/O[Si](C)(C)C(C)(C)C)OC')."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-08-T10-6",
+      "tags": [
+        "1.5",
+        "2.3"
+      ],
+      "text_open": "10.4 In recent years, research on Brook rearrangements has expanded beyond silicon systems, and phosphorus-mediated rearrangements have received increasing attention. The following is a new two-step, one-pot synthesis of tetrasubstituted furans using a Brook-like rearrangement.\n10.4.1 Briefly explain why P(V), rather than P(III), is used for the Brook-like rearrangement. (No more than 100 words.)",
+      "text_images": [
+        {
+          "file": "Exam-08-T10-6-1-prompt.png",
+          "description": "'[R1]C(O)(P(OC)(OC)=O)C#C[R2]' reacts with '[R3]C([H])=O' under tBuOK (10 mol%), DMF, -60 °C, 3 h to give H. H then reacts with 'O=C(N1I)CCC1=O' (NIS) to give '[R1]C1=C(I)C([R2])=C([R3])O1'."
+        }
+      ],
+      "full_mark": 1,
+      "rubric": [
+        "A phosphate ester formed by P(V) can accept electron attack to form a pentacoordinate intermediate. P(III), with its lone pair, is predominantly nucleophilic and is less able to accept electron attack. (1 point)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-08-T10-7",
+      "tags": [
+        "2.2",
+        "2.3",
+        "2.4"
+      ],
+      "text_open": "10.4.2 Give the SMILES structure of H and at least two charged intermediates formed on the pathway to H.",
+      "text_images": [],
+      "full_mark": 4,
+      "rubric": [
+        "H: '[R1]C(OP(OC)(OC)=O)=C=C(C(O)[R3])[R2]'. (2 points; no other structure is accepted.)",
+        "Two charged intermediates in the formation of H are '[R1]C(C#C[R3])(P(OC)(OC)=O)[O-]' and '[R1][C-](OP(OC)(OC)=O)C#C[R3]'. (1 point each; reasonable resonance forms also earn credit.)"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-08-T10-7-1-rubric.png",
+          "description": "H: '[R1]C(OP(OC)(OC)=O)=C=C(C(O)[R3])[R2]'."
+        },
+        {
+          "file": "Exam-08-T10-7-2-rubric.png",
+          "description": "First: '[R1]C(C#C[R3])(P(OC)(OC)=O)[O-]'; second: '[R1][C-](OP(OC)(OC)=O)C#C[R3]'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-08-T10-8",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "10.4.3 I is a phenanthrene derivative. Using the information above, give the SMILES structure of product I.",
+      "text_images": [
+        {
+          "file": "Exam-08-T10-8-1-prompt.png",
+          "description": "'[Ar]C#CC1=CC=CC=C1C2=CC=CC=C2C(C(OCC)=O)=O' is treated with HPO(OiPr)_2 and P2-tBu (10 mol%) in refluxing EtOAc for 7 h to give I."
+        },
+        {
+          "file": "Exam-08-T10-8-2-prompt.png",
+          "description": "P2-tBu: 'CN(P(N=P(N(C)C)(N(C)C)N(C)C)(N(C)C)=NC(C)(C)C)C'."
+        }
+      ],
+      "full_mark": 4,
+      "rubric": [
+        "I: '[Ar]C(OP(OC(C)C)(OC(C)C)=O)C1=C(C=CC=C2)C2=C(C=CC=C3)C3=C1C(OCC)=O'. (3 points)"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-08-T10-8-1-rubric.png",
+          "description": "I: '[Ar]C(OP(OC(C)C)(OC(C)C)=O)C1=C(C=CC=C2)C2=C(C=CC=C3)C3=C1C(OCC)=O'."
+        }
+      ]
+    }
+  ]
+}

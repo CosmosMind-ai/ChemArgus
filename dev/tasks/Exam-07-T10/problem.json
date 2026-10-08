@@ -1,0 +1,139 @@
+{
+  "problem_id": "Exam-07-T10",
+  "header": "The Remarkable Role of LiCl",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-07-T10-1",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "10.1.1 Write the SMILES representation of the reaction product, given that the product contains 1 fewer carbon atom than the reactant.",
+      "text_images": [
+        {
+          "file": "Exam-07-T10-1-1-prompt.png",
+          "description": "'COC(C=C1)=CC=C1C2=CC=C(OC)N=C2' is reacted under LiCl/DMF conditions with microwave irradiation."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "'O=C1C=CC(C2=CC=C(OC)C=C2)=CN1' (2 points)"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-07-T10-1-1-rubric.png",
+          "description": "'O=C1C=CC(C2=CC=C(OC)C=C2)=CN1'"
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-07-T10-2",
+      "tags": [
+        "2.4",
+        "2.2"
+      ],
+      "text_open": "10.1.2 Based on 10.1.1, write the SMILES representation of the reaction product and the SMILES representation of 1 key intermediate that illustrates the role of LiCl, given that the product contains 1 fewer carbon atom than the reactant.",
+      "text_images": [
+        {
+          "file": "Exam-07-T10-2-1-prompt.png",
+          "description": "'COC1=C(OC)C=C(C=O)C=C1' is reacted under LiCl/DMF conditions with microwave irradiation."
+        }
+      ],
+      "full_mark": 4,
+      "rubric": [
+        "Product: 'OC1=C(OC)C=C(C=O)C=C1' (2 points)",
+        "Intermediate: '[Cl-].[Li+].O=CC1=CC(OC)=C(OC)C=C1', in which the Li ion is coordinated simultaneously by the O atoms of the two methoxy groups and by Cl^-, giving a three-coordinate geometry. (2 points)"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-07-T10-2-1-rubric.png",
+          "description": "'OC1=C(OC)C=C(C=O)C=C1'"
+        },
+        {
+          "file": "Exam-07-T10-2-2-rubric.png",
+          "description": "Intermediate: the two ether O atoms coordinate to Li to form the complex '[Cl-].[Li+].O=CC1=CC(OC)=C(OC)C=C1'"
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-07-T10-3",
+      "tags": [
+        "2.4",
+        "1.2",
+        "2.8"
+      ],
+      "text_open": "10.1.3 The starting material is an optically active chiral ester. Write the SMILES representation of the reaction product. State the advantage of this method over methods such as hydrolysis with a strong base.",
+      "text_images": [
+        {
+          "file": "Exam-07-T10-3-1-prompt.png",
+          "description": "'O=C([C@@H](C1=CC2=CC=C(C=C2C=C1)OC)C)OC' is reacted under LiCl/DMF conditions with microwave irradiation."
+        }
+      ],
+      "full_mark": 4,
+      "rubric": [
+        "'OC([C@H](C)C1=CC2=CC=C(OC)C=C2C=C1)=O' (2 points)",
+        "The configuration at the α stereocenter is retained without racemization. (2 points)"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-07-T10-3-1-rubric.png",
+          "description": "'OC([C@H](C)C1=CC2=CC=C(OC)C=C2C=C1)=O'"
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-07-T10-4",
+      "tags": [
+        "2.2",
+        "2.3"
+      ],
+      "text_open": "10.2 The following reaction proceeds through a radical process, in which the fluorinating reagent is a single-electron oxidant.\n 10.2.1 Write the SMILES representations of 1 key intermediate associated with the fluorinating reagent and 2 key radical intermediates that contain no halogen atoms and only one six-membered ring.",
+      "text_images": [
+        {
+          "file": "Exam-07-T10-4-1-prompt.png",
+          "description": "'NC1=CC=CC=N1' and 'ClC[N+]12CC[N+](CC2)(F)CC1' · $2\\text{BF}_4^{-}$) react under LiCl/DMF conditions to give the product with the SMILES representation 'NC1=CC=C(Cl)C=N1'."
+        }
+      ],
+      "full_mark": 6,
+      "rubric": [
+        "'ClC[N+]1(CC2)CC[N+]2CC1' (note: a nitrogen-centered radical cation) · $\\text{BF}_4^{-}\\text{F}^{-}$ (2 points).",
+        "'NC1=C[CH+][C]C=N1' (2 points).",
+        "'N=C1C=C[C]C=N1' (2 points)"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-07-T10-4-1-rubric.png",
+          "description": "'ClC[N+]1(CC2)CC[N+]2CC1' (note: a nitrogen-centered radical cation) · $\\text{BF}_4^{-}\\text{F}^{-}$"
+        },
+        {
+          "file": "Exam-07-T10-4-2-rubric.png",
+          "description": "'NC1=C[CH+][C]C=N1'."
+        },
+        {
+          "file": "Exam-07-T10-4-3-rubric.png",
+          "description": "'N=C1C=C[C]C=N1'"
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-07-T10-5",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "10.2.2 Write all by-products of the reaction; give the SMILES representation for the organic product.",
+      "text_images": [],
+      "full_mark": 6,
+      "rubric": [
+        "'ClC[N+]1(CC2)CCN2CC1' · $\\text{BF}_4^{-}$ (2 points)",
+        "HF (2 points)",
+        "$LiBF_4$ (2 points)"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-07-T10-5-1-rubric.png",
+          "description": "'ClC[N+]1(CC2)CCN2CC1' · $\\text{BF}_4^{-}$"
+        }
+      ]
+    }
+  ]
+}

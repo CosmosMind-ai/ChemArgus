@@ -1,0 +1,47 @@
+{
+  "problem_id": "Exam-18-T3",
+  "header": "Problem 3 Latent Monomers and Controlled Metathesis Polymerization\nControlling the temporal and spatial sequence of polymerization is an important topic in conventional polymer synthesis. Chemists have generally developed “latent catalysts” that switch between inactive and active states in response to external stimuli such as light or heat. Recent research, however, has introduced a new “latent monomer” strategy: isomerization of a photoswitchable molecule generates an active monomer in situ and on demand, enabling efficient control of polymerization.\nThis problem concerns a classic class of highly reactive ring-opening metathesis polymerization (ROMP) monomers: norbornadiene (NBD) derivatives. Under ultraviolet irradiation of a specific wavelength, they undergo intramolecular cycloaddition to form highly strained quadricyclane (QC) structures.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-18-T3-1",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "3.1 Synthesis and Photothermal Isomerization of the Latent Monomer\nMonomer A, an NBD derivative, can be prepared by reacting cyclopentadiene with diethyl acetylenedicarboxylate at room temperature. Under 313 nm ultraviolet irradiation, A is quantitatively converted into latent monomer B, a QC derivative. Adding silica-coated gold nanobipyramids (AuBPs) to B and irradiating at 850 nm with infrared light regenerates A.\n3.1.1 Write the SMILES strings for A and B.",
+      "text_images": [],
+      "full_mark": 3,
+      "rubric": [
+        "'O=C(OCC)C1=C(C(OCC)=O)[C@@H]2C=C[C@H]1C2' and 'O=C(OCC)C12C3(C(OCC)=O)C4C3C1C2C4'. (1 point for the structure of A and 2 points for the structure of B)"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-18-T3-1-1-rubric.png",
+          "description": "A has SMILES 'O=C(OCC)C1=C(C(OCC)=O)[C@@H]2C=C[C@H]1C2', and B has SMILES 'O=C(OCC)C12C3(C(OCC)=O)C4C3C1C2C4'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-18-T3-2",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "3.3 The complete inertness of latent monomers toward the catalyst at room temperature enables the synthesis of complex polymer topologies that are difficult to obtain by conventional metathesis polymerization. The researchers replaced the ethoxycarbonyl groups, $-COOC_2H_5$, in B with pent-4-enyloxycarbonyl groups, $-COO(CH_2)_3CH=CH_2$, to give monomer F. F was mixed with the Grubbs catalyst and reacted at 40℃, releasing gas X and giving a soluble linear polymer G with double bonds in its main chain. G was coated onto a microscope slide placed over a masked LED and then heated to 80℃, rapidly converting the film into an insoluble crosslinked network H. Write the SMILES strings for polymers G and H.",
+      "text_images": [],
+      "full_mark": 4,
+      "rubric": [
+        "G is a polymer whose repeat unit has the SMILES string 'O=C(OCCCC=C)C12C3(C(OCCCC=C)=O)C4C3C1C2C4'. Two repeat units are connected through their terminal double bonds, with one isolated double bond between each pair of repeat units. In the drawing, enclose the repeat unit in square brackets and place n as a subscript at the lower right. (2 points each for the structures of G and H; deduct 1 point if the degrees of polymerization of the upper and lower chains in H are both labeled m or both labeled n)"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-18-T3-2-1-rubric.png",
+          "description": "G is a polymer with repeating-unit structure 'O=C(OCCCC=C)C12C3(C(OCCCC=C)=O)C4C3C1C2C4'. Two repeat units are connected through their terminal double bonds, with one isolated double bond between each pair of units. The repeating unit is enclosed in square brackets with a subscript n at the lower right."
+        },
+        {
+          "file": "Exam-18-T3-2-2-rubric.png",
+          "description": "H is a polymer with repeating-unit structure 'C=CC(CC1C=C)C(C(OCCCC=C)=O)=C1C(OCCCC=C)=O'. Two repeat units are connected through double bonds attached to the five-membered ring, with one isolated double bond between each pair of units, and also through double bonds attached to the ester groups, again with one isolated double bond between each pair of units. The two connection modes have different degrees of polymerization: m for the former and n for the latter. Two pairs of square brackets enclose the two chains and carry subscripts n and m, respectively."
+        }
+      ]
+    }
+  ]
+}

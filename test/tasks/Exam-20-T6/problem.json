@@ -1,0 +1,64 @@
+{
+  "problem_id": "Exam-20-T6",
+  "header": "Co(Salen) Oxygen Carrier\nMany proteins containing transition-metal ions can bind molecular oxygen to form complexes and reversibly take up and release oxygen for biological processes. Examples include the iron-containing proteins myoglobin and hemoglobin and the copper-containing protein hemocyanin. The Co-Schiff-base complex [Co(II)(Salen)], cobalt N,N'-ethylenebis(salicylideneiminate), is an important representative synthetic model oxygen carrier.",
+  "header_images": [
+    {
+      "file": "Exam-20-T6-header-1.png",
+      "description": "[Co(II)(Salen)] has the SMILES 'C12=C(O[Co]34OC5=CC=CC=C5C=[N]3CC[N]4=C2)C=CC=C1'. The image shows the structure of [Co(II)(Salen)]. The Salen ligand coordinates Co tetradentately through 2 phenoxide O atoms and 2 imine N atoms. The benzene rings are drawn in alternating-single-and-double-bond Kekulé form, both C=N bonds are double bonds, and the central Co atom is represented as four-coordinate by the ring-closure labels [Co]34. No charges or stereochemical markers are shown. The caption [Co(II)(Salen)] appears below the structure."
+    }
+  ],
+  "subquestions": [
+    {
+      "sub_id": "Exam-20-T6-1",
+      "tags": [
+        "1.4"
+      ],
+      "text_open": "6.1 Depending on the preparation method, [Co(II)(Salen)] can exist in two solid forms: dark-red, gelatinous, active form A and dark-red, crystalline, inactive form B. A rapidly absorbs oxygen at room temperature, whereas B is stable at room temperature and absorbs almost no oxygen. Both are bimolecular dimers.\n6.1.1 A and B dimerize differently: A through Co-Co bonding and B through Co-O bonding. Based on this description, write the actual SMILES strings of A and B, using a textual description if necessary. The Salen ligand may be abbreviated.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-20-T6-2",
+      "tags": [
+        "1.4",
+        "2.4"
+      ],
+      "text_open": "6.1.2 Inactive B dissolves in certain solvents, and the resulting solution acquires the ability to absorb oxygen. [Co(II)(Salen)] dissolved in solvent S can react with oxygen by different pathways to form product C with $Co:O_2$ = 1:1 or product D with $Co:O_2$ = 2:1. The Co centers in both C and D are octahedral. Write the SMILES strings of C and D.",
+      "text_images": [],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-20-T6-3",
+      "tags": [
+        "1.4",
+        "2.8"
+      ],
+      "text_open": "6.2 Inactive [Co(II)(Salen)] can be prepared as follows. Add salicylaldehyde and ethylenediamine in stoichiometric amounts successively to a three-neck flask, followed by ethanol. Yellow plate-like crystals form immediately. Assemble the apparatus shown at right, maintain the water bath at approximately 80 °C, and reflux the ethanol until the yellow crystals dissolve completely. After passing nitrogen through the two-way stopcock on the right for some time, use the syringe on the left to inject a solution of $Co(CH_3COO)_2$ slowly through the septum into the three-neck flask. Continue refluxing to obtain a dark-red crystalline precipitate. Stop heating and cool the flask in an ice-water bath while maintaining nitrogen flow and stirring. Collect the crystals on a sintered-glass funnel and dry them by suction. Wash the precipitate successively with deionized water and anhydrous ethanol, then rinse once with acetone and dry by suction to obtain dry red-brown [Co(II)(Salen)].\n6.2.1 What consequences would result from adding excess ethylenediamine? State 2 consequences.",
+      "text_images": [
+        {
+          "file": "Exam-20-T6-3-1-prompt.png",
+          "description": "Apparatus for preparing [Co(II)(Salen)] in 6.2: a three-neck round-bottom flask rests on a base, with a visible liquid level inside. A syringe with plunger is inserted obliquely upward into the left neck. The middle neck is connected to a vertical condenser whose top connects through a bent tube to a U-tube containing liquid at the bottom; the top of the right arm is open. The right neck is connected to an addition component with a stopcock, the two-way stopcock, and a bulb-shaped upper section. The image contains no text labels."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-20-T6-4",
+      "tags": [
+        "4.1"
+      ],
+      "text_open": "6.2.2 What are the purposes of adding deionized water to the U-tube apparatus connected above the condenser? State 2 purposes.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-20-T6-5",
+      "tags": [
+        "4.1"
+      ],
+      "text_open": "6.2.3 What problem may occur while cooling the flask in an ice-water bath, and what measure should be taken?",
+      "text_images": [],
+      "full_mark": 3
+    }
+  ]
+}

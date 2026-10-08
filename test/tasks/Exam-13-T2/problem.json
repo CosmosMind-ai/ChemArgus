@@ -1,0 +1,16 @@
+{
+  "problem_id": "Exam-13-T2",
+  "header": "The history of first-generation glucose biosensors dates to 1962, when Clark and Lyons at Cincinnati Children's Hospital immobilized a thin layer of glucose oxidase, GOD, on an oxygen electrode behind a semipermeable membrane permeable only to $O_2$. GOD catalyzes oxidation of glucose by dissolved oxygen in blood, reducing the amount of $O_2$ passing through the membrane. Blood glucose is determined from the resulting change in oxygen-electrode potential.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-13-T2-1",
+      "tags": [
+        "3.4"
+      ],
+      "text_open": "2.2 First-generation glucose biosensors are strongly affected by fluctuations in blood oxygen partial pressure and are readily disturbed by environmental oxygen. Second-generation sensors address this limitation. After GOD oxidizes glucose and becomes reduced, a synthetic mediator M reoxidizes the reduced GOD. The reduced form of M is then oxidized at the measuring electrode to produce an electrical signal from which blood glucose is determined.\nOne glucose biosensor uses ferrocene as M. To test whether electrolyte pH affects the ferrocene redox rate, buffer solutions of different pH values must be prepared. Researchers prepare them by adding $HClO_4$ solution dropwise to $0.10\\ \\mathrm{mol\\cdot L^{-1}}$ K_2HPO_4 solution. The three pKa values of phosphoric acid are 2.15, 7.20, and 12.32, and the HClO_4 concentration is approximately $1.16\\ \\mathrm{mol\\cdot L^{-1}}$. 2.2.1 What volume of $1.16\\ \\mathrm{mol\\cdot L^{-1}}$ HClO_4 solution must be added to 100 mL of $0.10\\ \\mathrm{mol\\cdot L^{-1}}$ K_2HPO_4 solution to prepare a buffer at pH = 6.00?",
+      "text_images": [],
+      "full_mark": 5
+    }
+  ]
+}

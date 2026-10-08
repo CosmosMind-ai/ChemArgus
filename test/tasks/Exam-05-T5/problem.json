@@ -1,0 +1,103 @@
+{
+  "problem_id": "Exam-05-T5",
+  "header": "Problem 5 Structural Chemistry of Metal M. Formulas must use M and should be in approximately simplest ratios.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-05-T5-1",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "5-1 The crystal structure of chloride A of M and its projection along c are shown; large spheres are M and small spheres Cl. 5-1-1 Name the coordination polyhedron formed by Cl around one M.",
+      "text_images": [
+        {
+          "file": "Exam-05-T5-1-1-prompt.png",
+          "description": "Perspective view of crystal A inside a gray dashed hexagonal frame. Large dark-gray spheres are M and small light-gray spheres Cl. 2 M atoms at upper left and lower right share two bridging Cl atoms; each M also connects radially to 7 terminal Cl atoms. Around each M are three upper, three lower, and three equatorial Cl atoms. An axis triad has c upward, b lower right, and a left."
+        },
+        {
+          "file": "Exam-05-T5-1-2-prompt.png",
+          "description": "Projection of A along c within a dashed parallelogram. Large spheres are M and small spheres Cl. Two M atoms, one at (1/3,2/3), share two bridging Cl atoms. Each M also has 4 radial terminal Cl atoms in projection, with three nearer and three farther Cl neighbors overall. The axis marker has a rightward, b upper-left, and c out of the page."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-05-T5-2",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "5-1-2 Give the number of distinct Cl environments and the coordination number of Cl.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-05-T5-3",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "5-1-3 Give the crystal system and formula of A.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-05-T5-4",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "5-2 M forms complex compounds with Ni and O. Projections of a mixed oxide X along b and c are shown; large spheres are M, small spheres O, and medium spheres Ni. Give its formula.",
+      "text_images": [
+        {
+          "file": "Exam-05-T5-4-1-prompt.png",
+          "description": "Crystallographic projection of the unit cell of composite oxide X viewed along b. The vertical a-axis and horizontal c-axis each range from 0 to 1. Large spheres are M, medium spheres Ni, and small spheres O. Approximate fractional projection coordinates (a,c) are: M, (1.00,0.25), (0.00,0.75), (0.50,0.25), (0.50,0.75); Ni, the four vertices (0.00,0.00), (1.00,0.00), (0.00,1.00), (1.00,1.00), the edge midpoints (1.00,0.50), (0.00,0.50), (0.50,0.00), (0.50,1.00), and the face center (0.50,0.50); O, approximately (0.76,0.04), (0.68,0.04), (0.42,0.25), (0.12,0.25), (0.76,0.50), (0.68,0.50), (0.30,0.50), (0.24,0.50), (0.88,0.75), (0.58,0.75), (0.30,0.96), and (0.24,0.96). The lower-left direction marker points a upward and c rightward."
+        },
+        {
+          "file": "Exam-05-T5-4-2-prompt.png",
+          "description": "Crystallographic projection of the unit cell of composite oxide X viewed along c. The horizontal a-axis and vertical b-axis each range from 0 to 1. Large spheres are M, medium spheres Ni, and small spheres O. Approximate fractional projection coordinates (a,b) are: M, upper-left (0.02,0.90), lower-right (0.98,0.10), and the two vertically overlapping central sites (0.50,0.55) and (0.50,0.45); Ni, near the edge centers (0.00,0.47), (1.00,0.47), (0.53,1.00), and (0.53,0.00); O, next to boundary Ni sites at approximately (0.08,0.47), (0.92,0.47), (0.45,0.98), and (0.61,0.02), plus interior sites at (0.30,0.70), (0.78,0.78), (0.22,0.22), and (0.70,0.30). The lower-left direction marker points b upward and a rightward."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-05-T5-5",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "5-3 Compound Y, prepared from an oxide of M, NiO, and B_2O_3, contains M, Ni, O, and B and has a primitive monoclinic lattice. It consists of M cations, Ni^2+, and a network borate built from spiro units sharing sp^3-hybridized B atoms. The network contains [B_3O_3] six-membered and [B_4O_4] 8-membered rings. In every [B_4O_4], all four B atoms are four-coordinate and shared with neighboring [B_3O_3] rings; two ring O atoms coordinate one metal each and two coordinate two metals each. In every [B_3O_3], two B atoms are four-coordinate and shared with adjacent rings, while one is three-coordinate. The three ring O atoms each coordinate one metal; half the terminal O atoms coordinate two metals and half three. A monoclinic unit cell has [B_4O_4] at the corners and body center, each connected to four of eight neighboring [B_4O_4] rings through two [B_3O_3] rings. 5-3-1 Determine the number of B atoms per unit cell.",
+      "text_images": [
+        {
+          "file": "Exam-05-T5-5-1-prompt.png",
+          "description": "Schematic of two [B_4O_4] rings connected through two vertex-sharing [B_3O_3] rings, topologically like 'C1CCCC2(CCCC3(CC4(CCCCCCC4)CCC3)C2)CCC1'."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-05-T5-6",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "5-3-2 Give the simplest formula of the borate anion.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-05-T5-7",
+      "tags": [
+        "1.4",
+        "2.1"
+      ],
+      "text_open": "5-3-3 M is 9-coordinate, Ni^2+ five-coordinate, and M:Ni = 1:1. Give the formula of Y.",
+      "text_images": [],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-05-T5-8",
+      "tags": [
+        "1.4"
+      ],
+      "text_open": "5-3-4 State the oxidation state of M.",
+      "text_images": [],
+      "full_mark": 1
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "problem_id": "Exam-06-T10",
+  "header": "Problem 10 Radical Cyclization and Photochemical Reactions (29 points, 12%). Compared with conventional ionic cyclization reactions, radical processes generally feature mild reaction conditions, broad functional-group compatibility, and, in some highly strained ring-forming processes, lower transition-state barriers. They have therefore attracted broad interest in natural-product synthesis and the construction of complex molecular scaffolds.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-06-T10-1",
+      "tags": [
+        "2.2",
+        "2.4",
+        "1.2"
+      ],
+      "text_open": "10.1 Radical cascade cyclization and ring expansion constitute an important strategy in modern organic synthesis for constructing medium-sized rings containing 8~11 members. The Dowd-Beckwith reaction, which efficiently converts a cyclic ketone scaffold into a medium-ring enone system, is a representative radical ring-expansion reaction. 10.1.1 Using the information above and the reaction shown below, write the SMILES structures of the key radical intermediates and the final product, paying attention to stereochemistry.",
+      "text_images": [
+        {
+          "file": "Exam-06-T10-1-1-prompt.png",
+          "description": "The molecule 'O=C(CCC[C@H]1[Sn](CCCC)(CCCC)CCCC)[C@]1(CCCCI)C' reacts under Bu_3SnH, AIBN, and PhH, reflux."
+        }
+      ],
+      "full_mark": 5
+    },
+    {
+      "sub_id": "Exam-06-T10-2",
+      "tags": [
+        "2.2",
+        "2.4",
+        "1.2"
+      ],
+      "text_open": "10.1.2 Changing the configuration of one stereogenic center in the substrate causes a corresponding change in the product structure. Write the SMILES structure of the final product obtained from the substrate shown below under the same reaction conditions, and write the SMILES structure of the key intermediate conformation that accounts for the product stereochemistry.",
+      "text_images": [
+        {
+          "file": "Exam-06-T10-2-1-prompt.png",
+          "description": "Dowd-Beckwith substrate in which the configuration of a stereogenic center has been changed. The corresponding SMILES is 'O=C(CCC[C@@H]1[Sn](CCCC)(CCCC)CCCC)[C@]1(CCCCI)C'."
+        }
+      ],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-06-T10-3",
+      "tags": [
+        "2.2",
+        "2.4"
+      ],
+      "text_open": "10.1.3 When the substrate is modified further, an unexpanded-ring product is observed in addition to the target medium-ring enone. Using the reaction below, write the SMILES structures of this unexpanded-ring product and the key intermediates through which it is formed.",
+      "text_images": [
+        {
+          "file": "Exam-06-T10-3-1-prompt.png",
+          "description": "The molecule 'O=C(CCC1)C([H])(CCCCI)[C@H]1[Sn](CCCC)(CCCC)CCCC' reacts under Bu_3SnH, AIBN, and PhH, reflux."
+        }
+      ],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-06-T10-4",
+      "tags": [
+        "2.2",
+        "2.4",
+        "2.7"
+      ],
+      "text_open": "10.2 Radicals can also be generated photochemically. For example, under irradiation, FeCl_{3} can undergo ligand-to-metal charge transfer, an LMCT process, to generate chlorine radicals capable of hydrogen-atom abstraction. 10.2.1 Under the standard reaction conditions, two products A and B are obtained in a ratio of 1: 1.4. When the temperature is raised to 60°C, the product ratio changes to 1: 4. Using this information, write the SMILES structures of the key intermediates leading to A and B, respectively. If the two pathways share a common intermediate, write that intermediate only once. Note: A and B are constitutional isomers.",
+      "text_images": [
+        {
+          "file": "Exam-06-T10-4-1-prompt.png",
+          "description": "The molecule 'CC(C(C)(C)C)=O' reacts with the molecule 'C=CC(OCC1=CC=CC=C1)=O' under FeCl_3 (25 mol%), a 390 nm LED, and MeCN, N_2, rt, 0.3 M, 36 h to form A and B."
+        }
+      ],
+      "full_mark": 7
+    },
+    {
+      "sub_id": "Exam-06-T10-5",
+      "tags": [
+        "2.7",
+        "2.3",
+        "1.7"
+      ],
+      "text_open": "10.2.2 Keep the standard reaction conditions unchanged, but replace only the ketone substrate with the structure shown below. Determine whether the formation ratio of B relative to A increases or decreases, and explain why.",
+      "text_images": [
+        {
+          "file": "Exam-06-T10-5-1-prompt.png",
+          "description": "Structure of the replacement ketone substrate in 10.2.2. The corresponding SMILES is 'CC(C(C)C)=O'."
+        }
+      ],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-06-T10-6",
+      "tags": [
+        "2.4",
+        "2.3"
+      ],
+      "text_open": "10.2.3 Keep the standard reaction conditions unchanged, but replace one of the alkene substrates with the compound shown below. Experimentally, the reaction does not produce the expected acyclic product but instead gives two cyclized products. Ignoring stereochemistry, write the SMILES structures of these two products.",
+      "text_images": [
+        {
+          "file": "Exam-06-T10-6-1-prompt.png",
+          "description": "Structure of the replacement alkene substrate in 10.2.3. The corresponding SMILES is 'N#C/C(C#N)=C/C1=CC=CC=C1'."
+        }
+      ],
+      "full_mark": 4
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "problem_id": "Exam-10-T5",
+  "header": "Structural Chemistry of Two-Dimensional Transition-Metal Dichalcogenides and Their Derivatives (26 points, 12%). Two-dimensional transition-metal dichalcogenides, or TMDs, generally have layered structures held together by van der Waals forces. Their symmetry and physical properties change substantially as the number of layers decreases.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-10-T5-1",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "Structural background: $WSe_2$ has a molybdenite-type hexagonal layered structure. The figure below is a projection along $a$; large spheres represent W and small spheres Se. One unit cell contains two layers along $c$.\n5-1-2 Explain how W and Se occupy the hexagonal plane lattice in a projection along the c axis, and give the projected relationship within one unit cell.",
+      "text_images": [
+        {
+          "file": "Exam-10-T5-1-1-prompt.png",
+          "description": "A two-dimensional projection of a vertical rectangular unit cell outlined by thin black lines. Axes at the lower left show c vertically upward and b horizontally to the left. The figure contains two larger gray spheres and eight smaller green spheres joined by slender cylindrical bonds. An upper gray sphere lies inside the upper half of the cell near its right boundary and is connected to four green spheres at the upper-left, lower-left, upper-right, and lower-right positions. The two green spheres on the left lie within the cell, whereas the two on the right lie outside the right boundary. A lower gray sphere lies inside the lower half near the left boundary and is likewise connected to four green spheres at the upper-left, lower-left, upper-right, and lower-right positions. The two green spheres on the left lie outside the left boundary, whereas the two on the right lie within the cell. The two gray spheres are not directly connected; together they form two separate four-coordinate units offset vertically and oriented in opposite horizontal directions."
+        }
+      ],
+      "full_mark": 2
+    }
+  ]
+}

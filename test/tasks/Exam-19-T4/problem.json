@@ -1,0 +1,36 @@
+{
+  "problem_id": "Exam-19-T4",
+  "header": "Question 4 Determination of Iron by Titanium(III) Chloride–Potassium Dichromate Titration\nFerromanganese-silicon alloy is widely used as a deoxidizer and alloying additive in steelmaking, and its iron content strongly affects its quality. Potassium dichromate titration is a classical method for determining iron. After acid decomposition of the sample, titanium(III) chloride reduces $Fe^{3+}$ to $Fe^{2+}$; the solution is then titrated with standard potassium dichromate using sodium diphenylamine sulfonate as the indicator. This problem covers sample decomposition, prereduction, removal of interferences, and blank correction.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-19-T4-1",
+      "tags": [
+        "4.1"
+      ],
+      "text_open": "4.1 Sample decomposition\nPlace a 0.5026 g ferromanganese-silicon alloy sample in a platinum dish. Add 10 mL of concentrated nitric acid, then add approximately 2 mL of concentrated hydrofluoric acid dropwise in portions. Heat gently until the sample is completely decomposed. Add 5 mL of concentrated perchloric acid and heat until faint perchloric acid fumes appear, then remove from heat. Transfer the solution to a 250 mL conical flask and continue heating until nearly dry (syrupy), then remove from heat. Add 20 mL of hydrochloric acid (1+1), 1–2 drops of hydrogen peroxide (27%), and approximately 40 mL of water. Dissolve the salts until the test solution is clear, heat to boiling until large bubbles evolve, remove from heat, and cool to room temperature. Hint: high-valent manganese oxides are strong oxidants under acidic conditions and, being insoluble in water, adsorb iron ions and interfere with the determination of iron.\n4.1.2 State the purpose of fuming with perchloric acid and of subsequently continuing to heat the solution until nearly dry.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-19-T4-2",
+      "tags": [
+        "2.1",
+        "4.1"
+      ],
+      "text_open": "4.2 Reduction and titration\nDilute the test solution with water to approximately 120 mL and add four drops of sodium tungstate solution (250 g/L). Add titanium(III) chloride solution (1.5%–2%) dropwise until the solution turns blue, then add a further 1–2 drops. With continuous swirling, titrate with potassium dichromate solution (1.250 mmol/L) until the solution becomes colorless, adding slowly near the endpoint; do not record this reading. Immediately add 10 mL of sulfuric acid–phosphoric acid mixture (sulfuric acid:phosphoric acid:water = 2:3:5), then add 3 drops of sodium diphenylamine sulfonate indicator solution (2 g/L). Titrate with standard potassium dichromate solution (2.500 mmol/L) to a violet-blue endpoint and record the consumed volume C.\n4.2.2 Write the reaction equations for the addition of titanium(III) chloride solution and explain why a further 1–2 drops of titanium(III) chloride must be added.",
+      "text_images": [],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-19-T4-3",
+      "tags": [
+        "4.1",
+        "4.2"
+      ],
+      "text_open": "4.2.4 Which statements about the functions of adding the sulfuric acid–phosphoric acid mixture are correct?\nA. It provides the acidity required for titration and prevents hydrolysis of metal ions.\nB. Phosphoric acid forms a colorless complex with iron ions, eliminating interference from their yellow color.\nC. It lowers the potential of the $Fe^{3+}$/$Fe^{2+}$ redox couple, making the titration jump more pronounced.\nD. It decolorizes sodium tungstate, preventing interference with the subsequent titration.",
+      "text_images": [],
+      "full_mark": 3
+    }
+  ]
+}

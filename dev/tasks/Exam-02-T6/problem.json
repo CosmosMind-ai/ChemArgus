@@ -1,0 +1,39 @@
+{
+  "problem_id": "Exam-02-T6",
+  "header": "Problem 6: Crystal Structures of Metal Superhydrides. On 2023-2-9, researchers from California State University published a study of metal superhydrides.",
+  "header_images": [
+    {
+      "file": "Exam-02-T6-header-1.png",
+      "description": "The image consists of three side-by-side crystal-structure diagrams labeled A, B, and C in black capital letters at their upper left. Each contains a unit-cell frame drawn with thin black lines, a pink ball-and-stick framework, and translucent colored polyhedra or spheres. In panel A, the black lines form an approximately cubic unit cell containing a large translucent blue cage-like polyhedron. Large dark-blue spheres occupy the cube center and all eight vertices. At the center is a polyhedral cage framework made of small pale-pink spheres and pink cylindrical bonds, defining the translucent blue polyhedron. On each face of the cube, pink spheres appear at positions near the middle left, middle right, upper middle, and lower middle. In panel B, thin black lines form an approximately cubic unit cell whose center contains a large translucent reddish-brown cage-like polyhedron. Large green spheres occupy the cube center and the midpoint of each edge. A polyhedral cage framework made of small pale-pink spheres and pink cylindrical bonds defines the translucent reddish-brown polyhedron. The framework contains two characteristic types of structural units. In-plane square units: near the inner side of every unit-cell face is a planar structure parallel to that face; 4 small pale-pink spheres at the upper-left, lower-left, upper-right, and lower-right positions on the side nearer the cell center form a small square. Vertex-directed tetrahedral units: viewed along a unit-cell vertex direction, the 3 pale-pink spheres nearest that vertex among the small squares on three adjacent faces form a triangular base. On the side of this triangle toward the unit-cell vertex is 1 pale-pink sphere outside the center of the triangle and not coplanar with it, with another 1 pale-pink sphere extending outward toward the vertex and bonded to it. These 5 spheres together form a tetrahedron-like unit containing a central atom. In panel C, thin black lines form an approximately hexagonal unit cell containing two overlapping translucent green cage-like polyhedra arranged diagonally from lower left to upper right, one in each of those regions. Each green polyhedron contains one large bright-green sphere near its center. The outer part of panel C is a continuous three-dimensional framework of pale-pink spheres and pink cylindrical bonds. Pink spheres lie around the edges and junction of the two green cages, and the pink bonds form multiple pentagonal, hexagonal, and oblique polygonal rings, resembling two connected or partially overlapping cages. The pink framework of the upper-right cage extends toward the upper-right and right edges of the cell, while that of the lower-left cage extends toward the lower-left and foreground regions. Overall, panel A is dominated by a blue cage polyhedron and blue spheres; panel B by a reddish-brown cage polyhedron and peripheral green spheres; and panel C by two translucent green cage polyhedra and two bright-green interior spheres. All three show the spatial relationship between the pink ball-and-stick framework and the unit-cell frame."
+    }
+  ],
+  "subquestions": [
+    {
+      "sub_id": "Exam-02-T6-1",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "6-2 Panel C above shows a Ce superhydride crystal. 6-2-1 Describe how the polyhedra shown are connected, for example, which vertices, edges, or faces they share.",
+      "text_images": [],
+      "full_mark": 3,
+      "rubric": [
+        "They are interconnected by sharing all hexagonal and pentagonal faces (3 points).",
+        "No credit for stating that they share 1 hexagonal face or pentagonal face."
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-02-T6-2",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "6-2-3 Give the polyhedral notation for the polyhedron shown in C.",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "Polyhedral notation: 4^{6}5^{6}6^{6} (2 points)"
+      ],
+      "rubric_images": []
+    }
+  ]
+}

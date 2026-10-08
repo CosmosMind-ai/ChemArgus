@@ -1,0 +1,66 @@
+{
+  "problem_id": "Exam-23-T7",
+  "header": "Problem 7 Reactivity, Preparation, and Applications of Silanes (32 points, 10%)\nSilanes ($Si_nH_{2n+2}$) and their halogenated derivatives are important precursors for high-purity silicon films, semiconductor devices, and solar cells. Unlike hydrocarbons, silanes contain highly reactive Si–Si and Si–H bonds, creating distinctive challenges in their synthesis and purification.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-23-T7-1",
+      "tags": [
+        "1.2"
+      ],
+      "text_open": "7.4.3 Mixing the tridentate ligand pedeta (pentaethyldiethylenetriamine, $Et_2NCH_2CH_2NEtCH_2CH_2NEt_2$) with trichlorosilane in DCM at room temperature gives A = $[(pedeta)H_2SiCl^+]_2[Si_6Cl_{14}^{2-}]$.\n7.4.3.1 How many stereoisomers can the cation of A theoretically have?",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-23-T7-2",
+      "tags": [
+        "1.4"
+      ],
+      "text_open": "7.4.3.2 The anion of A has an approximate sixfold rotation axis. Write its SMILES string.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-23-T7-3",
+      "tags": [
+        "2.3"
+      ],
+      "text_open": "7.4.3.3 Mechanistic experiments show that adding 1,3-butadiene to this reaction system does not produce detectable 1,1-dichlorosilacyclopent-3-ene. Which of the following is therefore the most likely key one-silicon intermediate?\nA. $:SiCl_2$\nB. $SiCl_3$\nC. $SiCl_3^-$\nD. $SiCl_4^-$",
+      "text_images": [],
+      "full_mark": 1
+    },
+    {
+      "sub_id": "Exam-23-T7-4",
+      "tags": [
+        "2.3"
+      ],
+      "text_open": "7.5 Wurtz coupling. More complex silane molecules can be obtained through Wurtz coupling.\n7.5.1 Mechanistically, which class does the first reaction belong to?\nA. Nucleophilic aromatic substitution\nB. Electrophilic aromatic substitution\nC. Radical substitution\nD. Transition-metal-catalyzed reaction",
+      "text_images": [
+        {
+          "file": "Exam-23-T7-4-1-prompt.png",
+          "description": "The image shows two reaction sequences. The upper row contains three steps: 'C1([Si]2(C3=CC=CC=C3)[Si](C4=CC=CC=C4)(C5=CC=CC=C5)[Si](C6=CC=CC=C6)(C7=CC=CC=C7)[Si](C8=CC=CC=C8)(C9=CC=CC=C9)[Si]2(C%10=CC=CC=C%10)C%11=CC=CC=C%11)=CC=CC=C1'>CF3SO3H>'O=S(O[Si]1(C2=CC=CC=C2)[Si](C3=CC=CC=C3)(C4=CC=CC=C4)[Si](C5=CC=CC=C5)(C6=CC=CC=C6)[Si](C7=CC=CC=C7)(C8=CC=CC=C8)[Si]1(C9=CC=CC=C9)C%10=CC=CC=C%10)(C(F)(F)F)=O'; 'O=S(O[Si]1(C2=CC=CC=C2)[Si](C3=CC=CC=C3)(C4=CC=CC=C4)[Si](C5=CC=CC=C5)(C6=CC=CC=C6)[Si](C7=CC=CC=C7)(C8=CC=CC=C8)[Si]1(C9=CC=CC=C9)C%10=CC=CC=C%10)(C(F)(F)F)=O'>NaBr (3eq), Et2O>[B]; [B]>naphthalene (3eq), Li (6eq), DME, -30 °C>'C1([Si]2(C3=CC=CC=C3)[Si](C4=CC=CC=C4)(C5=CC=CC=C5)[Si]([Si]6(C7=CC=CC=C7)[Si](C8=CC=CC=C8)(C9=CC=CC=C9)[Si](C%10=CC=CC=C%10)(C%11=CC=CC=C%11)[Si](C%12=CC=CC=C%12)(C%13=CC=CC=C%13)[Si]6(C%14=CC=CC=C%14)C%15=CC=CC=C%15)(C%16=CC=CC=C%16)[Si](C%17=CC=CC=C%17)(C%18=CC=CC=C%18)[Si]2(C%19=CC=CC=C%19)C%20=CC=CC=C%20)=CC=CC=C1'. In the lower row, the starting material at left is omitted. An arrow labeled 'HCl (g), AlCl3' above and 'PhH, 50 °C' below leads to an intermediate labeled only C. C is the product obtained by treating the upper-row product (Si10Ph18) with HCl/AlCl3; the connection is omitted because it does not fit on one line. [C]>LiAlH4 (6eq), C6H14/Et2O, -40 °C>'[H][Si]1([H])[Si]([H])([H])[Si]([H])([Si]2([H])[Si]([H])([H])[Si]([H])([H])[Si]([H])([H])[Si]2([H])[H])[Si]([H])([H])[Si]1([H])[H]'."
+        }
+      ],
+      "full_mark": 1
+    },
+    {
+      "sub_id": "Exam-23-T7-5",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "7.5.2 Write the SMILES strings for intermediates B and C.",
+      "text_images": [],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-23-T7-6",
+      "tags": [
+        "4.3"
+      ],
+      "text_open": "7.5.3 Identify which silicon atom in the product (fused cyclopentasilane) appears farthest upfield in the NMR spectrum, that is, at the smallest chemical shift δ.",
+      "text_images": [],
+      "full_mark": 1
+    }
+  ]
+}

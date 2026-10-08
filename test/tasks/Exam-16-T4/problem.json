@@ -1,0 +1,37 @@
+{
+  "problem_id": "Exam-16-T4",
+  "header": "Problem 4 Determination of Metal Content by Disodium Ethylenediaminetetraacetate Titration. First prepare the standard solutions. Standard zinc titrant (0.0100 mol/L): Weigh 0.6538 g of pure zinc (99.99%) into a 300 mL conical flask fitted with a funnel. Add 15 mL hydrochloric acid. After the vigorous reaction has ceased, heat gently until the zinc has dissolved completely. Cool to room temperature, transfer to a 1000 mL volumetric flask, dilute to the mark with water, and mix. Standard disodium ethylenediaminetetraacetate titrant (0.01 mol/L): Weigh 3.7225 g of disodium ethylenediaminetetraacetate, dissolve it in 400 mL water, transfer to a 1000 mL volumetric flask, dilute to the mark with water, and mix. Standardization: Pipette 25.00 mL of the standard disodium ethylenediaminetetraacetate titrant into a 250 mL conical flask. Add 75 mL water, 10 mL ammoniacal buffer solution (pH = 10), and 3 drops of Eriochrome Black T solution (weigh 0.2 g Eriochrome Black T into a 50 mL beaker, add 15 mL triethanolamine and 5 mL ethanol (95%), and mix). Titrate with the standard zinc titrant to a red endpoint. Three parallel titrations consume 24.85 mL of the standard zinc titrant.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-16-T4-1",
+      "tags": [
+        "4.1",
+        "4.2"
+      ],
+      "text_open": "4.2 Preparation and Pretreatment of the Sample Solution\nPlace the chromium-containing alloy sample (0.9985 g) in a 500 mL beaker, cover with a watch glass, add 10 mL of hydrochloric acid (1+1), and heat to decompose most of the sample. Add 40 mL of concentrated perchloric acid, heat until white fumes appear, and continue heating until the solution volume is 5 mL~10 mL. Remove from heat and cool. Add approximately 100 mL of water and 1 g of ammonium chloride. Neutralize with concentrated ammonia until a precipitate forms, then add hydrochloric acid (1+1) until the precipitate just dissolves, followed by an excess of 5~10 drops. Add hexamethylenetetramine solution (250 g/L) until a precipitate forms and boil. Keep at 80°C~90°C for 15 min~20 min, filter through quantitative filter paper, and wash the precipitate and filter paper with warm hexamethylenetetramine solution (5 g/L). Transfer the precipitate together with the filter paper back to the original beaker. Add 10 mL of concentrated nitric acid to dissolve the precipitate and destroy the filter paper, then add 20 mL of concentrated perchloric acid and heat until white fumes appear. Add concentrated hydrochloric acid in several portions to volatilize the remaining chromium, then continue fuming for approximately 10 min. Remove from heat and cool. 4.2.1 Explain why precipitation is performed with hexamethylenetetramine under heated conditions instead of directly with aqueous ammonia (no more than 100 words).",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-16-T4-2",
+      "tags": [
+        "4.1",
+        "4.2"
+      ],
+      "text_open": "4.2.2 Explain why the precipitate is washed with warm hexamethylenetetramine solution (5 g/L) rather than a cold solution (no more than 100 words).",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-16-T4-3",
+      "tags": [
+        "2.1",
+        "4.5"
+      ],
+      "text_open": "4.3 Titration of Iron Ions. Add approximately 100 mL of warm water to dissolve the salts, then add 2 mL of sulfosalicylic acid solution (50 g/L). Adjust the solution to pH 1.0–pH 2.2 with hydrochloric acid (1+2) or concentrated ammonia. Titrate with the standard disodium ethylenediaminetetraacetate titrant until the solution changes from red-violet to colorless or pale yellow; 21.64 mL of the standard disodium ethylenediaminetetraacetate titrant is consumed. 4.4 Titration of Aluminum Ions. Continue by adding an appropriate amount of the standard disodium ethylenediaminetetraacetate titrant. Add 20 mL of acetic acid-ammonium acetate buffer solution (pH = 5.5), heat to boiling for 2.5 min~3 min, and add 2~4 drops of xylenol orange solution (1 g/L) as the indicator. Titrate with the standard zinc titrant to a red endpoint (do not calculate the volume). Add 20 mL of ammonium fluoride solution (40 g/L) and boil for 2 min. Remove from heat and cool to room temperature. Add one further drop of xylenol orange solution as the indicator, then titrate with the standard zinc titrant to a red endpoint; 9.24 mL of the standard zinc titrant is consumed.\n4.4.2 Write the reaction equation for the step involving addition of ammonium fluoride (use Y^{4-} for the ethylenediaminetetraacetate tetraanion and HAc for acetic acid).",
+      "text_images": [],
+      "full_mark": 2
+    }
+  ]
+}

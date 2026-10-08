@@ -1,0 +1,54 @@
+{
+  "problem_id": "Exam-15-T5",
+  "header": "Problem 5 Versatile Rutile. Rutile ($TiO_2$) is a classic structure in the tetragonal crystal system. From a close-packing and interstitial-site perspective, oxygen atoms approximately form hexagonal close packing, and titanium atoms occupy half of the octahedral voids in an ordered manner. The $TiO_6$ octahedra are connected by shared vertices and shared edges. A rutile unit cell and its projection along the c axis are shown below.",
+  "header_images": [
+    {
+      "file": "Exam-15-T5-header-1.png",
+      "description": "The image is a three-dimensional ball-and-stick model of $TiO_2$ on a white background. All spheres have bright highlights and a smooth, glossy three-dimensional appearance. Thin black-gray lines outline a transparent rectangular unit-cell box in perspective. The 9 larger light-blue spheres represent Ti atoms, located at the 8 vertices and the exact center of the box. The 6 smaller bright-red spheres represent O atoms, all inside the cell around the central Ti. Atoms are connected by short two-color cylinders, light blue near Ti and red near O. The central Ti is connected to all 6 red spheres, forming an approximately octahedral $TiO_6$ environment. The left red sphere connects the central Ti and the upper-left-front and lower-left-front vertex Ti atoms; the right red sphere connects the central Ti and the upper-right-back and lower-right-back vertex Ti atoms. The other four red spheres cross around the center: the upper-left-back red sphere connects the upper-left-back vertex Ti, the upper-right-front red sphere connects the upper-right-front vertex Ti, the lower-left-back red sphere connects the lower-left-back vertex Ti, and the lower-right-front red sphere connects the lower-right-front vertex Ti. Natural perspective occlusion creates clear depth. There is no visible text, number, coordinate axis, arrow, legend, unit, or title."
+    },
+    {
+      "file": "Exam-15-T5-header-2.png",
+      "description": "The image should be reconstructed as a flat two-dimensional vector diagram approximately 365×370 pixels, slightly taller than wide, on a pure-white borderless canvas. Taking the upper-left corner as origin (0,0), x to the right and y downward, first draw an unfilled thin solid gray square approximately 200 pixels per side, aligned horizontally and vertically, with corners near (85,84), (284,84), (284,284), and (85,284). Its line is about 1 pixel wide with slight antialiasing. No spheres or marks sit at the square corners; line midsections remain clear in white gaps, while corners are partly hidden by blue shapes. Place 5 nearly equal slanted rhombic parallelograms, each about 102 pixels per side with acute angles about 65° and obtuse angles about 115°. The 4 outer parallelograms at upper left, upper right, lower left, and lower right share an orientation elongated lower-left to upper-right, with uniform medium-light sky-blue fill, approximately RGB 117,182,224 or #75B6E0. Clockwise, their vertices are [(46,45),(146,23),(124,123),(24,145)], [(245,45),(345,23),(323,123),(223,145)], [(46,245),(146,223),(124,323),(24,345)], and [(245,245),(345,223),(323,323),(223,345)]. They extend well outside the gray square and approach the canvas edges but remain fully visible. The 5th parallelogram lies centrally, rotated approximately 90° relative to the outer 4 and elongated upper-left to lower-right, with clockwise vertices [(124,123),(223,145),(245,245),(146,223)]. Its fill is distinctly lighter, approximately RGB 144,196,230 or #90C4E6. All 5 have flat, texture-free, nearly opaque blue faces outlined by a very thin, approximately 1-pixel light-gray antialiased edge. A faint short gray diagonal divides each face visually into two triangular regions. For the 4 outer shapes the diagonals connect (46,45) to (124,123), (245,45) to (323,123), (46,245) to (124,323), and (245,245) to (323,323); for the center shape the diagonal connects (223,145) to (146,223). The 4 center-shape vertices are shared respectively with the nearest center vertices of the 4 outer shapes: (124,123), (223,145), (146,223), and (245,245). Except for these point contacts, the blue shapes do not overlap substantially. Draw 16 equal red three-dimensional spheres, diameter approximately 24–26 pixels, at all unique parallelogram vertices, centered at (146,23), (345,23), (46,45), (245,45), (124,123), (323,123), (24,145), (223,145), (146,223), (345,223), (46,245), (245,245), (124,323), (323,323), (24,345), and (223,345). The spheres lie above the blue faces and gray lines, hiding line ends. Each has a thin dark-red rim, a bright-red to deep-wine-red surface gradient, and a soft white or pale-pink highlight slightly upper-left of center, giving a smooth glass-or-plastic gloss without a cast shadow. The composition is approximately 180° rotationally symmetric. Outermost spheres leave only about 7–12 pixels of white margin. No text, number, letter, legend, coordinate axis, tick, arrow, symbol, watermark, background texture, or other decoration is present."
+    }
+  ],
+  "subquestions": [
+    {
+      "sub_id": "Exam-15-T5-1",
+      "tags": [
+        "1.1",
+        "1.3"
+      ],
+      "text_open": "5.2 α-$MnO_2$. α-$MnO_2$ has a rutile-derived structure. Rutile can be viewed as one-dimensional chains formed by edge-sharing $TiO_2$ octahedra, with chains of two different spatial orientations alternating and sharing vertices. α-$MnO_2$ can be viewed as two one-dimensional $MnO_2$ octahedral chains joined by shared edges to form a \"thick one-dimensional chain\"; thick chains of two different spatial orientations alternate and share vertices. The c-axis projection of the polyhedral connectivity is shown. Some thick chains of the same orientation cannot be translated into one another by vectors parallel to the ab plane because they occur at different c-axis heights. The lattice type of α-$MnO_2$ is body-centered tetragonal. 5.2.2 Which symmetry elements does α-$MnO_2$ possess? (a) 4-fold rotation axis; (b) 4-fold rotoinversion axis; (c) $4_1$ screw axis; (d) $4_2$ screw axis.",
+      "text_images": [
+        {
+          "file": "Exam-15-T5-1-1-prompt.png",
+          "description": "The image is a 427×424 pixel two-dimensional diagram on a pure-white background, showing a regular periodic network of purple polygons and red dots, with no axes, text, arrows, or labels. Approximately 72 red nodes are small spheres with a slight three-dimensional red gradient, brighter at the center and darker at the edge. They occupy vertices and connection points of the purple structure. The pattern repeats by approximately 192 pixels both horizontally and vertically, forming a 2×2 arrangement of four identical periodic units. The purple portions comprise approximately 16 large, separated structural units filled with light-to-deeper purple gradients, sometimes darker centrally and lighter at the edges, creating a translucent or three-dimensional effect. Red nodes serve as their vertices or junctions, forming combinations of rhombi, parallelograms, triangles, and irregular polygons. Two principal orientations occur: units extending upper-left to lower-right with roughly horizontal rhombic/parallelogram outlines, and units extending lower-left to upper-right with roughly vertical rhombic/triangular outlines. They alternate and connect through red nodes. In the upper-left region, nodes near (13,84), (51,58), (87,27), (125,51), (87,76), and (52,107) form a purple zigzag polygon extending upper-right. A translated neighboring group connects near (156,85), (182,124), and (205,84). The upper-right is the upper-left translated about 192 pixels right; the lower-left is translated about 192 pixels down; and the lower-right is translated both right and down. Typical red-node spacing is about 30–40 pixels. Connections are implied by polygon edges and vertices without black or other lines. Some nodes lie at junctions of multiple polygons, giving a periodic two-dimensional lattice or repeating coordination-framework appearance. The whole pattern is regular and approximately symmetric horizontally and vertically. Outermost nodes approach but do not touch the edges: top near (148,11) and (341,11), bottom near (85,412) and (278,411), left near (13,84) and (13,276), and right near (397,84) and (413,339). The purple-red structure occupies most of the white canvas and has obvious periodicity."
+        }
+      ],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-15-T5-2",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "5.2.3 How many neighboring $MnO_6$ octahedra share an edge with each $MnO_6$ octahedron?",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-15-T5-3",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "5.3 Ca-Ti-O crystal. The figure shows the unit cell of a Ca-Ti-O crystal. Small spheres are oxygen, medium spheres titanium, and large spheres calcium. Ti and Ca each have only one chemical environment, while O has three. 5.3.1 Write the chemical formula of the crystal.",
+      "text_images": [
+        {
+          "file": "Exam-15-T5-3-1-prompt.png",
+          "description": "One unit cell contains 28 small red spheres: 8 on edges, 16 on faces, and 6 inside the cell. It contains 12 medium blue spheres: 4 on edges and 8 on faces. It contains 6 large white spheres: 2 on edges and 4 on faces."
+        }
+      ],
+      "full_mark": 2
+    }
+  ]
+}

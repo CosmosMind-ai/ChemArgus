@@ -1,0 +1,100 @@
+{
+  "problem_id": "Exam-15-T8",
+  "header": "Problem 8 Analysis of Substituent Effects. This problem compares the magnitudes of -ΔG° for a series of substituents or substrates in the conformational or isomerization reactions shown.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-15-T8-1",
+      "tags": [
+        "1.2",
+        "3.2"
+      ],
+      "text_open": "Reaction (a) below is shared by 8.3–8.6. In 8.3–8.5, compare the shared Reaction (a) with Reaction (b) shown in the corresponding subproblem and select the reaction with the larger -ΔG°.\n8.3",
+      "text_images": [
+        {
+          "file": "Exam-15-T8-1-1-prompt.png",
+          "description": "Prompt figure for part a: the image shows a change from left to right. On the left is a six-membered ring in a chair conformation with an axial Me group on the right-hand carbon; its SMILES is 'CC1CCCCC1'. A one-way arrow points right. On the right is the same chair-shaped ring with an equatorial Me group on the right-hand carbon; its SMILES is likewise 'CC1CCCCC1'."
+        },
+        {
+          "file": "Exam-15-T8-1-2-prompt.png",
+          "description": "Prompt figure for part b: the image shows a change from left to right. On the left is a six-membered ring in a chair conformation bearing a carbonyl (=O) at the lower-left vertex and an axial Me group on the right-hand carbon; its SMILES is 'CC1CC(=O)CCC1'. A one-way arrow points right. On the right is the same chair-shaped ring with the same lower-left carbonyl and an equatorial Me group on the right-hand carbon; its SMILES is likewise 'CC1CC(=O)CCC1'."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "a (2 points)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-15-T8-2",
+      "tags": [
+        "1.2",
+        "3.2"
+      ],
+      "text_open": "In 8.4, Reaction (b) is a base-catalyzed isomerization.\n8.4",
+      "text_images": [
+        {
+          "file": "Exam-15-T8-2-1-prompt.png",
+          "description": "The image shows a change from left to right. On the left is a six-membered chair bearing an equatorial tert-butyl group at the lower-left carbon, an axial Me group at the right-hand carbon, and a carbonyl (=O) at the lower-right vertex; its SMILES is 'CC1CCC(CC1=O)C(C)(C)C'. A one-way arrow points right. On the right is the same chair with the equatorial tert-butyl group and lower-right carbonyl unchanged, but with the Me group equatorial; its SMILES is likewise 'CC1CCC(CC1=O)C(C)(C)C'."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "a (2 points)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-15-T8-3",
+      "tags": [
+        "1.2",
+        "3.2"
+      ],
+      "text_open": "In 8.5, Reaction (b) is a base-catalyzed isomerization.\n8.5",
+      "text_images": [
+        {
+          "file": "Exam-15-T8-3-1-prompt.png",
+          "description": "Prompt figure for option (b): the image shows a change from left to right. On the left is a six-membered chair bearing an equatorial tert-butyl group at the lower-left carbon, an axial $CHMe_2$ group at the right-hand carbon, and a carbonyl (=O) at the lower-right vertex; its SMILES is 'CC(C)C1CCC(CC1=O)C(C)(C)C'. A one-way arrow points right. On the right is the same chair with the equatorial tert-butyl group and lower-right carbonyl unchanged, but with the $CHMe_2$ group equatorial; its SMILES is likewise 'CC(C)C1CCC(CC1=O)C(C)(C)C'."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "a (2 points)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-15-T8-4",
+      "tags": [
+        "1.2",
+        "3.2"
+      ],
+      "text_open": "8.6 Arrange -ΔG° for the following reactions in decreasing order.",
+      "text_images": [
+        {
+          "file": "Exam-15-T8-4-1-prompt.png",
+          "description": "Prompt figure for b: the image shows a change from left to right. On the left is a six-membered chair heterocycle containing a ring oxygen near the lower-right position and bearing an axial Me group on the right-hand carbon; its SMILES is 'C[C@H]1OCCCC1'. A one-way arrow points right. On the right is the same chair heterocycle with the ring oxygen in the same position and an equatorial Me group; its SMILES is 'C[C@@H]1OCCCC1'."
+        },
+        {
+          "file": "Exam-15-T8-4-2-prompt.png",
+          "description": "Prompt figure for c: the image shows a change from left to right. On the left is a six-membered chair heterocycle containing a ring oxygen at the lower-left position and bearing an axial Me group on the right-hand carbon; its SMILES is 'C[C@H]1COCCC1'. A one-way arrow points right. On the right is the same chair heterocycle with the ring oxygen in the same position and an equatorial Me group; its SMILES is 'C[C@@H]1COCCC1'."
+        },
+        {
+          "file": "Exam-15-T8-4-3-prompt.png",
+          "description": "Prompt figure for d: the image shows a change from left to right. On the left is a six-membered chair heterocycle containing a ring oxygen at the far-left position and bearing an axial Me group on the right-hand carbon; its SMILES is 'CC1CCOCC1'. A one-way arrow points right. On the right is the same chair heterocycle with the ring oxygen in the same position and an equatorial Me group; its SMILES is likewise 'CC1CCOCC1'."
+        },
+        {
+          "file": "Exam-15-T8-4-4-prompt.png",
+          "description": "The image shows a change from left to right. On the left is a six-membered chair heterocycle containing an NH group near the lower-right position and bearing an axial Me group on the right-hand carbon; its SMILES is 'C[C@H]1NCCCC1'. A one-way arrow points right. On the right is the same chair heterocycle with the NH group in the same position and an equatorial Me group; its SMILES is 'C[C@@H]1NCCCC1'."
+        }
+      ],
+      "full_mark": 3,
+      "rubric": [
+        "bedac (3 points)",
+        "3 points for a completely correct answer."
+      ],
+      "rubric_images": []
+    }
+  ]
+}

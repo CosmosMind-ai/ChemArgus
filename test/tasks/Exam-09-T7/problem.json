@@ -1,0 +1,21 @@
+{
+  "problem_id": "Exam-09-T7",
+  "header": "Semiconductors and Electrochemistry\nSemiconductors are materials whose electrical conductivity at room temperature lies between that of conductors and insulators. Common semiconductor materials include silicon, germanium, and gallium arsenide. Based on band theory and Fermi statistics, doping with group V or group III elements, or with other materials that can donate electrons (donors) or accept electrons (acceptors), can regulate the Fermi level and carrier concentration of a semiconductor and thereby its various properties. Semiconductor carriers generally comprise electrons and holes. In this problem, involving an n-type semiconductor in which electrons are the majority carriers, only electrons need be considered. Nonuniform doping can create a carrier-concentration gradient in a semiconductor. The resulting diffusion causes charge separation and a built-in electric field; the built-in field opposes diffusion until equilibrium is reached. This is fundamentally similar to the electrochemical picture in which a chemical-potential difference drives charge transfer, which in turn produces a potential difference that opposes further charge transfer, ultimately establishing an electrode potential at equilibrium. By comparing a concentration-gradient-doped semiconductor with the electromotive force of an electrochemical concentration cell, this problem explores the universality of diffusion-electric-field equilibrium.\n7.1 Built-in electric field and diffusion equilibrium in a semiconductor\nConsider an n-type semiconductor at temperature T = 300 K with electron concentration varying with position x as $n(x)=N_{d0}\\exp(-x/L)$. Here $N_{d0}=1\\times10^{18}\\ \\mathrm{cm}^{-3}$, $L=0.1\\ \\mu\\mathrm{m}$, $D_n=225\\ \\mathrm{cm}^2\\mathrm{/s}$, $e=1.6\\times10^{-19}\\ \\mathrm{C}$, and $k=1.38\\times10^{-23}\\ \\mathrm{J/K}$. These quantities are, respectively, the donor concentration at x = 0 (which, under the approximation used here, may be regarded as the electron concentration at x = 0), characteristic length, electron diffusion coefficient, elementary charge, and Boltzmann constant.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-09-T7-1",
+      "tags": [
+        "3.6"
+      ],
+      "text_open": "7.2 Electrochemistry. 7.2.1 When an iron sheet is immersed in water, an electrical double layer forms near the iron electrode, as shown below. Briefly explain how the structure forms, and qualitatively sketch the absolute value of the potential as a function of distance from the metal surface, taking the potential infinitely far from the electrode to be zero.",
+      "text_images": [
+        {
+          "file": "Exam-09-T7-1-1-prompt.png",
+          "description": "This two-dimensional diagram, titled \"Figure 9.4 Schematic Structure of the Electrical Double Layer,\" shows the spatial distribution of an electrical double layer from left to right. At the far-left edge is a vertical row of minus signs (short horizontal lines). Immediately to their right is a vertical solid line shaded with diagonal hatching on its left side; the words \"Electrode surface\" are set vertically to the left of this line. A short distance to the right is a parallel vertical dashed line bearing a neat vertical series of small circles, each containing a \"+\" sign. The narrow interval between the solid line and this middle dashed line is marked at the bottom by a horizontal upward brace, beneath which the spacing symbol $d$ and the label \"Compact layer\" appear. Extending rightward from the middle dashed line to another parallel dashed boundary at the far right is a wider rectangular region. Several similar small circles containing \"+\" signs are scattered irregularly within it. This wider interval is likewise marked at the bottom by a horizontal brace, beneath which the spacing symbol $\\delta$ and the label \"Diffuse layer\" appear."
+        }
+      ],
+      "full_mark": 5
+    }
+  ]
+}

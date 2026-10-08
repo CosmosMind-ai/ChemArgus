@@ -1,0 +1,25 @@
+{
+  "problem_id": "Exam-15-T6",
+  "header": "Problem 6 Precipitation-Dissolution Equilibria. Constants at 25 ℃ may be used. Report all calculated results to 3 significant figures and solubilities in mol/L: dissociation constants of $H_2S$, Ka_1 = 1.3×10^{-7}, Ka_2 = 7.1×10^{-15}; Ksp(MnS)=3.2×10^{-11}; Ksp($Mn(OH)_2$)=1.6×10^{-13}.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-15-T6-1",
+      "tags": [
+        "3.4"
+      ],
+      "text_open": "6.3 Accounting for the pH change, calculate the solubility of MnS in pure water.",
+      "text_images": [],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-15-T6-2",
+      "tags": [
+        "3.4"
+      ],
+      "text_open": "6.4 Using the result from 6.3, demonstrate by calculation that $Mn(OH)_2$ precipitate actually forms in the system. Then calculate the solubility of MnS in pure water. Given Ksp($Mn(OH)_2$)=1.6×10^{-13}.",
+      "text_images": [],
+      "full_mark": 6
+    }
+  ]
+}

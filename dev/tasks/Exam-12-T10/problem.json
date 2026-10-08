@@ -1,0 +1,227 @@
+{
+  "problem_id": "Exam-12-T10",
+  "header": "Phenonium-Ion Chemistry\nPhenonium ions are highly reactive cationic intermediates whose applications were long limited by difficult preparation and poor reaction control. In recent years, however, physical-organic studies and new strategies have greatly expanded their synthetic potential.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-12-T10-1",
+      "tags": [
+        "2.2"
+      ],
+      "text_open": "10.1 Kinetic measurements provide an indirect method for studying phenonium-ion intermediates. Consider the following solvolysis in glacial acetic acid. 10.1.1 Two mechanisms are possible: one-step path A and two-step path B. Write the SMILES structure of the intermediate in path B.",
+      "text_images": [
+        {
+          "file": "Exam-12-T10-1-1-prompt.png",
+          "description": "The figure shows a reaction in which 'CC1=CC=C(S(OCCC2=CC=CC=C2)(=O)=O)C=C1' reacts in HOAc to give 'O=C(OCCC1=CC=CC=C1)C'."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "The intermediate in path B is shown in the rubric figure. (2 points; a resonance structure also earns credit)",
+        "Structure or SMILES corresponding to the rubric figure: 'C1=CC=CC2(CC2)[CH+]1'"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-12-T10-1-1-rubric.png",
+          "description": "'C1=CC=CC2(CC2)[CH+]1'"
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-12-T10-2",
+      "tags": [
+        "2.3",
+        "3.7"
+      ],
+      "text_open": "10.1.3 Solvolysis kinetics were similarly studied for multiple precursors capable of forming phenonium ions, giving two different kinetic patterns, Figure 1 and Figure 2. Briefly explain mechanistically the behavior in Figure 2.",
+      "text_images": [
+        {
+          "file": "Exam-12-T10-2-1-prompt.png",
+          "description": "Figures 1 and 2 show two kinetic plots for phenonium-ion precursors. Each has only a solid left vertical axis and bottom horizontal axis, forming an L-shaped frame with no numerical ticks. Both vertical axes are labeled $\\lg(k_X/k_H)$ and both horizontal axes Hammett $\\sigma$ scale. The left plot contains two intersecting dashed straight lines. One has a steep negative slope, is labeled $k_\\Delta$-line at its upper start, and slope: $\\rho_\\Delta$ near its middle. The other has a very shallow negative slope, crosses the lower half and intersects the first line near the lower left; it is labeled $k_s$-line at its left end and slope: $\\rho_s$ on the right. The right plot contains only the steep negatively sloped dashed line, similarly labeled $k_\\Delta$-line and slope: $\\rho_\\Delta$."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "For both electron-withdrawing and electron-donating substituents, the mechanism proceeds through a phenonium-ion intermediate. (1 point)",
+        "This indicates that the carbocation is relatively stable. (1 point)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-12-T10-3",
+      "tags": [
+        "2.3",
+        "3.7"
+      ],
+      "text_open": "10.1.4 The following two substrates correspond to the two cases in 10.1.3. Which has the kinetic behavior in Figure 1? (      ). Which has the behavior in Figure 2? (      ).",
+      "text_images": [
+        {
+          "file": "Exam-12-T10-3-1-prompt.png",
+          "description": "Two phenonium-ion precursors, (a) and (b), are shown. With no benzene substituent, (a) is 'CC1=CC=C(S(OC(C)CC2=CC=CC=C2)(=O)=O)C=C1' and (b) is 'CC1=CC=C(S(OC(C)(C)CC2=CC=CC=C2)(=O)=O)C=C1'. Either may be substituted on the benzene ring, so benzene-X denotes a substituent of unspecified position on the ring."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "(b) (1 point)",
+        "(a) (1 point)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-12-T10-4",
+      "tags": [
+        "2.2"
+      ],
+      "text_open": "10.2 In recent years, chemists have developed various synthetic strategies to overcome the limitations on phenonium-ion formation. The use of hypervalent iodine reagents marked an important turning point for phenonium ions in synthesis; the core strategy is to introduce a “super” leaving group. The following highly regioselective difluorination has been reported. (Amine: an amine compound used to regulate the acid-base conditions of the system.) Hypervalent iodine reagent X is first generated in situ during the reaction.\n10.2.2 Write the SMILES structures of 2 key reaction intermediates, excluding X.",
+      "text_images": [
+        {
+          "file": "Exam-12-T10-4-1-prompt.png",
+          "description": "The figure shows a one-step reaction. Reactant 'C=C(C)C1=CC=C([N+]([O-])=O)C=C1' is treated with 'CC1=CC=C(I)C=C1' (10 mol%), 'ClC[N+]1(CC2)CC[N+]2(F)CC1' (1.5 eq.), Amine:HF ≈ 1:9, in CHCl_3 at r.t., giving 'CC(F)(F)CC1=CC=C([N+]([O-])=O)C=C1'."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "The two key intermediates are shown in the rubric figure. 2 points total, 1 point each.",
+        "Structures or SMILES corresponding to the rubric figure: the 2 key intermediates excluding X are 'CC(CI(F)[Ar])(F)C1=CC=C([N+]([O-])=O)C=C1' on the left and 'CC1(F)CC21C=CC([N+]([O-])=O)=C[CH+]2' on the right."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-12-T10-4-1-rubric.png",
+          "description": "The 2 key intermediates excluding X are 'CC(CI(F)[Ar])(F)C1=CC=C([N+]([O-])=O)C=C1' on the left and 'CC1(F)CC21C=CC([N+]([O-])=O)=C[CH+]2' on the right."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-12-T10-5",
+      "tags": [
+        "2.7"
+      ],
+      "text_open": "10.2.3 Briefly explain the regioselectivity of the final step.",
+      "text_images": [],
+      "full_mark": 1,
+      "rubric": [
+        "$F^-$ attacks the electron-deficient carbon atom and therefore attacks the carbon bearing F. (1 point)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-12-T10-6",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "10.2.4 Complete the following reaction.",
+      "text_images": [
+        {
+          "file": "Exam-12-T10-6-1-prompt.png",
+          "description": "The figure shows a one-step reaction. Reactant 'O=[N+](C1=CC=C2C(CCC/C2=C\\C(OCC)=O)=C1)[O-]' is treated with 'CC1=CC=C(I)C=C1' (20 mol%), mCPBA (1.5 eq.), Amine:HF = 1:7, in CHCl_3 at r.t. The product is unknown and indicated by ?."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "The reaction product is shown in the rubric figure. (2 points)",
+        "Structure or SMILES corresponding to the rubric figure: 'CC1=CC=C2C(CCCC(F)(F)C2C(OCC)=O)=C1'"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-12-T10-6-1-rubric.png",
+          "description": "'CC1=CC=C2C(CCCC(F)(F)C2C(OCC)=O)=C1'"
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-12-T10-7",
+      "tags": [
+        "2.2"
+      ],
+      "text_open": "10.3 Diazo reagents have also been used to generate phenonium-ion intermediates. Examine the following reaction. 10.3.1 Write the SMILES structure of the phenonium-ion intermediate.",
+      "text_images": [
+        {
+          "file": "Exam-12-T10-7-1-prompt.png",
+          "description": "The figure shows a one-step reaction between 'BrCC1=CC=C(OC)C=C1' and 'CCC(C(OCC1=CC=CC=C1)=O)=[N+]=[N-]' under SnBr_4 (50 mol%) in CH_2Cl_2 from -78℃ to r.t. The product is unknown."
+        }
+      ],
+      "full_mark": 1,
+      "rubric": [
+        "The phenonium-ion intermediate is shown in the rubric figure. (1 point)",
+        "Structure or SMILES corresponding to the rubric figure: 'COC1=C[CH+]C2(CC2(C(OCC3=CC=CC=C3)=O)CC)C=C1'"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-12-T10-7-1-rubric.png",
+          "description": "'COC1=C[CH+]C2(CC2(C(OCC3=CC=CC=C3)=O)CC)C=C1'"
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-12-T10-8",
+      "tags": [
+        "2.2",
+        "2.4"
+      ],
+      "text_open": "10.3.2 The favored transition state for opening the phenonium ion is known to be a six-membered cyclic transition state. Write the SMILES of the major product; stereochemistry is not required.",
+      "text_images": [],
+      "full_mark": 1,
+      "rubric": [
+        "The major product is shown in the rubric figure. (1 point)",
+        "Structure or SMILES corresponding to the rubric figure: 'BrCC(CC)(C(OCC1=CC=CC=C1)=O)C2=CC=C(OC)C=C2'"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-12-T10-8-1-rubric.png",
+          "description": "'BrCC(CC)(C(OCC1=CC=CC=C1)=O)C2=CC=C(OC)C=C2'"
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-12-T10-9",
+      "tags": [
+        "1.1",
+        "2.2"
+      ],
+      "text_open": "10.4 Another strategy for obtaining phenonium ions is to synthesize long-lived carbocations. Examine the following reaction; configurations of stereogenic carbons are not marked in the product. 10.4.1 Write the SMILES structures of the key intermediates, including stereochemistry.",
+      "text_images": [
+        {
+          "file": "Exam-12-T10-9-1-prompt.png",
+          "description": "The figure shows a one-step reaction. Reactant 'O=C(/C(C(OC)=O)=C/C1=CC=CC=C1)/C(C)=C(C2=CC=CC=C2)\\CC' is treated with Cu(SbF_6)_2 (1 eq.) in CH_2Cl_2 from r.t. to 40°C, giving 'O=C1C(C(OC)=O)=CC(C2=CC=CC=C2)(CC)C1(C)C3=CC=CC=C3'."
+        }
+      ],
+      "full_mark": 6,
+      "rubric": [
+        "The key intermediates are shown in the rubric figure. 6 points total. Deduct 1 point for each incorrect organic skeleton, up to 4 points. Chelating coordination between the organic skeleton and copper must be shown, and it must be stated in words or otherwise indicated that copper bears additional ligands besides the organic skeleton; otherwise deduct 1 point once. For stereochemical errors, deduct 1 point once.",
+        "Structures or SMILES corresponding to the rubric figure, from left to right: '[H][C@@]1(C2=CC=CC=C2)[C@](C3=CC=CC=C3)(CC)[C+](C)C4=C1C(OC)=O[#29]O4', '[H][C@@]1(C2=CC=CC=C2)[C@]3(CC)[C@](C34[CH+]C=CC=C4)(C)C5=C1C(OC)=O[#29]O5', '[H][C@]1([C+]([C@@](C2=CC=CC=C2)(C3=C1C(OC)=O[Cu]O3)C)CC)C4=CC=CC=C4', and '[H][C@@]12[C@@]([C@@]23[CH+]C=CC=C3)(CC)[C@@](C)(C4=CC=CC=C4)C5=C1C(OC)=O[#29]O5'. The Cu catalytic center is denoted [Cu], indicating that in addition to chelation by the organic skeleton, the Cu ion bears other ligands that are irrelevant to the reaction."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-12-T10-9-1-rubric.png",
+          "description": "The four intermediates from left to right are '[H][C@@]1(C2=CC=CC=C2)[C@](C3=CC=CC=C3)(CC)[C+](C)C4=C1C(OC)=O[#29]O4', '[H][C@@]1(C2=CC=CC=C2)[C@]3(CC)[C@](C34[CH+]C=CC=C4)(C)C5=C1C(OC)=O[#29]O5', '[H][C@]1([C+]([C@@](C2=CC=CC=C2)(C3=C1C(OC)=O[Cu]O3)C)CC)C4=CC=CC=C4', and '[H][C@@]12[C@@]([C@@]23[CH+]C=CC=C3)(CC)[C@@](C)(C4=CC=CC=C4)C5=C1C(OC)=O[#29]O5'. The Cu catalytic center is abbreviated [Cu], indicating that Cu bears additional ligands irrelevant to the reaction."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-12-T10-10",
+      "tags": [
+        "1.1",
+        "2.4",
+        "2.7"
+      ],
+      "text_open": "10.4.2 If the phenyl group on the right side of the substrate is replaced with 2,4,6-trimethoxyphenyl, abbreviated Ar, a product with different relative substituent positions is obtained. Write its SMILES, including stereochemistry.",
+      "text_images": [
+        {
+          "file": "Exam-12-T10-10-1-prompt.png",
+          "description": "Schematic of the 2,4,6-trimethoxyphenyl group, represented by SMILES 'COC1=CC(OC)=CC(OC)=C1[R]', where [R] is the connection to another group."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "The product structure using the Ar abbreviation is shown in the rubric figure. (2 points)",
+        "Structure or SMILES corresponding to the rubric figure: '[Ar]C1=C(C(OC)=O)C([C@](C)(C2=CC=CC=C2)[C@H]1CC)=O'"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-12-T10-10-1-rubric.png",
+          "description": "'[Ar]C1=C(C(OC)=O)C([C@](C)(C2=CC=CC=C2)[C@H]1CC)=O'"
+        }
+      ]
+    }
+  ]
+}
