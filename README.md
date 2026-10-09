@@ -1,38 +1,3 @@
----
-license: other
-task_categories:
-- question-answering
-language:
-- en
-pretty_name: ChemArgus
-size_categories:
-- n<1K
-tags:
-- chemistry
-- multimodal
-- competition-level
-- evaluation
-- benchmark
-annotations_creators:
-- expert-generated
-language_creators:
-- found
-multilinguality:
-- monolingual
-viewer: true
-configs:
-- config_name: dev
-  data_files:
-  - split: dev
-    path: dev/dataset.jsonl
-- config_name: test
-  data_files:
-  - split: test
-    path: test/dataset.jsonl
----
-
-<div align="center">
-
 # 🔬 ChemArgus
 
 ### From Answer Accuracy to Rubric-Grounded Reasoning Diagnosis<br>in Multimodal Expert-Level Chemistry
@@ -42,8 +7,6 @@ configs:
 ![private](https://img.shields.io/badge/private-38%20never%20published-lightgrey)
 ![multimodal](https://img.shields.io/badge/input-multimodal%20%2B%20text-blueviolet)
 ![language](https://img.shields.io/badge/language-en-blue)
-
-</div>
 
 ---
 
