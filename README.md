@@ -1,17 +1,25 @@
 ---
+license: other
 task_categories:
 - question-answering
 language:
 - en
+pretty_name: ChemArgus
+size_categories:
+- n<1K
 tags:
 - chemistry
 - multimodal
 - competition-level
 - evaluation
 - benchmark
-pretty_name: ChemArgus
-size_categories:
-- n<1K
+annotations_creators:
+- expert-generated
+language_creators:
+- found
+multilinguality:
+- monolingual
+viewer: true
 configs:
 - config_name: dev
   data_files:
@@ -23,50 +31,65 @@ configs:
     path: test/dataset.jsonl
 ---
 
-# ChemArgus
+<div align="center">
 
-ChemArgus is a competition-level, multimodal, diagnostic benchmark for expert
+# 🔬 ChemArgus
+
+### From Answer Accuracy to Rubric-Grounded Reasoning Diagnosis<br>in Multimodal Expert-Level Chemistry
+
+![dev](https://img.shields.io/badge/dev-48%20with%20rubrics-brightgreen)
+![test](https://img.shields.io/badge/test-105%20held--out-orange)
+![private](https://img.shields.io/badge/private-38%20never%20published-lightgrey)
+![multimodal](https://img.shields.io/badge/input-multimodal%20%2B%20text-blueviolet)
+![language](https://img.shields.io/badge/language-en-blue)
+
+</div>
+
+---
+
+**ChemArgus** is a competition-level, multimodal, diagnostic benchmark for expert
 chemistry reasoning. Problems are drawn from chemistry competition material,
-textbooks, and research papers, and are scored by fine-grained rubrics with
-partial credit rather than by answer endpoints.
+textbooks, and research papers — and scored by fine-grained rubrics with partial
+credit, instead of answer endpoints.
 
-Chemistry evaluation has moved past multiple-choice probes toward open-ended
-expert problems, yet the benchmarks that define the current frontier still score
-answer endpoints alone. Such scoring conflates memorized facts with stepwise
-derivation, treats visual and textual inputs as interchangeable, and confounds
-long-horizon planning with stepwise execution. ChemArgus replaces the answer
-endpoint with three measurement properties:
+> Chemistry evaluation has moved past multiple-choice probes toward open-ended
+> expert problems, yet current frontier benchmarks still score answer endpoints
+> alone. Such scoring conflates memorized facts with stepwise derivation, treats
+> visual and textual inputs as interchangeable, and confounds long-horizon
+> planning with stepwise execution. ChemArgus replaces the answer endpoint with
+> three measurement properties:
+>
+> - **Fine-grained scoring** — every subquestion is graded point by point with
+>   partial credit, so a score lands at the level of the step.
+> - **Multimodal capability** — every problem with a real image is paired with a
+>   controlled text description, pricing visual understanding against text.
+> - **Diagnostic attribution** — paired metrics share one scoring unit and differ
+>   only in context construction, isolating integration, propagation, or local
+>   reasoning as the cause of a score gap.
 
-- **Fine-grained scoring** grades every subquestion point by point with partial
-  credit, so a score lands at the level of the step rather than the outcome.
-- **Multimodal capability** is priced on every problem containing a real image,
-  paired with a controlled text description, so visual understanding is measured
-  against text on identical tasks.
-- **Diagnostic attribution** reads paired metrics that share one scoring unit and
-  differ only in context construction, so a gap between two scores isolates a
-  single cause: integration, propagation, or local reasoning.
+---
 
-Reference scores, model results, and traces are intentionally excluded from this
-release.
+## 📊 At a Glance
 
-## Dataset partitions
+| | Problems | Subquestions | Marks | Images |
+| --- | ---: | ---: | ---: | ---: |
+| 🧪 `dev/` — Public Dev Set | 48 | 210 | 636 | 268 |
+| 🏁 `test/` — Held-out Test Set | 105 | 445 | 1387 | 268 |
+| 🔒 `private/` — Private Set | 38 | 165 | 559 | — |
+| **Total** | **191** | **820** | **2582** | **536 public** |
 
-The 191 problems (23 exams) are divided into three partitions. All three
-partitions are drawn by seeded stratified sampling so that the distribution of
-**level** (exam series), **subfield** (major knowledge category), and
-**modality** (with / without model-visible images) is consistent across
-partitions and matches the full set.
+All three partitions are drawn by seeded stratified sampling so that the
+distribution of **level** (exam series), **subfield** (knowledge category), and
+**modality** (with / without model-visible images) stays consistent across
+partitions and matches the full set (max deviation ≈ 3 percentage points).
 
-| Partition | Share | Problems | Subquestions | Marks | Content |
-| --- | ---: | ---: | ---: | ---: | --- |
-| `dev/` — Public Dev Set | 25% | 48 | 210 | 636 | problems **with** rubrics, for debugging |
-| `test/` — Held-out Test Set | 55% | 105 | 445 | 1387 | problems **without** rubrics; graded by the evaluation side |
-| `private/` — Private Set | 20% | 38 | 165 | 559 | never published (anti-cheating final check) |
+| Partition | Share | Content |
+| --- | ---: | --- |
+| 🧪 **`dev/`** — Public Dev Set | 25% | Problems **with** rubrics, for debugging |
+| 🏁 **`test/`** — Held-out Test Set | 55% | Problems **without** rubrics; graded by the evaluation side |
+| 🔒 **`private/`** — Private Set | 20% | Never published (anti-cheating final check) |
 
-`private/` is not part of this repository. The evaluation side keeps it
-separately; `test/` submissions are scored against the held-out rubrics there.
-
-## Layout
+## 📁 Repository Layout
 
 ```
 dev/
@@ -83,7 +106,7 @@ test/
     images/*.png
 ```
 
-## Data format
+## 🧬 Data Format
 
 Each problem is a JSON object:
 
@@ -112,48 +135,49 @@ Each problem is a JSON object:
 }
 ```
 
-- `problem_id`: `Exam-<nn>-T<task>` (`nn` is the 01-23 exam index);
-  `sub_id`: `{problem_id}-{n}` (sequential).
-- `header` is the shared background of the whole problem.
-- `text_open` is the subquestion text; `full_mark` is the integer maximum score.
-- In `dev/` problems, `rubric` lists the scoring points with partial-credit
-  annotations and `rubric_images` are the private scoring figures.
-  In `test/` problems the `rubric` and `rubric_images` fields are **absent**.
-- Image files use the unified naming scheme
-  `{problem_id}-{sub_index}-{n}-prompt|rubric.png` (subquestion images) and
-  `{problem_id}-header-{n}.png` (problem-level images).
+| Field | Meaning |
+| --- | --- |
+| `problem_id` | `Exam-<nn>-T<task>` — `nn` is the 01–23 exam index |
+| `sub_id` | `{problem_id}-{n}` (sequential within the problem) |
+| `header` | Shared background of the whole problem |
+| `text_open` | Subquestion text |
+| `full_mark` | Integer maximum score of the subquestion |
+| `rubric` | Scoring points with partial-credit annotations — **absent in `test/`** |
+| `*_images[].file` | Image file name (see naming scheme below) |
+| `*_images[].description` | Text description of the image content |
 
-### Image visibility
+Image files follow a unified naming scheme:
+`{problem_id}-{sub_index}-{n}-prompt|rubric.png` (subquestion images) and
+`{problem_id}-header-{n}.png` (problem-level images).
 
-- `header_images` and `text_images` are **model-visible**.
-- `rubric_images` are **private scoring images**: they are only given to the
-  judge, never to the answering model.
+> ⚠️ **Image visibility** — `header_images` and `text_images` are
+> **model-visible**; `rubric_images` are **private scoring images**, given only
+> to the judge, never to the answering model. They do not appear in `test/` at all.
 
-## Evaluation protocols
+## 🔀 Evaluation Protocols
 
 Three protocols share one scoring unit and differ only in context construction:
 
-- **`full_problem`** — the model receives the complete problem (header, images,
-  all subquestions) in one call and answers everything in one response.
-- **`sequential_carry`** — the model answers subquestions in order; each answer
-  is carried into the next step, with no access to gold answers or rubrics.
-- **`oracle_scaffolded`** — the model answers each subquestion after being given
-  the correct result of the previous one; it isolates local reasoning from
-  error propagation.
+1. **`full_problem`** — the model receives the complete problem in one call and
+   answers everything in one response.
+2. **`sequential_carry`** — subquestions are answered in order; each answer is
+   carried into the next step, with no access to gold answers.
+3. **`oracle_scaffolded`** — each subquestion is answered after being given the
+   correct result of the previous one; isolates local reasoning from error
+   propagation.
 
-## Scoring
+## ⚖️ Scoring
 
-The core metric is the **Normalized Rubric Score**: the rubric-grounded points
+The core metric is the **Normalized Rubric Score**: rubric-grounded points
 awarded divided by the problem's total marks. Every subquestion is graded by an
 LLM judge against the private rubric (partial credit per scoring point), with
-structure/SMILES equivalence handled by chemical meaning. The judge prompt is
-specified in `harness/prompts/judge_rubric.md`.
+structure/SMILES equivalence judged by chemical meaning.
 
-## Leaderboard
+## 🏆 Leaderboard
 
 Live results: <https://www.cosmosmind.ai/leaderboard/chemargus>
 
-## Citation
+## 📖 Citation
 
 ```bibtex
 @misc{chemargus2026,
