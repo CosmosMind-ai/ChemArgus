@@ -69,25 +69,19 @@ credit, instead of answer endpoints.
 
 ---
 
-## 📊 At a Glance
+## 📊 Dataset Partitions
 
-| | Problems | Subquestions | Marks | Images |
-| --- | ---: | ---: | ---: | ---: |
-| 🧪 `dev/` — Public Dev Set | 48 | 210 | 636 | 268 |
-| 🏁 `test/` — Held-out Test Set | 105 | 445 | 1387 | 268 |
-| 🔒 `private/` — Private Set | 38 | 165 | 559 | — |
-| **Total** | **191** | **820** | **2582** | **536 public** |
+| | Share | Problems | Subquestions | Marks | Public images | Rubrics |
+| --- | ---: | ---: | ---: | ---: | ---: | --- |
+| 🧪 **dev** · Public Dev Set | 25% | 48 | 210 | 636 | 268 | ✅ included |
+| 🏁 **test** · Held-out Test Set | 55% | 105 | 445 | 1387 | 268 | ❌ stripped |
+| 🔒 **private** · Private Set | 20% | 38 | 165 | 559 | — | 🔐 local only |
+| **Total** | 100% | **191** | **820** | **2582** | **536** | |
 
-All three partitions are drawn by seeded stratified sampling so that the
-distribution of **level** (exam series), **subfield** (knowledge category), and
-**modality** (with / without model-visible images) stays consistent across
-partitions and matches the full set (max deviation ≈ 3 percentage points).
-
-| Partition | Share | Content |
-| --- | ---: | --- |
-| 🧪 **`dev/`** — Public Dev Set | 25% | Problems **with** rubrics, for debugging |
-| 🏁 **`test/`** — Held-out Test Set | 55% | Problems **without** rubrics; graded by the evaluation side |
-| 🔒 **`private/`** — Private Set | 20% | Never published (anti-cheating final check) |
+> 🎲 **Seeded stratified split** — the distribution of *level* (exam series),
+> *subfield* (knowledge category), and *modality* (with / without model-visible
+> images) stays consistent across all three partitions and matches the full set
+> (max deviation ≈ 3 percentage points).
 
 ## 📁 Repository Layout
 
