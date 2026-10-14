@@ -1,6 +1,6 @@
 # 🔬 ChemArgus
 
-### From Answer Accuracy to Rubric-Grounded Reasoning Diagnosis<br>in Multimodal Expert-Level Chemistry
+### Automated Scientific Diagnostics for Lab-Grade Multimodal Chemistry Reasoning: A Frontier Benchmark
 
 ![dev](https://img.shields.io/badge/dev-48%20with%20rubrics-brightgreen)
 ![test](https://img.shields.io/badge/test-105%20held--out-orange)
@@ -178,8 +178,8 @@ Live leaderboard: <https://www.cosmosmind.ai/leaderboard/chemargus>
 
 ```bibtex
 @misc{chemargus2026,
-  title  = {ChemArgus: From Answer Accuracy to Rubric-Grounded Reasoning
-            Diagnosis in Multimodal Expert-Level Chemistry Benchmark},
+  title  = {ChemArgus: Automated Scientific Diagnostics for Lab-Grade
+            Multimodal Chemistry Reasoning: A Frontier Benchmark},
   author = {Hanyu Guo and Mo Cui and Zihan Tan and Leixin Sun and Yichun Wang and
             Yinan Shen and Guojun Zhu and Jia Jiang and Yichen Fan and Zui Chen and
             Wenzhe Gao and Zhihao Yu and Qijun Wang and Yetian Zhu and Jiande Chen and
