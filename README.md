@@ -38,13 +38,14 @@ credit, instead of answer endpoints.
 | --- | ---: | ---: | ---: | ---: | ---: | --- |
 | 🧪 **dev** · Public Dev Set | 25% | 48 | 209 | 676 | 350 | ✅ included |
 | 🏁 **test** · Held-out Test Set | 55% | 105 | 391 | 1271 | 173 | ❌ stripped |
-| 🔒 **private** · Private Set | 20% | 38 | 220 | 635 | 322 (local only) | 🔐 local only |
-| **Total** | 100% | **191** | **820** | **2582** | **845** (523 public) | |
+| 🔒 **private** · Private Set | 20% | — | — | — | — | 🔐 local only |
+| **Total (public)** | — | **153** | **600** | **1947** | **523** | |
 
 > 🖼 **Balanced image split** — problems are assigned deterministically
 > (largest-image-first) so that the total number of model-visible images is
-> roughly equal across the three partitions (155 / 165 / 173 of a 164-per-partition
-> average), while the 25/55/20 problem ratio is kept exact.
+> roughly equal across the three partitions (≈164 images per partition on
+> average), while the 25/55/20 problem ratio is kept exact. The private
+> partition is never published, so its figures are omitted here.
 
 ## 📁 Repository Layout
 
