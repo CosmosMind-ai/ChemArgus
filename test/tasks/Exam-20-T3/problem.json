@@ -1,0 +1,76 @@
+{
+  "problem_id": "Exam-20-T3",
+  "header": "Halogen-Bond-Donor-Catalyzed Synthesis of Poly(ortho esters)\nPolymers have transformed modern life because of their low cost and practicality. Polyesters are high-performance, versatile engineering plastics and can also be made into polyester fibers and films; the family includes polyester resins and elastomers.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-20-T3-1",
+      "tags": [
+        "2.4",
+        "2.3"
+      ],
+      "text_open": "3.1 Cyclic ketene acetals undergo radical polymerization in the presence of peroxides to generate poly(regular lactone) chains. Write the SMILES strings of A-D in the reaction scheme below. Polymer end groups need not be shown. Only D is a polymer.",
+      "text_images": [
+        {
+          "file": "Exam-20-T3-1-1-prompt.png",
+          "description": "Four-step reaction: 'BrCC1OCCO1'>tBuOK>A; A>ROOR, heat>[B]; [B]>isomerization>[C]; [C]>D. R is the placeholder used in the original diagram, and [B] and [C] denote radical intermediates."
+        }
+      ],
+      "full_mark": 5
+    },
+    {
+      "sub_id": "Exam-20-T3-2",
+      "tags": [
+        "2.4",
+        "2.6"
+      ],
+      "text_open": "3.2 Poly(ortho esters) (POEs) are renewable, biodegradable polymers whose degradation kinetics and surface-erosion behavior can be tuned and whose degradation products are harmless. Earlier synthetic methods, however, gave POEs with molecular weights that were too low and properties that could not be well controlled, making them unsuitable as general-purpose materials such as plastics and rubbers. The reaction below uses renewable feedstocks and an innovative initiator to achieve controlled ring-opening polymerization of the monomer and produce POEs with controllable molecular weights.\n3.2.1 In this reaction, two renewable starting materials first form the spiro-ortho-ester monomer E, MSOE, under $BF_3$ catalysis. The target polymer P1 is then synthesized using the initiator MOMBr and the catalyst ion XBD. After monomer E reacts with the active center of the polymer chain, it can isomerize and polymerize to give the acyclic polymer P2. Based on this information, write the SMILES strings of E, P1, and P2. Polymer end groups need not be shown.",
+      "text_images": [
+        {
+          "file": "Exam-20-T3-2-1-prompt.png",
+          "description": "Two-step reaction: 'CC1CO1' + 'O=C1CCCCCO1' > $BF_3\\cdot OEt_2$ (5.0 mol%) > E; E + 'BrCOC' (MOMBr) > XBD > P1 (major) + P2 (minor)."
+        }
+      ],
+      "full_mark": 6
+    },
+    {
+      "sub_id": "Exam-20-T3-3",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "3.2.2 At pH = 3, P1 can react with water and degrade, allowing recovery of small-molecule ester monomers. Write the SMILES strings of the possible recovered small molecules.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-20-T3-4",
+      "tags": [
+        "1.6",
+        "1.1"
+      ],
+      "text_open": "3.3 The catalyst ion XBD is a trinuclear halogen-bond-donor catalyst whose mechanism involves a special secondary interaction: the halogen bond. A halogen bond is fundamentally an electrostatic interaction arising from a region of accumulated positive charge at the extension opposite a covalent bond to a halogen atom, especially Cl, Br, or I. This region is called a \"σ hole\" in the literature and is illustrated below.\n3.3.1 Based on this information, write the SMILES strings of the halogen-bonded aggregates $(Cl_2)_2$ and $(RBr)_3$. The latter has a rotational axis of order higher than two; treat R as a spherical ligand. Specify the halogen-bond angles rigorously.",
+      "text_images": [
+        {
+          "file": "Exam-20-T3-4-1-prompt.png",
+          "description": "Schematic of a σ hole on a halogen atom: a blue gradient sphere at the center bears the capital letter E. The letter R is connected to the left of the sphere by a short horizontal line. To the right is a concentric region with an outer green ring, a middle yellow ring, and a red central point. A red δ+ at the upper right has a curved arrow pointing to the concentric region, while a blue δ- at the lower left has a curved arrow pointing to the bottom of the sphere."
+        }
+      ],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-20-T3-5",
+      "tags": [
+        "2.3",
+        "2.1"
+      ],
+      "text_open": "3.3.2 The structure of the catalyst ion XBD used in 3.2 is shown below. Write the reaction equations for chain initiation by the initiating system, MOMBr and the catalyst ion XBD. XBD may be abbreviated; there is no need to write a SMILES string containing XBD. On this basis, determine whether the reaction is cationic or anionic polymerization. Hint: chain initiation consists of two elementary steps.",
+      "text_images": [
+        {
+          "file": "Exam-20-T3-5-1-prompt.png",
+          "description": "The SMILES for XBD is '[R]N(N=[N+]1C)C(I)=C1C2=CC(C3=C(I)N([R])N=[N+]3C)=CC(C4=C(I)N([R])N=[N+]4C)=C2'. The 3 [R] groups are placeholders used in the original diagram, and the 3 [N+] atoms carry positive-charge labels."
+        }
+      ],
+      "full_mark": 5
+    }
+  ]
+}

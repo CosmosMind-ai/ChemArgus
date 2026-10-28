@@ -1,0 +1,52 @@
+{
+  "problem_id": "Exam-21-T10",
+  "header": "Problem 10 Building a Very Familiar Aromatic Ring—the Simple Shikimic Acid Pathway\nAmino acids are essential substances that our bodies require continuously. Some can be synthesized in the body, whereas a few cannot and must be obtained from food, including Phe (phenylalanine), Tyr (tyrosine), and Trp (tryptophan), whose structures are shown below.\nHow do plants, microorganisms, and other organisms synthesize these amino acids? A widespread natural route produces aromatic compounds and many related six-membered cyclic compounds. It is named after a key intermediate: the shikimic acid pathway. Note: stereochemistry is required throughout this problem unless otherwise stated.",
+  "header_images": [
+    {
+      "file": "Exam-21-T10-header-1.png",
+      "description": "Phe has the SMILES representation '[H][C@@](N)(C(O)=O)CC1=CC=CC=C1'; Tyr, 'N[C@]([H])(C(O)=O)CC1=CC=C(O)C=C1'; and Trp, 'N[C@]([H])(C(O)=O)CC1=CNC2=C1C=CC=C2'. The three structures are shown side by side, with -NH2 at each stereogenic carbon drawn on a solid wedge."
+    }
+  ],
+  "subquestions": [
+    {
+      "sub_id": "Exam-21-T10-1",
+      "tags": [
+        "2.4",
+        "1.2"
+      ],
+      "text_open": "10.1 The shikimic acid pathway begins with condensation of phosphoenolpyruvate (PEP) and erythrose 4-phosphate (E4P).\n10.1.1 Write the SMILES string for the major organic product A. A carries one negative charge, contains only one phosphorus atom, and the reaction creates one new stereocenter of absolute configuration R.",
+      "text_images": [
+        {
+          "file": "Exam-21-T10-1-1-prompt.png",
+          "description": "Single-step reaction: 'O=P(OC(C(O)=O)=C)([O-])O' (PEP, with one negative charge on a phosphate oxygen).'O=P(O)([O-])OC[C@@H](O)[C@@H](O)C([H])=O' (E4P, with one negative charge on a phosphate oxygen)>>[A]. No reaction conditions are written, and the product is shown only as A without an explicit structure."
+        }
+      ],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-21-T10-2",
+      "tags": [
+        "2.4",
+        "1.2"
+      ],
+      "text_open": "10.1.2 A readily isomerizes, so the reaction actually gives a mixture of A and its isomers. Write the SMILES string for the principal component M other than A.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-21-T10-3",
+      "tags": [
+        "2.2",
+        "2.3"
+      ],
+      "text_open": "10.2 A cyclizes to form 3-dehydroquinate in a process mediated by $NAD^+$ and NADH. Earlier studies proposed the following mechanism. First, A is oxidized by 1 molecule of $NAD^+$ to give Int1, with loss of one stereocenter. Int1 undergoes β-elimination of the phosphate group and tautomerization to give Int2, which contains an α, β-diketone unit. Int2 is then reduced by 1 molecule of NADH to give Int3, restoring the lost stereocenter with its original relative configuration. Int3 undergoes intramolecular condensation to form 3-dehydroquinate ($C_7H_{10}O_6$). Write the SMILES strings for Int1, Int2, Int3, and 3-dehydroquinate.",
+      "text_images": [
+        {
+          "file": "Exam-21-T10-3-1-prompt.png",
+          "description": "NAD+ has the SMILES representation 'NC(C1=CC=C[N+]([R])=C1)=O'; NADH has the SMILES representation 'NC(C1=CN([R])C=CC1)=O'. R is the original placeholder in the figure for the substituent on the pyridinium/1,4-dihydropyridine ring nitrogen."
+        }
+      ],
+      "full_mark": 9
+    }
+  ]
+}

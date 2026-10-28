@@ -1,0 +1,131 @@
+{
+  "problem_id": "Exam-01-T9",
+  "header": "How Well Do You Really Know Carbon-Phosphorus Double Bonds?\nIn studying organic chemistry, we seem to restrict our understanding of the reactivity of carbon-phosphorus double bonds to their “metathesis” reactions with carbon-oxygen double bonds. With the assistance of transition metals, however, double bonds between carbon and trivalent phosphorus display distinctive modes of formation and reactivity. In this problem, whenever a subquestion asks for the SMILES of a complex, supplement it with a verbal description of the specific coordination mode.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-01-T9-1",
+      "tags": [
+        "1.4",
+        "2.2",
+        "2.4"
+      ],
+      "text_open": "9-1 Carbon-phosphorus double bonds can be constructed in many ways and can coordinate to transition metals in more than one mode. 9-1-1 In the reaction below, [Mn] denotes (η^{5}-C_{5}H_{4}CH_{3})Mn(CO)_{2}, and the reaction produces 4 molecules of THF. Given that the major product contains 2 phosphorus-oxygen single bonds, write the SMILES structure of the major product. 4 [Mn]·THF + 2 ^{t}BuCP + H_{2}O →",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "The SMILES structure of the major product is '[H]/C(C(C)(C)C)=P\\O/P=C([H])/C(C)(C)C.[Mn].[Mn].[Mn].[Mn]' (2 points). The P atoms and P=C double bonds coordinate to the 4 [Mn] fragments, respectively."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-01-T9-1-1-rubric.png",
+          "description": "The chemical structure drawn in red shows the coordination of one ligand to four '[Mn]' metal fragments. The ligand has the SMILES '[H]/C(C(C)(C)C)=P\\O/P=C([H])/C(C)(C)C'. A central oxygen atom (O) bridges two phosphorus atoms (P); each P forms a double bond (P=C) to a carbon atom bearing one hydrogen atom (H) and one tert-butyl group (tBu). Four arrows explicitly indicate the coordination sites: the two arrows on the right originate from the upper and lower P atoms and point to the corresponding two '[Mn]' fragments on the right, whereas the two arrows on the left originate from the centers of the upper and lower P=C double bonds and point to the corresponding two '[Mn]' fragments on the left."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-01-T9-2",
+      "tags": [
+        "1.4",
+        "2.2",
+        "2.3"
+      ],
+      "text_open": "9-1-2 The following example provides an initial illustration of the role played by transition metals in forming carbon-phosphorus double bonds. Use SMILES structures and any necessary verbal descriptions to represent the three key electrically neutral intermediates in the reaction. Coordination of double bonds to Mo need not be shown in any of them.",
+      "text_images": [
+        {
+          "file": "Exam-01-T9-2-1-prompt.png",
+          "description": "The reaction in the figure shows the anionic dinuclear molybdenum complex 'O=C[Mo](C=O)[Mo](PC1=CC=CC=C1)(C=O)C=O' reacting with acryloyl chloride, 'ClC(C=C)=O', to form a product in which the phosphaalkene ligand 'C/C=P\\C2=CC=CC=C2' is bound to the dinuclear molybdenum framework 'O=C[Mo](C=O)[Mo](C=O)C=O'. In the reactant, a phenylphosphido group bridges two Mo atoms, each bearing two carbonyl ligands; on one side, a coordinate bond shown by an arrow points to the left Mo atom. After reaction, the newly formed phosphaalkene ligand coordinates in a bidentate bridging mode: the lone pair on phosphorus forms a coordinate bond, shown by an arrow, to the left Mo atom, while the $P=C$ double bond coordinates through a $\\pi$ bond, shown by an arrow, to the right Mo atom."
+        }
+      ],
+      "full_mark": 3,
+      "rubric": [
+        "From left to right, the figure shows three red dinuclear molybdenum complex structures. **First structure on the left:** its core is a dinuclear molybdenum carbonyl framework containing two mononuclear molybdenum '[Mo]' units and four carbonyl '[C-]#[O+]' ligands. A phenylphosphido ligand '[PH]C1=CC=CC=C1' bridges over the top, coordinating to the left Mo atom through a coordinate bond on the left and bonding to the right Mo atom through a single bond on the right. An acryloyl ligand 'C=CC=O' is also bonded below the right Mo atom. **Second structure in the middle:** this structure is similar to the first and likewise contains a dinuclear molybdenum carbonyl framework and a bridging phenylphosphido ligand '[PH]C1=CC=CC=C1', but a vinyl ligand 'C=C', formed after loss of a carbonyl group, is bonded below the right Mo atom. **Third structure on the right:** a phenyl(vinyl)phosphine ligand 'C=CP([H])C1=CC=CC=C1' coordinates above the dinuclear molybdenum carbonyl framework in a bidentate bridging mode. Specifically, the lone pair on phosphorus (P) forms a coordinate bond to the left Mo atom, while the $C=C$ double bond coordinates through a $\\pi$ bond to the right Mo atom. (1 point each) No credit is awarded for either of the first two intermediates if P-to-Mo coordination is omitted. No points are deducted if double-bond-to-Mo coordination is omitted from the third intermediate."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-01-T9-2-1-rubric.png",
+          "description": "From left to right, the figure shows three red dinuclear molybdenum complex structures. **First structure on the left:** its core is a dinuclear molybdenum carbonyl framework containing two mononuclear molybdenum '[Mo]' units and four carbonyl '[C-]#[O+]' ligands. A phenylphosphido ligand '[PH]C1=CC=CC=C1' bridges over the top, coordinating to the left Mo atom through a coordinate bond on the left and bonding to the right Mo atom through a single bond on the right. An acryloyl ligand 'C=CC=O' is also bonded below the right Mo atom. **Second structure in the middle:** this structure is similar to the first and likewise contains a dinuclear molybdenum carbonyl framework and a bridging phenylphosphido ligand '[PH]C1=CC=CC=C1', but a vinyl ligand 'C=C', formed after loss of a carbonyl group, is bonded below the right Mo atom. **Third structure on the right:** a phenyl(vinyl)phosphine ligand 'C=CP([H])C1=CC=CC=C1' coordinates above the dinuclear molybdenum carbonyl framework in a bidentate bridging mode. Specifically, the lone pair on phosphorus (P) forms a coordinate bond to the left Mo atom, while the $C=C$ double bond coordinates through a $\\pi$ bond to the right Mo atom."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-01-T9-3",
+      "tags": [
+        "1.4",
+        "2.2",
+        "2.6"
+      ],
+      "text_open": "9-1-3 Write the SMILES structures of the six key intermediates in the reaction shown below. Note: the step involving addition of tert-butyllithium corresponds to three key intermediates; each other step corresponds to one key intermediate.",
+      "text_images": [
+        {
+          "file": "Exam-01-T9-3-1-prompt.png",
+          "description": "Description of the structures/reaction in the figure: '[H]C#CC1=CC=CC=C1' undergoes steps involving NEt_3/PCl_3, ArLi, tBuLi, ML_n, and irradiation/O_2 to form a species whose ligand has the SMILES 'O=C(C(/C(C(C1=CC=CC=C1)=O)=P/C)=P\\C)C2=CC=CC=C2'. The ligand coordinates to [ML_n] through its two P atoms. Ar denotes an aryl substituent, and [ML_n] denotes a metal coordination fragment."
+        }
+      ],
+      "full_mark": 6,
+      "rubric": [
+        "6 points total for the six key intermediates in the grading figure. SMILES of the first intermediate: 'ClP(C#CC1=CC=CC=C1)Cl'; second intermediate: 'ClP(C#CC1=CC=CC=C1)[Ar]'; third intermediate: '[Ar]P(C#CC1=CC=CC=C1)P([Ar])C#CC2=CC=CC=C2'; fourth intermediate: '[Ar]P=C=C(C1=CC=CC=C1)C(C2=CC=CC=C2)=C=P[Ar]'; fifth intermediate: '[Ar]/P=C(C(C1=CC=CC=C1)=C2C3=CC=CC=C3)\\C2=P/[Ar]'; sixth intermediate: '[Ar]/P=C1/C(C(C2=CC=CC=C2)=C1C3=CC=CC=C3)=P/[Ar].[M]', with the ligand coordinating to [M] through both P atoms. Each intermediate is worth 1 point. Writing the lithium phosphinoalkyne intermediate 'Ph-C#C-P(Ar)Li' earns no credit but incurs no deduction."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-01-T9-3-1-rubric.png",
+          "description": "Description of the structures/reaction in the figure. SMILES of the first intermediate: 'ClP(C#CC1=CC=CC=C1)Cl'; second intermediate: 'ClP(C#CC1=CC=CC=C1)[Ar]'; third intermediate: '[Ar]P(C#CC1=CC=CC=C1)P([Ar])C#CC2=CC=CC=C2'; fourth intermediate: '[Ar]P=C=C(C1=CC=CC=C1)C(C2=CC=CC=C2)=C=P[Ar]'; fifth intermediate: '[Ar]/P=C(C(C1=CC=CC=C1)=C2C3=CC=CC=C3)\\C2=P/[Ar]'; sixth intermediate: '[Ar]/P=C1/C(C(C2=CC=CC=C2)=C1C3=CC=CC=C3)=P/[Ar].[M]', with the ligand coordinating to [M] through both P atoms."
+        },
+        {
+          "file": "Exam-01-T9-3-2-rubric.png",
+          "description": "Description of the structure/reaction in the figure: the additional structure is 'Ph-C#C-P(Ar)Li'. Writing this intermediate earns no credit but incurs no deduction."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-01-T9-4",
+      "tags": [
+        "2.2",
+        "2.3",
+        "1.4"
+      ],
+      "text_open": "9-2 An important class of reactions of carbon-phosphorus double bonds involves metal carbenes. 9-2-1 In the following reaction, addition between the two substrates gives A_{1}, and A_{1} then converts into its isomer A_{2}. A_{2} undergoes a hydrogen migration to give A_{3}; A_{3} eliminates HNMe_{2} to give A_{4}; and a further elimination gives A_{5} together with byproduct A_{6}. A_{5} undergoes a simple reaction to afford the final product. W remains six-coordinate throughout the process. In A_{2}, W is coordinated by the carbon-phosphorus double bond, whereas in A_{3}, A_{4}, and A_{6}, W is coordinated by P. On this basis, write the SMILES structures of A_{1}~A_{6}.",
+      "text_images": [
+        {
+          "file": "Exam-01-T9-4-1-prompt.png",
+          "description": "Description of the structures/reaction in the figure: 'CN(C)C(=P)N(C)C' reacts with 'C1CC1C(O[Si](C)(C)C)=[W]([C]#O)([C]#O)([C]#O)([C]#O)[C]#O' to form 'O=C1C2(CC2)C(=O)C13CC3'."
+        }
+      ],
+      "full_mark": 6,
+      "rubric": [
+        "6 points total; A_{1}~A_{6} in the grading figure are worth 1 point each. **A_1**, at the far left of the first row, is a zwitterionic complex represented as 'CN(C)/C(N(C)C)=[PH+]/C(C1CC1)(O[Si](C)(C)C)[W-]([C-]#[O+])([C-]#[O+])([C-]#[O+])([C-]#[O+])[C-]#[O+]'; the negatively charged W center bearing five carbonyl ligands is bonded directly to the ligand carbon atom. **A_2**, second from the left in the first row, is an $\\eta^2$-coordinated complex represented as 'CN(C)C(N(C)C)=P=C(C2CC2)O[Si](C)(C)C.[W]([C-]#[O+])([C-]#[O+])([C-]#[O+])([C-]#[O+])[C-]#[O+]'; its $P=C$ double bond coordinates through a $\\pi$ bond to the pentacarbonyltungsten fragment. **A_3**, second from the right in the first row, is a $\\sigma$-coordinated complex represented as 'CN(C)C(N(C)C)/P([W]([C-]#[O+])([C-]#[O+])([C-]#[O+])([C-]#[O+])[C-]#[O+])=C(C3CC3)/O[Si](C)(C)C'; the P atom of the phosphaalkene ligand coordinates to the pentacarbonyltungsten center. **A_4**, at the far right of the first row, is likewise a $\\sigma$-coordinated complex bearing a cyclopropylidene substituent and is represented as 'CN(C)/C=P([W]([C-]#[O+])([C-]#[O+])([C-]#[O+])([C-]#[O+])[C-]#[O+])/C(O[Si](C)(C)C)=C4CC\\4'. **A_5**, on the left of the second row, is free cyclopropylketene represented as 'O=C=C5CC5'. **A_6**, on the right of the second row, is also a $\\sigma$-coordinated complex; its silyl-substituted coordinated structure is represented as 'CN(C)/C=P([W]([C-]#[O+])([C-]#[O+])([C-]#[O+])([C-]#[O+])[C-]#[O+])/[Si](C)(C)C', again with P coordinated to the pentacarbonyltungsten center. Credit is also awarded if the second intermediate is drawn with the other double bond coordinated to the metal."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-01-T9-4-1-rubric.png",
+          "description": "The figure shows six structures in red, labeled A_1 through A_6. **A_1**, at the far left of the first row, is a zwitterionic complex represented as 'CN(C)/C(N(C)C)=[PH+]/C(C1CC1)(O[Si](C)(C)C)[W-]([C-]#[O+])([C-]#[O+])([C-]#[O+])([C-]#[O+])[C-]#[O+]'; the negatively charged W center bearing five carbonyl ligands is bonded directly to the ligand carbon atom. **A_2**, second from the left in the first row, is an $\\eta^2$-coordinated complex represented as 'CN(C)C(N(C)C)=P=C(C2CC2)O[Si](C)(C)C.[W]([C-]#[O+])([C-]#[O+])([C-]#[O+])([C-]#[O+])[C-]#[O+]'; its $P=C$ double bond coordinates through a $\\pi$ bond to the pentacarbonyltungsten fragment. **A_3**, second from the right in the first row, is a $\\sigma$-coordinated complex represented as 'CN(C)C(N(C)C)/P([W]([C-]#[O+])([C-]#[O+])([C-]#[O+])([C-]#[O+])[C-]#[O+])=C(C3CC3)/O[Si](C)(C)C'; the P atom of the phosphaalkene ligand coordinates to the pentacarbonyltungsten center. **A_4**, at the far right of the first row, is likewise a $\\sigma$-coordinated complex bearing a cyclopropylidene substituent and is represented as 'CN(C)/C=P([W]([C-]#[O+])([C-]#[O+])([C-]#[O+])([C-]#[O+])[C-]#[O+])/C(O[Si](C)(C)C)=C4CC\\4'. **A_5**, on the left of the second row, is free cyclopropylketene represented as 'O=C=C5CC5'. **A_6**, on the right of the second row, is also a $\\sigma$-coordinated complex; its silyl-substituted coordinated structure is represented as 'CN(C)/C=P([W]([C-]#[O+])([C-]#[O+])([C-]#[O+])([C-]#[O+])[C-]#[O+])/[Si](C)(C)C', again with P coordinated to the pentacarbonyltungsten center."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-01-T9-5",
+      "tags": [
+        "2.2",
+        "2.3",
+        "1.4"
+      ],
+      "text_open": "9-2-2 When the phosphorus atom no longer bears a hydrogen atom, a hydrogen migration analogous to the process above cannot occur. In the following reaction, the two substrates undergo a process similar to that in the preceding subquestion, proceeding through B_{1} to B_{2}. Write the SMILES structure of one key electrically neutral intermediate in the conversion of B_{2} to the products.",
+      "text_images": [
+        {
+          "file": "Exam-01-T9-5-1-prompt.png",
+          "description": "Description of the structures/reaction in the figure: 'CN(C)C(=P[Fe])N(C)C' + 'CCOC(=[M])C' -> 'CN(C)/C=C/C(=[M])OCC' + 'CCOC(C)=P([Fe])[M]. Here M denotes a metal. The ligands on Fe and M are omitted in this question.'"
+        }
+      ],
+      "full_mark": 3,
+      "rubric": [
+        "SMILES structure of the key electrically neutral intermediate: '[Fe]P(=C(CC(OCC)=[M])N(C)C)=C(C1CC1)O[Si](C)(C)C.[M]' (3 points). The C=P double bond coordinates to metal M; award 2 points if coordination of the double bond to the metal is omitted."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-01-T9-5-1-rubric.png",
+          "description": "The figure shows a transition-metal complex in red whose core coordination system may be described by the SMILES '[Fe]P(=C(CC(OCC)=[M])N(C)C)=C(C1CC1)O[Si](C)(C)C.[M]'. In the detailed structure, the central phosphorus (P) atom is bonded directly to an iron fragment '[Fe]'. The double-bonded carbon on the left of P bears a dimethylamino group ('-N(CH_3)_2') and a side chain containing an ethoxy group ('-OEt') that forms a double bond to a metal fragment '[M]', producing a Fischer carbene structure ($C=[M]$). The double-bonded carbon on the right of P bears cyclopropyl and siloxy ('-OTMS') groups, and the right-hand $P=C$ double bond acts as a $\\pi$ donor and coordinates in an $\\eta^2$ mode, indicated by a coordination arrow, to another independent metal fragment '[M]'."
+        }
+      ]
+    }
+  ]
+}

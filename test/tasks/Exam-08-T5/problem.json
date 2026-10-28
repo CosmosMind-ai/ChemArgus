@@ -1,0 +1,34 @@
+{
+  "problem_id": "Exam-08-T5",
+  "header": "Defective Cubic Perovskite\nA polymorph of $\\mathrm{CsFe}_x\\mathrm{Cl}_3$ has a defective cubic-perovskite structure. Relative to cubic perovskite, Cs occupies every Ca site, Cl every O site, and Fe occupies an ordered subset of the Ti sites. Equivalently, Cs and Cl jointly form close-packed layers in a 1:3 atomic ratio, and these layers are cubically stacked. Between every two adjacent Cs-Cl close-packed layers are octahedral voids, some formed only by Cl and others jointly by Cl and Cs. Fe fills some interlayer octahedral voids in the repeating sequence occupied, occupied, vacant, occupied, occupied, vacant, and so on. In each Fe-containing interlayer region, Fe occupies all and only the octahedral voids formed solely by Cl. This defect pattern changes the crystal to the hexagonal crystal family. The cell parameters are $a=736.2$ pm and $c=896.4$ pm. Two Fe atoms are located at $(2/3,1/3,0.18565)$ and $(1/3,2/3,0.81435)$, and their $\\mathrm{FeCl}_6$ octahedra are corner-sharing. In the projection down the crystallographic $c$ axis, the Fe atoms form a graphene-like pattern.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-08-T5-1",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "5.1 Determine the unit-cell composition using reasonable assumptions and approximations.",
+      "text_images": [],
+      "full_mark": 7
+    },
+    {
+      "sub_id": "Exam-08-T5-2",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "5.4 Determine the crystal system.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-08-T5-3",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "5.7 State the number of inversion centers in one primitive cell.",
+      "text_images": [],
+      "full_mark": 1
+    }
+  ]
+}

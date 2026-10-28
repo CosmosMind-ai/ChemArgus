@@ -1,0 +1,84 @@
+{
+  "problem_id": "Exam-03-T8",
+  "header": "",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-03-T8-1",
+      "tags": [
+        "2.7"
+      ],
+      "text_open": "8-3 The reaction shown below, 'OCCOCCOCCO' + 'ClCCOCCCl' → 'C1COCCOCCOCCOCCO1', is best conducted under basic conditions. Which base is preferred? (   ) (a) LiOH    (b) NaOH    (c) KOH",
+      "text_images": [
+        {
+          "file": "Exam-03-T8-1-1-prompt.png",
+          "description": "The figure shows the reaction 'OCCOCCOCCO' + 'ClCCOCCCl' → 'C1COCCOCCOCCOCCO1' in THF (tetrahydrofuran) and water."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "(b) (2 points)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-03-T8-2",
+      "tags": [
+        "1.2"
+      ],
+      "text_open": "8-4 Describe the most stable conformation of the molecule shown below.",
+      "text_images": [
+        {
+          "file": "Exam-03-T8-2-1-prompt.png",
+          "description": "The figure shows an organic compound with SMILES 'CN1CN(CN(C1)C)C'."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "2 methyl groups occupy equatorial positions and 1 methyl group occupies an axial position. (2 points)"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-03-T8-2-1-rubric.png",
+          "description": "The figure shows the most stable conformation of the organic compound with SMILES 'CN1CN(C)CN(C)C1'. The six-membered ring adopts a chair conformation, with two methyl groups equatorial and one methyl group axial."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-03-T8-3",
+      "tags": [
+        "2.2"
+      ],
+      "text_open": "8-5 Ethylene glycol is commonly condensed with carbonyl compounds to protect carbonyl groups. As shown below, '[R]C([H])=O' + 'SCCCS' → '[R]C1([H])SCCCS1'; '[R]C1([H])SCCCS1' + 'CCCCLi' → '[R]C1([Li])SCCCS1'. Thioacetals invert the polarity of the aldehydic carbon, and propane-1,3-dithiol is often used for this purpose. Briefly explain why ethane-1,2-dithiol, the sulfur analogue of ethylene glycol, is not used instead. (No more than 50 words.)",
+      "text_images": [
+        {
+          "file": "Exam-03-T8-3-1-prompt.png",
+          "description": "The figure shows a two-step reaction. The first step is '[R]C([H])=O' + 'SCCCS' → '[R]C1([H])SCCCS1', in which the carbonyl carbon has δ^+ character. The second step is '[R]C1([H])SCCCS1' + 'CCCCLi' → '[R]C1([Li])SCCCS1', in which the carbon bonded to lithium has δ^- character; R denotes an alkyl group."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "The lithium salt obtained from ethane-1,2-dithiol readily undergoes fragmentation. (2 points; a correct reaction equation is also acceptable.)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-03-T8-4",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "8-6 Organic compound A (C_4H_6O_2) is oxidized by acidified potassium permanganate to give a single organic product B without gas evolution. B reacts with two equivalents of CH_3Li and, after workup, gives the major product C. C reacts with sodium metal in benzene and, after workup, gives D. Under sulfuric acid, D rearranges to E (C_6H_12O). Write the SMILES structures of A-E.",
+      "text_images": [],
+      "full_mark": 5,
+      "rubric": [
+        "A is 'CC(=O)C(=O)C'; B is 'CC(=O)O'; C is 'CC(=O)C'; D is 'CC(C(C)(C)O)(O)C'; and E is 'CC(C)(C(C)=O)C'. (1 point each; 5 points total.)"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-03-T8-4-1-rubric.png",
+          "description": "The figure shows five compounds: A is 'CC(=O)C(=O)C'; B is 'CC(=O)O'; C is 'CC(=O)C'; D is 'CC(C(C)(C)O)(O)C'; and E is 'CC(C)(C(C)=O)C'."
+        }
+      ]
+    }
+  ]
+}

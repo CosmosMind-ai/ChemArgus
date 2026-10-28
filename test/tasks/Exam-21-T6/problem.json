@@ -1,0 +1,46 @@
+{
+  "problem_id": "Exam-21-T6",
+  "header": "Pharmacokinetics and Molecular Design (II)\nPharmacokinetics quantitatively studies the absorption, distribution, metabolism, and excretion of drugs in living organisms and uses mathematical principles and methods to describe how plasma drug concentration changes with time. Chemical-kinetic modeling provides a systematic understanding of drug metabolism in vivo. This problem concerns the oxidative metabolism of diclofenac in the body.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-21-T6-1",
+      "tags": [
+        "3.7"
+      ],
+      "text_open": "The Michaelis equation is $r=r_{max}[S]/(K_m+[S])$.\nExperiments show that $[S]$ and $r$ for the 4′-hydroxylation of diclofenac catalyzed by human liver microsomes obey the following relationship:\n| Group | $[S]_1$ / $\\mu\\mathrm{M}$ | $r_1$ / $(\\mathrm{pmol \\cdot min^{-1} \\cdot mg^{-1}})$ | $[S]_2$ / $\\mu\\mathrm{M}$ | $r_2$ / $(\\mathrm{pmol \\cdot min^{-1} \\cdot mg^{-1}})$ |\n| --- | --- | --- | --- | --- |\n| Low concentration | 0.90 | 39.27 | 1.80 | 72.00 |\n| High concentration | 90.0 | 392.73 | 180.0 | 411.43 |\n\n6.2.4 Under the same conditions, the 5-hydroxylation has $K_m = 43\\ \\mu\\mathrm{M}$ and $r_{max} = 15.4\\ \\mathrm{pmol \\cdot min^{-1} \\cdot mg^{-1}}$. Intrinsic clearance $CL_{int}$ is defined by $CL_{int} = r_{max}/K_m$. Calculate $CL_{int}$ for the 4′- and 5-hydroxylation pathways and briefly explain the kinetic meaning of $CL_{int}$. Hint: the drug concentration in the liver is much lower than $K_m$.",
+      "text_images": [],
+      "full_mark": 5
+    },
+    {
+      "sub_id": "Exam-21-T6-2",
+      "tags": [
+        "2.9",
+        "3.7"
+      ],
+      "text_open": "6.2.5 The kinetic parameters for the individual steps in the pathways above are shown below:\n| Pathway | Substrate → product | Enzyme | $CL_{int}$ / $(\\mu\\mathrm{L}\\cdot\\mathrm{min}^{-1}\\cdot\\mathrm{mg}^{-1})$ |\n| --- | --- | --- | --- |\n| 4′-hydroxylation pathway | DF → 4′-OH-DF | CYP2C9 | / |\n| 4′-hydroxylation pathway | 4′-OH-DF → A | CYP2C9 | 358 |\n| 5-hydroxylation pathway | DF → 5-OH-DF | CYP3A4 | / |\n| 5-hydroxylation pathway | 5-OH-DF → B | CYP2C9 | 103 |\n\nThe researchers also compared detoxification of the quinone products from the two hydroxylation pathways. The measured curves are shown below, where \"conjugate\" denotes a detoxification product.\nExplain why both steps of the 5-hydroxylation pathway have lower $CL_{int}$ values than those of the 4′-hydroxylation pathway, yet the 5-hydroxylation pathway is more toxic. (No more than 100 words)",
+      "text_images": [
+        {
+          "file": "Exam-21-T6-2-1-prompt.png",
+          "description": "Coordinate plot containing two side-by-side panels labeled A and B at upper left. Both horizontal axes are labeled 'GSH concentration (mM)' with ticks at 0, 2, 4, and 6; both vertical axes are labeled 'Conjugate formation (%)' with ticks at 0, 50, and 100. Each panel contains one solid black curve with filled circular data markers, some with vertical error bars. In panel A, the curve rises rapidly from near the origin as GSH concentration increases, approaches 100% at about 2 mM, and remains on a plateau. In panel B, the curve rises more gradually from near the origin and approaches 100% at about 5–6 mM, without a clear plateau. There is no legend or title."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-21-T6-3",
+      "tags": [
+        "1.7",
+        "2.9"
+      ],
+      "text_open": "6.3 Diclofenac has a half-life of about 1.0h in humans and is cleared mainly through CYP2C9-catalyzed 4′-hydroxylation of an aromatic ring. The structurally similar fenclorac is more resistant to aromatic hydroxylation and has a half-life exceeding 20h. Its structure is shown below.\nFrom a structural perspective, explain why fenclorac has a longer duration of action. (No more than 50 words)",
+      "text_images": [
+        {
+          "file": "Exam-21-T6-3-1-prompt.png",
+          "description": "The SMILES representation of fenclorac is 'OC(CC1=C(OC2=CC=C(Cl)C=C2Cl)C=CC=C1)=O'."
+        }
+      ],
+      "full_mark": 2
+    }
+  ]
+}

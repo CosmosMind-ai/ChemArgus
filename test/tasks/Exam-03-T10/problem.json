@@ -1,0 +1,97 @@
+{
+  "problem_id": "Exam-03-T10",
+  "header": "Problem 10 Synthesis of Indigoid Compounds (25 points)",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-03-T10-1",
+      "tags": [
+        "2.4",
+        "2.2"
+      ],
+      "text_open": "10-1 In 1909, H. Friedländer noted that an excellent purple pigment mentioned in the Bible—the pigment that the Romans called Tyrian purple after the Phoenician port of Tyre in present-day Lebanon—was in fact 6,6'-dibromoindigo, F. This precious early dye was extracted from small purple sea snails, the murex; as many as 12000 snails were required to prepare 1.5 g of dye. After nearly a century of continuing research into its synthesis, Pinkney and Chammers proposed a new method, which Iming and coworkers improved into an efficient route. 10-1-1 Give the SMILES of intermediate E.",
+      "text_images": [
+        {
+          "file": "Exam-03-T10-1-1-prompt.png",
+          "description": "10-1 Synthetic route. This multistep scheme begins at the upper left with 'CC1=CC=C(N)C=C1', which reacts under HNO_3 and H_2SO_4 to give intermediate B. B reacts under 1) NaNO_2, HBr and 2) CuBr to give C. C then reacts under CrO_3 and (CH_3CO)_2O to give D. In the second row, D reacts under H_2SO_4 and H_2O to give E. Finally, E reacts under NaOH and H_2O, (CH_3)_2CO to give the product F at the lower right, with SMILES 'O=C1NC2=C(C=C(Br)C=C2)C1=C3NC4=C(C=C(Br)C=C4)C3=O'."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-03-T10-2",
+      "tags": [
+        "2.7",
+        "1.6"
+      ],
+      "text_open": "10-1-2 Explain the regioselectivity of the conversion of A into B. (No more than 50 words.)",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-03-T10-3",
+      "tags": [
+        "2.1",
+        "2.2"
+      ],
+      "text_open": "10-2 In the route above, conversion of E into F is clearly the key step. In fact, as early as 1882, Baeyer used this reaction to synthesize indigo in one step from o-nitrobenzaldehyde. 10-2-1 Write the chemical equation for this reaction, representing o-nitrobenzaldehyde and indigo by their SMILES.",
+      "text_images": [
+        {
+          "file": "Exam-03-T10-3-1-prompt.png",
+          "description": "One-step synthesis. At the far left is 'O=CC1=CC=CC=C1[N+]([O-])=O', labeled G below. Under NaOH and H_2O, (CH_3)_2CO, it gives the product at the far right, 'O=C1NC(C=CC=C2)=C2/C1=C3NC4=C(C=CC=C4)C/3=O', labeled H below."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-03-T10-4",
+      "tags": [
+        "2.2",
+        "2.3"
+      ],
+      "text_open": "10-2-2 The final step of the reaction is shown below. Considering the byproducts formed in the equation in 10-2-1, give the SMILES of the four key intermediates in the conversion of G into M. For intermediates related by proton gain, loss, or transfer, only one need be given.",
+      "text_images": [
+        {
+          "file": "Exam-03-T10-4-1-prompt.png",
+          "description": "10-2-2 Question figure. A reaction proceeds from left to right. At the far left is 'O=C1C=NC2=C1C=CC=C2', labeled M below, followed by a plus sign and the middle molecule 'OC1=C(NC2=C1C=CC=C2)O', labeled N below. A one-way right-pointing reaction arrow leads to the product at the far right, 'O=C5NC(C=CC=C6)=C6/C5=C7NC8=C(C=CC=C8)C/7=O', labeled H below, indicating that M and N react to form H."
+        }
+      ],
+      "full_mark": 6
+    },
+    {
+      "sub_id": "Exam-03-T10-5",
+      "tags": [
+        "2.2",
+        "2.5"
+      ],
+      "text_open": "10-3 Nitrogen plays a key role in the reaction above, but analogous substrates and methods are unsuitable for obtaining the sulfur-substituted product. After the nineteen-eighties, Scottish chemists synthesized thioindigo, K, using the reaction below. The reaction still proceeds through an intermediate containing a fused six- and five-membered ring system. It is known that contraction of the six-membered ring into the five-membered ring does not occur by ring opening followed by ring closure. Answer the following questions. 10-3-1 In what form does the oxygen atom of the sulfoxide depart?",
+      "text_images": [
+        {
+          "file": "Exam-03-T10-5-1-prompt.png",
+          "description": "Structure/reaction description for synthesis of thioindigo K. Sulfoxide J gives thioindigo K under NaOAc/HOAc. The SMILES of J is 'BrC(C1=O)=C([S+](C2=C1C=CC=C2)[O-])Br'; thioindigo K may be represented as 'O=C1C2=C(S/C1=C3SC4=C(C\\3=O)C=CC=C4)C=CC=C2'."
+        }
+      ],
+      "full_mark": 1
+    },
+    {
+      "sub_id": "Exam-03-T10-6",
+      "tags": [
+        "2.3",
+        "2.7"
+      ],
+      "text_open": "10-3-2 During ring contraction, which atom is lost? (   ) (a) the carbon atom nearer the carbonyl group    (b) the carbon atom nearer the sulfoxide group",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-03-T10-7",
+      "tags": [
+        "2.2",
+        "2.3"
+      ],
+      "text_open": "10-3-4 Give the SMILES of the six key intermediates in the reaction. For intermediates related by proton gain, loss, or transfer, only one need be given. A substitution proceeding by addition-elimination or by an S_{N1} process counts as only one step.",
+      "text_images": [],
+      "full_mark": 9
+    }
+  ]
+}

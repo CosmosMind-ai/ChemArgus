@@ -1,0 +1,137 @@
+{
+  "problem_id": "Exam-09-T9",
+  "header": "Gold-Catalyzed Construction of Indoles\nIndole is an important structural unit in numerous natural products and pharmaceuticals, and efficient, diverse strategies for indole synthesis remain an important challenge in synthetic chemistry. Most known indole syntheses use benzene derivatives as substrates to construct the pyrrole ring. In contrast, strategies that start from pyrrole derivatives and construct the benzene ring have been reported only rarely. Two examples of indole synthesis based on this reverse strategy are shown below. Analyze the reaction processes and answer the questions.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-09-T9-1",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "9.2 Cationic gold catalysts are highly active $\\pi$ Lewis acids that selectively activate carbon-carbon unsaturated bonds. 9.2.1 Write the SMILES structures of products A, B, and C in the following 3 reactions. Note: A, B, and C each contain one five-membered ring. Formation of C proceeds through a six-membered-ring intermediate, which finally undergoes ring contraction to give a five-membered-ring product.",
+      "text_images": [
+        {
+          "file": "Exam-09-T9-1-1-prompt.png",
+          "description": "The figure shows a general mechanism for gold-catalyzed cyclization. The substrate is an ortho-substituted aromatic ring (SMILES: 'C=C=CC(C=CC=C1N[R2])=C1C#C[R1]'). Under [Au]^+, it forms a gold-containing cationic intermediate, '[R1][C+]=C1C2=C(C=C(C1)[#79])C=CC=C2N[R2]' (Au represents the coordinated [Au] center; other ligands are not shown), and subsequent protodeauration gives the fused products '[R1]C1=C2C3=C(C=CC2)C=CC=C3N1[R2]' and '[R1]C(C1=CC=CC2=C1C3=CC=C2)N3[R2]'."
+        },
+        {
+          "file": "Exam-09-T9-1-2-prompt.png",
+          "description": "Reaction 1: a naphthalene substrate (SMILES: '[R]C#CC1=C(C=C=C)C=CC2=C1C=CC=C2') gives product A under [Au]^+ catalysis."
+        },
+        {
+          "file": "Exam-09-T9-1-3-prompt.png",
+          "description": "Reaction 2: a six-membered-ring substrate containing an allene and an alkynyl group (SMILES: '[R2]C(CCCC#C[R1])=C=C[R3]') gives product B under [Au]^+ and H_2O."
+        },
+        {
+          "file": "Exam-09-T9-1-4-prompt.png",
+          "description": "Reaction 3: substrate '[R3]C#CCC(C([R1])=C=C)(O[Si]([R])([R])[R])[R2]' gives product C under [Au]^+ and i-PrOH."
+        }
+      ],
+      "full_mark": 6,
+      "rubric": [
+        "(6 points, 2 points for each structure.) Reference SMILES: A is '[R]C1C2=CC=CC3=C2C4=C(C=CC=C41)C=C3'; B is '[R2]C1(/C=C/[R3])C(C([R1])=O)CCC1'; C is 'C=C1C(C([R2])=O)(CC=C1[R3])[R1]'."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-09-T9-1-1-rubric.png",
+          "description": "A is '[R]C1C2=CC=CC3=C2C4=C(C=CC=C41)C=C3'; B is '[R2]C1(/C=C/[R3])C(C([R1])=O)CCC1'; C is 'C=C1C(C([R2])=O)(CC=C1[R3])[R1]'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-09-T9-2",
+      "tags": [
+        "2.2",
+        "2.3"
+      ],
+      "text_open": "9.2.2 Write the SMILES structures of the 2 intermediates D and E in the following reaction. Note: D and E each contain only two rings.",
+      "text_images": [
+        {
+          "file": "Exam-09-T9-2-1-prompt.png",
+          "description": "The figure shows the reaction pathway in 9.2.2. Substrate 'C=C=CC1=CC=CC(C)=C1C#C[R]' is converted under [Au]^+ successively into intermediates D and E and finally into the fused product '[R]C1C2=CC=CC3=CC=CC(C1)=C32'."
+        }
+      ],
+      "full_mark": 4,
+      "rubric": [
+        "The SMILES of D is 'CC1=C2C(C=C([#79])C/C2=[C+]/[R])=CC=C1', and the SMILES of E is '[CH2+]C1=C2C(C=C([#79])C/C2=C/[R])=CC=C1' (4 points, 2 points for each structure)."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-09-T9-2-1-rubric.png",
+          "description": "The SMILES of D is 'CC1=C2C(C=C([#79])C/C2=[C+]/[R])=CC=C1', and the SMILES of E is '[CH2+]C1=C2C(C=C([#79])C/C2=C/[R])=CC=C1'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-09-T9-3",
+      "tags": [
+        "2.6",
+        "2.4"
+      ],
+      "text_open": "9.3 Using a gold-catalyzed cyclization strategy similar to that described in 9.2, the authors developed a new method for synthesizing 4-acylindoles. A specific cyclization precursor must first be prepared. The synthetic route to this precursor is shown below. Write the SMILES structures of products F, G, and H from each step. Note: the isopropyl Grignard reagent and formaldehyde are added sequentially; the final step involves a retro-ene reaction that releases nitrogen gas.",
+      "text_images": [
+        {
+          "file": "Exam-09-T9-3-1-prompt.png",
+          "description": "The figure shows the structure of reagent IPNBSH (SMILES: 'O=S(C1=CC=CC=C1[N+]([O-])=O)(N/N=C(C)/C)=O')."
+        },
+        {
+          "file": "Exam-09-T9-3-2-prompt.png",
+          "description": "Synthetic route: the starting substrate is 3-iodo-2-formyl-N-Ts pyrrole ('[H]C(C1=C(I)C=CN1S(C2=CC=C(C)C=C2)(=O)=O)=O'). In the first step, phenylacetylene, Pd(PPh_3)_2Cl_2, CuI, NEt_3, THF, and 50℃ give F in 92% yield. In the second step, treatment with 1) CBr_4/PPh_3 and 2) i-PrMgCl/(HCHO)_n gives G in 55% over 2 steps. In the third step, reaction with IPNBSH, DIAD, PPh_3, then TFE/H_2O gives H."
+        }
+      ],
+      "full_mark": 6,
+      "rubric": [
+        "(6 points, 2 points for each structure.) Reference SMILES: F is 'O=CC1=C(C#CC2=CC=CC=C2)C=CN1S(=O)(=O)C3=CC=C(C)C=C3'; G is 'OCC#CC1=C(C#CC2=CC=CC=C2)C=CN1S(=O)(=O)C3=CC=C(C)C=C3'; H is 'C=C=CC1=C(C=CN1S(=O)(C2=CC=C(C=C2)C)=O)C#CC3=CC=CC=C3'."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-09-T9-3-1-rubric.png",
+          "description": "F is 'O=CC1=C(C#CC2=CC=CC=C2)C=CN1S(=O)(=O)C3=CC=C(C)C=C3'; G is 'OCC#CC1=C(C#CC2=CC=CC=C2)C=CN1S(=O)(=O)C3=CC=C(C)C=C3'; H is 'C=C=CC1=C(C=CN1S(=O)(C2=CC=C(C=C2)C)=O)C#CC3=CC=CC=C3'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-09-T9-4",
+      "tags": [
+        "2.3",
+        "2.8"
+      ],
+      "text_open": "9.4 When the substrate synthesized in 9.3 is subjected to gold-catalyzed cyclization, cyclization occurs but the expected product is not observed; instead, a more highly oxidized product forms. 9.4.1 To investigate the mechanism, the authors performed $^{18}\\mathrm{O}$ isotope-labeling experiments in methyl ethyl ketone (MEK) and THF. In both solvents, water participates as a nucleophile, but the degree of $^{18}\\mathrm{O}$ incorporation differs markedly: product formed in one solvent, B, shows 57% $^{18}\\mathrm{O}$ incorporation, whereas product formed in the other solvent, A, shows only 10% $^{18}\\mathrm{O}$ incorporation. Determine whether MEK is solvent A or B.",
+      "text_images": [
+        {
+          "file": "Exam-09-T9-4-1-prompt.png",
+          "description": "The figure shows the isotope-labeling experiment. Under BrettPhosAuCl/AgNTf_2 catalysis, substrate H reacts with H_2^{18}O to form the 4-acylindole 'O=C(C1=CC=CC=C1)C2=CC=CC3=C2C=CN3S(C4=CC=C(C)C=C4)(=O)=O'. The solvent is 0.2 M MEK or THF. Solvent A gives 10% $^{18}\\mathrm{O}$ incorporation, and solvent B gives 57% $^{18}\\mathrm{O}$ incorporation."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "A (2 points)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-09-T9-5",
+      "tags": [
+        "2.2",
+        "2.3"
+      ],
+      "text_open": "9.4.2 The catalytic-cycle mechanism is shown below, where X denotes either solvent A or B. Write the SMILES structures of J, K, L, and M in the cycle, including necessary charge/coordination information.",
+      "text_images": [
+        {
+          "file": "Exam-09-T9-5-1-prompt.png",
+          "description": "The figure shows the complete catalytic cycle for formation of a 4-acylindole. Substrate H binds the gold catalyst [Au]^+ to form J. J reacts with H_2O and loses [Au]^+ to form product M. M reversibly forms 'O=C(C1=CC=CC=C1)C2CC=CC3=C2C=CN3S(C4=CC=C(C)C=C4)(=O)=O', which is converted by O_2 into product 'O=C(C1=CC=CC=C1)C2=CC=CC3=C2C=CN3S(C4=CC=C(C)C=C4)(=O)=O'. In another branch, J reacts with X to form K. K reacts with H_2O and loses [Au]^+ to form product L. L then loses X to give intermediate product 'O=C(C1=CC=CC=C1)C2CC=CC3=C2C=CN3S(C4=CC=C(C)C=C4)(=O)=O'."
+        }
+      ],
+      "full_mark": 8,
+      "rubric": [
+        "(8 points, 2 points for each structure.) J is '[#79]C(C/C1=[C+]/C2=CC=CC=C2)=CC3=C1C=CN3S(C4=CC=C(C)C=C4)(=O)=O'; K is '[#79]C(C/C1=C(\\[O+]=C(C)\\CC)C2=CC=CC=C2)=CC3=C1C=CN3S(C4=CC=C(C)C=C4)(=O)=O'; L is 'CC(O)(CC)O/C(C1=CC=CC=C1)=C2CC=CC3=C\\2C=CN3S(C4=CC=C(C=C4)C)(=O)=O'; M is 'O/C(C1=CC=CC=C1)=C2CC=CC3=C\\2C=CN3S(C4=CC=C(C=C4)C)(=O)=O'. Au represents the coordinated [Au] center; not all ligands are shown."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-09-T9-5-1-rubric.png",
+          "description": "J is '[#79]C(C/C1=[C+]/C2=CC=CC=C2)=CC3=C1C=CN3S(C4=CC=C(C)C=C4)(=O)=O'; K is '[#79]C(C/C1=C(\\[O+]=C(C)\\CC)C2=CC=CC=C2)=CC3=C1C=CN3S(C4=CC=C(C)C=C4)(=O)=O'; L is 'CC(O)(CC)O/C(C1=CC=CC=C1)=C2CC=CC3=C\\2C=CN3S(C4=CC=C(C=C4)C)(=O)=O'; M is 'O/C(C1=CC=CC=C1)=C2CC=CC3=C\\2C=CN3S(C4=CC=C(C=C4)C)(=O)=O'."
+        }
+      ]
+    }
+  ]
+}

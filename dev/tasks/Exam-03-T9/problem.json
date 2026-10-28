@@ -1,0 +1,70 @@
+{
+  "problem_id": "Exam-03-T9",
+  "header": "Problem 9 Hypervalent-Iodine-Induced Ring Contraction. In 2004, researchers at the University of Tokushima published a study of hypervalent-iodine-induced ring contraction.",
+  "header_images": [
+    {
+      "file": "Exam-03-T9-header-1.png",
+      "description": "'OC1CCCNC1' reacts under PhIO and H_2O conditions."
+    }
+  ],
+  "subquestions": [
+    {
+      "sub_id": "Exam-03-T9-1",
+      "tags": [
+        "2.2",
+        "2.3",
+        "4.3"
+      ],
+      "text_open": "9-2 The reaction gives two amide products, A and B. Write the SMILES structures of the corresponding key intermediates; an intermediate common to both pathways need be written only once. Note: additional key intermediates may be included, but no incorrect structure may be given. The ^1H NMR data are as follows. A: ^1H NMR (CDCl_3): 6.68, 3.41, 2.31, 2.15; B: ^1H NMR (CDCl_3): 4.81, 3.58, 3.13, 2.41, 2.06.",
+      "text_images": [],
+      "full_mark": 9,
+      "rubric": [
+        "Common key intermediates: 'OC1CCCN(I(O)C2=CC=CC=C2)C1' (1 point), 'C=NCCCC=O' (1 point), and 'O=CCCCNCO' (1 point). Formation of A additionally proceeds through 'NCCCC=O' (2 points) and 'OC1NCCC1' (2 points). Formation of B additionally proceeds through 'OC1CCCN1CO' (2 points)."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-03-T9-1-1-rubric.png",
+          "description": "The figure has 3 rows. The first row shows the common key intermediates: 'OC1CCCN(I(O)C2=CC=CC=C2)C1' (1 point), 'C=NCCCC=O' (1 point), and 'O=CCCCNCO' (1 point). The second row shows the additional key intermediates leading to A: 'NCCCC=O' (2 points) and 'OC1NCCC1' (2 points). The third row shows the additional key intermediate leading to B: 'OC1CCCN1CO' (2 points)."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-03-T9-2",
+      "tags": [
+        "2.7"
+      ],
+      "text_open": "9-3 Identify the major and minor products among the two amides obtained in 9-2.",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "Major product: B; minor product: A. (2 points only if both are correct.)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-03-T9-3",
+      "tags": [
+        "2.2",
+        "2.3",
+        "2.4"
+      ],
+      "text_open": "9-4 Based on the mechanistic information above, write the SMILES structures of the key intermediates and product in the reaction shown below. The first step is known to form a zwitterion (internal salt); the acetonitrile was not predried; and the product has more than one plane of symmetry. Note: additional key intermediates may be included, but no incorrect structure may be given.",
+      "text_images": [
+        {
+          "file": "Exam-03-T9-3-1-prompt.png",
+          "description": "'O=C1C(O)=CC(C2=CC=CC=C21)=O' reacts first under PhI(OAc)_2 and DCM, and then under heat in CH_3CN."
+        }
+      ],
+      "full_mark": 5,
+      "rubric": [
+        "'O=C1C([O-])=C([I+]C2=CC=CC=C2)C(C3=CC=CC=C31)=O' (1 point), 'O=C(C1=CC=CC=C1C([C]2)=O)C2=O' (1 point), 'O=C(C1=CC=CC=C1C2=O)C2=C=O' (1 point), 'O=C1C(C(O)=O)C(C2=CC=CC=C21)=O' (1 point), and 'O=C1CC(C2=CC=CC=C21)=O' (1 point). Other additional correct intermediates receive neither credit nor a penalty."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-03-T9-3-1-rubric.png",
+          "description": "The figure has 2 rows. The first row shows 3 key intermediates: 'O=C1C([O-])=C([I+]C2=CC=CC=C2)C(C3=CC=CC=C31)=O' (1 point), 'O=C1C2=CC=CC=C2C([C]C1=O)=O' (1 point), and 'O=C(C1=CC=CC=C1C2=O)C2=C=O' (1 point). The second row shows two key intermediates: 'O=C1C(C(O)=O)C(C2=CC=CC=C21)=O' (1 point) and 'O=C1CC(C2=CC=CC=C21)=O' (1 point)."
+        }
+      ]
+    }
+  ]
+}

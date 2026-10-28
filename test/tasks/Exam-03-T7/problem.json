@@ -1,0 +1,36 @@
+{
+  "problem_id": "Exam-03-T7",
+  "header": "Problem 7 Li-CO_2 Batteries Based on Dimerization with a Solid Redox Mediator. 7-1 As energy demand and global greenhouse-gas emissions increase, efficiently storing energy while reducing CO_2 emissions has become a major scientific and technological challenge. Li-CO_2 batteries are a focus of next-generation energy-storage research because of their high theoretical energy density, approximately 1876 Wh/kg, and their ability to convert the greenhouse gas CO_2 into electrical energy. Conventional Li-CO_2 batteries, however, face three bottlenecks: (1) low discharge voltage because direct electrochemical reduction of CO_2 is kinetically slow; (2) high charging overpotential because the main discharge product is difficult to decompose and the charging voltage is typically above 4.3 V; and (3) short cycle life because conventional catalysts cannot stabilize the discharge product, so cycle life is usually fewer than 100 cycles.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-03-T7-1",
+      "tags": [
+        "2.1",
+        "3.5"
+      ],
+      "text_open": "7-1-1 Write the typical cathodic discharge reaction of a Li-CO_2 battery. The products are Li_2CO_3 and an elemental substance in a 2:1 ratio.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-03-T7-2",
+      "tags": [
+        "1.7",
+        "3.5"
+      ],
+      "text_open": "Earlier soluble redox mediators had three problems: they diffused between the cathode and anode and underwent side reactions; their transport through the electrolyte was slow at high current density; and they decomposed during cycling to form irreversible byproducts.\n7-3 To address these problems, researchers developed a Li-CO_2 battery based on a solid redox mediator. The mediator, RM(II)-BTC, is a microporous MOF formed by coordination of Cu(II) with trimesic acid (BTC). It is combined with carbon nanotubes to form a three-dimensional conductive network and has a high specific surface area and a pore diameter of 9 Å. The electrochemical performance of the battery is greatly improved: (1) the discharge voltage increases to 2.8 V and the charging voltage decreases to 3.7 V; (2) cycle life exceeds 400 cycles; and (3) excellent kinetics are obtained at high current density. 7-3-1 Based on the information in 7-3, state at least two advantages of the proposed Li-CO_2 battery over earlier Li-CO_2 batteries. Use no more than 20 words for each point.",
+      "text_images": [],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-03-T7-3",
+      "tags": [
+        "3.8"
+      ],
+      "text_open": "The DFT pathway is defined as follows. A is the initial state. A reacts with $Li^+$, $e^-$, and $CO_2$ to form B, with $\\Delta E_1=-1.50\\ \\mathrm{eV}$. B dimerizes to C, with $\\Delta E_2=+0.80\\ \\mathrm{eV}$. C binds Cu(I) with an oxidation-state change to give D, the final state containing stably adsorbed $Li_2C_2O_4$, with $\\Delta E_3=-2.72\\ \\mathrm{eV}$. $E(A)=-300.00\\ \\mathrm{eV}$; $E(TS_2)-E(C)=+0.45\\ \\mathrm{eV}$ and $E(TS_3)-E(D)=+3.62\\ \\mathrm{eV}$.\n7-4-2 Calculate and compare the maximum energy barriers of Steps 2 and 3, defined as the difference between the transition state and the corresponding precursor intermediate, and identify the rate-controlling step of the pathway.",
+      "text_images": [],
+      "full_mark": 3
+    }
+  ]
+}

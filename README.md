@@ -36,15 +36,15 @@ credit, instead of answer endpoints.
 
 | | Share | Problems | Subquestions | Marks | Public images | Rubrics |
 | --- | ---: | ---: | ---: | ---: | ---: | --- |
-| 🧪 **dev** · Public Dev Set | 25% | 48 | 210 | 636 | 268 | ✅ included |
-| 🏁 **test** · Held-out Test Set | 55% | 105 | 445 | 1387 | 268 | ❌ stripped |
-| 🔒 **private** · Private Set | 20% | 38 | 165 | 559 | — | 🔐 local only |
-| **Total** | 100% | **191** | **820** | **2582** | **536** | |
+| 🧪 **dev** · Public Dev Set | 25% | 48 | 209 | 676 | 350 | ✅ included |
+| 🏁 **test** · Held-out Test Set | 55% | 105 | 391 | 1271 | 173 | ❌ stripped |
+| 🔒 **private** · Private Set | 20% | 38 | 220 | 635 | — | 🔐 local only |
+| **Total** | 100% | **191** | **820** | **2582** | **523** | |
 
-> 🎲 **Seeded stratified split** — the distribution of *level* (exam series),
-> *subfield* (knowledge category), and *modality* (with / without model-visible
-> images) stays consistent across all three partitions and matches the full set
-> (max deviation ≈ 3 percentage points).
+> 🖼 **Balanced image split** — problems are assigned deterministically
+> (largest-image-first) so that the total number of model-visible images is
+> roughly equal across the three partitions (155 / 165 / 173 of a 164-per-partition
+> average), while the 25/55/20 problem ratio is kept exact.
 
 ## 📁 Repository Layout
 
@@ -135,42 +135,36 @@ structure/SMILES equivalence judged by chemical meaning.
 *Snapshot: September 2026 · Normalized Rubric Score (%). Runs are sorted by
 `full_problem` within each input mode.*
 
-🥇 **`full_problem` leaders** — Multimodal: Claude Opus 5 53.8%† ·
-Text: Claude Opus 5 61.5%† · Text + reader: GLM-5.2 52.0%
+🥇 **`full_problem` leaders** — Multimodal: Claude Opus 5 53.8% ·
+Text: Claude Opus 5 61.5% · Text + reader: GLM-5.2 52.0%
 
 | Model | Input | full_problem | sequential_carry | oracle_scaffolded |
 | --- | --- | ---: | ---: | ---: |
-| Claude Opus 5 † | multimodal | 53.8 | 59.4 | 64.9 |
-| Gemini 3.8 Flash § | multimodal | 48.5 | 58.5 | 60.3 |
-| Grok 4.6 § | multimodal | 33.8 | 41.8 | 45.5 |
+| Claude Opus 5 | multimodal | 53.8 | 59.4 | 64.9 |
+| Gemini 3.8 Flash | multimodal | 48.5 | 58.5 | 60.3 |
+| Grok 4.6 | multimodal | 33.8 | 41.8 | 45.5 |
 | Qwen3.8-Max | multimodal | 29.3 | 31.2 | 34.0 |
 | Kimi K3 | multimodal | 27.5 | 30.6 | 31.8 |
 | MiniMax M3 | multimodal | 27.3 | 27.5 | 27.9 |
 | GPT-5.6-Sol | multimodal | 23.2 | 28.8 | 30.4 |
-| Claude Opus 5 † | text | 61.5 | 61.7 | 61.7 |
-| Gemini 3.8 Flash § | text | 46.5 | 59.0 | 59.7 |
+| Claude Opus 5 | text | 61.5 | 61.7 | 61.7 |
+| Gemini 3.8 Flash | text | 46.5 | 59.0 | 59.7 |
 | Qwen3.8-Max | text | 36.0 | 39.0 | 41.9 |
 | Kimi K3 | text | 34.5 | 36.0 | 37.5 |
-| Grok 4.6 § | text | 33.4 | 42.0 | 46.0 |
+| Grok 4.6 | text | 33.4 | 42.0 | 46.0 |
 | GPT-5.6-Sol | text | 29.8 | 35.6 | 36.5 |
 | MiniMax M3 | text | 26.2 | 28.7 | 29.1 |
 | DeepSeek V4 Pro | text | 25.0 | 25.0 | 27.6 |
 | GLM-5.2 | text | 23.5 | 24.9 | 25.1 |
 | GLM-5.2 | text + reader | 52.0 | 52.2 | 52.4 |
-| Claude Opus 5 † | text + reader | 46.2 | 53.9 | 54.7 |
+| Claude Opus 5 | text + reader | 46.2 | 53.9 | 54.7 |
 | DeepSeek V4 Pro | text + reader | 36.7 | 36.8 | 37.0 |
-| Gemini 3.8 Flash § | text + reader | 33.8 | 45.1 | 49.7 |
+| Gemini 3.8 Flash | text + reader | 33.8 | 45.1 | 49.7 |
 | Kimi K3 | text + reader | 32.3 | 32.3 | 32.4 |
 | GPT-5.6-Sol | text + reader | 31.1 | 33.6 | 34.0 |
-| Grok 4.6 § | text + reader | 28.6 | 29.0 | 31.1 |
+| Grok 4.6 | text + reader | 28.6 | 29.0 | 31.1 |
 | Qwen3.8-Max | text + reader | 27.9 | 29.2 | 31.5 |
 | MiniMax M3 | text + reader | 27.2 | 27.3 | 27.3 |
-
-> † Claude Opus 5 runs rest on a small problem prefix (39–103 points) and are
-> provisional until the full set completes.
-> § Gemini 3.8 Flash and Grok 4.6 runs sit on a 12-paper, 1136-point subset.
-> Percentages are computed on each run's own scored problem set, so
-> denominators differ across runs.
 
 Live leaderboard: <https://www.cosmosmind.ai/leaderboard/chemargus>
 
@@ -185,6 +179,10 @@ Live leaderboard: <https://www.cosmosmind.ai/leaderboard/chemargus>
             Wenzhe Gao and Zhihao Yu and Qijun Wang and Yetian Zhu and Jiande Chen and
             Chuhang Pei and Yao Jiang and Erhao Chen and Pinhan Wang and Xiaorui Pan and
             Qianyi Zhu and Yang Liu and Mang Ye and Guancheng Wan},
-  year   = {2026}
+  year          = {2026},
+  eprint        = {2610.20012},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.LG},
+  url           = {https://arxiv.org/abs/2610.20012}
 }
 ```

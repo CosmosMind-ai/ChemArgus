@@ -1,0 +1,28 @@
+{
+  "problem_id": "Exam-01-T1",
+  "header": "Divine Gold!",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-01-T1-1",
+      "tags": [
+        "2.1",
+        "1.4",
+        "2.4"
+      ],
+      "text_open": "1-2-2 Anhydrous AuCl_3 reacts with a small amount of CO to produce “AuCl_2,” which exists as a tetramer. The molecule possesses only a C_2 axis and a mirror plane perpendicular to the C_2 axis. Write the chemical equation for the reaction and the SMILES structure of tetrameric AuCl_2.",
+      "text_images": [],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-01-T1-2",
+      "tags": [
+        "1.4",
+        "2.4"
+      ],
+      "text_open": "1-3 Au can form cluster compounds with unusual frameworks. Based on the descriptions, write reasonable SMILES structures for the following complexes. 1-3-1 Complex Au_4(dppm)_3I_2: the numbers of Au atoms in two chemical environments are in a ratio of 1:3; every Au is coordinated by one I atom; and all dppm ligands have the same chemical environment. (dppm=Ph_2PCH_2PPh_2)",
+      "text_images": [],
+      "full_mark": 2
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "problem_id": "Exam-19-T6",
+  "header": "Question 6 Boron Oxides\nBoron oxides possess advantageous properties and are used to prepare other boron compounds and to manufacture optical glass, electronic materials, ceramics, flame-retardant materials, and more. New boron-based 2D materials have been explored extensively in recent years. This problem examines the reactivity and structures of several boron oxides.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-19-T6-1",
+      "tags": [
+        "1.3",
+        "1.1"
+      ],
+      "text_open": "6.1 $B_2O_3$ is the most common boron oxide and has some Lewis acidity. Reaction of $B_2O_3$ with $P_2O_5$ gives compound X, a catalyst for dehydration reactions. The figure below is a projection of a conventional unit cell of tetragonal X; the large spheres represent P, the medium spheres B, and the small spheres oxygen.\n6.1.1 Give the chemical formula of X and identify the characteristic symmetry element of the crystal.",
+      "text_images": [
+        {
+          "file": "Exam-19-T6-1-1-prompt.png",
+          "description": "The figure is a schematic of crystallographic axes. A small filled gray sphere at the lower left is labeled a. From this point, a thick horizontal arrow extends to the right and is labeled b at its tip, while a thick vertical arrow extends upward and is labeled c at its tip. No other text or numbers appear."
+        },
+        {
+          "file": "Exam-19-T6-1-2-prompt.png",
+          "description": "A two-dimensional crystallographic projection of the unit cell. Fractional coordinates x and y are defined horizontally and vertically, with unit-cell boundaries at x=0,1 and y=0,1. Three visually distinct sphere types appear: large gray spheres, small gray spheres, and spheres labeled B or P. Approximate fractional coordinates of the large gray spheres are (0.0,1.0), (1.0,1.0), (0.0,0.75), (1.0,0.75), (0.0,0.0), (1.0,0.0), (0.0,0.25), and (1.0,0.25). Approximate fractional coordinates of the small gray spheres are (0.0,1.15), (0.3,1.15), (0.7,1.15), (1.0,1.15), (0.15,0.85), (0.15,0.65), (0.85,0.85), (0.85,0.65), (0.3,0.25), (0.7,0.25), (0.15,0.15), (0.15,-0.05), (0.85,0.15), and (0.85,-0.05), together with visible periodic images outside the unit-cell boundary. Approximate fractional coordinates of the labeled spheres are B at (0.0,0.75) and (0.5,0.25), and P at (0.5,0.5)."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "Chemical formula: $BPO_4$ (1 point).",
+        "Characteristic symmetry element: an $I_4$ axis (1 point)."
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-19-T6-2",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "6.1.2 How many distinct chemical environments does oxygen have in this crystal?",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "1 (2 points)."
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-19-T6-3",
+      "tags": [
+        "1.3",
+        "2.1"
+      ],
+      "text_open": "6.1.3 The B–P distance is 272.9 pm. The B–P–B angle indicated in the figure is 111.7°, and the other B–P–B angle is 105.1°. Assuming that P and B are completely converted to their corresponding oxoacids, calculate the theoretical maximum mass of water that $1\\ \\mathrm{cm^3}$ of this crystal can absorb.",
+      "text_images": [],
+      "full_mark": 5,
+      "rubric": [
+        "$a=272.9\\times\\sin\\frac{105.1°}{2}\\times2=433.3\\ \\mathrm{pm}$ (1 point).",
+        "$c=272.9\\times\\cos\\frac{105.1°}{2}\\times4=663.8\\ \\mathrm{pm}$ (1 point).",
+        "Complete-hydrolysis equation: $BPO_4+3H_2O\\rightarrow H_3BO_3+H_3PO_4$ (1 point).",
+        "Counting from the crystal structure gives $Z=2$; therefore, $m=\\frac{Z\\times M_r(H_2O)\\times3}{a^2cN_A}=1.439\\ \\mathrm{g}$ (2 points; 1.43–1.44 g is acceptable)."
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-19-T6-4",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "6.2 The literature has reported formation of a crystalline compound with composition $B_2O$ by reacting B with $B_2O_3$ at high pressure and high temperature. One proposed structure belongs to the trigonal crystal system. It may be viewed as boron-only layers M and boron–oxygen layers N stacked in an …MNNMNN… sequence. Both M and N contain only juxtaposed six-membered rings. Adjacent N layers are connected by B–B covalent bonds, while B–O interactions parallel to the c axis occur between M and N layers, making both boron and oxygen nonplanar. The number of formula units per unit cell satisfies $Z\\leq3$. The shortest B–O distance within an N layer is 174.2 pm, and the shortest B–O distance between M and N layers is 199.6 pm. The various B–B bond lengths in the crystal are very similar and may all be taken as 169.3 pm in this problem.\n6.2.1 How many B–B covalent bonds are present in 1 mol of crystalline $B_2O$?",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "$2N_A$ (2 points; 2 mol is also acceptable)."
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-19-T6-5",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "6.2.3 The unit-cell parameter of this crystal is $c = 705.2\\ \\mathrm{pm}$. Calculate the unit-cell parameter $a$.",
+      "text_images": [],
+      "full_mark": 5,
+      "rubric": [
+        "Let $x$ be the corrugation height of an N layer and $y$ that of an M layer. Geometry gives $x^2+(\\frac{a}{\\sqrt{3}})^2=d_{B-O,horizontal}^2,\\ y^2+(\\frac{a}{\\sqrt{3}})^2=d_{B-B}^2$ (2 points).",
+        "$c=2x+y+d_{B-B}+2d_{B-O,vertical}$ (1 point).",
+        "Solving gives $a=287.9\\ \\mathrm{pm}$ (2 points; 287–289 pm is acceptable)."
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-19-T6-6",
+      "tags": [
+        "1.1"
+      ],
+      "text_open": "6.3 BO was reported as early as 1940, but technological limitations long prevented determination of its structure. In 2023, researchers used multiple methods and analytical tools to propose several planar two-dimensional candidate models. BO can be formed by dehydration of compound A. A is synthesized as follows: reacting $BCl_3$ with Cu vapor on a liquid-nitrogen-cooled surface gives compound B (Reaction 1); hydrolysis of B gives A, which yields BO upon dehydration. When B reacts with an equimolar amount of hydrogen, the only products are two simple binary compounds (Reaction 2). B also reacts with cis-2-butene (Reaction 3).\n6.3.1 Compound B exists as a monomer in both the gas and solid phases, but the molecular structures have different symmetries. Write the SMILES strings for both structures; the gas/solid assignment need not be indicated.",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "Planar 'ClB(Cl)B(Cl)Cl' and D2d 'ClB(Cl)B(Cl)Cl' (1 point each; either order)."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-19-T6-6-1-rubric.png",
+          "description": "The figure shows two structures of compound B, both with the same SMILES 'ClB(Cl)B(Cl)Cl'. They differ in conformation/symmetry about the B–B bond. The left structure shows planar Cl2B–BCl2 using solid lines. In the right structure, the two Cl atoms on the right-hand B are shown with a solid wedge and a dashed bond, respectively, so the two BCl_2 planes are perpendicular. The gas/solid assignments are not labeled."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-19-T6-7",
+      "tags": [
+        "2.1",
+        "2.4"
+      ],
+      "text_open": "6.3.2 Write the equations for Reactions 1–3, paying attention to the stereochemistry of Reaction 3.",
+      "text_images": [],
+      "full_mark": 6,
+      "rubric": [
+        "Reaction 1: $2BCl_3+2Cu\\rightarrow B_2Cl_4+2CuCl$ (2 points).",
+        "Reaction 2: $3B_2Cl_4+3H_2\\rightarrow B_2H_6+4BCl_3$ (2 points).",
+        "Reaction 3: 'ClB(Cl)B(Cl)Cl'.'C/C=C\\C'>'C[C@H](B(Cl)Cl)[C@H](B(Cl)Cl)C' (2 points; only 1 point if stereochemistry is not shown)."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-19-T6-7-1-rubric.png",
+          "description": "The figure shows the one-step reaction 'ClB(Cl)B(Cl)Cl'.'C/C=C\\C'>'C[C@H](B(Cl)Cl)[C@H](B(Cl)Cl)C'. The product is meso-2,3-bis(dichloroboryl)butane. The left BCl2 group is shown with a dashed wedge and the right BCl2 group with a solid wedge, placing the two BCl2 groups on opposite sides of the plane."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-19-T6-8",
+      "tags": [
+        "1.3",
+        "1.1"
+      ],
+      "text_open": "According to the hypothesis proposed in the 2023 study, both idealized ordered stacking models of BO can be regarded as different stackings of the same infinite planar BO sheet. The AAAA… stacking forms a primitive orthorhombic lattice, whereas ABCD stacking forms a body-centered tetragonal lattice. A single boron–oxygen sheet contains only 6-, 12-, and 16-membered rings; one actual two-dimensional unit cell contains 2, 1, and 1 of these rings, respectively. If the slight distortion of the 12-membered ring is ignored, the sheet has a fourfold axis; in the actual structure, the 12-membered ring has only a twofold axis.\n6.3.3 Write the SMILES string for the boron–oxygen sheet, and state the number of boron atoms in one smallest actual two-dimensional unit cell.",
+      "text_images": [],
+      "full_mark": 5,
+      "rubric": [
+        "'[*]B1B(OB2OB3OB4B5OB6OB7OB8B(OB9B(O8)OB(O%10)B(OB%11OB(B(OB%11OB%12OB(B(OB%12O9)[*])[*])[*])[*])OB(OB%13OB(B(OB%13OB2O1)[*])[*])B%10OB3O5)OB%14OB(B(OB%14OB%15OB(B(OB%15OB7OB6OB%16OB(B(OB%16OB%17OB(B(OB%17O4)[*])[*])[*])[*])[*])[*])[*])[*])[*]' (2 points for the correct $[B_4O_2]$ six-membered-ring fragment and 2 points for correctly depicting all three ring sizes; 4 points total).",
+        "Number of boron atoms per unit cell: 8 (1 point)."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-19-T6-8-1-rubric.png",
+          "description": "The figure shows a two-dimensional boron–oxygen network formed by $[B_4O_2]$ six-membered rings, with atom sequence B–B–O–B–B–O, connected through shared B–B bonds. Boron atoms at the network edges carry unlabeled short methyl termination lines. The full network SMILES is 'CB1B(C)OB(OB2OB3B(OB4OB(OB5B(OB6OB(C)B(C)OB6OB7OB(C)B(C)OB7O8)OB9B(O%10)O5)B8OB4OB%11OB(C)B(C)OB%11OB(OB(C)B(C)O%12)B%12O3)OB2OB%13B(OB(OB%14OB(C)B(C)OB%14OB(OB(C)B(C)O%15)B%15O9)B%10O%13)OB%16OB(C)B(C)OB%16O%17)B%17O1' and includes 16 methyl terminations."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-19-T6-9",
+      "tags": [
+        "4.3",
+        "1.3"
+      ],
+      "text_open": "6.3.5 To verify that the boron atoms in the crystal are bonded to one another and coplanar, meaning that both angle $\\theta$ and angle $\\psi$ in the right-hand figure are 0°, which experimental technique is most appropriate for a BO powder sample?\n(a) Electron paramagnetic resonance (b) Solid-state nuclear magnetic resonance (c) Electron diffraction (d) Thermogravimetric analysis",
+      "text_images": [
+        {
+          "file": "Exam-19-T6-9-1-prompt.png",
+          "description": "The figure shows two boron–oxygen structural fragments. In the upper fragment, a large central circle labeled B is connected by two short horizontal lines to two small circles labeled O on its right, by a diagonal line to one O at upper right, and by two diagonal lines to two O atoms on the left; the angle symbol θ is shown between the two left O–B lines. The lower fragment contains two B atoms joined by a single bond, each additionally bonded to two O atoms: the left B to upper-left and lower-left O, and the right B to upper-right and lower-right O. Arrows above the two B atoms point toward the upper left and upper right, and an arc between them is labeled ψ. The only text and symbols are B, O, θ, and ψ."
+        }
+      ],
+      "full_mark": 1,
+      "rubric": [
+        "(b) (1 point)."
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-19-T6-10",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "In 2025, researchers prepared a $^{17}O$-labeled BO sample and used more precise instrumental analyses to establish that the BO crystal is not a stack of two-dimensional sheets but consists mainly of long one-dimensional chains, thereby disproving the planar two-dimensional model proposed in 2023.\n6.3.6 Write the SMILES string for the one-dimensional BO chain.",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "'[*]OB1OB([*])B([*])OB1O[*]' (2 points; terminal groups need not be shown)."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-19-T6-10-1-rubric.png",
+          "description": "The figure shows a one-dimensional long-chain BO polymer. Brackets enclose the repeating unit and a subscript n appears at the lower right. The repeating-unit SMILES is '[*]OB1OB([*])B([*])OB1O[*]', where [*] denotes a connection site to an adjacent repeating unit: each of the two left-hand B atoms is directly bonded to one [*], and each of the two right-hand B atoms connects to [*] through an O atom."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-19-T6-11",
+      "tags": [
+        "4.3",
+        "1.3"
+      ],
+      "text_open": "6.3.7 Powder X-ray diffraction once suggested that BO has two-dimensional character, apparently contradicting the one-dimensional long-chain structure. Briefly explain this observation.",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "The one-dimensional B–O polymer chains exhibit random stacking or stacking faults, so their average structure produces diffraction features resembling an ordered two-dimensional layered structure (2 points: 1 point for random stacking and 1 point for averaging into a plane)."
+      ],
+      "rubric_images": []
+    }
+  ]
+}

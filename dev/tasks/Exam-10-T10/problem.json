@@ -1,0 +1,79 @@
+{
+  "problem_id": "Exam-10-T10",
+  "header": "",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-10-T10-1",
+      "tags": [
+        "1.2",
+        "2.4"
+      ],
+      "text_open": "10-1-1 The [4+2] reaction is an important method for forming carbon-carbon bonds and is widely used in modern organic synthesis. It exhibits rich stereochemistry, including both stereoselectivity and regioselectivity, and generally gives the endo product. Complete the following reaction, showing the stereochemistry.",
+      "text_images": [
+        {
+          "file": "Exam-10-T10-1-1-prompt.png",
+          "description": "Organic reaction scheme between 'C=CC1=CCCCC1(C)C' and 'C/C=C/C=O'."
+        }
+      ],
+      "full_mark": 3,
+      "rubric": [
+        "'CC1(C)CCC[C@]2([H])[C@H](C=O)[C@@H](C)CC=C21' and 'CC1(C)CCC[C@@]2([H])[C@@H](C=O)[C@H](C)CC=C21' (3 points: 2 points for the skeleton and 1 point for fully correct stereochemistry)."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-10-T10-1-1-rubric.png",
+          "description": "Two organic structural formulas with the SMILES strings 'CC1(C)CCC[C@]2([H])[C@H](C=O)[C@@H](C)CC=C21' and 'CC1(C)CCC[C@@]2([H])[C@@H](C=O)[C@H](C)CC=C21'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-10-T10-2",
+      "tags": [
+        "2.2",
+        "2.4"
+      ],
+      "text_open": "10-3 The [4+2] reaction can also trap highly reactive intermediates, thereby demonstrating their existence or constructing complex carbon skeletons. 10-3-1 An unstable electrophilic intermediate is generated in the reaction below. Write the key intermediates in the reaction sequence.",
+      "text_images": [
+        {
+          "file": "Exam-10-T10-2-1-prompt.png",
+          "description": "Organic reaction scheme in which 'BrC1=CC2=C(OCO2)C=C1' and 'O=C1OC(C#N)C2=C1C=CC=C2' react with LDA in THF from -78 °C to 40 °C to give 'O=C1C2=CC=C(OCO3)C3=C2C(C4=C1C=CC=C4)=O'."
+        }
+      ],
+      "full_mark": 8,
+      "rubric": [
+        "The SMILES strings of the key intermediates are 'C%12(OCO%13)=C%13C#CC=C%12', '[O-]C1=C2C=CC=CC2=C(C#N)O1', '[O-]C34C5=C6C(OCO6)=CC=C5C(C7=C4C=CC=C7)(C#N)O3', and 'O=C(C(C=CC=C8)=C8C9(C#N)[O-])C%10=C9C=CC%11=C%10OCO%11' (2 points each, 8 points total)."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-10-T10-2-1-rubric.png",
+          "description": "Four organic structural formulas: 'C%12(OCO%13)=C%13C#CC=C%12', '[O-]C1=C2C=CC=CC2=C(C#N)O1', '[O-]C34C5=C6C(OCO6)=CC=C5C(C7=C4C=CC=C7)(C#N)O3', and 'O=C(C(C=CC=C8)=C8C9(C#N)[O-])C%10=C9C=CC%11=C%10OCO%11'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-10-T10-3",
+      "tags": [
+        "2.2",
+        "2.4"
+      ],
+      "text_open": "10-3-2 Non-neutral substrates can also be trapped through [4+2] reactions. Reactions in which an aromatic ring is oxidized before cycloaddition are often termed [5+2] reactions. The solvent-dependent, oxidative-dearomatization-induced divergent [5+2] cascade strategy below constructs a bicyclo[3.2.1]octane skeleton. Write the SMILES strings of the key intermediates leading to each of the two products.",
+      "text_images": [
+        {
+          "file": "Exam-10-T10-3-1-prompt.png",
+          "description": "Organic reaction scheme in which 'OC1=C(CCC/C=C\\CCO)C=CC=C1OC' reacts with PhI(OAc)_2 in HFIP at 0 °C to give [A] 'O=C1[C@]2([C@]3([H])CCC2)C=C[C@H]4[C@]1(OC)[C@]3([H])CCO4' and [B] '[H][C@]12[C@](CCC3)([H])[C@]34C([C@H](C=C4)[C@@]1(OC)OCC2)=O'."
+        }
+      ],
+      "full_mark": 6,
+      "rubric": [
+        "Intermediate leading to A: 'O=C1[C@]2([C@]3([H])CCC2)[CH+]C=C[C@]1(OC)[C@]3([H])CCO' (2 points). Intermediates leading to B: 'O=C1[C@]2([C@]3([H])CCC2)[CH+]C=C[C@]1(OC)[C@@]3([H])CCO' and 'O=C([C@@H]1C=C2)[C@]23[C@@](CCC3)([H])[C@]([H])(CCO)C1=[O+]C' (2 points each)."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-10-T10-3-1-rubric.png",
+          "description": "Intermediate leading to A: 'O=C1[C@]2([C@]3([H])CCC2)[CH+]C=C[C@]1(OC)[C@]3([H])CCO' (2 points). Intermediates leading to B: 'O=C1[C@]2([C@]3([H])CCC2)[CH+]C=C[C@]1(OC)[C@@]3([H])CCO' and 'O=C([C@@H]1C=C2)[C@]23[C@@](CCC3)([H])[C@]([H])(CCO)C1=[O+]C'."
+        }
+      ]
+    }
+  ]
+}

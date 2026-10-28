@@ -1,0 +1,73 @@
+{
+  "problem_id": "Exam-19-T2",
+  "header": "Question 2 Photochromic Organic Transistor\nOrganic field-effect transistors (OFETs) offer advantages such as flexibility, printability, and low-temperature fabrication, and are widely used in flexible displays, sensors, and large-area electronic circuits. Organic molecules with distinctive photochemical properties can therefore be used to make light-controlled switches or transistors. Researchers fabricated a photochromic organic transistor using a DAE film as the transistor channel layer. The device supports reversible writing and erasing. The molecular structure of DAE, the organic transistor structure, and the structure of a conventional bipolar transistor are shown below.\nHere, Channel means the conduction channel. From a purely functional perspective, the Source (S terminal) of the field-effect transistor is the source electrode and corresponds to emitter E of the bipolar transistor; Gate (G terminal) is the gate electrode and corresponds to base B; Drain (D terminal) is the drain electrode and corresponds to collector C.",
+  "header_images": [
+    {
+      "file": "Exam-19-T2-header-1.png",
+      "description": "The SMILES representation of DAE is 'FC1(F)C(F)(F)C(C2=C(C)SC(C3=CC=C(C4=CC=CC=C4)C=C3)=C2)=C(C5=C(C)SC(C6=CC=C(C7=CC=CC=C7)C=C6)=C5)C1(F)F'."
+    },
+    {
+      "file": "Exam-19-T2-header-2.png",
+      "description": "The figure is a structural schematic of an organic field-effect transistor (OFET). From bottom to top it shows a p+-Si substrate (with a lead from the bottom connected to a variable DC supply and labeled Gate), a SiO₂ layer, Au electrodes on the left and right, and a 1D channel spanning the two electrodes. The left electrode is grounded by a lead and labeled Source; the right electrode is connected by a lead to a variable DC supply and labeled Drain. Above the device, the tip of a probe (nanomanipulator/AFM probe) points vertically toward the 1D channel. A translucent cover layer at upper right is labeled DAE and PMMA. The lower right is labeled XY-axes stage and includes arrows showing three-dimensional directions of motion."
+    },
+    {
+      "file": "Exam-19-T2-header-3.png",
+      "description": "The figure shows the circuit symbol of a conventional bipolar transistor. Inside a circle is an inverted trapezoidal arrangement. A vertical line at the top connects to B (base), a horizontal line at the right connects to C (collector), and a horizontal line at the left connects to E (emitter). The end of the E line carries an arrow pointing toward the lower diagonal line inside the circle."
+    }
+  ],
+  "subquestions": [
+    {
+      "sub_id": "Exam-19-T2-1",
+      "tags": [
+        "3.5",
+        "1.7"
+      ],
+      "text_open": "The channel contains a mixture of DAE and its isomer X. Let α denote the fraction of X in the channel. Experiments show that after sufficiently prolonged irradiation at wavelength λ1, the maximum isomer fraction α_{max} = 0.75. If a further 40s scan at wavelength λ2 is then applied, α decreases by 0.10. After sufficiently prolonged irradiation at wavelength λ2, the minimum isomer fraction α_{max} = 0.10. If a further 40s scan at wavelength λ1 is then applied, α increases by 0.20. For a reversible first-order isomerization, \\alpha(t) = \\alpha_{\\infty} + (\\alpha_0 - \\alpha_{\\infty})e^{-kt}. Here k is the apparent rate constant, \\alpha_{\\infty} is the isomer fraction at the photostationary state, and \\alpha_ is the isomer fraction at t = 0.\n2.3 In the saturation region, the magnitude of the drain current through a single channel satisfies\n$$|I_D|=\\frac{μC_iW}{2L}(V_G-V_T)^2$$\nwhere W is the channel width; L is the channel length (the length of semiconductor traversed by the current from S to D), taken as 40 μm in this part; μ is the carrier mobility in the saturation region, which describes the overall rate of motion of electrons and holes through the material; $C_i$ is the capacitance per unit area of the insulating layer; $V_G$ is the gate voltage; and $V_T$ is the threshold voltage, which may be approximated as a constant independent of $V_G$ and μ. For n identical channels, approximately\n$$|I_D|=\\frac{μnC_iW}{2L}(V_G-V_T)^2$$\nIn this problem, the saturation-region carrier mobility may be taken as proportional to α.\n2.3.1 The source is grounded and the drain voltage $V_D$ is fixed so that the transistor remains in the saturation region. After irradiation with ultraviolet and visible light of specified wavelengths, respectively, the gate voltage $V_G$ is scanned while the drain current is monitored. The results are shown in the left-hand figure below. The region 0 > $V_G$ > -20V is outside the saturation region and is irrelevant to this question. The transistor properties differ markedly after the two irradiations. Determine whether the transistor after ultraviolet irradiation corresponds to curve group A or B, and briefly explain why. (Figure labels: Current; Voltage; Drawing Cycle.)",
+      "text_images": [
+        {
+          "file": "Exam-19-T2-1-1-prompt.png",
+          "description": "The figure is a coordinate plot (left-hand figure for 2.3.1). The vertical axis is labeled 'Drain Current (pA)', with tick labels -8, -6, -4, -2, 0, and 2 from top to bottom. The horizontal axis is labeled 'Gate Voltage (V)', with tick labels 0, -20, -40, and -60 from left to right. Several dark solid curves nearly overlap from 0 to -20 V and separate into two groups beyond -20 V. Group A (labeled 1 and 3,5) has currents of approximately -6 pA and -4 pA at -60 V. Group B (labeled 6 and 2,4,0) has currents between 0 and 1 pA at -60 V. The upper left is labeled 'UV: 25 mW/cm²' and 'VIS: 500 mW/cm²'."
+        },
+        {
+          "file": "Exam-19-T2-1-2-prompt.png",
+          "description": "The figure is a coordinate plot (right-hand figure for 2.3.1). The vertical axis is labeled 'Drain Current (pA)', with tick labels 2, 0, -2, -4, -6, and -8 from bottom to top. The horizontal axis is labeled 'Drawing Cycle', with ticks at 0, 5, 10, 15, and 20. A black solid polyline with filled black square markers oscillates in a sawtooth pattern between approximately -0.5 and -6 pA. The absolute magnitudes of the peaks and troughs decrease gradually as the cycle number increases. Gray arrows above each peak and below each trough indicate application of light. No legend is present."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-19-T2-2",
+      "tags": [
+        "3.6",
+        "3.8"
+      ],
+      "text_open": "Starting from the $\\lambda_2$ photostationary state, two consecutive $\\lambda_1$ scans under the stated conditions give an isomer-X fraction $\\alpha=0.44$.\nProlonged irradiation at $\\lambda_1$ makes the isomer-X fraction $\\alpha$ reach 0.75, whereas prolonged irradiation at $\\lambda_2$ makes $\\alpha$ reach 0.10.\n2.3.3 For a transistor with n = 1, after prolonged scanning at wavelength $λ_1$, two data points in the saturation region of its $I_D$–$V_G$ curve are measured: (-40 V, -2.0 pA) and (-50 V, -3.9 pA). A transistor with n = 3 is irradiated for a long time at wavelength $λ_2$ and then subjected to two consecutive 40 s scans at wavelength $λ_1$. Neglecting losses, calculate $I_D$ at $V_G$ = -45 V.",
+      "text_images": [],
+      "full_mark": 5
+    },
+    {
+      "sub_id": "Exam-19-T2-3",
+      "tags": [
+        "3.6"
+      ],
+      "text_open": "2.4 This transistor can be used to construct a light-controlled analog adder. Its structure is shown below. The three branches (1, 2, and 3) forming the Y share one gate G, with $V_G$ = -40 V. The distance between S and D is 60 μm. Branch 1 contains 3 channels and branch 2 contains 2 channels. Every channel operates in the saturation region and has the same width. The section connecting the three channels (the section parallel to S and D) lies midway between S and D and may be treated as an ideal conductor. Initially, every channel has been irradiated for a long time at wavelength $λ_1$. (Hint: note the definition of L. Neglect losses.)\n2.4.1 Calculate the initial magnitude of the drain current.",
+      "text_images": [
+        {
+          "file": "Exam-19-T2-3-1-prompt.png",
+          "description": "The figure is a schematic of the Y-shaped light-controlled analog adder, shown as a three-dimensional rectangular trough-like device. The left side is labeled S and connected by a bent lead to a ground symbol. The right side is labeled D and connected by a bent lead to a DC-source symbol. The front of the bottom is labeled G and connected by a vertical lead to a ground symbol. Internal stepped layered regions labeled 1, 2, and 3 correspond to the three branches forming the Y; branches 1 and 2 converge into branch 3."
+        }
+      ],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-19-T2-4",
+      "tags": [
+        "3.6",
+        "3.8"
+      ],
+      "text_open": "2.4.2 For a channel in which μ varies, the equivalent mobility of the channel can be obtained by averaging μ as follows:\n$$μ_{eff}=\\frac{L_1+L_2}{\\frac{L_1}{μ_1}+\\frac{L_2}{μ_2}}$$\nEach channel in branch 1 is now subjected to one 40 s scan at wavelength $λ_2$. Calculate the change in the magnitude of the drain current.",
+      "text_images": [],
+      "full_mark": 3
+    }
+  ]
+}

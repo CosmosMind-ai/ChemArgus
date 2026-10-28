@@ -1,0 +1,203 @@
+{
+  "problem_id": "Exam-20-T9",
+  "header": "Problem 9 Prins Cyclization (25 points, 12%)\nThe Prins cyclization is a powerful synthetic transformation that rapidly constructs tetrahydropyran rings. Tetrahydropyran is a common structural unit in many bioactive molecules, including spongistatins and bryostatins. Researchers have used the Prins cyclization in numerous elegant strategies for the total synthesis of natural-product targets.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-20-T9-1",
+      "tags": [
+        "2.4",
+        "2.2"
+      ],
+      "text_open": "9.1 The following is a classic Prins cyclization that gives the final product with high stereoselectivity, where R = alkyl.\n9.1.1 Write the SMILES strings of A-D in the scheme, including stereochemistry. B is a highly strained intermediate.",
+      "text_images": [
+        {
+          "file": "Exam-20-T9-1-1-prompt.png",
+          "description": "Prins cyclization sequence: '[R]C1=CCCCC1'>H2C=O, H2SO4>[A⇌B]; [B]>H2O>[C]; [C]>H2C=O, H2SO4>[D]. In the image, the last arrow points leftward from C to D. A-D are shown only as letter labels and no structures are provided; R is the placeholder used in the original diagram."
+        }
+      ],
+      "full_mark": 5,
+      "rubric": [
+        "A: '[R][C+]1[C@H](CO)CCCC1', additionally labeled (±) in the image; B: '[R][C@@]12[C@@](C[OH+]2)([H])CCCC1', additionally labeled (±); C: 'O[C@@]1([R])[C@H](CO)CCCC1', additionally labeled (±) (1 point each). D: '[R][C@]1(OCOC2)[C@@]2([H])CCCC1', additionally labeled (±) (2 points).",
+        "For each omitted (±) label, deduct 1 point from the score obtained, up to a maximum deduction of 3 points."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-20-T9-1-1-rubric.png",
+          "description": "A has the SMILES '[R][C+]1[C@H](CO)CCCC1'. The image also shows (±), and R is the placeholder used in the original diagram."
+        },
+        {
+          "file": "Exam-20-T9-1-2-rubric.png",
+          "description": "B has the SMILES '[R][C@@]12[C@@](C[OH+]2)([H])CCCC1'. The image also shows (±), and R is the placeholder used in the original diagram."
+        },
+        {
+          "file": "Exam-20-T9-1-3-rubric.png",
+          "description": "C has the SMILES 'O[C@@]1([R])[C@H](CO)CCCC1'. The image also shows (±), and R is the placeholder used in the original diagram."
+        },
+        {
+          "file": "Exam-20-T9-1-4-rubric.png",
+          "description": "D has the SMILES '[R][C@]1(OCOC2)[C@@]2([H])CCCC1'. The image also shows (±), and R is the placeholder used in the original diagram."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-20-T9-2",
+      "tags": [
+        "2.2",
+        "2.4"
+      ],
+      "text_open": "9.1.2 The following cascade comprises a Prins cyclization and a rearrangement and ultimately gives a product containing a five-membered ring. Write the SMILES string of the product and of at least 2 charged key intermediates, including stereochemistry.",
+      "text_images": [
+        {
+          "file": "Exam-20-T9-2-1-prompt.png",
+          "description": "Single-step reaction: 'C=C(C)[C@H]([C@H](C(C)=C)O)O'>Me2C=O, H2SO4>[product not shown]. Stereochemistry of the substrate's two OH groups is shown by wedge bonds and retained by the @ markers in the SMILES."
+        }
+      ],
+      "full_mark": 4,
+      "rubric": [
+        "Product structure: 'CC1(C)C[C@](C)(C=O)[C@H](C(C)=C)O1' (±) (2 points)",
+        "Key intermediates: the first two SMILES strings are equivalent representations from different viewpoints. From left to right: 'C=C(C)[C@H]([C@H](C(C)=C)/[O+]=C(C)/C)O'; 'C=C(C)[C@]([C@H](O)C(C)=C)([H])/[O+]=C(C)/C'; 'C[C+]1[C@@H](O)[C@H](C(C)=C)OC(C)(C)C1'; 'CC1(C)C[C@](C)(C([H])=[OH+])[C@H](C(C)=C)O1'. Any 2 are worth 2 points total, 1 point each."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-20-T9-2-1-rubric.png",
+          "description": "The product has the SMILES 'CC1(C)C[C@](C)(C=O)[C@H](C(C)=C)O1'. The image also shows (±), and stereochemistry is indicated by solid and dashed wedge bonds."
+        },
+        {
+          "file": "Exam-20-T9-2-2-rubric.png",
+          "description": "The image shows 4 candidate key intermediates, of which any 2 are required for scoring. The first two SMILES strings are equivalent representations from different viewpoints. From left to right: 'C=C(C)[C@H]([C@H](C(C)=C)/[O+]=C(C)/C)O'; 'C=C(C)[C@]([C@H](O)C(C)=C)([H])/[O+]=C(C)/C'; 'C[C+]1[C@@H](O)[C@H](C(C)=C)OC(C)(C)C1'; 'CC1(C)C[C@](C)(C([H])=[OH+])[C@H](C(C)=C)O1'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-20-T9-3",
+      "tags": [
+        "1.2",
+        "2.7"
+      ],
+      "text_open": "9.2 A key advantage of the Prins cyclization is that, starting from a single stereocenter and a defined alkene geometry, it can construct up to four stereocenters on a tetrahydropyran ring with high stereoselectivity. In some cases, however, enantiomeric excess (ee) is lost.\n9.2.1 In the Prins cyclization below, the ee of the major product is lower than that of the starting material, and small amounts of two byproducts are detected.\nPredict the configurations of the chiral carbons in the product by assigning the absolute configurations of chiral carbons a and b in the major product using S/R notation.",
+      "text_images": [
+        {
+          "file": "Exam-20-T9-3-1-prompt.png",
+          "description": "Single-step reaction: 'O[C@H](CC=C)C1=CC=CC=C1' reacts with PhCH2CH2CHO under BF3·OEt2 and AcOH conditions to give the major product, 'O=C(O[C@H]1C[C@@H](CCC2=CC=CC=C2)O[C@@H](C3=CC=CC=C3)C1)C', byproduct 1, 'O=C(OC1CC(C2=CC=CC=C2)OC(C3=CC=CC=C3)C1)C', and byproduct 2, 'O=C(OC1CC(CCC2=CC=CC=C2)OC(CCC3=CC=CC=C3)C1)C'. Starting material M is labeled 87% ee and the major product 67% ee. Chiral carbons a and b are labeled on the ring of the major product; OAc at a is shown on a solid wedge, while CH2CH2Ph at b is shown on a dashed bond."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "Chiral carbon a: S (1 point); chiral carbon b: R (1 point)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-20-T9-4",
+      "tags": [
+        "2.3",
+        "2.2"
+      ],
+      "text_open": "9.2.2 The pathway to the major product can undergo racemization through a rearrangement. Experimentally, the enantiomer M’ of substrate M is detected. If M and $PhCH_2CH_2CHO$ are replaced by structure N below, racemization through this rearrangement cannot occur under the same conditions. In light of the byproduct structures and the analysis above, write the SMILES strings of the reactants and products in each step of the mechanism by which M forms M’, and label the reaction conditions. Electron-flow arrows need not be shown.",
+      "text_images": [
+        {
+          "file": "Exam-20-T9-4-1-prompt.png",
+          "description": "Substrate N has the SMILES 'C=CC[C@@H](OC(OC(C)=O)CC1=CC=CC=C1)C2=CC=CC=C2'. N is the structure label in the image."
+        }
+      ],
+      "full_mark": 4,
+      "rubric": [
+        "The image shows the stepwise mechanism by which M forms M’ in two rows, labeled with conditions including PhCH2CH2CHO, -H2O, [3,3]-sigma, and H2O. Structures involved are M, 'O[C@H](CC=C)C1=CC=CC=C1'; the oxonium intermediates 'C=CC[C@@H](/[O+]=C/CCC1=CC=CC=C1)C2=CC=CC=C2' and 'C=CC[C@@H](CCC1=CC=CC=C1)/[O+]=C/C2=CC=CC=C2'; PhCHO, 'O=CC1=CC=CC=C1'; the alcohol product 'O[C@@H](CC=C)CCC1=CC=CC=C1'; and the enantiomer of M, 'O[C@@H](CC=C)C1=CC=CC=C1'. This subquestion is worth 4 points: 2 points for correctly including the [3,3]-sigma step, without needing to name the reaction type; 1 point for correctly forming the small molecule PhCHO; and 1 point for the reaction of PhCHO with the substrate to form the enantiomer. If the mechanism that forms PhCHO is complete, that step may be abbreviated as above."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-20-T9-4-1-rubric.png",
+          "description": "The image shows the stepwise mechanism by which M forms M’ in two rows, labeled with conditions including PhCH2CH2CHO, -H2O, [3,3]-sigma, and H2O. Structures involved are M, 'O[C@H](CC=C)C1=CC=CC=C1'; the oxonium intermediates 'C=CC[C@@H](/[O+]=C/CCC1=CC=CC=C1)C2=CC=CC=C2' and 'C=CC[C@@H](CCC1=CC=CC=C1)/[O+]=C/C2=CC=CC=C2'; PhCHO, 'O=CC1=CC=CC=C1'; the alcohol product 'O[C@@H](CC=C)CCC1=CC=CC=C1'; and the enantiomer of M, 'O[C@@H](CC=C)C1=CC=CC=C1'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-20-T9-5",
+      "tags": [
+        "2.3",
+        "2.7"
+      ],
+      "text_open": "9.2.3 Explain why a racemization process analogous to the one above cannot occur when substrate N is used.",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "The oxocarbenium intermediate requires $H_2O$ in the system to hydrolyze into a small-molecule alcohol and aldehyde. After the substrate is changed, the system does not produce $H_2O$ (2 points; any equivalent statement that $H_2O$ is required for racemization is acceptable)."
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-20-T9-6",
+      "tags": [
+        "2.2",
+        "2.4"
+      ],
+      "text_open": "9.3 Researchers have developed many broadly useful Prins reactions using unconventional substrates such as alkynols, allenes, and small-ring compounds.\n9.3.1 The reaction below is based on a Prins-type cyclization of a 3,5-diynol with an aldehyde and proceeds through a domino sequence to synthesize a 2,3-dialkylidenetetrahydrofuran framework. The compound shown at the right was detected in the reaction mixture. This compound is not necessarily itself an intermediate and may arise from an intermediate. Based on this information, write the SMILES strings of the key intermediates. Stereochemistry is not required.",
+      "text_images": [
+        {
+          "file": "Exam-20-T9-6-1-prompt.png",
+          "description": "Single-step reaction: 'OCCC#CC#CC1=CC=CC=C1'.'O=CC1=CC=CC=C1'>HBF4·OEt2 (3 equiv), MeOH (3 equiv), DCM, rt, 8 h>'O=C(/C=C1OCCC\\1=C/C2=CC=CC=C2)C3=CC=CC=C3'."
+        },
+        {
+          "file": "Exam-20-T9-6-2-prompt.png",
+          "description": "The image is labeled 'Detected in the reaction mixture:' and the detected compound has the SMILES 'OCC/C(C(C#CC1=CC=CC=C1)=O)=C\\C2=CC=CC=C2'."
+        }
+      ],
+      "full_mark": 4,
+      "rubric": [
+        "'CO/C(C#CC1=CC=CC=C1)=C2C(C3=CC=CC=C3)[OH+]CC/2'; 'OCC/C(C(C#CC1=CC=CC=C1)=[O+]C)=C\\C2=CC=CC=C2'; 'COC(OCC/1)(C#CC2=CC=CC=C2)C1=C\\C3=CC=CC=C3'; 'COC(C1=CC=CC=C1)=[C]=C(OCC/2)C2=C\\C3=CC=CC=C3'. 4 points total, 1 point for each intermediate highlighted in red. Except for the second red intermediate, reasonable protonated or deprotonated forms of the other intermediates are also acceptable."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-20-T9-6-1-rubric.png",
+          "description": "This structure is not highlighted in red and is an alternative reasonable representation of one of the red intermediates. Its SMILES is 'C1(C#CC#CCC/[O+]=C/C2=CC=CC=C2)=CC=CC=C1'."
+        },
+        {
+          "file": "Exam-20-T9-6-2-rubric.png",
+          "description": "The red intermediate has the SMILES 'CO/C(C#CC1=CC=CC=C1)=C2C(C3=CC=CC=C3)[OH+]CC/2'."
+        },
+        {
+          "file": "Exam-20-T9-6-3-rubric.png",
+          "description": "The red intermediate has the SMILES 'OCC/C(C(C#CC1=CC=CC=C1)=[O+]C)=C\\C2=CC=CC=C2'."
+        },
+        {
+          "file": "Exam-20-T9-6-4-rubric.png",
+          "description": "The red intermediate has the SMILES 'COC(OCC/1)(C#CC2=CC=CC=C2)C1=C\\C3=CC=CC=C3'."
+        },
+        {
+          "file": "Exam-20-T9-6-5-rubric.png",
+          "description": "The red intermediate has the SMILES 'COC(C1=CC=CC=C1)=[C]=C(OCC/2)C2=C\\C3=CC=CC=C3'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-20-T9-7",
+      "tags": [
+        "2.4",
+        "2.7"
+      ],
+      "text_open": "9.3.2 The following reaction proceeds through a three-membered-ring intermediate and gives the product with high stereoselectivity, governed primarily by stereoelectronic effects. Write the SMILES string of the product, including stereochemistry, and briefly explain the stereoselectivity.",
+      "text_images": [
+        {
+          "file": "Exam-20-T9-7-1-prompt.png",
+          "description": "Single-step reaction: 'C=C([Si](C)(C1=CC=CC=C1)C)C[C@@H](O)C'.'[R]C=O'>TMSOTf>[?]. The product structure is not shown and is represented by '?'. R is the placeholder used in the original diagram and was retained after manual confirmation."
+        }
+      ],
+      "full_mark": 4,
+      "rubric": [
+        "'[R][C@@H]1C[C@@]([Si](C)(O[Si](C)(C)C)C)(C2=CC=CC=C2)C[C@H](C)O1' (2 points total: 1 point for the correct framework and 1 point for correct stereochemistry)",
+        "Explanation: during migration, the $\\sigma^*$ antibonding orbital of the newly forming C-C bond (1 point) overlaps effectively by hyperconjugation with the $\\sigma$ bonding orbital of the axial C-H bond on the adjacent carbon (1 point). This stabilizes the migration transition state and predominantly gives the product with phenyl in the axial position. 2 points total, with 1 point for correctly identifying each orbital participating in hyperconjugation. A reference schematic is shown below."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-20-T9-7-1-rubric.png",
+          "description": "The product has the SMILES '[R][C@@H]1C[C@@]([Si](C)(O[Si](C)(C)C)C)(C2=CC=CC=C2)C[C@H](C)O1'. Stereochemistry of R, Ph, SiMe2OTMS, and other groups is indicated by solid and dashed wedge bonds. R is the placeholder used in the original diagram."
+        },
+        {
+          "file": "Exam-20-T9-7-2-rubric.png",
+          "description": "Reference schematic for the stereoelectronic effect: a ring structure containing Si, Ph, R, O, and other atoms, with dumbbell-shaped orbital drawings and a curved arrow. The label 'Axial attack' appears below. This is a schematic and requires no SMILES."
+        }
+      ]
+    }
+  ]
+}

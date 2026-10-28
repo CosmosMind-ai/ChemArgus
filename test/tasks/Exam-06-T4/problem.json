@@ -1,0 +1,36 @@
+{
+  "problem_id": "Exam-06-T4",
+  "header": "Problem 4 Determination of Tin by Potassium Iodate Titration. Tin is commonly determined by potassium iodate titration. The procedure includes sample decomposition, masking and separation, reductive fusion with zinc powder, reduction with aluminum powder, and titration of tin(II) ions with potassium iodate.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-06-T4-1",
+      "tags": [
+        "2.1"
+      ],
+      "text_open": "4.2 Sample pretreatment. Place 0.2026 g of the sample in a 250 mL beaker, add 2 g of potassium chlorate and 20 mL of concentrated hydrochloric acid, and digest at low temperature for 20 min. Add 60 mL of hydrochloric acid (1+1), 1 g of hydrazinium sulfate, and 0.3 g of potassium bromide, then heat and evaporate for 50 min. Remove from the heat and allow to cool slightly. Cover with a watch glass and add hydrogen peroxide dropwise until brownish-red bromine appears. Add 10 mL of EDTA solution (100 g/L) and 5 mL of beryllium sulfate solution (40 g/L), and neutralize with aqueous ammonia to pH = 9-10. Add a small amount of paper pulp and filter. Wash the precipitate with an aqueous ammonia-ammonium nitrate wash solution. Transfer the precipitate together with the filter paper to a crucible, dry, ash, and cool. 4.2.1 Write the ionic equation for the reduction of arsenic acid by hydrazine in hydrochloric acid medium, by which arsenic is removed through volatilization.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-06-T4-2",
+      "tags": [
+        "4.1",
+        "4.7"
+      ],
+      "text_open": "Reductive-fusion conditions: Add a zinc powder-borax-boric acid mixed flux to the crucible and cover it with additional mixed flux and NaCl. Place it in a furnace at 750 ℃, raise the temperature to 820 ℃, fuse for 30 min, then remove and cool.\n4.3.3 Explain how an excessively long fusion time or excessively high temperature affects the determination.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-06-T4-3",
+      "tags": [
+        "2.1",
+        "4.5"
+      ],
+      "text_open": "4.4.2 Write the ionic equations for the titration process.",
+      "text_images": [],
+      "full_mark": 2
+    }
+  ]
+}

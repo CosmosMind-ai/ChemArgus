@@ -1,0 +1,31 @@
+{
+  "problem_id": "Exam-11-T2",
+  "header": "Problem 2: An Electrochemistry Medley",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-11-T2-1",
+      "tags": [
+        "3.6"
+      ],
+      "text_open": "2.3.1 Shown below are the pH-potential diagram for the Cr-H_2O system at 298.15 K (the concentration of each soluble species is 1 mmol/L) and thermodynamic data for selected substances.\n\n| Substance | $\\Delta_f H^\\circ_m /(kJ \\cdot mol^{-1})$ | $\\Delta S^\\circ_m /(J \\cdot mol^{-1} \\cdot K^{-1})$ |\n| :--- | :--- | :--- |\n| H_2O(l) | -285.83 | 69.95 |\n| OH^-(aq) | -229.98 | -10.9 |\n| H_2(g) | - | 130.68 |\n| B | -985.09 | 95.4 |\n| F | -872.95 | 190.4 |\n| G | -890.89 | 5.4 |\n\nNote: the diagram below is a potential diagram for a very dilute aqueous solution (1 mmol/L), and each species contains only one Cr atom. In the pH-potential diagram, the slopes of lines cd, de, and ef are in the ratio 7:4:5. Using the information given and your chemical knowledge, identify the species represented by A-G.",
+      "text_images": [
+        {
+          "file": "Exam-11-T2-1-1-prompt.png",
+          "description": "This is a two-dimensional rectangular pH-potential diagram. The unlabeled horizontal axis ranges from 0 to 14, and the vertical axis, labeled “potential/V,” ranges from -1.5 to 1.5 V. The upper and lower boundaries are horizontal lines at 1.5 and -1.5, respectively; the left and right boundaries are vertical lines at 0 and 14, respectively. Thick black lines divide the rectangle into 8 regions: seven labeled A, B, C, D, E, F, and G, and one labeled $Cr^{2+}$. Region E occupies the upper-left corner and is a right trapezoid. Its left boundary is part of the left frame, its right boundary is a vertical line at about 0.4, its upper boundary is part of the top frame, and its lower boundary slopes downward from left to right. The upper-right vertex a is approximately (0.4, 1.5), and the lower-right vertex c is approximately (0.4, 1.3). Region F is pentagonal. Segment ac is its left boundary, segment ab on the top frame is its upper boundary, and segment be at about 6.6 is its right boundary. Its two lower boundaries are segments cd and de, both sloping downward from left to right. Point e is the lower-right vertex; d is approximately (3.2,0.9), and e is approximately (6.6,0.6). The vertical segment ac separates E from F. Segment cd separates A (lower left) from F (upper right), while segment de separates B (below) from F (above). At approximately 3.2, a vertical line extends downward from d to k, with h between them. Segment dh has A on the left and B on the right; segment hk has the $Cr^{2+}$ region on the left and C on the right. Point h is approximately (3.2,-0.4), and k is approximately (3.2,-0.9). At approximately 6.6, a vertical line extends from point b on the top frame down to e. Point b is approximately (6.6,1.5); segment be has F on the left and G on the right, and the vertical line does not continue below e. Region G lies above diagonal ef and below the top frame, extending from about 6.6 to the right boundary at 14; thus G lies above ef and B below it. Region A lies below cd and above horizontal gh, with part of the left frame as its left boundary and vertical dh as its right boundary. Point g is approximately (0.0,-0.4), and h is approximately (3.2,-0.4). Segment gh is horizontal, with A above and the $Cr^{2+}$ region below. Region B lies below the upper broken line def and above the lower diagonal hi. Its left boundary is vertical dh, and fi is part of the right frame. Thus B is to the right of dh and A to the left; B is below ef and G above; B is above hi and C below; B is to the left of vertical fi, with the area to its right outside the frame. Point f, approximately (14.0,-0.1), is the intersection of the upper diagonal with the right boundary. The $Cr^{2+}$ region lies below horizontal gh, above horizontal jk (about -0.9 V), and between 0 and 3.2. Part of the left frame is its left boundary, and hk is its right boundary. Thus $Cr^{2+}$ is below gh and A above; $Cr^{2+}$ is above jk and D below; $Cr^{2+}$ is left of hk and C right of it. Point j is approximately (0.0,-0.9), and k is approximately (3.2,-0.9). Region C lies below diagonal hi and above diagonal kl, extending from 3.2 to 14. Its left boundary is hk and its right boundary is il. Thus C is right of hk and $Cr^{2+}$ left of it; C is below hi and B above; C is above kl and D below; C is left of vertical il, with the area to its right outside the frame. Point i, approximately (14.0,-1.0), is the intersection of hi with the right boundary; point l, approximately (14.0,-1.5), is the intersection of kl with the right boundary. Region D lies below horizontal j-k and diagonal k-l. Its lower boundary is the bottom frame, and it spans 0 to 14. At horizontal coordinate 0 on the left boundary, D lies below j; D is below jk and the $Cr^{2+}$ region above; D is below kl and C above. Reading the coordinates from the axes to one decimal place gives approximately: a≈(0.4,1.5), b≈(6.6,1.5), c≈(0.4,1.3), d≈(3.2,0.9), e≈(6.6,0.6), f≈(14.0,-0.1), g≈(0.0,-0.4), h≈(3.2,-0.4), i≈(14.0,-1.0), j≈(0.0,-0.9), k≈(3.2,-0.9), and l≈(14.0,-1.5). Thus, from top to bottom, the three principal diagonal boundaries are an unlabeled lowercase point-c-d-e-f, h-i, and k-l. Above the first are regions E/F/G in sequence and below it are A/B: specifically, E lies above the unlabeled point-c segment, F above c-d-e, and G above e-f; A lies below the unlabeled point-c-d portion, and B below d-e-f. B is above h-i and C below; C is above k-l and D below. The principal horizontal boundaries are g-h (A above and $Cr^{2+}$ below) and j-k ($Cr^{2+}$ above and D below)."
+        }
+      ],
+      "full_mark": 7
+    },
+    {
+      "sub_id": "Exam-11-T2-2",
+      "tags": [
+        "3.4",
+        "3.6"
+      ],
+      "text_open": "2.3.3 Calculate the coordinates of point e from the thermodynamic data.",
+      "text_images": [],
+      "full_mark": 12
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "problem_id": "Exam-19-T3",
+  "header": "Question 3 Degradable Thermosetting Resin\nConventional thermosetting polymers form covalently cross-linked networks that provide exceptional mechanical strength and heat resistance, but also prevent melt processing and make recycling and degradation difficult. In recent years, orthogonal polymerization of different functional groups within a single monomer has emerged as a leading strategy for synthesizing polymers that can be degraded at predetermined sites. 2,3-Dihydrofuran (DHF) is a monomer that can be prepared from bio-based feedstocks. Recently, chemists used DHF in a one-pot process involving two successive polymerizations with entirely different mechanisms to produce a thermosetting resin that can be recycled through multiple pathways.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-19-T3-1",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "3.1 In the presence of a trace amount of second-generation Grubbs catalyst, DHF slowly undergoes ring-opening metathesis polymerization (ROMP) in the dark to give rubbery linear polymer A. In the presence of a photoacid generator (PAG, which produces the superacid HSbF6 upon irradiation), it rapidly undergoes cationic polymerization to give highly rigid linear polymer B.\n3.1.2 Write the SMILES strings for linear polymers A and B.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-19-T3-2",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "3.2 To prepare a thermosetting resin, the researchers mixed DHF, second-generation Grubbs catalyst, and PAG. The mixture was first allowed to react in the dark for 10 minutes to form an appropriate amount of polymer A, then irradiated with 456 nm blue light for 6 minutes to initiate cationic polymerization. This produced cross-linked thermosetting resin C, which is insoluble and infusible. Write the SMILES string for C when the two polymer chains are fully cross-linked, with no unreacted cross-linking sites. Hint: to simplify the structure, assume that both linear polymers A and B participating in the reaction have degree of polymerization n.",
+      "text_images": [],
+      "full_mark": 2
+    }
+  ]
+}

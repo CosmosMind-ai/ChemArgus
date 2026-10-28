@@ -1,0 +1,66 @@
+{
+  "problem_id": "Exam-07-T5",
+  "header": "Square-Planar Voids\nIn models of crystal packing and void filling, tetrahedral and octahedral voids are the most familiar. In fact, square-planar voids are also fairly common.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-07-T5-1",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "5.1 A binary compound AB belongs to the tetragonal crystal system. Its structure may be viewed as a simple cubic packing of B atoms in which A atoms occupy some of the square-planar voids. Among adjacent $AB_4$ quadrilaterals, the $AB_4$ quadrilaterals whose A atoms have the same c coordinate have identical spatial orientations and share edges, whereas the $AB_4$ quadrilaterals whose A atoms have different c coordinates share vertices. A projection of the crystal structure (containing more than one unit cell) along the c axis is shown below; the large spheres represent A atoms and the small spheres represent B atoms. The unit-cell parameters are a = 349.4 pm and c = 611.6 pm. All A atoms have the same chemical environment, and all B atoms likewise have the same chemical environment. Hint: Compare the unit-cell parameters with atomic radii when considering the unit-cell composition.\n5.1.1 Give the fraction of square-planar voids occupied by A atoms.",
+      "text_images": [
+        {
+          "file": "Exam-07-T5-1-1-prompt.png",
+          "description": "Orthographic top-view two-dimensional ball-and-stick model on a pure white background, with no text, axes, or labels. The main image contains 16 yellow spheres and 24 gray spheres: the 16 yellow spheres are arranged in 4 rows and 4 columns at the vertices of a square grid, while the 24 gray spheres lie exactly at the midpoints of the lines joining adjacent yellow spheres (12 in each of the horizontal and vertical directions). The spheres are connected by opaque, short, light-gray cylindrical rods. Each gray sphere is connected to two adjacent yellow spheres; depending on its position, each yellow sphere is connected to 2 to 4 adjacent gray spheres (coordination number four in the interior, three at an edge, and two at a corner). All spheres show a subtle 3D light-to-shadow gradient, and the rod ends are naturally occluded by the spheres."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-07-T5-2",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "5.1.2 State the lattice type of the crystal.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-07-T5-3",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "5.1.3 If the A atoms are regarded as forming the packing and the B atoms as filling the voids, what type of void do the B atoms occupy, and what fraction of these voids is occupied?",
+      "text_images": [],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-07-T5-4",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "5.1.4 The theoretical density of the crystal is $10.10\\ \\mathrm{g\\,cm^{-3}}$. Determine the chemical formula of AB by calculation.",
+      "text_images": [],
+      "full_mark": 5
+    },
+    {
+      "sub_id": "Exam-07-T5-5",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "5.2 NbO belongs to the cubic crystal system. In the unit cell of NbO, Nb atoms occupy all face centers and O atoms occupy all edge centers.\n5.2.2 For the crystal structure of NbO, determine whether each of the following statements is correct. Use T for true and F for false. 5.2.2.1 If octahedral voids are not counted as square-planar voids, do the Nb atoms occupy all square-planar voids formed by the O atoms?",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-07-T5-6",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "5.2.2.3 The O atoms do not form a face-centered cubic packing, but in a projection of the crystal along a threefold axis, do the O atoms form a close-packed layer structure?",
+      "text_images": [],
+      "full_mark": 2
+    }
+  ]
+}

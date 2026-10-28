@@ -1,0 +1,69 @@
+{
+  "problem_id": "Exam-04-T8",
+  "header": "Problem 8 Basic Organic Chemistry",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-04-T8-1",
+      "tags": [
+        "1.7"
+      ],
+      "text_open": "8-2 Arrange the following radicals in decreasing order of stability.",
+      "text_images": [
+        {
+          "file": "Exam-04-T8-1-1-prompt.png",
+          "description": "Option a, SMILES '[CH]1(C2)CC[C]2CC1'."
+        },
+        {
+          "file": "Exam-04-T8-1-2-prompt.png",
+          "description": "Option b, SMILES '[C]1(CC2)CCC2CC1'."
+        },
+        {
+          "file": "Exam-04-T8-1-3-prompt.png",
+          "description": "Option c, SMILES '[CH]1(C[CH](C2)C3)C[C]2C[CH]3C1'."
+        },
+        {
+          "file": "Exam-04-T8-1-4-prompt.png",
+          "description": "Option d, SMILES 'C12CCCC[C]1CCCC2'."
+        }
+      ],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-04-T8-2",
+      "tags": [
+        "4.1"
+      ],
+      "text_open": "8-3 Identify the three compounds shown by chemical tests. Available reagents are: (a) acetone (b) NaI (c) I_2 (d) concentrated hydrochloric acid (e) CuSO4 solution (f) NaOH solution.",
+      "text_images": [
+        {
+          "file": "Exam-04-T8-2-1-prompt.png",
+          "description": "Compound to be identified, SMILES 'CC(C)CCCl'."
+        },
+        {
+          "file": "Exam-04-T8-2-2-prompt.png",
+          "description": "Compound to be identified, SMILES 'CC(C)CCO'."
+        },
+        {
+          "file": "Exam-04-T8-2-3-prompt.png",
+          "description": "Compound to be identified, SMILES 'CC(C)CC=O'."
+        }
+      ],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-04-T8-3",
+      "tags": [
+        "1.7"
+      ],
+      "text_open": "8-4 At room temperature, X-ray diffraction shows that D-glucose crystallized from water contains only the α anomer, whereas its specific rotation after dissolution in water shows that the solution contains a mixture of the α and β anomers. 8-4-2 State which anomer is more abundant in aqueous solution and explain why.",
+      "text_images": [
+        {
+          "file": "Exam-04-T8-3-1-prompt.png",
+          "description": "Structure of the α anomer, SMILES 'O[C@H]1[C@H](O)[C@@H](CO)O[C@H](O)[C@@H]1O'."
+        }
+      ],
+      "full_mark": 3
+    }
+  ]
+}

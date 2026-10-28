@@ -1,0 +1,52 @@
+{
+  "problem_id": "Exam-22-T1",
+  "header": "Problem 1 Chemistry of the Rare-Earth Elements\nRare-earth elements are indispensable strategic resources for modern high technology, new energy, advanced materials, defense, and related fields. Often called the “vitamins of industry” and a “treasure house of new materials,” they comprise scandium, yttrium, and all the lanthanides. For convenience, the symbol Ln is commonly used in coordination and inorganic chemistry to denote the lanthanides or the entire rare-earth series. This problem examines rare-earth chemistry in detail.\nNote: Different letters or alphanumeric combinations in this problem may represent the same element or chemical formula.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-22-T1-1",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "1.2 Consider a rare-earth element M1 as an example of rare-earth chemistry. M1 has two common oxidation states in its compounds. Elemental M1 is a silvery-white metal that slowly tarnishes in air. M1 dissolves in dilute hydrochloric acid, releasing colorless gas A and giving a pale blue-green solution (Reaction 1). Adding dilute sulfuric acid dropwise to this solution immediately produces white precipitate B, which is insoluble in dilute nitric acid. After B is filtered, washed, and dried, it is ignited to constant mass at 800 °C under Ar; the white precipitate becomes dark-brown powder C (Reaction 2), an oxide of M1. If the mass of B is 2.480 g, 1.760 g of C is obtained after ignition. A separate portion of B is heated with dilute hydrochloric acid and bromine water until it dissolves (Reaction 3), during which the solution changes from pale blue-green to colorless (or very pale pink). The solution is divided into two portions. Excess aqueous ammonia and oxalic acid are added separately to give white gelatinous precipitate D (with aqueous ammonia) and white precipitate E (with oxalic acid), respectively. Filtering and igniting either D or E at 900 °C likewise gives C. C is mixed with Y2O3 in a certain ratio and calcined at high temperature; product F emits bright red fluorescence under ultraviolet irradiation. 1.2.3 Write ionic equations for Reactions 1 and 3 and a chemical equation for Reaction 2.",
+      "text_images": [],
+      "full_mark": 6
+    },
+    {
+      "sub_id": "Exam-22-T1-2",
+      "tags": [
+        "1.4"
+      ],
+      "text_open": "1.4 Coordination Compounds of Rare-Earth Elements\n1 equivalent of elemental rare-earth metal M5 and 2.8 equivalents of ethylene glycol monomethyl ether are added together to a toluene solution to form X. Addition of 2,6-dimethylphenol then precipitates orange crystals Y. Y is filtered and washed; upon slight heating it becomes a different crystal Z. Further characterization provides the following information:\n① The effective magnetic moment of X is 7.9 $\\mu_B$.\n② Crystal diffraction shows that Y belongs to the orthorhombic crystal system, with $a$ = 12.748 Å, $b$ = 12.900 Å, and $c$ = 29.220 Å. The unit cell contains 2 formula units, and the theoretical density of Y is 1.428 $\\mathrm{g/cm^3}$.\n③ Elemental analysis of Z gives the following experimental mass fractions: $\\omega(C)$ = 39.60%, $\\omega(O)$ = 18.86%, and $\\omega(H)$ = 5.74%. Crystal diffraction shows that Z belongs to the tetragonal crystal system, with $a$ = 14.837 Å and $c$ = 15.117 Å. The crystal contains 2 formula units, and the density of Z is 1.1854 times the theoretical density of Y.\n④ The anion of Z contains an $[M5_4O_4]$ cluster framework and exactly two types of ligands. One ligand adopts two different coordination modes. All M5 atoms are 7-coordinate, and a particular conformation has 1 twofold rotation axis.\n⑤ The oxidation state of M5 is the same in X, Y, and Z.\n1.4.2 Determine the chemical formulas of X, Y, and Z, showing your calculations. In your answer, the ethylene glycol monomethyl ether anion may be abbreviated as $mee^-$, and the 2,6-dimethylphenoxide anion as $dmp^-$.\n",
+      "text_images": [],
+      "full_mark": 9
+    },
+    {
+      "sub_id": "Exam-22-T1-3",
+      "tags": [
+        "1.4"
+      ],
+      "text_open": "1.4.3 Write the SMILES strings for the cation and anion of Z. You may treat all $\\sigma$ coordinate bonds as ordinary single bonds and represent the structures using SMILES.",
+      "text_images": [],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-22-T1-4",
+      "tags": [
+        "2.1"
+      ],
+      "text_open": "1.5 Electrochemistry of the Rare-Earth Elements\nThe following standard electrode potentials are given for acidic medium at 25 °C:\n$O_2(g) + 4H^+ + 4e^- \\rightarrow 2H_2O$    $E° = +1.229\\ \\mathrm{V}$\n$M1^{n+} + e^- \\rightarrow M1^{(n-1)+}$    $E° = -0.35\\ \\mathrm{V}$\n1.5.1 At pH = 0 and 25 °C, calculate the common logarithm $\\lg K$ of the standard equilibrium constant for oxidation of $M1^{(n-1)+}$ to $M1^{n+}$ by $O_2$.",
+      "text_images": [],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-22-T1-5",
+      "tags": [
+        "2.1"
+      ],
+      "text_open": "1.5.2 The partial pressure of oxygen in air is $p(O_2)$ = 0.21 bar. Use a calculation to determine whether $M1^{(n-1)+}$ will be oxidized by oxygen in air when pH = 4.00 and $[M1^{(n-1)+}]$ = $[M1^{n+}]$ = 1.00 mol·L-1.",
+      "text_images": [],
+      "full_mark": 2
+    }
+  ]
+}

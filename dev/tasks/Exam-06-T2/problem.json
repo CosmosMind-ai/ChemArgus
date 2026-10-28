@@ -1,0 +1,151 @@
+{
+  "problem_id": "Exam-06-T2",
+  "header": "Problem 2: Molecular Compass. A compass is a simple yet powerful device whose most important component is a freely rotating magnetized needle that senses Earth's magnetic field. At the molecular level, this mechanical function can be mimicked through noncovalent interactions and dynamic behavior among groups. One molecular compass exploits the redox behavior of pillar[5]quinone (P5Q) and incorporates guest molecules bearing polar groups. The dipole moments of these polar groups act as “needles” that respond to changes in the electric field and reorient during redox processes, thereby regulating electronic communication between remote quinone units.",
+  "header_images": [
+    {
+      "file": "Exam-06-T2-header-1.png",
+      "description": "A macroscopic compass."
+    }
+  ],
+  "subquestions": [
+    {
+      "sub_id": "Exam-06-T2-1",
+      "tags": [
+        "2.4",
+        "3.5"
+      ],
+      "text_open": "2.1 Electrochemical behavior of pillar[5]quinone and synthesis of a molecular compass. The p-benzoquinone monomer Q undergoes two successive one-electron reductions in an aprotic solution. Linking 5 quinone units into a ring through methylene groups gives pillar[5]quinone (P5Q), which exhibits more complex electrochemical behavior. 2.1.1 Write the SMILES representations of the most stable resonance structures of Q^{·-} and Q^{2-}, the products of the two successive one-electron reductions of monomer Q.",
+      "text_images": [
+        {
+          "file": "Exam-06-T2-1-1-prompt.png",
+          "description": "Schematic two-step one-electron reduction of p-benzoquinone Q (SMILES: 'O=C(C=C1)C=CC1=O'). Q is first reversibly reduced by one electron to Q^{·-}, which is then reversibly reduced by another electron to Q^{2-}."
+        },
+        {
+          "file": "Exam-06-T2-1-2-prompt.png",
+          "description": "SMILES of P5Q: 'C%10C1=CC(=O)C(=CC1=O)CC2=CC(=O)C(=CC2=O)CC3=CC(=O)C(=CC3=O)CC4=CC(=O)C(=CC4=O)CC5=CC(=O)C(=CC5=O)%10'"
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "Q^{·-}: '[O-]C1=CC=C([O])C=C1'; Q^{2-}: '[O-]C2=CC=C([O-])C=C2'.",
+        "2 points total, 1 point for each structure."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-06-T2-1-1-rubric.png",
+          "description": "Rubric image: Q^{·-} is drawn as the semiquinone radical anion '[O-]C1=CC=C([O])C=C1', and Q^{2-} as the dianionic resonance structure '[O-]C2=CC=C([O-])C=C2' with both oxygen atoms negatively charged."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-06-T2-2",
+      "tags": [
+        "1.6"
+      ],
+      "text_open": "2.1.2 The redox sequence of quinone units in pillar[5]quinone is regulated by the spatial charge distribution. The reduction pattern of P5Q is “2-1-2,” as shown below. White circles represent quinone monomers, black circles represent quinone monomers after one-electron reduction, and each quinone unit undergoes only one-electron reduction. Draw the SMILES structures of P5Q-2 and P5Q-3.",
+      "text_images": [
+        {
+          "file": "Exam-06-T2-2-1-prompt.png",
+          "description": "Schematic 2-1-2 reduction pattern of P5Q. A legend at the right identifies a white circle as Q, a quinone monomer, and a black circle as Q^{·-}. P5Q is simplified as a regular pentagon with one hollow white circle on each side. Two-electron reduction of P5Q gives P5Q-2; one-electron reduction of P5Q-2 gives P5Q-3; and two-electron reduction of P5Q-3 gives a product simplified as a regular pentagon with one solid black circle on each side."
+        }
+      ],
+      "full_mark": 4,
+      "rubric": [
+        "SMILES of P5Q-2: 'O=C(C(CC1=CC([O-])=C(C=C1[O])CC2=CC(C(CC3=CC4=O)=CC2=O)=O)=CC5=O)C=C5CC(C=C6[O])=C([O-])C=C6CC4=CC3=O' (2 points)",
+        "SMILES of P5Q-3: 'O=C(C=C1CC(C=C2[O])=C(C=C2CC3=CC4=O)[O-])C(CC5=CC([O-])=C(CC6=C([O-])C=C(CC4=CC3=O)C([O])=C6)C=C5[O])=CC1=O' (2 points)"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-06-T2-2-1-rubric.png",
+          "description": "The rubric image shows the reduction positions in P5Q-2 and P5Q-3. In the left diagram, P5Q-2 has two nonadjacent solid circles at pentagon vertices. In the right diagram, P5Q-3 has three solid circles, while the remaining two hollow circles are nonadjacent."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-06-T2-3",
+      "tags": [
+        "2.6",
+        "2.4"
+      ],
+      "text_open": "2.1.3 The synthetic route to a molecular compass Q-Rot-A containing amide “needles” is shown below. The molecular compass can be regarded as a supramolecule in which the amide “needle” is the guest molecule. Note the perspective relationships of the chemical bonds in the product. Write the SMILES structures of intermediates A and B.",
+      "text_images": [
+        {
+          "file": "Exam-06-T2-3-1-prompt.png",
+          "description": "The molecule 'C%10C1=CC(OC)=C(C=C1OC)CC2=CC(OC)=C(C=C2OC)CC3=CC(OC)=C(C=C3OC)CC4=CC(OC)=C(C=C4OC)CC5=CC(OC)=C(C=C5OC)%10' reacts with 'NCCCCCCN' using 'O=C(Cl)C1=CC(C(F)(F)F)=CC(C(F)(F)F)=C1' in CHCl_3 from 0°C to r.t. to form A. A reacts with BBr_3 in CHCl_3 at r.t. to form B. B then reacts with NaIO_4 in Me_2CO/H_2O/CH_2Cl_2 at r.t. to give a supramolecule in which 'C%10C1=CC(=O)C(=CC1=O)CC2=CC(=O)C(=CC2=O)CC3=CC(=O)C(=CC3=O)CC4=CC(=O)C(=CC4=O)CC5=CC(=O)C(=CC5=O)%10' encircles 'O=C(NCCCCCCNC(=O)C1=CC(C(F)(F)F)=CC(C(F)(F)F)=C1)C2=CC(C(F)(F)F)=CC(C(F)(F)F)=C2'."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "A: 'C%10C1=CC(OC)=C(C=C1OC)CC2=CC(OC)=C(C=C2OC)CC3=CC(OC)=C(C=C3OC)CC4=CC(OC)=C(C=C4OC)CC5=CC(OC)=C(C=C5OC)%10' encircles 'O=C(NCCCCCCNC(=O)C1=CC(C(F)(F)F)=CC(C(F)(F)F)=C1)C2=CC(C(F)(F)F)=CC(C(F)(F)F)=C2'; B: 'C%10C1=CC(O)=C(C=C1O)CC2=CC(O)=C(C=C2O)CC3=CC(O)=C(C=C3O)CC4=CC(O)=C(C=C4O)CC5=CC(O)=C(C=C5O)%10' encircles 'O=C(NCCCCCCNC(=O)C1=CC(C(F)(F)F)=CC(C(F)(F)F)=C1)C2=CC(C(F)(F)F)=CC(C(F)(F)F)=C2'.",
+        "2 points total, 1 point for each structure.",
+        "No credit if the methylene groups between the benzene rings are missing."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-06-T2-3-1-rubric.png",
+          "description": "The image shows two molecules. On the left, A consists of 'C%10C1=CC(OC)=C(C=C1OC)CC2=CC(OC)=C(C=C2OC)CC3=CC(OC)=C(C=C3OC)CC4=CC(OC)=C(C=C4OC)CC5=CC(OC)=C(C=C5OC)%10' encircling 'O=C(NCCCCCCNC(=O)C1=CC(C(F)(F)F)=CC(C(F)(F)F)=C1)C2=CC(C(F)(F)F)=CC(C(F)(F)F)=C2'. On the right, B consists of 'C%10C1=CC(O)=C(C=C1O)CC2=CC(O)=C(C=C2O)CC3=CC(O)=C(C=C3O)CC4=CC(O)=C(C=C4O)CC5=CC(O)=C(C=C5O)%10' encircling 'O=C(NCCCCCCNC(=O)C1=CC(C(F)(F)F)=CC(C(F)(F)F)=C1)C2=CC(C(F)(F)F)=CC(C(F)(F)F)=C2'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-06-T2-4",
+      "tags": [
+        "1.2",
+        "1.1"
+      ],
+      "text_open": "2.2 Structural characterization and chirality analysis. Owing to the asymmetry of the 2,5-substituents, P5Q-type structures theoretically have multiple atropisomers. The planar chirality of each unit is defined as shown. 2.2.1 State directly the theoretical number of atropisomers of a P5Q-type structure.",
+      "text_images": [
+        {
+          "file": "Exam-06-T2-4-1-prompt.png",
+          "description": "The image explains planar chirality. A vertical dashed mirror plane divides the image into left and right halves containing two enantiomeric substituted-benzene fragments. In the left structure, the bond on the right side of the benzene ring is drawn thick to project out of the page toward the viewer. Two ethyl and two “-OR” groups are arranged in alternating para positions, with the two -OR groups directed upper right and lower left. An equals sign connects this structure to a circled-dot symbol ($\\odot$), indicating projection out of the page, and it is labeled $R_{\\text{p}}$. In the mirror-image structure on the right, the bond on the left side of the benzene ring projects out of the page and the substituent positions are mirror-related. An equals sign connects it to a circled-cross symbol ($\\otimes$), indicating projection into the page away from the viewer, and it is labeled $S_{\\text{p}}$."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "8 (2 points; no credit for an incorrect answer)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-06-T2-5",
+      "tags": [
+        "1.2",
+        "4.2"
+      ],
+      "text_open": "2.2.2 ^{1}H-NMR measurements show that all 5 sets of methylene hydrogen atoms in the P5Q frameworks of A and Q-Rot-A appear as singlets, indicating that the planar rings of both are apparently homodirectional: either (R_{p}, R_{p}, R_{p}, R_{p}, R_{p}) or (S_{p}, S_{p}, S_{p}, S_{p}, S_{p}). However, the reasons for their apparently homodirectional configurations differ. Explain each case in terms of the different barriers to planar-ring rotation. Note: NMR measurements have a finite timescale.",
+      "text_images": [],
+      "full_mark": 4,
+      "rubric": [
+        "A: methyl groups hinder rotation of the planar rings, so the configuration is retained.",
+        "2 points; “rotation is hindered,” “cannot rotate,” or any equivalent expression receives full credit.",
+        "No credit for a thermodynamic explanation such as “methyl groups cause high steric hindrance, so the all-cis form has the least steric hindrance,” because it does not follow the hint.",
+        "Q-Rot-A: the barrier to planar-ring rotation is low, so all quinone units are equivalent on the NMR timescale.",
+        "2 points: 1 point for “low rotational barrier” or “rapid rotation,” and 1 point for “equivalent on the NMR timescale,” “the inversion time is shorter than the NMR timescale,” or an equivalent statement."
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-06-T2-6",
+      "tags": [
+        "4.2",
+        "1.2"
+      ],
+      "text_open": "2.2.3 For B, ^{1}H-NMR data show shifts and splitting of the methylene hydrogen signals. A partial spectrum and the corresponding hydrogen assignments are shown below; numbers beneath brackets are peak integrals, and the bottom scale gives chemical shift. Which of the following configurations are consistent with the integral data? ( ). (a) (R_{p}, S_{p}, R_{p}, R_{p}, S_{p}); (b) (R_{p}, R_{p}, R_{p}, S_{p}, S_{p}); (c) (S_{p}, R_{p}, R_{p}, R_{p}, R_{p}); (d) (R_{p}, S_{p}, S_{p}, R_{p}, S_{p})",
+      "text_images": [
+        {
+          "file": "Exam-06-T2-6-1-prompt.png",
+          "description": "This partial $^{1}$H-NMR spectrum of B shows three groups of peaks along a horizontal axis labeled 3.8, 3.4, and 3.0 from left to right. Braces above them are labeled “Group I,” “Group II,” and “Group III.” Under Group I are four peaks: the first and third are connected by dashed lines to a red label 4^1, and the second and fourth to a red label 4^2. A horizontal integral bracket beneath the four peaks is labeled 4.00. Group II contains one peak with a red label 4^3 above and an integral bracket labeled 2.13 below. Group III contains four peaks: the first and second are connected by dashed lines to a red label 4^4, and the third and fourth to a red label 4^5. An integral bracket beneath the four peaks is labeled 4.03."
+        },
+        {
+          "file": "Exam-06-T2-6-2-prompt.png",
+          "description": "The image shows two molecular structures. On the left is 'CC1=C(O)C=C(C([H])([H])C2=C(O)C=C(C)C(O)=C2)C(O)=C1'. The left benzene ring is labeled “R_p” above and the right ring “S_p.” The two methylene hydrogens linking the rings are highlighted as blue “H” labels; a blue arrow labeled “Group I” points to the upper H and one labeled “Group III” to the lower H. On the right is 'CC3=C(O)C=C(C([H])([H])C4=CC(O)=C(C)C=C4O)C(O)=C3'. Blue arrows labeled “Group II” point to both the upper and lower blue H atoms of the central methylene group, and “(R_p, R_p) or (S_p, S_p)” appears below the structure."
+        }
+      ],
+      "full_mark": 3,
+      "rubric": [
+        "(a)(d) (3 points; full credit only if both are selected, and no credit if any incorrect choice is included)"
+      ],
+      "rubric_images": []
+    }
+  ]
+}

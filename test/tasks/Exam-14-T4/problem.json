@@ -1,0 +1,27 @@
+{
+  "problem_id": "Exam-14-T4",
+  "header": "Determination of Iron in Tin Concentrate by Cerium(IV) Sulfate Titration\n4.1 Preparation of standard titrant solutions\nIron standard solution: Weigh 2.0000 g of pure iron wire (99.95%) into a beaker, add 50 mL of hydrochloric acid (1+1), cover with a watch glass, and heat on a low-temperature electric hot plate until completely dissolved (do not boil). Remove, cool, transfer to a 1000 mL volumetric flask, dilute to the mark with water, and mix thoroughly.\nCerium(IV) sulfate standard titrant: Weigh 18.1 g of cerium(IV) sulfate [Ce(SO4)2·4H2O] into a beaker, add a small amount of water, and add 80 mL of concentrated sulfuric acid with constant stirring. After complete dissolution, cool, dilute to 1000 mL with water, and mix.\nStandardization: Pipet 30.00 mL of the iron standard solution into a 300 mL conical flask, add 5 mL of concentrated hydrochloric acid, and carry out reduction and standardization according to Section 4.3. Conduct a blank test in parallel.\n4.2 Alkali fusion and leaching of the test portion\nPlace a 0.3126 g portion of tin concentrate in a 10 mL high-alumina crucible, add 2 g of sodium peroxide, and mix carefully with a thin glass rod. Wipe the rod with a small piece of filter paper and place the paper in the crucible. Place the crucible in a furnace preheated to 500 °C, continue heating to 650 °C–700 °C, and fuse until the melt is red and transparent. Remove the crucible and cool.\nPlace the crucible in a 250 mL beaker and add 20 mL of water for leaching. After the vigorous reaction ceases, neutralize to an acidic solution with sulfuric acid (1+1), add 5 mL of concentrated hydrochloric acid, wash the crucible with water, and heat the solution to boiling on a low-temperature electric hot plate.\n4.3 Reduction and titration\nWhile the solution is hot, add hydrochloric-acidified tin(II) chloride solution (100 g/L) dropwise with swirling until the solution is pale yellow. Rinse down the beaker wall, add 40 mL of water, add 5 drops of sodium tungstate solution (50 g/L) as indicator, and add hydrochloric-acidified titanium(III) chloride solution (50 g/L) dropwise until a blue color appears, followed by two excess drops. Cool to room temperature in a cold-water bath.\nAdd 50 mL of copper sulfate-ammonium sulfate solution (containing 0.02 g of copper sulfate and 80 g of ammonium sulfate per liter). After the blue color disappears, allow the solution to stand for 10 min. Add 25 mL of sulfuric acid-phosphoric acid solution (sulfuric acid:phosphoric acid:water = 1:1:4), add 7 drops of sodium diphenylamine sulfonate solution (5 g/L), and titrate with the cerium(IV) sulfate standard titrant to a stable purple-red endpoint.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-14-T4-1",
+      "tags": [
+        "4.1",
+        "4.2"
+      ],
+      "text_open": "4.3.2 Explain why preliminary reduction with tin(II) chloride solution is required instead of adding sodium tungstate solution directly and reducing with titanium(III) chloride solution.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-14-T4-2",
+      "tags": [
+        "4.1",
+        "4.2"
+      ],
+      "text_open": "4.3.3 Explain why reduction with tin(II) chloride and titanium(III) chloride must be performed in a hot solution, whereas the subsequent operations require cooling to room temperature.",
+      "text_images": [],
+      "full_mark": 2
+    }
+  ]
+}

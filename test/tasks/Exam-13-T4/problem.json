@@ -1,0 +1,25 @@
+{
+  "problem_id": "Exam-13-T4",
+  "header": "Question 4 Determination of Iron in Iron Ore. The potassium dichromate method is a classic method for determining iron in iron ore, but its use of $HgCl_2$ creates toxicity and environmental concerns. Selected steps of an improved dichromate method, the $TiCl_3-K_2Cr_2O_7$ method, are as follows. ① Preparation of the $K_2Cr_2O_7$ standard solution: accurately weigh 0.9797 g of $K_2Cr_2O_7$ into a 100 mL beaker, dissolve it in water, quantitatively transfer it to a 250 mL volumetric flask, and dilute to volume to obtain the $K_2Cr_2O_7$ standard solution. ② Titration of the sample: accurately weigh 0.2026 g of powdered magnetite concentrate, add 20 mL of hydrochloric acid, approximately 6 mol/L, cover with a watch glass, and heat gently to near boiling. After the ore decomposes, the mixture is reddish brown; immediately add $SnCl_2$ solution dropwise until it becomes pale yellow. Once most of the ore has dissolved, keep the mixture at a gentle boil for 1-2 min until decomposition is complete and no black particles remain. If the yellow color is too deep, add a little more $SnCl_2$ solution to obtain a pale-yellow solution; if the solution is colorless, add a small amount of $KMnO_4$ until a pale-yellow color appears, and stop heating. Rinse the watch glass and beaker walls with a wash bottle, add 50 mL of water and 8 drops of $Na_2WO_4$ solution, and while swirling add $TiCl_3$ solution to endpoint 1, followed by 2 excess drops. Cool to room temperature and carefully add the $K_2Cr_2O_7$ standard solution to endpoint 2; V1 = 0.02 mL is consumed. Add another 50 mL of water, 10 mL of sulfuric-phosphoric mixed acid with concentrated sulfuric acid:concentrated phosphoric acid:water = 2:3:5 by volume, and 2 drops of sodium diphenylamine sulfonate. Immediately titrate with the $K_2Cr_2O_7$ standard solution to endpoint 3; V2 = 28.12 mL is consumed.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-13-T4-1",
+      "tags": [
+        "4.7"
+      ],
+      "text_open": "4.3 The following operations cause errors in the experiment. Explain the reason for each error. 4.3.1 The ore is heated at too high a temperature or for too long during decomposition with hydrochloric acid.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-13-T4-2",
+      "tags": [
+        "4.7"
+      ],
+      "text_open": "4.3.2 The sulfuric-phosphoric mixed acid is not added before titration.",
+      "text_images": [],
+      "full_mark": 2
+    }
+  ]
+}

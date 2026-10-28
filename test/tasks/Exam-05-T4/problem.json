@@ -1,0 +1,54 @@
+{
+  "problem_id": "Exam-05-T4",
+  "header": "Problem 4 Phosphoric Acid and Phosphate Chemistry. Phosphates are important in industrial production, food additives, and other fields, so measuring their content and understanding their properties are significant.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-05-T4-1",
+      "tags": [
+        "2.1"
+      ],
+      "text_open": "4-1 Aqueous sodium phosphate dodecahydrate, Na_3PO_4·12H_2O, is strongly basic and is used in washing powders and fat-saponification agents. It is prepared by reacting calcium dihydrogen phosphate with sodium carbonate and then adding sodium hydroxide solution. Write the preparation equation.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-05-T4-2",
+      "tags": [
+        "4.5"
+      ],
+      "text_open": "Titration notation: Add a volume $V_0$ of standard HCl of concentration $c_1$ to the sample, then titrate with standard NaOH of concentration $c_2$. The first jump near pH 4.0 consumes a NaOH volume $V_1$, and continuing to the second jump near pH 8.8 consumes an additional volume $V_2$.\n4-2-2 What relation among V_0, V_1, V_2, c_1, and c_2 indicates that the sample contains Na_2HPO_4? Express it symbolically.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-05-T4-3",
+      "tags": [
+        "4.5",
+        "4.7"
+      ],
+      "text_open": "4-2-3 Calculate the mass fraction ω(%) of Na_3PO_4 in the sample. Significant figures are required.",
+      "text_images": [],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-05-T4-4",
+      "tags": [
+        "1.7",
+        "2.1"
+      ],
+      "text_open": "4-3-2 Phosphorus atoms in different oxidation states can also be linked in catenated phosphoric acids. H_4P_2O_5 contains linked P(Ⅱ) and P(Ⅳ). It has two hydrolysis pathways under basic conditions. Only the first generates gas, and each gives only one phosphorus-containing product. Write the ionic equations for both pathways.",
+      "text_images": [],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-05-T4-5",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "4-3-3 Hydrolysis of cyclic H_6P_6O_12 is complex. First, one P-P bond cleaves to form a linear catenated hexaphosphoric acid by disproportionation; then terminal P-P bonds cleave stepwise. How many ways can the linear hexaphosphoric acid hydrolyze to catenated pentaphosphoric acid? Give the products of each. Use P for a phosphorus-containing group and a superscript to denote oxidation state; for example, catenated diphosphoric acid is P^4-P^4.",
+      "text_images": [],
+      "full_mark": 4
+    }
+  ]
+}

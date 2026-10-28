@@ -1,0 +1,34 @@
+{
+  "problem_id": "Exam-19-T1",
+  "header": "Question 1 Chemistry in Language\nMāori is the language of the indigenous Māori people of New Zealand and belongs to the Malayo-Polynesian branch of the Austronesian language family. Whereas element names in many other languages are borrowed from English or Latin, a number of Māori element names are constructed from native morphemes. The Chinese and English names of several elements and their Māori equivalents are given below. Examine these element names, infer the word-formation rules, and use those rules to answer the questions that follow.\n\n| Chinese name (English translation) | English | Māori | Chinese name (English translation) | English | Māori |\n| --- | --- | --- | --- | --- | --- |\n| hydrogen | hydrogen | hauwai | helium | helium | haumāmā |\n| lithium | lithium | konukōhatu | carbon | carbon | waro |\n| sodium | sodium | konutai | oxygen | oxygen | hāora |\n| chlorine | chlorine | haumāota | calcium | calcium | konupūmā |\n| chromium | chromium | konukita | nickel | nickel | konukōreko |\n\nFor reference, English translations of several Māori words are provided below:\n\n|  |  |  |  |\n| --- | --- | --- | --- |\n| hā — breath | ora — alive | wai — water | tai — sea |\n| kōhatu — stone | kita — bright | uku — clay | kōreko — shiny |\n| mohe — malleable | pūmā — grayish white | māota — fresh green, vitality |  |",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-19-T1-1",
+      "tags": [
+        "1.7"
+      ],
+      "text_open": "1.2 One day, a Māori friend tells you about several elements and their compounds. Infer their meanings from the context.\nHygroscopic solid A contains only the elements hautawa and konumohe. It fumes in air and sublimes under vacuum. Thorough heating of A in air produces compound B together with colored fumes (Reaction 1). B is also an important industrial raw material for producing konumohe, but New Zealand relies mainly on imports of this material.\nElemental konumohe has many uses. Dissolve it in a caustic soda solution, adjust the pH until precipitate C forms, and collect the precipitate by filtration. Adding soda ash and C to an aqueous solution of the simple monoprotic acid corresponding to haukōwhai, followed by recrystallization, gives a 3:1 crystal D (Reaction 2). D has a lower melting point than B and can be used in the metallurgical industry.\nThe Māori names haukōwhai and hautawa are both derived from their colors. The two elements belong to the same group of the periodic table, but their elemental substances have different physical states at room temperature.\nElemental haukōwhai reacts with 2% caustic soda solution to form mainly colorless gas E (Reaction 3). The molecule of E has a structure similar to that of water and reacts under acidic conditions with a simple potassium salt of hautawa to form elemental hautawa (Reaction 4).\n1.2.1 From the analysis, directly give the element names corresponding to hautawa, konumohe, and haukōwhai, and the chemical formulas of A–E.",
+      "text_images": [],
+      "full_mark": 8
+    },
+    {
+      "sub_id": "Exam-19-T1-2",
+      "tags": [
+        "2.1"
+      ],
+      "text_open": "1.2.2 Write the equations for Reactions 1–4.",
+      "text_images": [],
+      "full_mark": 6
+    },
+    {
+      "sub_id": "Exam-19-T1-3",
+      "tags": [
+        "1.7"
+      ],
+      "text_open": "1.3.2 Some people argue that the prefix hau in hautawa is inconsistent with the properties of the element. Do you agree? Explain your reasoning.",
+      "text_images": [],
+      "full_mark": 2
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "problem_id": "Exam-16-T8",
+  "header": "Problem 8: Asymmetric Catalytic Synthesis of Thiochromenes (8 points, 8%)\nOn 2016-9-26, researchers from Washington University published a study on the asymmetric catalytic synthesis of thiochromenes. Thiochromenes are sulfur-containing heterocycles. This reaction is highly stereospecific, meaning that the configuration of the chiral carbon bonded to the R group in the product is determined. Stereochemistry is not required in this problem; the SMILES or structural formulas in your answer need not specify the configuration of chiral carbons, alkenes, or other stereochemical features.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-16-T8-1",
+      "tags": [
+        "2.2",
+        "2.3",
+        "2.4"
+      ],
+      "text_open": "8.1 Give the SMILES structures of the key intermediates and the reaction product. Hint: the product contains a fused six-membered/six-membered ring system.",
+      "text_images": [
+        {
+          "file": "Exam-16-T8-1-1-prompt.png",
+          "description": "An organic reaction whose substrate has SMILES 'O=CC1=C(C=CC=C1)SC(C=C[R])=O', under the conditions 'C[C@@H]1[C@H](C2=CC=CC=C2)N=C3SC4=CC=CC=C4N3C1' (10 mol%), CHCl_3, room temperature."
+        }
+      ],
+      "full_mark": 6,
+      "rubric": [
+        "Key intermediates and reaction product:",
+        "'O=C([Cat+])C=C[R]' (1 point); 'O=CC1=C([S-])C=CC=C1' or 'S=C1C=CC=CC1=C[O-]' (1 point); '[O-]C1C2=C(C=CC=C2)S[CH]([R])C1C([Cat+])=O' (1 point)",
+        "'[O-]C1([Cat+])OC2C3=CC=CC=C3S[CH]([R])C12' (1 point); 'O=C1OC2C3=C(S[CH](C12)[R])C=CC=C3' (1 point); '[R][CH]1SC2=CC=CC=C2C=C1' (1 point)",
+        "If the abbreviation Cat is used without specifying the structure of Cat, deduct 1 point from the total for this subquestion.",
+        "The additional structure '[O-]C([Cat+])=C[CH]([R])SC1=CC=CC=C1C=O' earns no credit but incurs no deduction."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-16-T8-1-1-rubric.png",
+          "description": "Rubric structure 1, with SMILES 'O=C([Cat+])/C=C/[R]'."
+        },
+        {
+          "file": "Exam-16-T8-1-2-rubric.png",
+          "description": "Rubric structure 2, with SMILES 'O=CC1=C([S-])C=CC=C1'."
+        },
+        {
+          "file": "Exam-16-T8-1-3-rubric.png",
+          "description": "Rubric structure 3, an equivalent answer to rubric structure 2, with SMILES 'S=C1C=CC=C/C1=C/[O-]'."
+        },
+        {
+          "file": "Exam-16-T8-1-4-rubric.png",
+          "description": "Rubric structure 4, with SMILES '[O-]C1C2=C(C=CC=C2)S[C@H]([R])C1C([Cat+])=O'."
+        },
+        {
+          "file": "Exam-16-T8-1-5-rubric.png",
+          "description": "Rubric structure 5, a peroxide/lactone-like cyclized intermediate, with SMILES '[O-]C1([Cat+])OC2C3=CC=CC=C3S[C@H]([R])C12'."
+        },
+        {
+          "file": "Exam-16-T8-1-6-rubric.png",
+          "description": "Rubric structure 6, with SMILES 'O=C1OC2C3=C(S[C@@H](C12)[R])C=CC=C3'."
+        },
+        {
+          "file": "Exam-16-T8-1-7-rubric.png",
+          "description": "Final product in the rubric, with SMILES '[R][C@H]1SC2=CC=CC=C2C=C1'."
+        },
+        {
+          "file": "Exam-16-T8-1-8-rubric.png",
+          "description": "Additional rubric structure, with SMILES '[O-]/C([Cat+])=C/[C@@H]([R])SC1=CC=CC=C1C=O'."
+        }
+      ]
+    }
+  ]
+}

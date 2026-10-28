@@ -1,0 +1,48 @@
+{
+  "problem_id": "Exam-15-T4",
+  "header": "Problem 4 Determination of Chloride by the Volhard Method. ① Pipette 20.00 mL of 0.1 mol/L standard silver nitrate titrant into a 250 mL conical flask. Add 30 mL water, 5 mL nitric acid solution, and 2 mL saturated ferric ammonium sulfate solution. While shaking, titrate with standard potassium thiocyanate titrant until a pale brown-red color appears and persists for 1 min. Record the volume of standard potassium thiocyanate consumed: V_{1} = 19.88 mL. ② Weigh 0.10 g sodium chloride that has been ignited at 500 ℃ ~ 600 ℃ to constant mass, accurate to 0.1 mg. Dissolve it in approximately 40 mL water in a beaker and transfer to a 100 mL volumetric flask. Add 5 mL nitric acid solution (1+3), then add 25.00 mL of 0.1 mol/L standard silver nitrate solution while shaking vigorously. Dilute to the mark with water and mix. Let stand in the dark for 5 min, filter through rapid filter paper, and discard the first 10 mL of filtrate. Accurately pipette 50.00 mL filtrate into a 250 mL conical flask, add 2 mL of 1 mol/L ferric ammonium sulfate solution, and titrate with standard potassium thiocyanate while shaking until a pale brown-red color appears and persists for 1 min. Record V_{2} = 4.01 mL. ③ Measure 50 mL test solution into a 100 mL colorimetric tube and otherwise follow the same procedure as in ②. Record V_{3} = 2.98 mL.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-15-T4-1",
+      "tags": [
+        "4.5",
+        "2.1"
+      ],
+      "text_open": "4.1 Calculate the concentrations of the standard silver nitrate and potassium thiocyanate titrant solutions.",
+      "text_images": [],
+      "full_mark": 5
+    },
+    {
+      "sub_id": "Exam-15-T4-2",
+      "tags": [
+        "4.1",
+        "4.7"
+      ],
+      "text_open": "4.4.2 Explain why the first 10 mL of filtrate is discarded.",
+      "text_images": [],
+      "full_mark": 1
+    },
+    {
+      "sub_id": "Exam-15-T4-3",
+      "tags": [
+        "4.2",
+        "4.5"
+      ],
+      "text_open": "4.5 If addition of standard silver nitrate produces a colloidal solution, what additional operation is required before filtration?",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-15-T4-4",
+      "tags": [
+        "4.5",
+        "2.1",
+        "4.7"
+      ],
+      "text_open": "4.6 Calculate the $Cl^-$ concentration in the sample.",
+      "text_images": [],
+      "full_mark": 3
+    }
+  ]
+}

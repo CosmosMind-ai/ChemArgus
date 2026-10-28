@@ -1,0 +1,107 @@
+{
+  "problem_id": "Exam-10-T7",
+  "header": "Question 7 Synthesis and Study of Palladium Complexes",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-10-T7-1",
+      "tags": [
+        "1.4",
+        "1.6",
+        "2.4"
+      ],
+      "text_open": "7-1 Adding excess 2,2'-bipyridine to a solution of $\\mathrm{Pd(NO_3)_2}$ gives a neutral mononuclear Pd complex A. In solution, A dimerizes to form a 1:2 ionic complex D containing a Pd-Pd single bond and $\\mathrm{NO_3^-}$ counterions. Write the SMILES strings of A and the cation of D, and determine whether each obeys the EAN rule.",
+      "text_images": [],
+      "full_mark": 4,
+      "rubric": [
+        "The SMILES of A is '[N][Pd]([N])(O[N+]([O-])=O)O[N+]([O-])=O', and that of the D cation is '[N][Pd](O[N]1=O)([N])(O2)[Pd](O1)([N])(O[N]2=O)[N]'. In both structures, the 2 N atoms bonded to the same Pd atom are connected by an arc. (1 point for A and 1 point for the D cation; deduct 1 point if an otherwise correct answer omits the charge.) For A, $EAN=8+4(\\mathrm{bipy})+2\\times2(\\mathrm{ONO_2^-})=16\\mathrm{e^-}$, so it does not obey the rule (1 point). For the D cation, $EAN=8+4(\\mathrm{bipy})+2\\times2(\\mathrm{ONO_2^-})+1(\\mathrm{Pd-Pd})=17\\mathrm{e^-}$, so it does not obey the rule (1 point)."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-10-T7-1-1-rubric.png",
+          "description": "The SMILES of A is '[N][Pd]([N])(O[N+]([O-])=O)O[N+]([O-])=O', and that of the D cation is '[N][Pd](O[N]1=O)([N])(O2)[Pd](O1)([N])(O[N]2=O)[N]'. In both structures, the 2 N atoms bonded to the same Pd atom are connected by an arc."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-10-T7-2",
+      "tags": [
+        "1.4",
+        "1.6",
+        "2.4"
+      ],
+      "text_open": "7-2 Researchers found that D efficiently converts $\\mathrm{C=S}$ double bonds in organic compounds into $\\mathrm{C=O}$ double bonds. During this process, D is converted into ionic compound E, which has a threefold axis and mirror planes. Mass spectrometry gives $m/z = 425.4$ for the E cation. The 2,2'-bipyridine ligand may be represented as N⌒N. 7-2-1 Write the SMILES representation of E.",
+      "text_images": [],
+      "full_mark": 3,
+      "rubric": [
+        "The E cation carries 2 positive charges and has the SMILES '[R][Pd]123([R])[S]4[Pd]15([R])([R])[Pd]2([R])([R])4[S]35'. Two R groups attached to the same Pd denote the chelating attachment sites of a 2,2'-bipyridine ligand. The anion of E is nitrate. (3 points: 1 point for the Pd_3S_2 cluster; deduct 1 point if an otherwise correct answer omits the charge.)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-10-T7-3",
+      "tags": [
+        "1.4",
+        "2.1"
+      ],
+      "text_open": "7-2-2 Write the equation for the formation of E. The substrate may be represented as $\\mathrm{CSR_2}$, and the symbols given in the question may be used for the complexes.",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "$\\mathrm{4CSR_2 + 4H_2O + 3D = 4COR_2 + 8HNO_3 + 2E}$ (2 points)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-10-T7-4",
+      "tags": [
+        "1.4",
+        "2.1"
+      ],
+      "text_open": "7-2-3 Addition of nitric acid converts E back into A, enabling recycling. Write the equation for this step.",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "$\\mathrm{E + 16HNO_3 = 2SO_2 + 12NO_2 + 8H_2O + 3A}$ (2 points)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-10-T7-5",
+      "tags": [
+        "1.4",
+        "2.1"
+      ],
+      "text_open": "7-2-4 Write the overall equation for conversion of $\\mathrm{CSR_2}$ into $\\mathrm{COR_2}$.",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "$\\mathrm{CSR_2 + 6HNO_3 = COR_2 + 6NO_2 + SO_2 + 3H_2O}$ (2 points)"
+      ],
+      "rubric_images": []
+    },
+    {
+      "sub_id": "Exam-10-T7-6",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "7-3 Add 3 equivalents of $\\mathrm{Hacac}$ and potassium tert-butoxide to 1,3,5-tris(bromomethyl)benzene, and quench the reaction with water. Then add 3 equivalents of hydrazine; the reaction gives organic ligand $\\mathrm{H_3L}$. Adding $\\mathrm{H_3L}$ to D produces $\\mathrm{\\{[(bpy)Pd]_{12}L_x\\}(NO_3)_{12}}$. 7-3-1 A synthesis of a ligand analogous to $\\mathrm{H_3L}$ is shown below. Write the structure of J.",
+      "text_images": [
+        {
+          "file": "Exam-10-T7-6-1-prompt.png",
+          "description": "A rightward arrow follows 'BrCC1=CC(CBr)=CC(CBr)=C1'. The text above the arrow is 'CC(C)[N+](=O)[O-]' and that below is NaOEt; the arrow points to uppercase J. Another rightward arrow follows J, with 'COP1(OC)(OC)CC(C)=C(C)C1' above it and no text below, and points to 'CC(=O)C(=C(O)C)C1=CC(C(=C(O)C)C(C)=O)=CC(C(=C(O)C)C(C)=O)=C1'. A third rightward arrow follows 'CC(=O)C(=C(O)C)C1=CC(C(=C(O)C)C(C)=O)=CC(C(=C(O)C)C(C)=O)=C1', with $\\mathrm{N_2H_4\\dotH_2O}$ above it and no text below, and points to 'CC1=C(C2=CC(C3=C(NN=C3C)C)=CC(C4=C(NN=C4C)C)=C2)C(C)=NN1'."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "The SMILES of J is 'O=CC1=CC(C=O)=CC(C=O)=C1' (2 points)."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-10-T7-6-1-rubric.png",
+          "description": "The SMILES of J is 'O=CC1=CC(C=O)=CC(C=O)=C1'."
+        }
+      ]
+    }
+  ]
+}

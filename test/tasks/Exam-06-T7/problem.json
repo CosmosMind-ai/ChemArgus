@@ -1,0 +1,118 @@
+{
+  "problem_id": "Exam-06-T7",
+  "header": "Problem 7 Synthesis of Schiff Bases and Their Derived Complexes (25 points, 9%)\nOn 2023-4-28, a research team from Université de Bourgogne reported a class of Schiff-base ligands and their complexes that exhibit “fluxionality.” Here, “fluxionality” means that the “C=N” double bonds in the ligands can undergo “rotation” under specific conditions.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-06-T7-1",
+      "tags": [
+        "2.4",
+        "2.6"
+      ],
+      "text_open": "7.1 The synthesis of Schiff-base ligands provides the basis for constructing their derived complexes. The following reactions synthesize the Schiff-base ligands L1H_{2} and L2H_{2}, respectively. The “C=N” bonds in both L1H_{2} and L2H_{2} are known to have the E configuration. Write the SMILES structures of L1H_{2} and L2H_{2}, respectively. Note: the figures are simplified representations of the synthetic routes and do not show the complete workup after each step.",
+      "text_images": [
+        {
+          "file": "Exam-06-T7-1-1-prompt.png",
+          "description": "Synthetic route to L1H_2: the molecule 'COC1=CC=CC=C1C(=O)N(CC)CC' is treated with (COCl_2) in Toluene at 333 K for 16h, then with NCCN 0.5 equiv. and NEt_3(5 equiv.) in DCM from 273 K to r.t. for 16h, subsequently with BBr_3, 3 equiv., in DCM from 273 K to r.t. for 16h, and finally with KHMDS (2 equiv) in THF to afford L1H_2."
+        },
+        {
+          "file": "Exam-06-T7-1-2-prompt.png",
+          "description": "Synthetic route to L2H_2: the molecule 'OC1=CC=CC=C1C(=O)N(C)C' is treated under 1) SOCl_2, r.t., overnight, followed by 2) the molecule 'NC1=CC=CC=C1N', 0.45 equiv., and Et_3N (5 equiv.) in CH_2Cl_2 from 273 K to r.t. for 2.5h, to afford L2H_2."
+        }
+      ],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-06-T7-2",
+      "tags": [
+        "1.4",
+        "2.4"
+      ],
+      "text_open": "7.2 The corresponding complexes can be constructed by reacting the above Schiff-base ligands with metal precursors. 7.2.1 L1H_{2} forms neutral complex A through the following reaction. L1H_{2} is known to exhibit almost no “fluxionality,” and Al in complex A is 4-coordinate. On this basis, write the SMILES structure of neutral complex A.",
+      "text_images": [
+        {
+          "file": "Exam-06-T7-2-1-prompt.png",
+          "description": "[L1H_4][Br_2] is treated under 1) KHMDS (2 equiv.), THF, r.t., 4h, followed by 2) AlMe_3, THF, r.t., 2h, to afford A."
+        }
+      ],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-06-T7-3",
+      "tags": [
+        "1.4",
+        "1.2",
+        "2.4"
+      ],
+      "text_open": "7.2.2 Because of the change in substituents, L2H_{2} exhibits some “fluxionality.” L2H_{2} forms neutral complex B_{1} through the following reaction. Given that Al in B_{1} is 4-coordinate, write the SMILES structure of B_{1}.",
+      "text_images": [
+        {
+          "file": "Exam-06-T7-3-1-prompt.png",
+          "description": "L2H_2 is treated with AlMe_3 in THF at 333K for 2h to afford B_1."
+        }
+      ],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-06-T7-4",
+      "tags": [
+        "1.4",
+        "2.2",
+        "1.2"
+      ],
+      "text_open": "7.2.3 The following reaction illustrates the above “fluxionality” of the ligand. Notably, complex B_{1} in 7.2.2 is chiral, and B_{1} can isomerize to B_{2} through the formation of a 5-coordinate intermediate C. Write the SMILES structure of intermediate C.",
+      "text_images": [
+        {
+          "file": "Exam-06-T7-4-1-prompt.png",
+          "description": "B1 ⇌ C ⇌ B2 isomerization scheme, emphasizing the conversion of B1 to B2 through 5-coordinate intermediate C. "
+        }
+      ],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-06-T7-5",
+      "tags": [
+        "1.4",
+        "1.2",
+        "2.4"
+      ],
+      "text_open": "7.2.4 The following reaction likewise demonstrates the “fluxionality” of the ligand. On this basis, write the SMILES structure of neutral complex D.",
+      "text_images": [
+        {
+          "file": "Exam-06-T7-5-1-prompt.png",
+          "description": "B_1 or B_2 is converted to D in the presence of 'CC(O)(C(F)(F)F)C(F)(F)F' in CD_2Cl_2 under reflux for 3 days."
+        }
+      ],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-06-T7-6",
+      "tags": [
+        "1.4",
+        "2.4"
+      ],
+      "text_open": "7.3 Natural bond orbital calculations show that coordination of the second N atom in the ligand decreases the positive character of the Al center. Therefore, the more electron-deficient the Al center, the more readily it induces “rotation” of the ligand's C=N double bonds. On this basis, the research team further investigated how to prepare species with a more electron-deficient Al center.\n7.3.1 The following reactions provide further evidence for the theoretical prediction above. Given that both E and F are ionic complexes, write their SMILES structures.",
+      "text_images": [
+        {
+          "file": "Exam-06-T7-6-1-prompt.png",
+          "description": "A is converted to E with B(C_6F_5)_3 (1 equiv.) in CH_2Cl_2 at r.t. for 1h."
+        },
+        {
+          "file": "Exam-06-T7-6-2-prompt.png",
+          "description": "B_1 or B_2 is converted to F with B(C_6F_5)_3 (1 equiv.) in CH_2Cl_2 at r.t. for 1h."
+        }
+      ],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-06-T7-7",
+      "tags": [
+        "1.4",
+        "2.4"
+      ],
+      "text_open": "7.3.2 X-ray crystallography shows that E and F have dimeric structures in the solid state. Using E as an example, write the SMILES structure of ionic dimer G obtained by crystallization from pyridine, given that Al in G is 6-coordinate.",
+      "text_images": [],
+      "full_mark": 4
+    }
+  ]
+}

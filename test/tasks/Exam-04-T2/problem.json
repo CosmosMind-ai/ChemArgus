@@ -1,0 +1,45 @@
+{
+  "problem_id": "Exam-04-T2",
+  "header": "Problem 2 Fundamentals of Iodometric Titration",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-04-T2-1",
+      "tags": [
+        "3.6",
+        "3.4"
+      ],
+      "text_open": "2-1-2 Calculate the conditional reduction potential of $\\mathrm{Fe(CN)_6^{3-}}$ to $\\mathrm{Fe(CN)_6^{4-}}$ in $\\mathrm{mol}\\cdot\\mathrm{L}^{-1}$ HCl. Given $\\varphi^\\Theta_{\\mathrm{Fe(CN)_6^{3-}/Fe(CN)_6^{4-}}}=0.36\\ \\mathrm{V}$; $\\mathrm{H_3Fe(CN)_6}$ is a strong acid; $\\mathrm{H_4Fe(CN)_6}$ has $\\mathrm{p}K_{\\mathrm{a3}}=2.2$ and $\\mathrm{p}K_{\\mathrm{a4}}=4.2$; neglect ionic effects.",
+      "text_images": [],
+      "full_mark": 5
+    },
+    {
+      "sub_id": "Exam-04-T2-2",
+      "tags": [
+        "2.1",
+        "4.1"
+      ],
+      "text_open": "2-2 Dissolve a 1.000 g sample containing sodium iodate and sodium periodate in a 250 mL volumetric flask and dilute to the mark. Transfer 50.00 mL to an Erlenmeyer flask, adjust to weakly basic pH, add excess potassium iodide, and titrate with 0.04000 mol·L^{-1} sodium thiosulfate; 10.00 mL is consumed. Transfer another 20.00 mL, acidify with hydrochloric acid, add excess potassium iodide, and titrate with sodium thiosulfate of the same concentration; 30.00 mL is consumed. 2-2-1 What reaction occurs in the first titration? Write its ionic equation and explain why the solution must be adjusted to weakly basic conditions.",
+      "text_images": [],
+      "full_mark": 4
+    },
+    {
+      "sub_id": "Exam-04-T2-3",
+      "tags": [
+        "4.5"
+      ],
+      "text_open": "2-2-2 Calculate the mass percentages of sodium iodate and sodium periodate.",
+      "text_images": [],
+      "full_mark": 9
+    },
+    {
+      "sub_id": "Exam-04-T2-4",
+      "tags": [
+        "4.5"
+      ],
+      "text_open": "2-2-3 In theory, this method can measure the mass percentages of sodium iodate and sodium periodate fairly accurately. In a student laboratory, however, it is difficult to obtain an accurate result, defined as an error within 0.1%. Explain the principal reason in terms of experimental readings. (No more than 20 words.)",
+      "text_images": [],
+      "full_mark": 3
+    }
+  ]
+}

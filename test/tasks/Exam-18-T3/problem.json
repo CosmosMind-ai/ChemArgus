@@ -1,0 +1,25 @@
+{
+  "problem_id": "Exam-18-T3",
+  "header": "Problem 3 Latent Monomers and Controlled Metathesis Polymerization\nControlling the temporal and spatial sequence of polymerization is an important topic in conventional polymer synthesis. Chemists have generally developed “latent catalysts” that switch between inactive and active states in response to external stimuli such as light or heat. Recent research, however, has introduced a new “latent monomer” strategy: isomerization of a photoswitchable molecule generates an active monomer in situ and on demand, enabling efficient control of polymerization.\nThis problem concerns a classic class of highly reactive ring-opening metathesis polymerization (ROMP) monomers: norbornadiene (NBD) derivatives. Under ultraviolet irradiation of a specific wavelength, they undergo intramolecular cycloaddition to form highly strained quadricyclane (QC) structures.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-18-T3-1",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "3.1 Synthesis and Photothermal Isomerization of the Latent Monomer\nMonomer A, an NBD derivative, can be prepared by reacting cyclopentadiene with diethyl acetylenedicarboxylate at room temperature. Under 313 nm ultraviolet irradiation, A is quantitatively converted into latent monomer B, a QC derivative. Adding silica-coated gold nanobipyramids (AuBPs) to B and irradiating at 850 nm with infrared light regenerates A.\n3.1.1 Write the SMILES strings for A and B.",
+      "text_images": [],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-18-T3-2",
+      "tags": [
+        "2.4"
+      ],
+      "text_open": "3.3 The complete inertness of latent monomers toward the catalyst at room temperature enables the synthesis of complex polymer topologies that are difficult to obtain by conventional metathesis polymerization. The researchers replaced the ethoxycarbonyl groups, $-COOC_2H_5$, in B with pent-4-enyloxycarbonyl groups, $-COO(CH_2)_3CH=CH_2$, to give monomer F. F was mixed with the Grubbs catalyst and reacted at 40℃, releasing gas X and giving a soluble linear polymer G with double bonds in its main chain. G was coated onto a microscope slide placed over a masked LED and then heated to 80℃, rapidly converting the film into an insoluble crosslinked network H. Write the SMILES strings for polymers G and H.",
+      "text_images": [],
+      "full_mark": 4
+    }
+  ]
+}

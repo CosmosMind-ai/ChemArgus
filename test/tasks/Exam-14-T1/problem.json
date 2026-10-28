@@ -1,0 +1,17 @@
+{
+  "problem_id": "Exam-14-T1",
+  "header": "Ancient Metallurgy and Transmutation Chemistry\nBecause natural gold and silver were rare and extremely valuable, people in antiquity devised many ingenious methods for preparing precious metals artificially. Ming-dynasty works such as Tiangong Kaiwu and Shuyuan Zaji recorded methods for converting pure copper into “imitation gold and silver” with certain minerals, while alchemists also performed “transmutation” experiments with arsenic-, mercury-, and lead-bearing minerals. Modern chemistry has shown that these remarkable phenomena involve complex principles of inorganic synthesis and thermodynamics.",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-14-T1-1",
+      "tags": [
+        "1.1",
+        "2.1"
+      ],
+      "text_open": "1.1.2 In the Jin dynasty, Ge Hong recorded in Baopuzi a method for transmuting pure copper into a silvery-white alloy using an arsenic-containing compound. In the actual reaction, heating this compound in a sealed system first causes it to sublime and form gaseous molecule A with an adamantane-type cage; A is then reduced by charcoal to gaseous molecule B with a regular tetrahedral geometry; B penetrates the surface of solid pure copper and ultimately forms a silvery-white copper-arsenic alloy (the atomic ratio of the two elements in the alloy is 1:3). Write the chemical formula of A and the overall equation for formation of the alloy (assume that CO is the only oxidation product of carbon).",
+      "text_images": [],
+      "full_mark": 3
+    }
+  ]
+}

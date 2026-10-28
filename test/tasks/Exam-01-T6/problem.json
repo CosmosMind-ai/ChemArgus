@@ -1,0 +1,45 @@
+{
+  "problem_id": "Exam-01-T6",
+  "header": "Crystal Structures of Layered Alloys",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-01-T6-1",
+      "tags": [
+        "1.3",
+        "1.4"
+      ],
+      "text_open": "Structural background: Crystal X is a layered Al-Ni-U alloy in which Ni and U form layer M and Al forms layer N, with an infinite $\\cdots MN\\cdots$ sequence. In M, Ni has a graphene-like arrangement and U occupies the center of every Ni hexagon. Along $c$, all M-layer projections coincide and all N-layer projections coincide. In N, Al forms regular hexagons and equilateral triangles; Ni lies at every Al-triangle center and U at every Al-hexagon center.\nConsidering the coordination of Ni by Al and U, name the coordination polyhedron of Ni and state how many coordinating atoms are U and how many are Al.",
+      "text_images": [],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-01-T6-2",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "State the crystal system of crystal X and write its chemical formula.",
+      "text_images": [],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-01-T6-3",
+      "tags": [
+        "1.1",
+        "1.3"
+      ],
+      "text_open": "Crystal Y is an Al-Rh-U alloy in which all U atoms and some Rh atoms form layer P, while all Al atoms and the remaining Rh atoms form layer Q. The crystal extends infinitely in a …PQ… sequence to form a three-dimensional structure. The arrangement of U in layer P resembles that of Al in layer N of crystal X, while Rh occupies the center of every hexagon. Of the six U atoms in each hexagon, three are closer to the central Rh atom, causing distortion of layer P; correspondingly, the other three U atoms are farther from Rh, such that all triangles in layer P remain equilateral. Each U atom is shared by two hexagons, is closer to the central Rh atom of one and farther from that of the other, and lies on the line connecting those two Rh atoms. In layer Q, all Al atoms are arranged as equilateral Al_3 triangles. In projection along the c axis, the projections of all P layers coincide, as do those of all Q layers. The centers of the Al_3 triangles coincide with the Rh atoms in layer P, while the centers of the U_3 triangles coincide with the Rh atoms in layer Q. The projection of each Al atom lies on the line connecting a Rh atom in layer P and the more distant U atom in its hexagon. Define a unit cell with the Rh atoms in layer P as vertices. In this unit cell, one U atom has coordinates (0.5806, 0.0000, 0.5000). Give the coordinates of all other U atoms in the unit cell, to four decimal places, and the two types of U-U-U bond angles in a U_6 hexagon, to one decimal place.",
+      "text_images": [],
+      "full_mark": 6
+    },
+    {
+      "sub_id": "Exam-01-T6-4",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "State the crystal system of crystal Y and write its chemical formula.",
+      "text_images": [],
+      "full_mark": 3
+    }
+  ]
+}

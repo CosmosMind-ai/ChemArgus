@@ -1,0 +1,175 @@
+{
+  "problem_id": "Exam-02-T10",
+  "header": "Problem 10: Forever Unnamed",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-02-T10-1",
+      "tags": [
+        "2.2"
+      ],
+      "text_open": "10-1 A neutral reaction intermediate can be obtained by the process shown below. Write its SMILES representation.",
+      "text_images": [
+        {
+          "file": "Exam-02-T10-1-1-prompt.png",
+          "description": "A chemical reaction equation: the reactants on the left are [R1]CC(=O)Cl and R_2NC, joined by a plus sign `+`; a horizontal right-pointing arrow in the center leads to bold X on the right."
+        }
+      ],
+      "full_mark": 2,
+      "rubric": [
+        "Write the SMILES of X shown in the rubric image: '[R2]/N=C(C(C[R1])=O)\\Cl' (2 points)."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-02-T10-1-1-rubric.png",
+          "description": "The rubric image shows X, with SMILES '[R2]/N=C(C(C[R1])=O)\\Cl'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-02-T10-2",
+      "tags": [
+        "2.4",
+        "2.2",
+        "1.2"
+      ],
+      "text_open": "10-2-1 Further reactions can proceed from intermediates of type X. Write the SMILES representations of products A and B in the reactions below, given that B contains a five-membered aromatic ring. 10-2-2 Label the absolute configurations of all chiral carbon atoms in the structure of A from the preceding question.",
+      "text_images": [
+        {
+          "file": "Exam-02-T10-2-1-prompt.png",
+          "description": "The image shows two parallel reactions. In the upper reaction, the starting material is 'CC1=C(O[Si](C)(C)C(C)(C)C)CC[C@@H]1C[N+]#[C-]'. Above the arrow is “(a)tBuCOCl,DCM,r.t.” and below it “(b)AgBF_4,DCM,-78∘C”; the arrow leads to product A. In the lower reaction, '[R]C(Cl)=O' + '[Ar]C[N+]#[C-]' reacts under “base” to give product B."
+        }
+      ],
+      "full_mark": 4,
+      "rubric": [
+        "Structure A is worth 1 point; its SMILES is 'O=C1[C@]2(C)[C@](CN=C2C(C(C)(C)C)=O)([H])CC1'.",
+        "The chiral carbon bonded to H has the S configuration (1 point), and the chiral carbon bonded to the methyl group has the R configuration (1 point).",
+        "Structure B is worth 1 point; its SMILES is '[R]C1=CN=C(O1)[Ar]'."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-02-T10-2-1-rubric.png",
+          "description": "The rubric image shows the structure and configurations of A, with SMILES 'O=C1[C@]2(C)[C@](CN=C2C(C(C)(C)C)=O)([H])CC1'. The H-bearing chiral carbon is S, and the methyl-bearing chiral carbon is R."
+        },
+        {
+          "file": "Exam-02-T10-2-2-rubric.png",
+          "description": "The rubric image shows B, with SMILES '[R]C1=CN=C(O1)[Ar]'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-02-T10-3",
+      "tags": [
+        "2.2",
+        "2.3"
+      ],
+      "text_open": "10-2-3 Write the SMILES representation of another electrically neutral key intermediate Y, other than the type-X intermediate, involved in formation of B.",
+      "text_images": [],
+      "full_mark": 2,
+      "rubric": [
+        "Write the SMILES of Y shown in the rubric image: '[R]C(C#[N+][CH-][Ar])=O' (2 points). No credit if multiple structures are given."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-02-T10-3-1-rubric.png",
+          "description": "The rubric image shows Y, with SMILES '[R]C(C#[N+][CH-][Ar])=O'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-02-T10-4",
+      "tags": [
+        "2.4",
+        "2.3",
+        "2.7"
+      ],
+      "text_open": "10-2-4 If an appropriate amount of CH_{2}=CHCO_{2}Me is added to the reaction system that forms B, Y is trapped to form two products, C_{1} and C_{2}. Write their SMILES representations.",
+      "text_images": [],
+      "full_mark": 4,
+      "rubric": [
+        "Write the SMILES representations of C_{1} and C_{2} shown in the rubric image; 2 points each.",
+        "C1 can be represented as 'O=C(C1=CC(C(N1)[Ar])C(OC)=O)[R]'.",
+        "C2 can be represented as 'O=C(C1=C(CC(N1)[Ar])C(OC)=O)[R]'.",
+        "The position of the double bond within the ring is not specified; an aromatized pyrrole product also receives credit."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-02-T10-4-1-rubric.png",
+          "description": "The rubric image shows C1, which can be represented as 'O=C(C1=CC(C(N1)[Ar])C(OC)=O)[R]', and C2, which can be represented as 'O=C(C1=C(CC(N1)[Ar])C(OC)=O)[R]'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-02-T10-5",
+      "tags": [
+        "2.2"
+      ],
+      "text_open": "10-3-1 Addition of other reagents changes the reaction pathway. Write the small-molecule by-product formed in the reaction below and the SMILES representation of another electrically neutral key intermediate, other than the type-X intermediate, involved in the reaction.",
+      "text_images": [
+        {
+          "file": "Exam-02-T10-5-1-prompt.png",
+          "description": "A continuous multistep reaction sequence. The substrate is `R_1COCl`; above the first arrow is R_2NC; above the second is `P(OR_3)_3`; and above the third is '[O-]/C([Ar])=C\\[N+]1=CC=CC=C1'. The final product is 'O=C([Ar])C1=C(C([R1])=C2C=CC=CN12)N[R2]'."
+        }
+      ],
+      "full_mark": 3,
+      "rubric": [
+        "The small-molecule by-product may be written as P(O)(OR_3)_3, or as P(O)(OH)(OR_3)_2 and R_3Cl (1 point).",
+        "The key intermediate can be represented as '[R1]C(OP(O[R3])(O[R3])=O)=C=N[R2]' or '[R1]C(O[P+](O[R3])(O[R3])O[R3])=C=N[R2]' (2 points)."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-02-T10-5-1-rubric.png",
+          "description": "The rubric image gives two representations of the key intermediate in 10-3-1. The general SMILES can be '[R1]C(OP(O[R3])(O[R3])=O)=C=N[R2]' or '[R1]C(O[P+](O[R3])(O[R3])O[R3])=C=N[R2]'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-02-T10-6",
+      "tags": [
+        "2.4",
+        "2.2"
+      ],
+      "text_open": "10-3-2 In the presence of Et_{3}N, EtO_{2}CCOCl, CyNC, P(Oi-Pr)_{3}, NCCH_{2}CN, and CS_{2} undergo a multicomponent reaction in MeCN. Write the SMILES representation of product D.",
+      "text_images": [],
+      "full_mark": 3,
+      "rubric": [
+        "Write the SMILES representation of D: 'N#C/C(C#N)=C1SC(C(OCC)=O)=C(S/1)NC2CCCCC2' (3 points)."
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-02-T10-6-1-rubric.png",
+          "description": "The rubric image shows multicomponent-reaction product D, with SMILES 'N#C/C(C#N)=C1SC(C(OCC)=O)=C(S/1)NC2CCCCC2'."
+        }
+      ]
+    },
+    {
+      "sub_id": "Exam-02-T10-7",
+      "tags": [
+        "2.2",
+        "2.4"
+      ],
+      "text_open": "10-4 Under certain conditions, an α-carbonyl diazo compound can replace an acyl chloride in a similar reaction with an isocyanide. Write the SMILES representations of all intermediates and products in the scheme below. W and all three products contain a five-membered ring, but only the five-membered ring in E is aromatic; F also contains a six-membered ring.",
+      "text_images": [
+        {
+          "file": "Exam-02-T10-7-1-prompt.png",
+          "description": "A synthetic reaction scheme: '[R1]C(C(C([R1])=O)=[N+]=[N-])=O' is the starting material and is converted by an arrow to Z. Intermediate Z then reacts with `R_2NC` to form W. Intermediate **W** branches into three transformations: the upper branch reacts with `MeNHNH_2` to form E; the middle branch reacts with '[R1]C(C([R1])=O)=C=O' to form F; and the lower branch forms H under H^+ conditions."
+        }
+      ],
+      "full_mark": 10,
+      "rubric": [
+        "Write the SMILES representations of the five structures Z, W, E, F, and H in the rubric image; 2 points each, 10 points total.",
+        "SMILES of **Z**: '[R1]C(C([R1])=C=O)=O'",
+        "SMILES of **W**: 'O=C1C([R1])=C(O/C1=N/[R2])[R1]'",
+        "SMILES of **E**: 'CN2N=C(C([R1])=C2[R1])C(N[R2])=O'",
+        "SMILES of **F**: 'O=C3C([R1])=C(OC34N(C(C([R1])=C(O4)[R1])=O)[R2])[R1]'",
+        "SMILES of **H**: 'O=C5C(N(C([R1])=C5[R1])[R2])=O'"
+      ],
+      "rubric_images": [
+        {
+          "file": "Exam-02-T10-7-1-rubric.png",
+          "description": "The image shows five red intermediate and product structures from the transformations above, labeled Z, W, E, F, and H. **Z** is an acylketene intermediate with cumulated double bonds, with SMILES '[R1]C(C([R1])=C=O)=O'. **W** is a five-membered heterocyclic iminofuranone intermediate, with SMILES 'O=C1C([R1])=C(O/C1=N/[R2])[R1]'. **E** is the pyrazole carboxamide product formed with methylhydrazine, with SMILES 'CN2N=C(C([R1])=C2[R1])C(N[R2])=O'. **F** is a complex spirocyclic lactone derivative formed by condensation, with SMILES 'O=C3C([R1])=C(OC34N(C(C([R1])=C(O4)[R1])=O)[R2])[R1]'. **H** is a pyrroledione (maleimide-type) product formed by isomerization under acidic conditions, with SMILES 'O=C5C(N(C([R1])=C5[R1])[R2])=O'."
+        }
+      ]
+    }
+  ]
+}

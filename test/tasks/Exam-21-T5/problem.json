@@ -1,0 +1,39 @@
+{
+  "problem_id": "Exam-21-T5",
+  "header": "Structures of Silicides",
+  "header_images": [],
+  "subquestions": [
+    {
+      "sub_id": "Exam-21-T5-1",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "5.1 Consider a hypothetical crystal X. Si atoms form graphite-like layers A stacked along the c direction. The projections of all layers A along c coincide, producing a series of layers of hexagonal-prismatic voids between them. Metal M regularly occupies 2/3 of the hexagonal-prismatic voids in each such layer to form layers B, and the projections of all layers B along c also coincide.\n5.2 Crystal Y is obtained by replacing some Si atoms in layers A of crystal X with M atoms. In crystal Y, no two Si atoms and no two M atoms are adjacent within the same layer A. Likewise, between two neighboring layers A along c, no Si atom is adjacent to another Si atom and no M atom is adjacent to another M atom.\n5.2.1 Give the chemical formula of crystal Y in terms of M and Si, reduced approximately to the simplest ratio, and the number of formula units in one conventional unit cell.",
+      "text_images": [],
+      "full_mark": 3
+    },
+    {
+      "sub_id": "Exam-21-T5-2",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "5.3 Further distortion of layers A in crystal Y gives hexagonal crystal Z, a real silicide. The projection of crystal Z along c is shown below, where the small dark spheres represent Si atoms and the large light-colored spheres represent M atoms. After distortion, all Si atoms still have identical chemical environments, and all M atoms within the same type of layer likewise have identical chemical environments.\n5.3.1 In crystal Z, one Si atom has coordinates (0.6000, 0, 0.2500), and two M atoms have coordinates (0.2300, 0, 0.2500) and (0.3333, 0.6667, 0.0000), respectively. Give the coordinates of all remaining Si and M atoms.",
+      "text_images": [
+        {
+          "file": "Exam-21-T5-2-1-prompt.png",
+          "description": "Projection of crystal Z along the c direction on a white background. Thin gray lines outline a right-leaning parallelogram unit cell, with approximately horizontal top and bottom edges and side edges slanting upward to the right. The diagram contains 22 shaded, highlighted spheres of two types: 12 large light-blue spheres and 10 small dark-blue spheres. There are 16 spheres on the unit-cell boundary, 4 on each edge; every edge has 2 large light-blue spheres and 2 small dark-blue spheres arranged in the order large light-blue, small dark-blue, small dark-blue, large light-blue. The interior contains 6 additional spheres: 4 large light-blue spheres at upper left, upper right, lower left, and lower right, and 2 small dark-blue spheres at center-right and lower-center-left, approximately along the shorter diagonal. At lower left, a red solid arrow points horizontally right and is labeled a; a green solid arrow points upper left and is labeled b. Their common origin is a blue circle containing a white c. As specified in the prompt, the dark spheres are Si atoms and the light-colored spheres are M atoms."
+        }
+      ],
+      "full_mark": 6
+    },
+    {
+      "sub_id": "Exam-21-T5-3",
+      "tags": [
+        "1.3"
+      ],
+      "text_open": "5.3.2 During the distortion, the coordination polyhedron around an M atom in layer A, formed by Si atoms in the same and adjacent layers, is also distorted. State how many distinct Si–M distances occur in the distorted coordination polyhedron.",
+      "text_images": [],
+      "full_mark": 2
+    }
+  ]
+}

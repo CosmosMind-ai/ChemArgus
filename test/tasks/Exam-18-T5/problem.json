@@ -1,0 +1,30 @@
+{
+  "problem_id": "Exam-18-T5",
+  "header": "Problem 5 Pharmacokinetics and Molecular Design\nPharmacokinetics quantitatively studies the absorption, distribution, metabolism, and excretion of drugs in living organisms and uses mathematical principles and methods to describe how drug concentration in blood varies with time. Pharmacokinetic parameters reveal pharmacological shortcomings of drug molecules and guide molecular modifications that improve specific properties.\nPropranolol (P), metoprolol (M), betaxolol (B), talinolol (T), and atenolol (A) are β-blockers. Propranolol (P) binds both β1 receptors, found mainly in the heart, and β2 receptors, found mainly in bronchial smooth muscle. At therapeutic doses, the other drugs bind β1 receptors with high selectivity. Although their therapeutic mechanisms are similar, their pharmacological properties differ substantially. Their structures are shown below.\nParameters that may be used in this problem are listed below.\n\n| Drug | Abbreviation | lg $P$ | Conjugate-acid $pK_a$ | $F_a$ | $E_{gi}$ | $E_H$ | $V_d$ / (L·kg$^{-1}$) |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Propranolol | P | 3.20 | 9.45 | 0.95 | 0.10 | 0.64 | 3.8 |\n| Metoprolol | M | 2.90 | 9.68 | 0.90 | 0.02 | 0.60 | 5.6 |\n| Betaxolol | B | 2.42 | 9.40 | 0.95 | 0.00 | 0.19 | 1.6 |\n| Talinolol | T | 3.20 | 9.40 | 0.95 | 0.36 | 0.09 | 3.3 |\n| Atenolol | A | 0.25 | 9.60 | 0.50 | 0.00 | 0.01 | 0.70 |",
+  "header_images": [
+    {
+      "file": "Exam-18-T5-header-1.png",
+      "description": "Propranolol (P) has SMILES 'CC(NCC(COC1=CC=CC2=C1C=CC=C2)O)C'; metoprolol (M) has SMILES 'CC(NCC(COC1=CC=C(CCOC)C=C1)O)C'; betaxolol (B) has SMILES 'CC(NCC(COC1=CC=C(CCOCC2CC2)C=C1)O)C'; talinolol (T) has SMILES 'O=C(NC1=CC=C(OCC(CNC(C)(C)C)O)C=C1)NC2CCCCC2'; and atenolol (A) has SMILES 'NC(CC1=CC=C(OCC(CNC(C)(C)C)O)C=C1)=O'."
+    }
+  ],
+  "subquestions": [
+    {
+      "sub_id": "Exam-18-T5-1",
+      "tags": [
+        "1.7"
+      ],
+      "text_open": "5.3 The second pharmacokinetic process is distribution. After a drug molecule enters the systemic circulation, differences in lipophilicity cause some drugs to enter tissues and even the brain rapidly, while others remain in the blood. To compare drug distribution in the human body, the apparent volume of distribution $V_d$ is defined as follows. When drug distribution reaches dynamic equilibrium, assume that the drug concentration in every tissue and organ equals that in plasma; $V_d$ is the total fluid volume that would be required to contain all the drug in the body at that concentration. The formula is:\n$V_d = \\dfrac{\\text{total amount of drug in the body}\\,(\\mathrm{mg/kg})}{\\text{plasma drug concentration}\\,C\\,(\\mathrm{mg/L})}$\n5.3.2 A standard adult weighing 70kg has an actual total body-fluid volume of only approximately 40 L, including approximately 3 L of plasma. Calculate the approximate $V_d$ of a drug confined entirely to the plasma.",
+      "text_images": [],
+      "full_mark": 2
+    },
+    {
+      "sub_id": "Exam-18-T5-2",
+      "tags": [
+        "2.9"
+      ],
+      "text_open": "5.4 The third pharmacokinetic process is clearance, which is divided mainly into hepatic and renal clearance. Highly lipophilic drugs generally tend toward hepatic clearance, and hepatic clearance capacity may be regarded as proportional to $E_h$, whereas highly water-soluble drugs generally tend toward renal clearance.\nThe approximate half-lives of the five drugs are P 4 h, M 5 h, B 18 h, T 12 h, and A 6.5 h. In the absence of other side effects, a drug with a longer half-life is preferred to maintain smooth dosing.\nThe following patients require a β-blocker from the five drugs above. Select the most appropriate drug for each patient and give only its abbreviation.\n5.4.3 Patient C has mild liver disease and cannot use a drug with $E_H$ greater than 0.10.",
+      "text_images": [],
+      "full_mark": 1
+    }
+  ]
+}
