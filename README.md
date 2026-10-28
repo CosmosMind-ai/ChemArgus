@@ -34,12 +34,12 @@ credit, instead of answer endpoints.
 
 ## 📊 Dataset Partitions
 
-| | Share | Problems | Subquestions | Marks | Public images | Rubrics |
+| | Share | Problems | Subquestions | Marks | Images | Rubrics |
 | --- | ---: | ---: | ---: | ---: | ---: | --- |
 | 🧪 **dev** · Public Dev Set | 25% | 48 | 209 | 676 | 350 | ✅ included |
 | 🏁 **test** · Held-out Test Set | 55% | 105 | 391 | 1271 | 173 | ❌ stripped |
-| 🔒 **private** · Private Set | 20% | 38 | 220 | 635 | — | 🔐 local only |
-| **Total** | 100% | **191** | **820** | **2582** | **523** | |
+| 🔒 **private** · Private Set | 20% | 38 | 220 | 635 | 322 (local only) | 🔐 local only |
+| **Total** | 100% | **191** | **820** | **2582** | **845** (523 public) | |
 
 > 🖼 **Balanced image split** — problems are assigned deterministically
 > (largest-image-first) so that the total number of model-visible images is
